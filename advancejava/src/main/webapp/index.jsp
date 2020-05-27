@@ -1,5 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1" errorPage="error.jsp" isELIgnored="false"%>
+<%@ taglib prefix="mytag" uri="/WEB-INF/mytag.tld" %>
+<%@ taglib prefix="tagfile" tagdir="/WEB-INF/tags" %>
     
 
 <%@ include file="header.jsp" %>
@@ -61,6 +63,8 @@ String name = "saini";
  
  <p><jsp:getProperty property="name" name="student"/></p>
  <p><jsp:getProperty property="school" name="student"/></p>
- 
+ <mytag:countmatches inputString="test1" lookupString="test1"></mytag:countmatches>
+ <mytag:countmatches inputString="test1" lookupString="test123"></mytag:countmatches>
+ <tagfile:customtags></tagfile:customtags>
 	
 <%@ include file="footer.jsp" %>
