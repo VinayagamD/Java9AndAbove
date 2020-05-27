@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="F:\JavaWorkspace\J2eeDB"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -44,14 +45,10 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="com.javatraining"/>
 		</list>
 		<list key="name">
-			<item value="Testing Maven"/>
 		</list>
 		<list key="artifactId">
-			<item value="maventraing"/>
-			<item value="corejavatraining"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
