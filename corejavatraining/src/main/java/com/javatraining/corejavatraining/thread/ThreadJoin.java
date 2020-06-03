@@ -23,14 +23,15 @@ public class ThreadJoin {
 		}, "ThreadA");
 		
 		Thread threadB = new Thread(() -> {
-			for (int i = 0; i < Double.MAX_VALUE; i++) {
+			for (int i = 0; i < 20; i++) {
 				System.out.println("Thread B" + i);
 			}
 		}, "ThreadB");
-		
-		threadB.setDaemon(true);
 		threadA.start();
+		threadA.join();
+		threadB.setDaemon(true);
 		threadB.start();
+		threadB.join();
 		System.exit(0);
 	}
 
