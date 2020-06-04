@@ -3,7 +3,6 @@ package com.vinaylogics.schoolmanagement.repositories.impl;
 import com.vinaylogics.schoolmanagement.models.Attendance;
 import com.vinaylogics.schoolmanagement.repositories.AttendanceDao;
 import com.vinaylogics.schoolmanagement.repositories.db.DatabaseManager;
-import com.vinaylogics.schoolmanagement.utils.QueryConstants;
 
 import java.io.Serializable;
 import java.sql.*;
