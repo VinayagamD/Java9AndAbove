@@ -5,6 +5,7 @@ import com.vinaylogics.schoolmanagement.repositories.AttendanceDao;
 import com.vinaylogics.schoolmanagement.repositories.impl.AttendanceDaoImpl;
 import com.vinaylogics.schoolmanagement.services.AttendanceService;
 
+import java.sql.SQLException;
 import java.util.List;
 
 public class AttendanceServiceImpl implements AttendanceService {
@@ -27,7 +28,12 @@ public class AttendanceServiceImpl implements AttendanceService {
 
     @Override
     public Attendance save(Attendance attendance) {
-        return null;
+        try {
+            return attendanceDao.save(attendance);
+        } catch (SQLException e) {
+            e.printStackTrace();
+            return null;
+        }
     }
 
     @Override

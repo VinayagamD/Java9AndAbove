@@ -26,13 +26,10 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.vinay.designpatterns"/>
 		</list>
 		<list key="groupId">
-			<item value="com.vinay"/>
 		</list>
 		<list key="artifactId">
-			<item value="designpatterns"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

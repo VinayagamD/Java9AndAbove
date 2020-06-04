@@ -1,5 +1,6 @@
 package com.vinaylogics.schoolmanagement.models;
 
+import java.time.LocalDateTime;
 import java.util.Objects;
 
 public class User extends BaseModel {
@@ -8,6 +9,48 @@ public class User extends BaseModel {
     private String userId;
     private Gender gender;
     private Role role;
+
+    /**
+     *
+     */
+    public User() {
+    }
+
+    /**
+     *
+     * @param name
+     * @param userId
+     * @param gender
+     * @param role
+     */
+    public User(String name, String userId, Gender gender, Role role) {
+        this.name = name;
+        this.userId = userId;
+        this.gender = gender;
+        this.role = role;
+    }
+
+    /**
+     *
+     * @param id
+     * @param name
+     * @param userId
+     * @param gender
+     * @param role
+     * @param createdAt
+     * @param updatedAt
+     */
+    public User(Long id, String name, String userId, Gender gender, Role role , LocalDateTime createdAt, LocalDateTime updatedAt){
+        this.id = id;
+        this.name = name;
+        this.userId = userId;
+        this.gender = gender;
+        this.role = role;
+        this.createdAt = createdAt;
+        this.updatedAt = updatedAt;
+    }
+
+
 
     public String getName() {
         return name;

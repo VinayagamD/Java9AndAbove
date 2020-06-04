@@ -8,6 +8,7 @@ public class Attendance extends BaseModel{
     private String subject;
     private String teacher;
     private String student;
+    private boolean present;
 
     public LocalDateTime getAttendanceTime() {
         return attendanceTime;
@@ -41,13 +42,23 @@ public class Attendance extends BaseModel{
         this.student = student;
     }
 
+    public boolean isPresent() {
+        return present;
+    }
+
+    public void setPresent(boolean present) {
+        this.present = present;
+    }
+
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         if (!super.equals(o)) return false;
         Attendance that = (Attendance) o;
-        return Objects.equals(attendanceTime, that.attendanceTime) &&
+        return present == that.present &&
+                Objects.equals(attendanceTime, that.attendanceTime) &&
                 Objects.equals(subject, that.subject) &&
                 Objects.equals(teacher, that.teacher) &&
                 Objects.equals(student, that.student);
@@ -55,17 +66,18 @@ public class Attendance extends BaseModel{
 
     @Override
     public int hashCode() {
-        return Objects.hash(super.hashCode(), attendanceTime, subject, teacher, student);
+        return Objects.hash(super.hashCode(), attendanceTime, subject, teacher, student, present);
     }
 
     @Override
     public String toString() {
         return "Attendance{" +
-                super.toString()+
+                super.toString() +
                 "attendanceTime=" + attendanceTime +
                 ", subject='" + subject + '\'' +
                 ", teacher='" + teacher + '\'' +
                 ", student='" + student + '\'' +
+                ", present=" + present +
                 '}';
     }
 }

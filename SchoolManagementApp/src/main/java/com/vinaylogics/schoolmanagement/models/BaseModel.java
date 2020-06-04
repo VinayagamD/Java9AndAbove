@@ -5,9 +5,9 @@ import java.time.LocalDateTime;
 import java.util.Objects;
 
 public class BaseModel implements Serializable {
-    private Long id;
-    private LocalDateTime createdAt = LocalDateTime.now();
-    private LocalDateTime updatedAt = LocalDateTime.now();
+    protected Long id;
+    protected LocalDateTime createdAt = LocalDateTime.now();
+    protected LocalDateTime updatedAt = LocalDateTime.now();
 
     public Long getId() {
         return id;

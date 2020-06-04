@@ -3,7 +3,7 @@ package com.vinaylogics.schoolmanagement.services;
 import java.io.Serializable;
 import java.util.List;
 
-public interface BaseService <T extends Serializable, ID> {
+public interface BaseService <T extends Serializable, ID extends Number> {
     List<T> findAll();
     T findById(ID id);
     T save(T t);
