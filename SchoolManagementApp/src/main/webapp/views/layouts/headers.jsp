@@ -16,5 +16,6 @@
     <title>Title</title>
 </head>
 <body>
-
+<%--Add Navigation page here for with out angular controller and only jsp support--%>
 <div ng-app="students_app">
+    <%--Add Navigation page here for geting angular controller--%>
