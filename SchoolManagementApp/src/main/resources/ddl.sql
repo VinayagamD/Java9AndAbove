@@ -1,3 +1,6 @@
+CREATE SCHEMA  SchoolManagements;
+USE SchoolManagements;
+
 CREATE TABLE attendances(
   id INTEGER AUTO_INCREMENT NOT NULL ,
   attendance_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP,

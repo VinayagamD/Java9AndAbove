@@ -9,7 +9,7 @@
 
 <jsp:include page="../layouts/headers.jsp"></jsp:include>
 
-<div ng-controller="students-controller" ng-init="init_students()">
+<div ng-controller="users-controller" ng-init="init_students()">
 
     <div class="container">
         <div class="row">

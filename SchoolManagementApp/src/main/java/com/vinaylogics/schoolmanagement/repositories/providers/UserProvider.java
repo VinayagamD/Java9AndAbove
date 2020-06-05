@@ -8,6 +8,7 @@ import java.io.Serializable;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.LongStream;
 
 public final class UserProvider implements Serializable {
@@ -41,8 +42,12 @@ public final class UserProvider implements Serializable {
         return students;
     }
 
-    public static List<User> getTeachers() {
+    public  List<User> getTeachers() {
         return teachers;
+    }
+
+    public Optional<User> findStudentId(Long id){
+        return students.parallelStream().filter(student -> student.getId().equals(id)).findAny();
     }
 
 

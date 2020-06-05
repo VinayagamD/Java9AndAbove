@@ -1,4 +1,4 @@
-app.controller('students-controller',[
+app.controller('users-controller',[
     '$scope',
     'http_service',
 
@@ -7,9 +7,22 @@ app.controller('students-controller',[
         $scope.name = "";
 
         $scope.init_students = function () {
-          http_service.getRequest('students?page=students', function (response) {
+          http_service.getRequest('users?source=students', function (response) {
             $scope.model.students = response.data;
           });
         };
+
+        $scope.init_teachers = function(){
+            http_service.getRequest('users?source=teachers', function (response) {
+                $scope.model.teachers = response.data;
+            });
+        };
+
+        $scope.init_student = function (id) {
+            http_service.getRequest('users?source=students&id='+id, function (response) {
+                $scope.model.student = response.data;
+            });
+
+        }
     }
 ]);

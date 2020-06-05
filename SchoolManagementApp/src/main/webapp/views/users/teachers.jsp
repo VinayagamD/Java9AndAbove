@@ -10,7 +10,7 @@
 
 <jsp:include page="../layouts/headers.jsp"></jsp:include>
 
-<div ng-controller="teachers-controller" ng-init="init_teachers()">
+<div ng-controller="users-controller" ng-init="init_teachers()">
     <div class="container">
         <div class="row">
             <div class="col-12">

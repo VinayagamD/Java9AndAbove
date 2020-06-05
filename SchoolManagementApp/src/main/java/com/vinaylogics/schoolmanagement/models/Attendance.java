@@ -1,5 +1,7 @@
 package com.vinaylogics.schoolmanagement.models;
 
+import com.vinaylogics.schoolmanagement.utils.SchoolUtils;
+
 import java.time.LocalDateTime;
 import java.util.Objects;
 
@@ -67,6 +69,10 @@ public class Attendance extends BaseModel{
     @Override
     public int hashCode() {
         return Objects.hash(super.hashCode(), attendanceTime, subject, teacher, student, present);
+    }
+
+    public static Attendance fromJson(String json){
+        return SchoolUtils.getGson().fromJson(json, Attendance.class);
     }
 
     @Override
