@@ -5360,3 +5360,22 @@ Caused by: org.eclipse.core.runtime.CoreException: One or more constraints have 
 2020-06-03 18:26:11,095 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\JavaWorkspace\J2eeDB\testj2eewebapp\src\main\resources
 2020-06-03 18:26:11,096 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-06-03 18:26:11,096 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\JavaWorkspace\J2eeDB\testj2eewebapp\src\test\resources
+2020-06-06 11:28:59,591 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-06-06 11:29:04,131 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-06 11:29:04,131 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\JavaWorkspace\advancejava\src\main\resources
+2020-06-06 11:29:04,133 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-06 11:29:04,133 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\JavaWorkspace\advancejava\src\test\resources
+2020-06-06 11:29:04,781 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-06 11:29:04,782 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\JavaWorkspace\J2eeDB\testj2eewebapp\src\main\resources
+2020-06-06 11:29:04,783 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-06 11:29:04,783 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\JavaWorkspace\J2eeDB\testj2eewebapp\src\test\resources
+2020-06-06 11:30:04,632 [Worker-19: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.vinaylogics:test-maven-porject:1.0-SNAPSHOT @ F:\maven_project\test-maven-porject\pom.xml.
+2020-06-06 11:30:06,028 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-06 11:30:06,028 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\maven_project\test-maven-porject\src\main\resources
+2020-06-06 11:30:06,029 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-06 11:30:06,029 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\maven_project\test-maven-porject\src\test\resources
+2020-06-06 11:30:07,119 [Worker-13: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.vinaylogics:test-maven-porject:1.0-SNAPSHOT @ F:\maven_project\test-maven-porject\pom.xml.
+2020-06-06 11:30:07,309 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-06 11:30:07,309 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\maven_project\test-maven-porject\src\main\resources
+2020-06-06 11:30:07,310 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-06 11:30:07,310 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\maven_project\test-maven-porject\src\test\resources

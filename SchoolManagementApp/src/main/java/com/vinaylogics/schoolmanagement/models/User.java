@@ -1,5 +1,7 @@
 package com.vinaylogics.schoolmanagement.models;
 
+import com.vinaylogics.schoolmanagement.utils.SchoolUtils;
+
 import java.time.LocalDateTime;
 import java.util.Objects;
 
@@ -7,8 +9,8 @@ public class User extends BaseModel {
 
     private String name;
     private String userId;
-    private Gender gender;
-    private Role role;
+    private Gender gender = Gender.MALE;
+    private Role role = Role.STUDENT;
 
     /**
      *
@@ -82,6 +84,10 @@ public class User extends BaseModel {
 
     public void setRole(Role role) {
         this.role = role;
+    }
+
+    public static User toJson(String  data){
+       return SchoolUtils.getGson().fromJson(data, User.class);
     }
 
     @Override

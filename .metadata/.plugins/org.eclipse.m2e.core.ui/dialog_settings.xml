@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="F:\JavaWorkspace\advancejava\pom.xml"/>
 			<item value="F:\JavaWorkspace\J2eeDB"/>
 		</list>
 		<list key="projectNameTemplate">

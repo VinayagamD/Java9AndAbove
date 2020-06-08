@@ -50,5 +50,13 @@ public final class UserProvider implements Serializable {
         return students.parallelStream().filter(student -> student.getId().equals(id)).findAny();
     }
 
+    public User saveStudent(User user){
+        Long maxId = students.stream().mapToLong(User::getId).max().orElse(0)+1;
+        user.setId(maxId);
+        user.setUserId(String.valueOf(maxId));
+        students.add(user);
+        return  user;
+    }
+
 
 }
