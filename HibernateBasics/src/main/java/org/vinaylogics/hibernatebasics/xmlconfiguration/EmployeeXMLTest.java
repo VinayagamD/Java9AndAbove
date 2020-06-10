@@ -1,9 +1,10 @@
-package org.vinaylogics.hibernatebasics.xmlconfiguration.models;
+package org.vinaylogics.hibernatebasics.xmlconfiguration;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
+import org.vinaylogics.hibernatebasics.xmlconfiguration.models.Employee;
 
 import java.io.File;
 

@@ -1,4 +1,4 @@
-package org.vinaylogics.hibernatebasics.xmlconfiguration.models;
+package org.vinaylogics.hibernatebasics.annotation.models;
 
 import javax.persistence.*;
 import java.io.Serializable;
@@ -6,7 +6,7 @@ import java.util.Objects;
 
 @Entity
 @Table(name = "employees")
-public class Employee  implements Serializable {
+public class Employee implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
