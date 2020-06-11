@@ -2,12 +2,10 @@ package org.vinaylogics.hibernatebasics.annotation;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
-import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
 import org.vinaylogics.hibernatebasics.annotation.models.Employee;
 
 import java.io.File;
-import java.util.ArrayList;
 
 public class EmployeeFetchExample {
 
