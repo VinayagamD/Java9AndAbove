@@ -20,9 +20,26 @@ public class StringArrayExample {
 		for (String string : arrays) {
 			System.out.println(string);
 		}
+		String [] arrays2  = arrays.clone();
+		System.out.println("================ Clone Start ================");
+		for (String string : arrays2) {
+			System.out.println(string);
+		}
+		System.out.println("================= Clone End ===================");
+		System.out.println("Copied "+arrays2.length);
+
+		arrays2 = Arrays.copyOf(arrays2, arrays2.length *2);
+		System.out.println("Copied Increased length"+arrays2.length);
+
+		System.out.println("================ Clone Start ================");
+		for (String string : arrays2) {
+			System.out.println(string);
+		}
+		System.out.println("================= Clone End ===================");
+
 		Arrays.asList(arrays).forEach(System.out::println);
-		
-		varargs(  1,2, 3,4);
+
+		varargs(  1,2, 3,4,5,6,7,8);
 		Scanner scanner = new Scanner(System.in);
 		while(scanner.hasNext()) {
 			if(scanner.nextLine().equals("q")) {
@@ -38,6 +55,7 @@ public class StringArrayExample {
 			System.out.println(varint[i]);
 		}
 	}
+
 
 	public static  void varargs(int i1, int i2, int i3) {
 		
