@@ -1,12 +1,12 @@
-package org.vinaylogics.hibernatebasics.annotation.inheritance_mapping.singletable.model;
+package org.vinaylogics.hibernatebasics.annotation.inheritance_mapping.table_per_class.model;
 
-import javax.persistence.DiscriminatorValue;
 import javax.persistence.Entity;
+import javax.persistence.Table;
 import java.time.LocalDate;
 import java.util.Objects;
 
-@Entity
-@DiscriminatorValue("PERMANENT")
+@Entity(name = "tablePerClassPermanentEmployee")
+@Table(name = "permanent_employees_tpc")
 public class PermanentEmployee extends Employee {
     private LocalDate startDate;
     private String costCenter;

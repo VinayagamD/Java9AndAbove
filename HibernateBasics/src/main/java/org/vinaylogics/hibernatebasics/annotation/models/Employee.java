@@ -14,6 +14,9 @@ public class Employee implements Serializable {
     private String firstName;
     private String lastName;
 
+    @Embedded
+    private Address address;
+
     public int getId() {
         return id;
     }
@@ -38,6 +41,14 @@ public class Employee implements Serializable {
         this.lastName = lastName;
     }
 
+    public Address getAddress() {
+        return address;
+    }
+
+    public void setAddress(Address address) {
+        this.address = address;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -45,12 +56,13 @@ public class Employee implements Serializable {
         Employee employee = (Employee) o;
         return id == employee.id &&
                 Objects.equals(firstName, employee.firstName) &&
-                Objects.equals(lastName, employee.lastName);
+                Objects.equals(lastName, employee.lastName) &&
+                Objects.equals(address, employee.address);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, firstName, lastName);
+        return Objects.hash(id, firstName, lastName, address);
     }
 
     @Override
@@ -58,7 +70,8 @@ public class Employee implements Serializable {
         return "Employee{" +
                 "id=" + id +
                 ", firstName='" + firstName + '\'' +
-                ", latsName='" + lastName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", address=" + address +
                 '}';
     }
 }

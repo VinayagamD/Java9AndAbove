@@ -9,6 +9,11 @@
 
         <property name="firstName"/>
         <property name="lastName"/>
+        <component name="address" class="org.vinaylogics.hibernatebasics.xmlconfiguration.models.Address">
+            <property name="city"/>
+            <property name="country"/>
+            <property name="pincode"/>
+        </component>
 
     </class>
 </hibernate-mapping>

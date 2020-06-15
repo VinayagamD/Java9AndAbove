@@ -1,12 +1,12 @@
-package org.vinaylogics.hibernatebasics.annotation.inheritance_mapping.singletable.model;
+package org.vinaylogics.hibernatebasics.annotation.inheritance_mapping.joined_tableclass.model;
 
 import javax.persistence.*;
 import java.util.Objects;
 
-@Entity
-@Table(name = "employees_st")
-@Inheritance(strategy = InheritanceType.SINGLE_TABLE)
+@Entity(name = "joinedTableClassEmployee")
 @DiscriminatorColumn(name = "EMPLOYMENT_TYPE")
+@Table(name = "employees_jtc")
+@Inheritance(strategy = InheritanceType.JOINED)
 public class Employee {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)

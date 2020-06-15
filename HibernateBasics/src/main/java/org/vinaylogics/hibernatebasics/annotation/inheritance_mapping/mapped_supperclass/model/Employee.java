@@ -1,11 +1,9 @@
-package org.vinaylogics.hibernatebasics.annotation.inheritance_mapping.singletable.model;
+package org.vinaylogics.hibernatebasics.annotation.inheritance_mapping.mapped_supperclass.model;
 
 import javax.persistence.*;
 import java.util.Objects;
 
-@Entity
-@Table(name = "employees_st")
-@Inheritance(strategy = InheritanceType.SINGLE_TABLE)
+@MappedSuperclass
 @DiscriminatorColumn(name = "EMPLOYMENT_TYPE")
 public class Employee {
     @Id

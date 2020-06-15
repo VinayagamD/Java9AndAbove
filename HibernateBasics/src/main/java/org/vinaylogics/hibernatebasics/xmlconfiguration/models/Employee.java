@@ -10,6 +10,7 @@ public class Employee  implements Serializable {
     private int id;
     private String firstName;
     private String lastName;
+    private Address address;
 
     public int getId() {
         return id;
@@ -35,7 +36,15 @@ public class Employee  implements Serializable {
         this.lastName = lastName;
     }
 
-    @Override
+    public Address getAddress() {
+        return address;
+    }
+
+    public void setAddress(Address address) {
+        this.address = address;
+    }
+
+   /* @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
@@ -56,6 +65,32 @@ public class Employee  implements Serializable {
                 "id=" + id +
                 ", firstName='" + firstName + '\'' +
                 ", latsName='" + lastName + '\'' +
+                '}';
+    }*/
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Employee employee = (Employee) o;
+        return id == employee.id &&
+                Objects.equals(firstName, employee.firstName) &&
+                Objects.equals(lastName, employee.lastName) &&
+                Objects.equals(address, employee.address);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, firstName, lastName, address);
+    }
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "id=" + id +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", address=" + address +
                 '}';
     }
 }

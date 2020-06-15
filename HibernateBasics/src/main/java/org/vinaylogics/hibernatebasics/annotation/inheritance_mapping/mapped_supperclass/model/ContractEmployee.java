@@ -1,13 +1,17 @@
-package org.vinaylogics.hibernatebasics.annotation.inheritance_mapping.singletable.model;
+package org.vinaylogics.hibernatebasics.annotation.inheritance_mapping.mapped_supperclass.model;
 
 import javax.persistence.DiscriminatorValue;
 import javax.persistence.Entity;
+import javax.persistence.PrimaryKeyJoinColumn;
+import javax.persistence.Table;
 import java.time.LocalDate;
 import java.util.Objects;
 
-@Entity
+@Entity(name = "mappedSuperClassContractEmployee")
+@Table(name = "contract_employees_msc")
+@PrimaryKeyJoinColumn(name = "ID")
 @DiscriminatorValue("CONTRACT")
-public class ContractEmployee extends Employee{
+public class ContractEmployee extends Employee {
     private LocalDate contractStartDate;
     private LocalDate contractEndDate;
     private String agencyName;

@@ -1,11 +1,15 @@
-package org.vinaylogics.hibernatebasics.annotation.inheritance_mapping.singletable.model;
+package org.vinaylogics.hibernatebasics.annotation.inheritance_mapping.mapped_supperclass.model;
 
 import javax.persistence.DiscriminatorValue;
 import javax.persistence.Entity;
+import javax.persistence.PrimaryKeyJoinColumn;
+import javax.persistence.Table;
 import java.time.LocalDate;
 import java.util.Objects;
 
-@Entity
+@Entity(name = "mappedSuperClassPermanentEmployee")
+@Table(name = "permanent_employees_msc")
+@PrimaryKeyJoinColumn(name = "ID")
 @DiscriminatorValue("PERMANENT")
 public class PermanentEmployee extends Employee {
     private LocalDate startDate;
