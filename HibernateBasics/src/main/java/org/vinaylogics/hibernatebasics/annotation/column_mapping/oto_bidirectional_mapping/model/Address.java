@@ -1,10 +1,10 @@
-package org.vinaylogics.hibernatebasics.annotation.column_mapping.oto_unidirectional_mapping.model;
+package org.vinaylogics.hibernatebasics.annotation.column_mapping.oto_bidirectional_mapping.model;
 
 import javax.persistence.*;
 import java.util.Objects;
 
 @Entity
-@Table(name = "addresses_otoum")
+@Table(name = "addresses_oto_bm")
 public class Address {
 
     @Id
@@ -16,6 +16,9 @@ public class Address {
     private String city;
 
     private String country;
+
+    @OneToOne(mappedBy = "address")
+    private Student student;
 
     public long getId() {
         return id;
@@ -47,6 +50,14 @@ public class Address {
 
     public void setCountry(String country) {
         this.country = country;
+    }
+
+    public Student getStudent() {
+        return student;
+    }
+
+    public void setStudent(Student student) {
+        this.student = student;
     }
 
     @Override

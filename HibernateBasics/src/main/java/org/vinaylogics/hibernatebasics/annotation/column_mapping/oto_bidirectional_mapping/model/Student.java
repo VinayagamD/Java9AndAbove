@@ -1,10 +1,10 @@
-package org.vinaylogics.hibernatebasics.annotation.column_mapping.oto_unidirectional_mapping.model;
+package org.vinaylogics.hibernatebasics.annotation.column_mapping.oto_bidirectional_mapping.model;
 
 import javax.persistence.*;
 import java.util.Objects;
 
 @Entity
-@Table(name = "students_oto_um")
+@Table(name = "students_oto_bm")
 public class Student {
     @Id
     @GeneratedValue
@@ -19,7 +19,7 @@ public class Student {
     @Column(name = "section")
     private String section;
 
-    @OneToOne
+    @OneToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "address_id")
     private Address address;
 
@@ -74,12 +74,21 @@ public class Student {
         return id == student.id &&
                 Objects.equals(firstName, student.firstName) &&
                 Objects.equals(lastName, student.lastName) &&
-                Objects.equals(section, student.section) &&
-                Objects.equals(address, student.address);
+                Objects.equals(section, student.section);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, firstName, lastName, section, address);
+        return Objects.hash(id, firstName, lastName, section);
+    }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "id=" + id +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", section='" + section + '\'' +
+                '}';
     }
 }
