@@ -5,7 +5,8 @@ public class PolymorphismDemo {
     public static void main(String[] args) {
         BaseRoot baseRoot = new DerivedClass();
         baseRoot.classRootMethod();
-
+//        baseRoot.derivedMethod1();
+//
         ((DerivedClass)baseRoot).derivedMethod1();
         DerivedClass derivedClass = (DerivedClass) baseRoot;
         derivedClass.derivedMethod1();
@@ -17,6 +18,7 @@ public class PolymorphismDemo {
       /* baseRoot = null;
        baseRoot.classRootMethod();*/
        PolymorphismDemo polymorphismDemo = new PolymorphismDemo();
+       polymorphismDemo.baseRoot = new DerivedClass();
        polymorphismDemo.baseRoot.classRootMethod();
 
     }

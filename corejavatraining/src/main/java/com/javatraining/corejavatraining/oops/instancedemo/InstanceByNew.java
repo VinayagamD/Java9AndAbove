@@ -1,4 +1,4 @@
-package com.javatraining.corejavatraining.instancedemo;
+package com.javatraining.corejavatraining.oops.instancedemo;
 
 public class InstanceByNew {
 	

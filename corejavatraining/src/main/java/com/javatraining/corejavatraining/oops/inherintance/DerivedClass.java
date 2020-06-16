@@ -10,4 +10,10 @@ public class DerivedClass  extends BaseRoot{
     public void derivedMethod2() {
         System.out.println("derivedMethod2");
     }
+
+    @Override
+    public void rootMethod2() {
+        super.rootMethod2();
+        System.out.println("derivedMethod2 rootMethod2");
+    }
 }
