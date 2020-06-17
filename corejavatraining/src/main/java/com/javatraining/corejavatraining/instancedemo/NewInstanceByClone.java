@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.javatraining.corejavatraining.oops.instancedemo;
+package com.javatraining.corejavatraining.instancedemo;
 
 /**
  * @author vinay

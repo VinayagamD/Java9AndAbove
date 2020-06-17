@@ -1,4 +1,4 @@
-package com.javatraining.corejavatraining.oops.instancedemo;
+package com.javatraining.corejavatraining.instancedemo;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;

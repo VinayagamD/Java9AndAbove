@@ -2,7 +2,6 @@ package com.javatraining.corejavatraining.oops.inherintance;
 
 public class BaseRoot {
 
-
     public void classRootMethod(){
         System.out.println("Class Root Method");
     }

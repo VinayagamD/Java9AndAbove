@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.javatraining.corejavatraining.oops.instancedemo;
+package com.javatraining.corejavatraining.instancedemo;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -46,7 +46,7 @@ public class DeserializableExample implements Serializable {
         catch (Exception e) 
         { 
             e.printStackTrace(); 
-        } 
+        }
 
 	}
 
