@@ -12,6 +12,7 @@
           <unit-entry name="hibernate_assoication_otmum.cfg.xml" />
           <unit-entry name="hibernate_assoication_otobm.cfg.xml" />
           <unit-entry name="hibernate_assoication_otoum.cfg.xml" />
+          <unit-entry name="hibernate_hql.cfg.xml" />
           <unit-entry name="hibernate_imjtc.cfg.xml" />
           <unit-entry name="hibernate_immsc.cfg.xml" />
           <unit-entry name="hibernate_imst.cfg.xml" />
@@ -26,6 +27,7 @@
         <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/src/main/resources/hibernate_assoication_otmum.cfg.xml" />
         <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/src/main/resources/hibernate_assoication_otobm.cfg.xml" />
         <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/src/main/resources/hibernate_assoication_otoum.cfg.xml" />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/src/main/resources/hibernate_hql.cfg.xml" />
         <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/src/main/resources/hibernate_imjtc.cfg.xml" />
         <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/src/main/resources/hibernate_immsc.cfg.xml" />
         <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/src/main/resources/hibernate_imst.cfg.xml" />
