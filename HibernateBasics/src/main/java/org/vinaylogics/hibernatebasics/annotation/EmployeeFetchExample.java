@@ -15,7 +15,7 @@ public class EmployeeFetchExample {
                 .buildSessionFactory();
         Session session = sessionFactory.openSession();
 
-        session.createQuery("SELECT a FROM Employee a", Employee.class).list().forEach(System.out::println);
+        session.createQuery("SELECT a FROM MyEmployee a", Employee.class).list().forEach(System.out::println);
         System.out.println("Fetch Successful");
         sessionFactory.close();
         session.close();

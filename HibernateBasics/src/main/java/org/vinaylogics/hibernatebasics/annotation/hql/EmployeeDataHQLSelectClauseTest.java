@@ -9,6 +9,7 @@ import org.vinaylogics.hibernatebasics.annotation.hql.models.Employee;
 import java.io.File;
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class EmployeeDataHQLSelectClauseTest {
 
@@ -25,16 +26,18 @@ public class EmployeeDataHQLSelectClauseTest {
         SessionFactory sessionFactory = new Configuration().configure(file)
                 .buildSessionFactory();
         Session session = sessionFactory.openSession();
-        String hql  = "SELECT  e.firstName FROM Employee AS e";
+        session.beginTransaction();
+        String hql  = "SELECT  firstName FROM MyEmployee";
 //        String hql  = "FROM org.vinaylogics.hibernatebasics.annotation.hql.models.Employee AS e";
         Query<Object> query = session.createQuery(hql);
-        List<Object> rows = query.list();
-       /* for (Object[] row: rows) {*/
-            for (Object col: rows){
-                System.out.println(col);
-            }
-        /*}*/
+        query.getResultStream().map(row->{
+         Employee employee = new Employee();
+         employee.setFirstName(String.valueOf(row));
+            return employee;
+        }).collect(Collectors.toList()).forEach(System.out::println);
+
         System.out.println("Save Successful");
+       session.getTransaction().commit();
         sessionFactory.close();
         session.close();
     }

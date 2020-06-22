@@ -10,7 +10,7 @@ import java.io.File;
 import java.util.Arrays;
 import java.util.List;
 
-public class EmployeeDataHQLAggregateFunctions {
+public class EmployeeDataHQLPagination {
 
     public static final String EMPLOYEE = "Employee";
     public static final String FIRST = EMPLOYEE + "_First";
@@ -21,22 +21,16 @@ public class EmployeeDataHQLAggregateFunctions {
     public static final String PIN_CODE = "56008";
 
     public static void main(String[] args) {
-        File file = new File(EmployeeDataHQLAggregateFunctions.class.getClassLoader().getResource("hibernate_hql.cfg.xml").getFile());
+        File file = new File(EmployeeDataHQLPagination.class.getClassLoader().getResource("hibernate_hql.cfg.xml").getFile());
         SessionFactory sessionFactory = new Configuration().configure(file)
                 .buildSessionFactory();
         Session session = sessionFactory.openSession();
-        String hql  = " SELECT AVG(e.id), COUNT(e.firstName), sum(e.id), MAX(e.id), MIN(e.id) FROM Employee AS e ";
+        String hql  = " FROM Employee ";
 //        String hql  = "FROM org.vinaylogics.hibernatebasics.annotation.hql.models.Employee AS e";
-        Query<Object[]> query = session.createQuery(hql);
-        List<Object[]> rows = query.list();
-        rows.forEach(row -> {
-            Arrays.asList(row).forEach(System.out::println);
-        });
-        /*   *//* for (Object[] row: rows) {*//*
-            for (Object col: rows){
-                System.out.println(col);
-            }
-        *//*}*/
+        Query<Employee> query = session.createQuery(hql);
+        ;
+        List<Employee> rows = query.setFirstResult(10).setMaxResults(10).list();
+        rows.forEach(System.out::println);
         System.out.println("Save Successful");
         sessionFactory.close();
         session.close();

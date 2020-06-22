@@ -17,7 +17,7 @@ public class EmployeeDeleteExample {
                 .buildSessionFactory();
         Session session = sessionFactory.openSession();
 
-        List<Employee> employees = session.createQuery("SELECT a FROM Employee a", Employee.class).list();
+        List<Employee> employees = session.createQuery("SELECT a FROM MyEmployee a", Employee.class).list();
         System.out.println("Fetch Successful");
         sessionFactory.close();
         session.close();

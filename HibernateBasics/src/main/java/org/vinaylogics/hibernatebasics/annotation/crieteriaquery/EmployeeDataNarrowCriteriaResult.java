@@ -6,17 +6,24 @@ import org.hibernate.cfg.Configuration;
 import org.hibernate.query.Query;
 import org.vinaylogics.hibernatebasics.annotation.hql.models.Employee;
 
+import javax.persistence.TypedQuery;
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Root;
 import java.io.File;
-import java.util.Arrays;
 
-public class EmployeeDataCreateCriteria {
+public class EmployeeDataNarrowCriteriaResult {
 
+    public static final String EMPLOYEE = "Employee";
+    public static final String FIRST = EMPLOYEE + "_First";
+    public static final String LAST = EMPLOYEE + "_Last";
+    public static final String ADDRESS = EMPLOYEE + "_Address";
+    public static final String CITY = "Bangalore";
+    public static final String COUNTRY = "India";
+    public static final String PIN_CODE = "56008";
 
     public static void main(String[] args) {
-        File file = new File(EmployeeDataCreateCriteria.class.getClassLoader().getResource("hibernate_hql.cfg.xml").getFile());
+        File file = new File(EmployeeDataNarrowCriteriaResult.class.getClassLoader().getResource("hibernate_hql.cfg.xml").getFile());
         SessionFactory sessionFactory = new Configuration().configure(file)
                 .buildSessionFactory();
         Session session = sessionFactory.openSession();
@@ -24,9 +31,11 @@ public class EmployeeDataCreateCriteria {
         CriteriaBuilder cb = session.getCriteriaBuilder();
         CriteriaQuery<Employee> cr = cb.createQuery(Employee.class);
         Root<Employee> root = cr.from(Employee.class);
-        cr.select(root);
-        Query<Employee> rows = session.createQuery(cr);
-        rows.list().forEach(System.out::println);
+        CriteriaQuery<Employee> select = cr.select(root);
+        TypedQuery<Employee> typedQuery = session.createQuery(select);
+        typedQuery.setFirstResult(20);
+        typedQuery.setMaxResults(10);
+        typedQuery.getResultList().forEach(System.out::println);
         System.out.println("Save Successful");
         sessionFactory.close();
         session.close();

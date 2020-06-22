@@ -24,7 +24,7 @@ public class EmployeeDataHQLWhereClauseTest {
         SessionFactory sessionFactory = new Configuration().configure(file)
                 .buildSessionFactory();
         Session session = sessionFactory.openSession();
-        String hql  = " FROM Employee AS e WHERE e.id = 62";
+        String hql  = " FROM MyEmployee AS e WHERE e.id = 62";
 //        String hql  = "FROM org.vinaylogics.hibernatebasics.annotation.hql.models.Employee AS e";
         Query<Employee> query = session.createQuery(hql);
         List<Employee> rows = query.list();
