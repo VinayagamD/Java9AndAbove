@@ -10,7 +10,7 @@ public class ObjectMethodsDemo {
 
 	@Override
 	public boolean equals(Object obj) {
-		return super.equals(obj);
+		return this.hashCode() == obj.hashCode();
 	}
 
 	@Override
@@ -25,10 +25,10 @@ public class ObjectMethodsDemo {
 		System.out.println(omd);
 		System.out.println(omd1);
 		System.out.println(omd.hashCode() == omd1.hashCode());
+		System.out.println(omd.equals(omd1));
 		System.out.println(omd.getClass().getSimpleName());
 		System.out.println(omd.getClass().getCanonicalName());
 		System.out.println(omd.getClass().getName());
-		System.out.println(omd.getClass());
 		System.out.println(omd.getClass().getAnnotatedSuperclass());
 		
 	}
