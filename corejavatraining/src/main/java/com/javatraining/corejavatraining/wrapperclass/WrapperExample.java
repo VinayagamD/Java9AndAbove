@@ -14,7 +14,7 @@ public class WrapperExample {
 		System.out.println(int1);
 		System.out.println(int2);
 //		Compilation Error This case not possible
-//		Integer integer = 'a';
+//		Integer errorInt = 10;
 		
 	}
 

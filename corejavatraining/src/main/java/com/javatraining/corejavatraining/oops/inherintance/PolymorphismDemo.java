@@ -7,10 +7,12 @@ public class PolymorphismDemo {
         baseRoot.classRootMethod();
 //        baseRoot.derivedMethod1();
 //
-        ((DerivedClass)baseRoot).derivedMethod1();
+    if (baseRoot instanceof DerivedClass){
+        ((DerivedClass) baseRoot).derivedMethod1();
         DerivedClass derivedClass = (DerivedClass) baseRoot;
         derivedClass.derivedMethod1();
         derivedClass.classRootMethod();
+    }
 
         Object objectClass = new DerivedClass();
         ((BaseRoot)objectClass).classRootMethod();

@@ -21,7 +21,7 @@ public class EnumDemo {
 		}
 		Color[] colors = Color.values();
 		for (Color color : colors) {
-			System.out.println(color);
+			System.out.print(color+"\t");
 		}
 	}
 }
