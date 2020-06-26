@@ -17,7 +17,7 @@ public class University implements Serializable {
     private String name;
     private String country;
     @OneToMany(mappedBy = "university")
-    private List<Student> students = new ArrayList<>();
+    private List<MTOBMStudent> students = new ArrayList<>();
 
 
     public long getId() {
@@ -44,11 +44,11 @@ public class University implements Serializable {
         this.country = country;
     }
 
-    public List<Student> getStudents() {
+    public List<MTOBMStudent> getStudents() {
         return students;
     }
 
-    public void setStudents(List<Student> students) {
+    public void setStudents(List<MTOBMStudent> students) {
         this.students = students;
     }
 

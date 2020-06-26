@@ -18,7 +18,7 @@ public class Address {
     private String country;
 
     @OneToOne(mappedBy = "address")
-    private Student student;
+    private OTOStudent student;
 
     public long getId() {
         return id;
@@ -52,11 +52,11 @@ public class Address {
         this.country = country;
     }
 
-    public Student getStudent() {
+    public OTOStudent getStudent() {
         return student;
     }
 
-    public void setStudent(Student student) {
+    public void setStudent(OTOStudent student) {
         this.student = student;
     }
 

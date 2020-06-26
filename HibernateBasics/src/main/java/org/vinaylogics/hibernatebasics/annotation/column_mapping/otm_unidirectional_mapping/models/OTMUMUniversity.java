@@ -5,7 +5,6 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
-import java.util.Set;
 
 @Entity
 @Table(name = "universities_otm_um")
@@ -20,7 +19,7 @@ public class University implements Serializable {
 
     @OneToMany
     @JoinColumn(name = "university_id")
-    private List<Student> students = new ArrayList<>();
+    private List<OTMUMStudent> students = new ArrayList<>();
 
     public long getId() {
         return id;
@@ -46,11 +45,11 @@ public class University implements Serializable {
         this.country = country;
     }
 
-    public List<Student> getStudents() {
+    public List<OTMUMStudent> getStudents() {
         return students;
     }
 
-    public void setStudents(List<Student> students) {
+    public void setStudents(List<OTMUMStudent> students) {
         this.students = students;
     }
 

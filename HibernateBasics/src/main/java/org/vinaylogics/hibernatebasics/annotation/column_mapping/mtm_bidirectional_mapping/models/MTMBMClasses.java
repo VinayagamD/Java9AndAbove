@@ -21,7 +21,7 @@ public class Classes implements Serializable {
     @JoinTable(name = "classes_students",
                 joinColumns = {@JoinColumn(name = "classes_id")},
                 inverseJoinColumns = {@JoinColumn(name = "student_id")})
-    private Set<Student> students = new HashSet<>();
+    private Set<MTMStudent> students = new HashSet<>();
 
     public long getId() {
         return id;
@@ -47,11 +47,11 @@ public class Classes implements Serializable {
         this.subject = subject;
     }
 
-    public Set<Student> getStudents() {
+    public Set<MTMStudent> getStudents() {
         return students;
     }
 
-    public void setStudents(Set<Student> students) {
+    public void setStudents(Set<MTMStudent> students) {
         this.students = students;
     }
 
