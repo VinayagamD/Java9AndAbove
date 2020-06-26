@@ -27,6 +27,7 @@ class EmployeeNativeQueryTest {
         session = sessionFactory.openSession();
     }
 
+    @DisplayName("Test For Object Query")
     @Test
     public void testSelectNativeQueryTest(){
         NativeQuery<Object[]> employeeQuery = session.createSQLQuery("SELECT * FROM employee");
@@ -38,7 +39,7 @@ class EmployeeNativeQueryTest {
             System.out.println("\n==================================================================");
         });
     }
-
+    @DisplayName("Test For Single Object Query")
     @Test
     public void testSingleEntityQuery(){
         Query<Object[]>  namedQuery= session.createSQLQuery("SELECT * FROM employee WHERE id=:id").setParameter("id", 102);
@@ -47,21 +48,24 @@ class EmployeeNativeQueryTest {
         });
     }
 
+    @DisplayName("Test For Specific Entity Query")
     @Test
     public void testSingleEntityQueryClassSpecific(){
         NativeQuery<Employee> employeeNativeQuery = session.createNativeQuery("SELECT * FROM employee", Employee.class);
         employeeNativeQuery.list().forEach(System.out::println);
     }
 
+    @DisplayName("Test For Named Entity Query")
     @Test
     public void testNamedNativeQuery(){
        Query<Employee> nativeQuery = session.createNamedQuery("Employee.findall");
        nativeQuery.getResultList().forEach(System.out::println);
     }
 
+    @DisplayName("Test For Single Named Entity Query")
     @Test
     public void testSingleEntityNamedQuery(){
-       Query<Employee>  namedQuery= session.createNamedQuery("Employee.findById").setParameter("id", 102);
+       Query<Employee>  namedQuery= session.createNamedQuery("Employee.findById").setParameter("id", 82);
         System.out.println(namedQuery.getSingleResult());
     }
 
