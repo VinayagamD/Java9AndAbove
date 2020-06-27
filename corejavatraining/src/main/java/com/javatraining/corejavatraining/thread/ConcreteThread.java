@@ -21,11 +21,11 @@ public class ConcreteThread extends Thread  {
 		printScore();
 	}
 
-	@Override
+	/*@Override
 	public synchronized void start() {
 		System.out.println("Start");
 		super.start();
-	}
+	}*/
 	
 	
 	private void printScore() {

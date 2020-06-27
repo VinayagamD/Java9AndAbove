@@ -18,7 +18,7 @@ public class ExceptionExamples {
 		try {
 			if(true)
 				throw new MyException(100, "My Exception");
-		}catch( MyException e) {
+		}catch( MyException  e) {
 			System.out.println(e.getExceptionCode());
 			System.out.println(e.getMessage());
 		}catch (Exception e) {
