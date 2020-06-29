@@ -1,0 +1,3 @@
+rootProject.name = 'SpringBasics'
+include 'spring-understand'
+
