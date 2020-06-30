@@ -19,9 +19,25 @@ subprojects {
 
     dependencies {
         def junit_versions = "5.7.0-M1"
+        def spring_version = "5.2.7.RELEASE"
+        def spring_data_version = "2.3.1.RELEASE"
+
+        // https://mvnrepository.com/artifact/org.springframework/spring-webmvc
+        implementation "org.springframework:spring-webmvc:$spring_version"
+        // https://mvnrepository.com/artifact/org.springframework.data/spring-data-commons
+        implementation "org.springframework.data:spring-data-commons:$spring_data_version"
+        // https://mvnrepository.com/artifact/org.springframework.data/spring-data-jpa
+        implementation "org.springframework.data:spring-data-jpa:$spring_data_version"
+        // https://mvnrepository.com/artifact/org.slf4j/slf4j-simple
+        implementation group: 'org.slf4j', name: 'slf4j-simple', version: '2.0.0-alpha1'
+
+
         // https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api
         testImplementation "org.junit.jupiter:junit-jupiter-api:$junit_versions"
         testImplementation "org.junit.jupiter:junit-jupiter-engine:$junit_versions"
+        // https://mvnrepository.com/artifact/org.springframework/spring-test
+        testImplementation "org.springframework:spring-test:$spring_version"
+
 
     }
 

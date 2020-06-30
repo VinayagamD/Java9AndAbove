@@ -1,0 +1,12 @@
+1Setter Address List [INDIA, USA, USA, Pakistan]
++Setter Address Set [INDIA, USA, Pakistan]
+8Setter Address Map {1=India, 2=Pakistan, 3=USA, 4=USA}
+HSetter Address Prop {two=Pakistan, one=INDIA, three=INDIA, four=INDIA}
+Setter name 
+Setter nullName null
+1Getter Address List [INDIA, USA, USA, Pakistan]
++Getter Address Set [INDIA, USA, Pakistan]
+8Getter Address Map {1=India, 2=Pakistan, 3=USA, 4=USA}
+HGetter Address Prop {two=Pakistan, one=INDIA, three=INDIA, four=INDIA}
+Getter name 
+Getter nullName null

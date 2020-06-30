@@ -1,3 +1,5 @@
 rootProject.name = 'SpringBasics'
 include 'spring-understand'
+include 'spring-core-xml'
+include 'spring-core-annotation'
 

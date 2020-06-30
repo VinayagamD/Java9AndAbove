@@ -1,0 +1,2 @@
+com/vinaylogics/springbaiscs/springcorexml/model/StoreTest.java
+ com.vinaylogics.springbaiscs.springcorexml.model.StoreTest
