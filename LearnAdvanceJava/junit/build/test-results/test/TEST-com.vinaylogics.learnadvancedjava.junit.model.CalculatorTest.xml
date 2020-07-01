@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.vinaylogics.learnadvancedjava.junit.model.CalculatorTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-07-01T14:08:36" hostname="DESKTOP-3P18DGO" time="0.002">
+  <properties/>
+  <testcase name="testSub_Success" classname="com.vinaylogics.learnadvancedjava.junit.model.CalculatorTest" time="0.001"/>
+  <testcase name="testDivision_DivideByZero" classname="com.vinaylogics.learnadvancedjava.junit.model.CalculatorTest" time="0.0"/>
+  <testcase name="testAdd_Success" classname="com.vinaylogics.learnadvancedjava.junit.model.CalculatorTest" time="0.0"/>
+  <testcase name="testMultiply_Success" classname="com.vinaylogics.learnadvancedjava.junit.model.CalculatorTest" time="0.0"/>
+  <testcase name="testDivision_Success" classname="com.vinaylogics.learnadvancedjava.junit.model.CalculatorTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
