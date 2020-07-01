@@ -1,17 +1,13 @@
 package com.javatraining.corejavatraining.collections.coreInterface;
 
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
-public class SetExample {
+public class LinkedHashSetExample {
 
 	public static void main(String[] args) {
 		List<String> listData= Arrays.asList("One", "One", "Two", "Two", "Two", "Three", "Four", "Four", "Five",  null, "", "", null);
-		Set<String> setData = new HashSet<>(listData);
+		LinkedHashSet<String> setData = new LinkedHashSet<>(listData);
 		System.out.println(listData);
-		System.out.println(setData);
 		System.out.println(setData);
 	}
 }

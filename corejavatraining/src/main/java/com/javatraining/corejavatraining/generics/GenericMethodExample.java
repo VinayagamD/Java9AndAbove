@@ -2,7 +2,7 @@ package com.javatraining.corejavatraining.generics;
 
 public class GenericMethodExample {
 
-	public<T> boolean isNull(T t) {
+	public <T> boolean isNull(T t) {
 		if( t == null) {
 			throw new NullPointerException("Object Cannot be null");
 		}
@@ -14,5 +14,6 @@ public class GenericMethodExample {
 		GenericMethodExample genericMethodExample = new GenericMethodExample();
 		System.out.println(genericMethodExample.isNull("Test"));
 		System.out.println(genericMethodExample.isNull(10));
+//		System.out.println(genericMethodExample.isNull(null));
 	}
 }

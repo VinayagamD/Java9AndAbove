@@ -2,10 +2,11 @@ package com.javatraining.corejavatraining.collections.coreInterface;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.TreeMap;
 
-public class MapExample {
+public class TreeMapExample {
 	public static void main(String[] args) {
-		Map<String, Integer> maps = new HashMap<>();
+		TreeMap<String, Integer> maps = new TreeMap<>();
 		maps.put("One", 1);
 		maps.put("One", 2);
 		maps.put("two", 1);
