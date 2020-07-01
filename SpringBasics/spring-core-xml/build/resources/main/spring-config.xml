@@ -54,4 +54,63 @@
         <property name="name" value=""/>
         <property name="nullName"><null/></property>
     </bean>
+
+    <bean id="helloWorld" class="com.vinaylogics.springbaiscs.springcorexml.model.HelloWorld">
+        <property name="message1" value="Hello World!"/>
+        <property name="message2" value="Hello Second World"/>
+    </bean>
+
+    <bean id="helloIndia" class="com.vinaylogics.springbaiscs.springcorexml.model.HelloIndia" parent="helloWorld">
+        <property name="message1" value="Hello India"/>
+        <property name="message3" value="Namaste India!"/>
+    </bean>
+
+    <bean id="parentBean" abstract="true">
+        <property name="message1" value="Hello World!"/>
+        <property name="message2" value="Hello Second World"/>
+        <property name="message3" value="Namaste India!"/>
+    </bean>
+
+    <bean id="helloIndia2" class="com.vinaylogics.springbaiscs.springcorexml.model.HelloIndia" parent="parentBean">
+        <property name="message1" value="Hello India!"/>
+        <property name="message3" value="Namaste India!"/>
+    </bean>
+    <bean id="customer" class="com.vinaylogics.springbaiscs.springcorexml.model.Customer">
+        <constructor-arg name="person">
+            <bean class="com.vinaylogics.springbaiscs.springcorexml.model.Person">
+                <property name="name" value="saini"/>
+                <property name="address" value="bangalore"/>
+                <property name="age" value="28"/>
+            </bean>
+        </constructor-arg>
+    </bean>
+     <bean id="customer2" class="com.vinaylogics.springbaiscs.springcorexml.model.Customer">
+        <property name="person">
+            <bean class="com.vinaylogics.springbaiscs.springcorexml.model.Person">
+                <property name="name" value="saini"/>
+                <property name="address" value="bangalore"/>
+                <property name="age" value="28"/>
+            </bean>
+        </property>
+    </bean>
+    <bean id="customerSingle" class="com.vinaylogics.springbaiscs.springcorexml.model.Customer" scope="singleton">
+        <property name="person">
+            <bean class="com.vinaylogics.springbaiscs.springcorexml.model.Person">
+                <property name="name" value="saini"/>
+                <property name="address" value="bangalore"/>
+                <property name="age" value="28"/>
+            </bean>
+        </property>
+    </bean>
+
+    <bean id="customerProto" class="com.vinaylogics.springbaiscs.springcorexml.model.Customer" scope="prototype">
+        <property name="person">
+            <bean class="com.vinaylogics.springbaiscs.springcorexml.model.Person">
+                <property name="name" value="saini"/>
+                <property name="address" value="bangalore"/>
+                <property name="age" value="28"/>
+            </bean>
+        </property>
+    </bean>
+
 </beans>

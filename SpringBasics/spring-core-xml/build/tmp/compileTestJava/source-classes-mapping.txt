@@ -1,2 +1,4 @@
 com/vinaylogics/springbaiscs/springcorexml/model/StoreTest.java
  com.vinaylogics.springbaiscs.springcorexml.model.StoreTest
+com/vinaylogics/springbaiscs/springcorexml/model/HelloIndiaTest.java
+ com.vinaylogics.springbaiscs.springcorexml.model.HelloIndiaTest
