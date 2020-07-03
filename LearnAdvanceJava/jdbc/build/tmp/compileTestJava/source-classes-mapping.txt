@@ -1,0 +1,4 @@
+com/vinaylogics/learnadvancejava/jdbc/util/ConnectionManagerDMLTest.java
+ com.vinaylogics.learnadvancejava.jdbc.util.ConnectionManagerDMLTest
+com/vinaylogics/learnadvancejava/jdbc/util/ConnectionManagerDDLTest.java
+ com.vinaylogics.learnadvancejava.jdbc.util.ConnectionManagerDDLTest
