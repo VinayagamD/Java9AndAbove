@@ -1,0 +1,2 @@
+com/vinaylogics/springbasics/springmvcdemo/dao/EmployeeRepositoryTest.java
+ com.vinaylogics.springbasics.springmvcdemo.dao.EmployeeRepositoryTest

@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+}
+
+group 'com.vinaylogics'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // https://mvnrepository.com/artifact/javax.servlet.jsp.jstl/jstl-api
+    implementation group: 'javax.servlet.jsp.jstl', name: 'jstl-api', version: '1.2'
+// https://mvnrepository.com/artifact/javax.servlet.jsp/javax.servlet.jsp-api
+    implementation group: 'javax.servlet.jsp', name: 'javax.servlet.jsp-api', version: '2.3.3'
+// https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api
+    implementation group: 'javax.servlet', name: 'javax.servlet-api', version: '4.0.1'
+
+}

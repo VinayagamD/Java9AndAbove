@@ -10,8 +10,11 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/SpringMVCDemo" />
             <option value="$PROJECT_DIR$/spring-core-annotation" />
             <option value="$PROJECT_DIR$/spring-core-xml" />
+            <option value="$PROJECT_DIR$/spring-jdbc-annotations" />
+            <option value="$PROJECT_DIR$/spring-jdbc-xml" />
             <option value="$PROJECT_DIR$/spring-understand" />
           </set>
         </option>

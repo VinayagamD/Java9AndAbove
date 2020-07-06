@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.vinaylogics.springbasics.springmvcdemo.dao.EmployeeRepositoryTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-07-06T13:47:32" hostname="DESKTOP-3P18DGO" time="0.746">
+  <properties/>
+  <testcase name="testGetEmployeeById(int)[1]" classname="com.vinaylogics.springbasics.springmvcdemo.dao.EmployeeRepositoryTest" time="0.68"/>
+  <testcase name="testGetEmployeeById(int)[2]" classname="com.vinaylogics.springbasics.springmvcdemo.dao.EmployeeRepositoryTest" time="0.019"/>
+  <testcase name="testGetEmployeeById(int)[3]" classname="com.vinaylogics.springbasics.springmvcdemo.dao.EmployeeRepositoryTest" time="0.015"/>
+  <testcase name="testGetEmployeeById(int)[4]" classname="com.vinaylogics.springbasics.springmvcdemo.dao.EmployeeRepositoryTest" time="0.012"/>
+  <testcase name="testGetEmployeeById(int)[5]" classname="com.vinaylogics.springbasics.springmvcdemo.dao.EmployeeRepositoryTest" time="0.013"/>
+  <system-out><![CDATA[Employee{id=1, name='Saini', salary=50000.0}
+Employee{id=2, name='Vinay', salary=60000.0}
+Employee{id=3, name='Subash', salary=100000.0}
+Employee{id=4, name='Aravind', salary=20000.0}
+Employee{id=5, name='Astro', salary=12000.0}
+]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO org.springframework.test.context.web.WebTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[Test worker] INFO org.springframework.test.context.web.WebTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2c9ceac7, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@27ce336d, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@2d2a56fb, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6ed04336, org.springframework.test.context.transaction.TransactionalTestExecutionListener@255146f9, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@73d25c65, org.springframework.test.context.event.EventPublishingTestExecutionListener@c30416a]
+]]></system-err>
+</testsuite>
