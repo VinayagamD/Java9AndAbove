@@ -48,6 +48,7 @@ class EmployeeRepositoryTest {
     @DisplayName("Test for select named parameter query")
     @ParameterizedTest(name = "For name {0} insertion is tested.")
     @ValueSource(ints = {1,2,3,4,5})
+    @Transactional(readOnly = true)
     void testGetEmployeeById(int id) {
         System.out.println(employeeRepository.getEmployeeById(id));
     }

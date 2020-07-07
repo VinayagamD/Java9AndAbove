@@ -1,7 +1,7 @@
 com/vinaylogics/springbasics/springmvcdemo/models/Employee.java
  com.vinaylogics.springbasics.springmvcdemo.models.Employee
+com/vinaylogics/springbasics/springmvcdemo/dao/EmployeeRepository.java
+ com.vinaylogics.springbasics.springmvcdemo.dao.EmployeeRepository
 com/vinaylogics/springbasics/springmvcdemo/utils/QueryConstant.java
  com.vinaylogics.springbasics.springmvcdemo.utils.QueryConstant
  com.vinaylogics.springbasics.springmvcdemo.utils.QueryConstant$TableEmployees
-com/vinaylogics/springbasics/springmvcdemo/dao/EmployeeRepository.java
- com.vinaylogics.springbasics.springmvcdemo.dao.EmployeeRepository
