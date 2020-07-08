@@ -6,5 +6,28 @@
         http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
          id="WebApp_ID" version="3.0">
     <display-name>Servlet Basics</display-name>
+    <filter>
+        <filter-name>MyXmlFilter</filter-name>
+        <filter-class>com.vinaylogics.learnadvancejava.servlets.MyXmlFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>MyXmlFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+    <listener>
+        <listener-class>com.vinaylogics.learnadvancejava.servlets.MyListener</listener-class>
+    </listener>
     <description>Learn Basics of Servlet</description>
+    <servlet>
+        <servlet-name>basicxml</servlet-name>
+        <servlet-class>com.vinaylogics.learnadvancejava.servlets.BasicXmlServlet</servlet-class>
+        <init-param>
+            <param-name>test</param-name>
+            <param-value>testname</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>basicxml</servlet-name>
+        <url-pattern>/test</url-pattern>
+    </servlet-mapping>
 </web-app>
