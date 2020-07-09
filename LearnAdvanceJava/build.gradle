@@ -11,7 +11,6 @@ allprojects {
 subprojects {
     apply plugin: 'java'
     apply plugin: 'war'
-
     repositories {
         mavenCentral()
         jcenter()
@@ -55,4 +54,16 @@ project(':servlets'){
       // https://mvnrepository.com/artifact/jstl/jstl
       compile group: 'jstl', name: 'jstl', version: '1.2'
   }
+}
+
+project(':jsp'){
+
+    dependencies {
+        // https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api
+        providedCompile group: 'javax.servlet', name: 'javax.servlet-api', version: '4.0.1'
+        // https://mvnrepository.com/artifact/javax.servlet.jsp/javax.servlet.jsp-api
+        providedCompile group: 'javax.servlet.jsp', name: 'javax.servlet.jsp-api', version: '2.3.3'
+        // https://mvnrepository.com/artifact/jstl/jstl
+        compile group: 'jstl', name: 'jstl', version: '1.2'
+    }
 }

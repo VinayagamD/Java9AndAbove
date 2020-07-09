@@ -1,0 +1,15 @@
+plugins {
+    id 'java'
+    id 'war'
+}
+
+group 'com.vinaylogics'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+}
