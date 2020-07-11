@@ -1,2 +1,0 @@
-com/vinaylogics/springbasics/springjdbcannotations/dao/EmployeeDaoTest.java
- com.vinaylogics.springbasics.springjdbcannotations.dao.EmployeeDaoTest

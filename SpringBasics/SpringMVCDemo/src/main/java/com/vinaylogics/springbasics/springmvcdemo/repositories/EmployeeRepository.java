@@ -1,4 +1,4 @@
-package com.vinaylogics.springbasics.springmvcdemo.dao;
+package com.vinaylogics.springbasics.springmvcdemo.repositories;
 
 import com.vinaylogics.springbasics.springmvcdemo.models.Employee;
 import com.vinaylogics.springbasics.springmvcdemo.utils.QueryConstant;

@@ -1,4 +1,4 @@
-package com.vinaylogics.springbasics.springmvcdemo.dao;
+package com.vinaylogics.springbasics.springmvcdemo.repositories;
 
 import com.vinaylogics.springbasics.springmvcdemo.models.Employee;
 import org.junit.jupiter.api.AfterEach;
@@ -14,10 +14,8 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 import org.springframework.test.context.web.WebAppConfiguration;
 import org.springframework.transaction.annotation.Transactional;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 @ExtendWith(SpringExtension.class)
-@ContextConfiguration("classpath:webapp/WEB-INF/applicationConfig.xml")
+@ContextConfiguration("classpath:webapp/applicationConfig.xml")
 @WebAppConfiguration
 class EmployeeRepositoryTest {
 

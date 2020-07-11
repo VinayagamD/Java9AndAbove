@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.vinaylogics.springbasics.springannotation.config.InnerBeanConfigTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-07-01T13:34:23" hostname="DESKTOP-3P18DGO" time="0.24">
-  <properties/>
-  <testcase name="testPrototypeCustomer()" classname="com.vinaylogics.springbasics.springannotation.config.InnerBeanConfigTest" time="0.24"/>
-  <system-out><![CDATA[Customer{person=Person{name='Saini', address='Bangalore', age=28}}
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

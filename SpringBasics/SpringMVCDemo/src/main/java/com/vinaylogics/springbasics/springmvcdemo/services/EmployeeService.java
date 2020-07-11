@@ -1,4 +1,4 @@
-package services;
+package com.vinaylogics.springbasics.springmvcdemo.services;
 
 import com.vinaylogics.springbasics.springmvcdemo.models.Employee;
 
@@ -8,4 +8,5 @@ public interface EmployeeService {
 
      List<Employee> findAll();
      Employee findById(Integer id);
+     boolean saveEmployee(Employee employee);
 }
