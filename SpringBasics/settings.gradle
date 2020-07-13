@@ -5,5 +5,5 @@ include 'spring-core-annotation'
 include 'spring-jdbc-xml'
 include 'spring-jdbc-annotations'
 include 'SpringMVCDemo'
-include 'SpringMVCDemo2'
+include 'SpringMVCDemoJpa'
 

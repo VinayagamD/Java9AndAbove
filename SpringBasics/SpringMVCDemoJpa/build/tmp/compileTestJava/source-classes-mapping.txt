@@ -1,0 +1,2 @@
+com/vinaylogics/springbasics/springmvcdemojpa/repositories/EmployeeRepositoryTest.java
+ com.vinaylogics.springbasics.springmvcdemojpa.repositories.EmployeeRepositoryTest
