@@ -29,4 +29,20 @@
         <error-code>404</error-code>
         <location>/jsp/error/404.jsp</location>
     </error-page>
+    <servlet>
+        <servlet-name>first_include</servlet-name>
+        <jsp-file>/jsp/layout/first_include.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>first_include</servlet-name>
+        <url-pattern>/first_include</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>forward_page</servlet-name>
+        <jsp-file>/jsp/forward_page.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>forward_page</servlet-name>
+        <url-pattern>/forward</url-pattern>
+    </servlet-mapping>
 </web-app>

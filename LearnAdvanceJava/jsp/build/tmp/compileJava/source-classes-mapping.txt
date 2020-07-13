@@ -1,2 +1,4 @@
+com/vinaylogics/learnadvancejava/jsp/customtags/CustomTag.java
+ com.vinaylogics.learnadvancejava.jsp.customtags.CustomTag
 com/vinaylogics/learnadvancejava/jsp/dto/Person.java
  com.vinaylogics.learnadvancejava.jsp.dto.Person
