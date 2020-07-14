@@ -1,0 +1,3 @@
+com/vinaylogics/learnadvancejava/javamaildemo/JavaMailExample.java
+ com.vinaylogics.learnadvancejava.javamaildemo.JavaMailExample
+ com.vinaylogics.learnadvancejava.javamaildemo.JavaMailExample$1

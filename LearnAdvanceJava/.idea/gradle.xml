@@ -10,6 +10,8 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/ConcurrentCollections" />
+            <option value="$PROJECT_DIR$/javamaildemo" />
             <option value="$PROJECT_DIR$/jdbc" />
             <option value="$PROJECT_DIR$/jsp" />
             <option value="$PROJECT_DIR$/junit" />

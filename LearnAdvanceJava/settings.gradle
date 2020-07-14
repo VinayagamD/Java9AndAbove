@@ -3,4 +3,6 @@ include 'junit'
 include 'jdbc'
 include 'servlets'
 include 'jsp'
+include 'ConcurrentCollections'
+include 'javamaildemo'
 
