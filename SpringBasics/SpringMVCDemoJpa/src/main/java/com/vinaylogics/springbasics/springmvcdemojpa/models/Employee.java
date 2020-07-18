@@ -9,7 +9,7 @@ import java.util.Objects;
 public class Employee implements Serializable {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.TABLE)
     private Integer id;
     private String name;
     private Float salary;

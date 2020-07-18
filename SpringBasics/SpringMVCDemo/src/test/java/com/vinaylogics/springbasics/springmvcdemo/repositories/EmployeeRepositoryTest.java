@@ -15,7 +15,7 @@ import org.springframework.test.context.web.WebAppConfiguration;
 import org.springframework.transaction.annotation.Transactional;
 
 @ExtendWith(SpringExtension.class)
-@ContextConfiguration("classpath:webapp/applicationConfig.xml")
+@ContextConfiguration(locations={"classpath:mvc-configs.xml"})
 @WebAppConfiguration
 class EmployeeRepositoryTest {
 

@@ -1,0 +1,6 @@
+com/vinaylogics/springbasics/springunderstand/model/StudentDILooseCoupleTest.java
+ com.vinaylogics.springbasics.springunderstand.model.StudentDILooseCoupleTest
+com/vinaylogics/springbasics/springunderstand/model/StudentDITest.java
+ com.vinaylogics.springbasics.springunderstand.model.StudentDITest
+com/vinaylogics/springbasics/springunderstand/model/StudentTest.java
+ com.vinaylogics.springbasics.springunderstand.model.StudentTest

@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
 import javax.persistence.Query;
 import javax.persistence.TypedQuery;
 import java.util.List;
@@ -13,11 +14,10 @@ import java.util.List;
 @Repository
 public class EmployeeRepositoryImpl implements EmployeeRepository {
 
-    private final EntityManager manager;
+    @PersistenceContext
+    private EntityManager manager;
 
-    public EmployeeRepositoryImpl(EntityManager manager) {
-        this.manager = manager;
-    }
+
 
     @Override
     public List<Employee> findAll() {

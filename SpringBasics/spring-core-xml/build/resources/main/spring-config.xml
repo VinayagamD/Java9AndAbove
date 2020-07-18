@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="item" class="com.vinaylogics.springbaiscs.springcorexml.model.Item">
+
+    </bean>
+
+    <bean id="store" class="com.vinaylogics.springbaiscs.springcorexml.model.Store">
+        <constructor-arg name="item" ref="item"/>
+    </bean>
+    <bean id="store1" class="com.vinaylogics.springbaiscs.springcorexml.model.Store">
+        <property name="item" ref="item"/>
+    </bean>
+
+    <bean id="store2" class="com.vinaylogics.springbaiscs.springcorexml.model.Store" autowire="byType"/>
+    <bean id="store3" class="com.vinaylogics.springbaiscs.springcorexml.model.Store" autowire="byName"/>
+
+    <bean id="address" class="com.vinaylogics.springbaiscs.springcorexml.model.Address">
+        <property name="addressList">
+            <list>
+                <value>INDIA</value>
+                <value>USA</value>
+                <value>USA</value>
+                <value>Pakistan</value>
+            </list>
+        </property>
+        <property name="addressSet">
+            <set>
+                <value>INDIA</value>
+                <value>USA</value>
+                <value>USA</value>
+                <value>Pakistan</value>
+            </set>
+        </property>
+        <property name="addressMap">
+            <map>
+                <entry key="1" value="India"/>
+                <entry key="2" value="Pakistan"/>
+                <entry key="3" value="USA"/>
+                <entry key="4" value="USA"/>
+            </map>
+        </property>
+        <property name="addressProp">
+            <props>
+                <prop key="one">INDIA</prop>
+                <prop key="one">INDIA</prop>
+                <prop key="two">Pakistan</prop>
+                <prop key="three">INDIA</prop>
+                <prop key="four">INDIA</prop>
+            </props>
+        </property>
+        <property name="name" value=""/>
+        <property name="nullName"><null/></property>
+    </bean>
+
+    <bean id="helloWorld" class="com.vinaylogics.springbaiscs.springcorexml.model.HelloWorld">
+        <property name="message1" value="Hello World!"/>
+        <property name="message2" value="Hello Second World"/>
+    </bean>
+
+    <bean id="helloIndia" class="com.vinaylogics.springbaiscs.springcorexml.model.HelloIndia" parent="helloWorld">
+        <property name="message1" value="Hello India"/>
+        <property name="message3" value="Namaste India!"/>
+    </bean>
+
+    <bean id="parentBean" abstract="true">
+        <property name="message1" value="Hello World!"/>
+        <property name="message2" value="Hello Second World"/>
+        <property name="message3" value="Namaste India!"/>
+    </bean>
+
+    <bean id="helloIndia2" class="com.vinaylogics.springbaiscs.springcorexml.model.HelloIndia" parent="parentBean">
+        <property name="message1" value="Hello India!"/>
+        <property name="message3" value="Namaste India!"/>
+    </bean>
+    <bean id="customer" class="com.vinaylogics.springbaiscs.springcorexml.model.Customer">
+        <constructor-arg name="person">
+            <bean class="com.vinaylogics.springbaiscs.springcorexml.model.Person">
+                <property name="name" value="saini"/>
+                <property name="address" value="bangalore"/>
+                <property name="age" value="28"/>
+            </bean>
+        </constructor-arg>
+    </bean>
+     <bean id="customer2" class="com.vinaylogics.springbaiscs.springcorexml.model.Customer">
+        <property name="person">
+            <bean class="com.vinaylogics.springbaiscs.springcorexml.model.Person">
+                <property name="name" value="saini"/>
+                <property name="address" value="bangalore"/>
+                <property name="age" value="28"/>
+            </bean>
+        </property>
+    </bean>
+    <bean id="customerSingle" class="com.vinaylogics.springbaiscs.springcorexml.model.Customer" scope="singleton">
+        <property name="person">
+            <bean class="com.vinaylogics.springbaiscs.springcorexml.model.Person">
+                <property name="name" value="saini"/>
+                <property name="address" value="bangalore"/>
+                <property name="age" value="28"/>
+            </bean>
+        </property>
+    </bean>
+
+    <bean id="customerProto" class="com.vinaylogics.springbaiscs.springcorexml.model.Customer" scope="prototype">
+        <property name="person">
+            <bean class="com.vinaylogics.springbaiscs.springcorexml.model.Person">
+                <property name="name" value="saini"/>
+                <property name="address" value="bangalore"/>
+                <property name="age" value="28"/>
+            </bean>
+        </property>
+    </bean>
+
+</beans>

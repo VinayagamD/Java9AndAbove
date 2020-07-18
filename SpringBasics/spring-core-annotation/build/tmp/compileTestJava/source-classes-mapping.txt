@@ -1,0 +1,8 @@
+com/vinaylogics/springbasics/springannotation/config/ConstructorBeanConfigTest.java
+ com.vinaylogics.springbasics.springannotation.config.ConstructorBeanConfigTest
+com/vinaylogics/springbasics/springannotation/config/CollectionConfigTest.java
+ com.vinaylogics.springbasics.springannotation.config.CollectionConfigTest
+com/vinaylogics/springbasics/springannotation/config/InnerBeanConfigTest.java
+ com.vinaylogics.springbasics.springannotation.config.InnerBeanConfigTest
+com/vinaylogics/springbasics/springannotation/config/NamingDataCollectionConfigTest.java
+ com.vinaylogics.springbasics.springannotation.config.NamingDataCollectionConfigTest

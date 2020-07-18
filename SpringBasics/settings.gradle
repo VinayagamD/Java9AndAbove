@@ -6,4 +6,6 @@ include 'spring-jdbc-xml'
 include 'spring-jdbc-annotations'
 include 'SpringMVCDemo'
 include 'SpringMVCDemoJpa'
+include 'aop'
+include 'springsecuritybasics'
 

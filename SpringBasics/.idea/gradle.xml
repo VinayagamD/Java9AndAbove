@@ -12,11 +12,13 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/SpringMVCDemo" />
             <option value="$PROJECT_DIR$/SpringMVCDemoJpa" />
+            <option value="$PROJECT_DIR$/aop" />
             <option value="$PROJECT_DIR$/spring-core-annotation" />
             <option value="$PROJECT_DIR$/spring-core-xml" />
             <option value="$PROJECT_DIR$/spring-jdbc-annotations" />
             <option value="$PROJECT_DIR$/spring-jdbc-xml" />
             <option value="$PROJECT_DIR$/spring-understand" />
+            <option value="$PROJECT_DIR$/springsecuritybasics" />
           </set>
         </option>
         <option name="useQualifiedModuleNames" value="true" />
