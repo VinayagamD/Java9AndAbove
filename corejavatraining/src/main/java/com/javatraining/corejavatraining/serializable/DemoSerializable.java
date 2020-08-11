@@ -16,9 +16,6 @@ import java.io.ObjectOutputStream;
  */
 public class DemoSerializable {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		DemoFilterModel demoModel = new DemoFilterModel();
 		demoModel.setName("Saini");

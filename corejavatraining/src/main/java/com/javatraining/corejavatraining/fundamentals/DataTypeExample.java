@@ -24,6 +24,9 @@ public class DataTypeExample {
         // char
         char a = 'c';
 
+        // boolean
+        boolean cond = false;
+
         // String
         String string = "Hello";
 

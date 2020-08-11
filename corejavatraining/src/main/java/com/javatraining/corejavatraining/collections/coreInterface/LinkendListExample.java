@@ -13,9 +13,6 @@ import java.util.stream.Collectors;
  */
 public class LinkendListExample {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		LinkedList<String> datas = new LinkedList<String>();
 		datas.add("One");

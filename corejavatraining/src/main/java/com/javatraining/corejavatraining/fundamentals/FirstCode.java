@@ -7,7 +7,6 @@ package com.javatraining.corejavatraining.fundamentals;
  *
  * <p>This is to write paragraph in java doc</p>
  *
- * <i></i>
  * @see java.lang.Object
  *
  * @author vinay

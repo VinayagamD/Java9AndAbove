@@ -13,9 +13,6 @@ import java.util.List;
  */
 public class DemoCustomIterator {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		List<DemoData> demos = Arrays.asList(new DemoData("Demo1"), new DemoData("Demo2"), new DemoData("Demo3"), new DemoData("Demo"));
 		DemoData[] demoArrays = demos.toArray(new DemoData[demos.size()]);

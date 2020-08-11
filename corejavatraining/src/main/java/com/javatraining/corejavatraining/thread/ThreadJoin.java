@@ -12,7 +12,6 @@ import java.math.BigInteger;
 public class ThreadJoin {
 
 	/**
-	 * @param args
 	 * @throws InterruptedException 
 	 */
 	public static void main(String[] args) throws InterruptedException {

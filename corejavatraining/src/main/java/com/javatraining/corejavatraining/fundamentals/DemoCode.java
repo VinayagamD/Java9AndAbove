@@ -10,7 +10,7 @@ package com.javatraining.corejavatraining.fundamentals;
 public class DemoCode {
 
 	/**
-	 * @param args
+	 * @param args : Command Line Argument
 	 */
 	public static void main(String[] args) {
 		System.out.println("Demo code hello to java training");
