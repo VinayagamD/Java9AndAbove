@@ -8,6 +8,7 @@ public class OperatorsExample {
         System.out.println(2 + 3);
         System.out.println(3-2);
         System.out.println(3*2);
+        System.out.println(3/2.0);
         System.out.println(3/2);
         System.out.println(4/2);
         System.out.println(4%2);
