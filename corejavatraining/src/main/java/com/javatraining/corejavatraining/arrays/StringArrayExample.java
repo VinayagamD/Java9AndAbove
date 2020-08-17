@@ -39,7 +39,7 @@ public class StringArrayExample {
 
 		Arrays.asList(arrays).forEach(System.out::println);
 
-		varargs(  1,2, 3,4,5,6,7,8);
+		varargs(  1,2, 3,4,5,6,7,8,9, 10);
 		Scanner scanner = new Scanner(System.in);
 		while(scanner.hasNext()) {
 			if(scanner.nextLine().equals("q")) {

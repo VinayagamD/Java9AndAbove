@@ -45,8 +45,10 @@ public class DecisionMaking {
             System.out.println("A is less than 5");
         } else if (a > 5 && a < 10) {
             System.out.println("A is greater than 5 and less than 10");
-        } else {
+        } else if(a==10) {
             System.out.println(" A is 10");
+        } else {
+            System.out.println(" A is greater than 10");
         }
     }
 
