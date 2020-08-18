@@ -1,0 +1,4 @@
+Example for inheritance and polymorphism
+
+Create class of vehicle, twowheelers, threewheelers and do polymorphism and inheritance code
+as explained
