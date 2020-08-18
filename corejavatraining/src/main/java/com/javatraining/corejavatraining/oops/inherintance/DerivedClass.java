@@ -16,4 +16,6 @@ public class DerivedClass  extends BaseRoot{
         super.rootMethod2();
         System.out.println("derivedMethod2 rootMethod2");
     }
+
+
 }
