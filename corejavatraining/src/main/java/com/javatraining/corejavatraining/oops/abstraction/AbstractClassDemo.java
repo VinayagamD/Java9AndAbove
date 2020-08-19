@@ -4,6 +4,18 @@ import java.io.Serializable;
 
 public class AbstractClassDemo {
 
+    public static abstract class MyAbstractClass2 {
+        // 0 to 100 %
+        public void testMethod1(){
+
+        }
+
+        public void testMethod2(){
+
+        }
+
+    }
+
     public static abstract class MyAbstractClass {
 
         public abstract void abstractMethodCall();
@@ -28,7 +40,7 @@ public class AbstractClassDemo {
         };
 
         // java 8
-        MyInterface myInterface1 = ()->{};
+        MyInterface myInterface1 = () -> {};
 
         MyAbstractClass myAbstractClass2 = new SubAbstractClass();
 
@@ -48,6 +60,7 @@ public class AbstractClassDemo {
         }
     }
 
+    @FunctionalInterface
     public  interface MyInterface {
         void callMethod();
 
@@ -58,5 +71,11 @@ public class AbstractClassDemo {
         static void classCall(){
 
         }*/
+    }
+
+
+    public interface MyInterface2{
+        // 100 % abstraction - Java 7
+        void concreteMethod();
     }
 }
