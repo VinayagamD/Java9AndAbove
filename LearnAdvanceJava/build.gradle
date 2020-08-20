@@ -19,9 +19,6 @@ subprojects {
     dependencies {
         def junit_version = "5.7.0-M1"
 
-
-
-
         // https://mvnrepository.com/artifact/mysql/mysql-connector-java
         implementation "mysql:mysql-connector-java:8.0.20"
         // https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api
