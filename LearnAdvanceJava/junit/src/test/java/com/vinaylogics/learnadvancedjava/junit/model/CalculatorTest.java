@@ -1,9 +1,11 @@
 package com.vinaylogics.learnadvancedjava.junit.model;
 
-import org.junit.Before;
-import org.junit.Test;
 
-import static org.junit.Assert.*;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.*;
 
 /**
  * @author vinay
@@ -18,7 +20,7 @@ public class CalculatorTest {
     /**
      * @throws java.lang.Exception
      */
-    @Before
+    @BeforeEach
     public void setUp() throws Exception {
         calculator = new Calculator();
     }
@@ -34,7 +36,6 @@ public class CalculatorTest {
         int expected = a + b;
         int actual = calculator.add(a, b);
         assertEquals(expected, actual);
-
     }
 
     /**
@@ -74,7 +75,7 @@ public class CalculatorTest {
     }
 
     /**
-     * Test method for {@link com.vinaylogics.learnadvancedjava.junit.model.Calculator#division(int, int)}.
+     * Test method for {@link com.vinaylogics.learnadvancedjava.junit.model.Calculator#division(int, int)}
      */
     @Test
     public void testDivision_DivideByZero() {

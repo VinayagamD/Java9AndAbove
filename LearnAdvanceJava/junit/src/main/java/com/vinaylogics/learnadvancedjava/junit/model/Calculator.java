@@ -46,11 +46,11 @@ public class Calculator {
 	 * This method divides the two integer value
 	 * @param a input1
 	 * @param b input2
-	 * @throws ArithmeticException
+	 * @throws ArithmeticException : Input for denominator is zero
 	 * {@link ArithmeticException}
 	 * @return quotient of two input
 	 */
-	public int division(int a, int b) {
+	public int division(int a, int b) throws ArithmeticException{
 		if(b == 0 ) {
 			throw new ArithmeticException("b value cannot be zero");
 		}
