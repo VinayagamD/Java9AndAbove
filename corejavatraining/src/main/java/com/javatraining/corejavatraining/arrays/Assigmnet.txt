@@ -1,1 +1,0 @@
-Create an array ot accept your friends name loop and print it on console

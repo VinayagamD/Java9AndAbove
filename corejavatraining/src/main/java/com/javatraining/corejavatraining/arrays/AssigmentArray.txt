@@ -1,0 +1,5 @@
+1. Create an array ot accept your friends name loop and print it on console
+
+2. From tsv file shown in multidimensional example generate the tsv and read the value from the tsv file to
+multidimensional array and print the values
+

@@ -57,7 +57,7 @@ public class StringArrayExample {
 	}
 
 
-	public static  void varargs(int i1, int i2, int i3) {
+	/*public static  void varargs(int i1, int i2, int i3) {
 		
-	}
+	}*/
 }
