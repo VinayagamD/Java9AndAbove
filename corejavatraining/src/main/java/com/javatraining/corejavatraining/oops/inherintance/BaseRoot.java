@@ -20,4 +20,8 @@ public class BaseRoot {
     public void rootMethod2(int a){
         System.out.println(a);
     }
+
+    public final void rootMethod3(){
+        System.out.println("This is final method cannot be overridden");
+    }
 }

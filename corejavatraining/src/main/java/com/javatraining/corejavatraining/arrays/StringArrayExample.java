@@ -50,9 +50,9 @@ public class StringArrayExample {
 		
 	}
 	
-	public static  void varargs(int ... varint ) {
-		for (int i = 0; i < varint.length; i++) {
-			System.out.println(varint[i]);
+	public static  void varargs(int ... variant ) {
+		for (int i = 0; i < variant.length; i++) {
+			System.out.println(variant[i]);
 		}
 	}
 
