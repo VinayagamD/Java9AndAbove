@@ -63,8 +63,7 @@ String name = "saini";
  
  <p><jsp:getProperty property="name" name="student"/></p>
  <p><jsp:getProperty property="school" name="student"/></p>
- <mytag:countmatches inputString="test1" lookupString="test1"></mytag:countmatches>
- <mytag:countmatches inputString="test1" lookupString="test123"></mytag:countmatches>
+ t
  <tagfile:customtags></tagfile:customtags>
 	
 <%@ include file="footer.jsp" %>
