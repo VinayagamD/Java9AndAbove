@@ -26,6 +26,7 @@ public class AvoidOverriding {
             super.normalMethod();
         }
 
+
     }
 
     /*
