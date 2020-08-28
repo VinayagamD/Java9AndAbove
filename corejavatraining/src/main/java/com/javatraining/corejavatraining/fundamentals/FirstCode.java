@@ -21,7 +21,7 @@ public class FirstCode {
      */
     public static void main(String[] args) {
 
-        // This code executed in the stack aread
+        // This code executed in the stack a read
         System.out.println("Hello to java training");
     }
 }

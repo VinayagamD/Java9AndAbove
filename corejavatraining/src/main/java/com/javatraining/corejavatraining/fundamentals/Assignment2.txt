@@ -1,0 +1,12 @@
+Create the java code using the maven with template
+
+Create the java code using gradle
+
+Execute code
+Execute unit test cases
+
+Write Comments on the class and test
+Generate Junit docs
+Generate Java docs
+
+Practise blocks, Statements
