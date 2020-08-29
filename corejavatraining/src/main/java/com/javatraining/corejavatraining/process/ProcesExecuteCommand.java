@@ -9,7 +9,7 @@ import java.util.List;
 public class ProcesExecuteCommand {
 	public static void main(String[] args) throws IOException {
 		// creating list of commands  
-        List<String> commands = new ArrayList<String>(); 
+        List<String> commands = new ArrayList<>();
         commands.add("cmd.exe");
         commands.add("/c");
         commands.add("dir"); // command 

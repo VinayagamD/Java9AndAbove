@@ -9,7 +9,6 @@ public class ProcessInheritIO {
                 ( "cmd.exe", "/c", "echo", "Hello GeeksforGeeksThis is ProcessBuilder Example"); 
         pb.inheritIO(); 
         Process process = pb.start(); 
-        process.waitFor(); 
-
+        process.waitFor();
 	}
 }
