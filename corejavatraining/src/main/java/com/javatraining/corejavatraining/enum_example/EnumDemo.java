@@ -1,5 +1,7 @@
 package com.javatraining.corejavatraining.enum_example;
 
+import java.util.Arrays;
+
 public class EnumDemo {
 	public static void main(String[] args) {
 		Color r1 = Color.RED;
@@ -23,5 +25,12 @@ public class EnumDemo {
 		for (Color color : colors) {
 			System.out.print(color+"\t");
 		}
+		System.out.println();
+		Arrays.stream(Color.values()).forEach(System.out::println);
+		Arrays.stream(Color.values()).forEach(color -> {
+			System.out.println(color.ordinal());
+		});
+		System.out.println(Color.valueOf("RED"));
+
 	}
 }

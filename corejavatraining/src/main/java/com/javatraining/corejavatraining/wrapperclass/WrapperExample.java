@@ -4,7 +4,7 @@ public class WrapperExample {
 	
 	public static void main(String[] args) {
 		// Auto boxing
-		Integer integer = 10;
+		Integer integer = 10; // int
 		System.out.println(integer);
 		Integer integerFromString = Integer.parseInt("10");
 		System.out.println(integerFromString);
