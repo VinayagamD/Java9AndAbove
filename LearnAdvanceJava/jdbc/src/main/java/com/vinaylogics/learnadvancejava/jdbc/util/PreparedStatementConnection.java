@@ -8,7 +8,7 @@ import java.sql.SQLException;
 public class PreparedStatementConnection extends JDBCConnection{
 
     PreparedStatementConnection() {
-        super(ConnectionManager.getInstance("test_data"));
+        super(ConnectionManager.getInstance("test_jdbc"));
     }
 
     @Override

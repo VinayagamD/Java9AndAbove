@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.vinaylogics.learnadvancejava.jdbc.util.CallableConnectionTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-07-06T05:58:40" hostname="DESKTOP-3P18DGO" time="0.706">
+<testsuite name="com.vinaylogics.learnadvancejava.jdbc.util.CallableConnectionTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-08-24T13:41:01" hostname="DESKTOP-3P18DGO" time="0.61">
   <properties/>
-  <testcase name="callSelectStoreProcedure()" classname="com.vinaylogics.learnadvancejava.jdbc.util.CallableConnectionTest" time="0.706"/>
+  <testcase name="callSelectStoreProcedure()" classname="com.vinaylogics.learnadvancejava.jdbc.util.CallableConnectionTest" time="0.61"/>
   <system-out><![CDATA[ | 1 |  | Glimpses of the past | 
 ===================== Record Next ==========================
  | 2 |  | Beyond The Horizons of Venus | 

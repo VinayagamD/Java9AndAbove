@@ -5,7 +5,7 @@ import java.util.concurrent.Executors;
 
 public class StatementConnection extends JDBCConnection{
      StatementConnection() {
-        super(ConnectionManager.getInstance("test_data"));
+        super(ConnectionManager.getInstance("test_jdbc"));
     }
 
     @Override

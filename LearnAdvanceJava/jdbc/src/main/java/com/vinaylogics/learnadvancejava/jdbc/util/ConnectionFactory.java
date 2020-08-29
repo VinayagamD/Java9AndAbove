@@ -16,6 +16,9 @@ public class ConnectionFactory {
 
     public static JDBCConnection createConnection(Type type){
         JDBCConnection connection = null;
+        if(type == null){
+            throw new FactoryException("Type should not be null");
+        }
         switch (type){
             case STATEMENT:
                 connection = new StatementConnection();
