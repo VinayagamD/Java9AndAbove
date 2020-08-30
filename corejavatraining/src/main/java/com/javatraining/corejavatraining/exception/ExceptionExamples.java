@@ -13,7 +13,7 @@ public class ExceptionExamples {
 	 * @param args
 	 * @throws Exception 
 	 */
-	public static void main(String[] args){
+	public static void main(String[] args)  {
 		// TODO Auto-generated method stub
 		try {
 			if(true)
@@ -30,4 +30,10 @@ public class ExceptionExamples {
 
 	}
 
+	public void businessLogic() throws MyException {
+		boolean businessLogicNotMet = true;
+		if(businessLogicNotMet)
+			throw new MyException(102, "They met the business Criteria");
+
+	}
 }

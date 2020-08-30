@@ -14,7 +14,7 @@ public class OperatorsExample {
         System.out.println(4%2);
         System.out.println(3%2);
 
-        System.out.println("================ Increment Example ============================");
+       System.out.println("================ Increment Example ============================");
         int sum = 2;
         int data = sum ++;
         System.out.println(data);

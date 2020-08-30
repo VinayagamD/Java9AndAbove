@@ -32,7 +32,5 @@ public class GCExample {
 		System.out.println("Object Garbage Collected is: "+this);
 		throw new NullPointerException();
 	}
-	
-	
 
 }
