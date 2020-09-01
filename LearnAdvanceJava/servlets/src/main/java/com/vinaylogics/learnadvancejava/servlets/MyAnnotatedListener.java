@@ -2,15 +2,13 @@ package com.vinaylogics.learnadvancejava.servlets;
 
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
-import javax.servlet.http.HttpSessionAttributeListener;
-import javax.servlet.http.HttpSessionEvent;
-import javax.servlet.http.HttpSessionListener;
-import javax.servlet.http.HttpSessionBindingEvent;
+import javax.servlet.annotation.WebListener;
 
-public class MyListener implements ServletContextListener {
+@WebListener()
+public class MyAnnotatedListener implements ServletContextListener {
 
     // Public constructor is required by servlet spec
-    public MyListener() {
+    public MyAnnotatedListener() {
     }
 
     // -------------------------------------------------------
