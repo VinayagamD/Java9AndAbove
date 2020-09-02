@@ -12,7 +12,7 @@ public class UserInputOldStyle {
 		String line;
 		
 		while((line = bufferedReader.readLine()) != null ) {
-			if(line.equals("exit")) {
+			if(line.equals("exit") || line.equals("")) {
 				break;
 			}
 			System.out.println(line);

@@ -9,7 +9,9 @@ public class StringArrayExample {
 		String[] arrays = new String[10];
 		arrays[9] = "Hello";
 //		System.out.println(arrays[-1]);
-		
+		for (int i = 0; i < arrays.length; i++) {
+			System.out.println(arrays[i]);
+		}
 		for (int i = 0; i < arrays.length; i++) {
 			arrays[i] = String.valueOf(i);
 		}
