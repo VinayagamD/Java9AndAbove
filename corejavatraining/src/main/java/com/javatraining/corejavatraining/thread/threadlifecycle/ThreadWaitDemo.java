@@ -61,7 +61,7 @@ public class ThreadWaitDemo {
                 System.out.println("producer thread running");
 
                 // releases the lock on shared resource
-                wait();
+                wait(5);
 
                 // and waits till some other method invokes notify().
                 System.out.println("Resumed");

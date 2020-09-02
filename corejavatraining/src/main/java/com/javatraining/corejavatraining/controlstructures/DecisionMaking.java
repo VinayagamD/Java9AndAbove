@@ -10,7 +10,7 @@ public class DecisionMaking {
     }
 
     private static void checkSwitchCase() {
-        String day = "Festival";
+        String day = "Tue";
         switch (day) {
             case "Mon":
                 System.out.println("Monday");

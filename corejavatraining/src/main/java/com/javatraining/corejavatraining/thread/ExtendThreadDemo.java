@@ -28,9 +28,6 @@ public class ExtendThreadDemo {
 		});
 		
 		threads.forEach(Thread::start);
-		
-		
-
 	}
 
 }
