@@ -16,9 +16,9 @@ public class InstanceByReflections {
 	public static void main(String[] args) {
 		try {
 			Constructor<InstanceByReflections> constructor = InstanceByReflections.class.getDeclaredConstructor();
-			InstanceByReflections rflections = constructor.newInstance();
-			rflections.setName("Train java");
-			System.out.println(rflections.name);
+			InstanceByReflections reflections = constructor.newInstance();
+			reflections.setName("Train java");
+			System.out.println(reflections.name);
 		} catch (NoSuchMethodException | SecurityException | InstantiationException | IllegalAccessException | IllegalArgumentException | InvocationTargetException e) {
 			e.printStackTrace();
 		} 

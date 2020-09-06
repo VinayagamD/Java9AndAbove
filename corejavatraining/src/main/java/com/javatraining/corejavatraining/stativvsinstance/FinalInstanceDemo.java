@@ -9,9 +9,9 @@ public class FinalInstanceDemo {
         staticData = "";
     }
 
-    /*{
-        data = "";
-    }*/
+    {
+//        data = "";
+    }
 
     public FinalInstanceDemo(){
         data = "";

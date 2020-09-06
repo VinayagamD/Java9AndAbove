@@ -17,11 +17,12 @@ import java.io.ObjectOutputStream;
 public class DemoSerializable {
 
 	public static void main(String[] args) {
+		String filename = "file.ser";
 		DemoFilterModel demoModel = new DemoFilterModel();
 		demoModel.setName("Saini");
 		demoModel.setSurname("Supreeth");
 		demoModel.setMessage("Hello Message");
-        String filename = "file.ser"; 
+
 
         //Saving of object in a file 
       
@@ -37,7 +38,7 @@ public class DemoSerializable {
 		} catch (IOException e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
-		} 
+		}
 		
 		DemoFilterModel dDemoModel = null;
 		try(FileInputStream fileIn = new FileInputStream(filename);
@@ -58,10 +59,6 @@ public class DemoSerializable {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
-        
-          
-
 	}
 
 }

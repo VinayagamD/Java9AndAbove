@@ -23,7 +23,6 @@ public class InputStreamHttpMethod {
                 .url("https://jsonplaceholder.typicode.com/posts")
                 .method("GET", null)
                 .build();
-        File file = new File("data.json");
 
             client.newCall(request).enqueue(new Callback() {
                 @Override

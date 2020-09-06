@@ -2,12 +2,16 @@ package com.javatraining.corejavatraining.oops.inherintance;
 
 public class BaseRoot {
 
-    public void classRootMethod(){
+    protected void classRootMethod(){
         System.out.println("Class Root Method");
     }
 
     public static void staticMethod(){
         System.out.println("This Static Method");
+    }
+
+    void defaultMethod(){
+        System.out.println("This is default method");
     }
 
     public static void staticMethod(int a){

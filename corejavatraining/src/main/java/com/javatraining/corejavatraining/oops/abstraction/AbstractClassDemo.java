@@ -62,7 +62,7 @@ public class AbstractClassDemo {
 
     @FunctionalInterface
     public  interface MyInterface {
-        void callMethod();
+         void callMethod();
 
         // Java 8 onwards
        /* default void internalCall(){
@@ -77,5 +77,6 @@ public class AbstractClassDemo {
     public interface MyInterface2{
         // 100 % abstraction - Java 7
         void concreteMethod();
+        void method2();
     }
 }

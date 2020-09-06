@@ -7,7 +7,7 @@ package com.javatraining.corejavatraining.instancedemo;
  * @author vinay
  *
  */
-public class InstnaceByNewInstance {
+public class InstanceByNewInstance {
 	
 	String name ;
 
@@ -17,8 +17,8 @@ public class InstnaceByNewInstance {
 	public static void main(String[] args) {
 		
 		try {
-			Class cls = Class.forName("com.javatraining.corejavatraining.instancedemo.InstnaceByNewInstance");
-			InstnaceByNewInstance incByNI = (InstnaceByNewInstance) cls.newInstance();
+			Class cls = Class.forName("com.javatraining.corejavatraining.instancedemo.InstanceByNewInstance");
+			InstanceByNewInstance incByNI = (InstanceByNewInstance) cls.newInstance();
 			incByNI.name = "Test By Class.forName";
 			System.out.println(incByNI.name);
 		} catch (ClassNotFoundException | InstantiationException | IllegalAccessException e) {

@@ -30,23 +30,40 @@ public class LinkendListExample {
 		System.out.println(datas.poll());
 		System.out.println(datas);
 		datas.addFirst("OneFirst");
+
+		System.out.println();
+		System.out.println("========================= Descending Iterator ==============");
 		Iterator<String> dataIterator = datas.descendingIterator();
 		while(dataIterator.hasNext()) {
 			System.out.println(dataIterator.next());
 			
 		}
-		
+
+		System.out.println();
+		System.out.println("============================ Ascending Iterator ==================");
 		dataIterator = datas.iterator();
 		
 		while(dataIterator.hasNext()) {
 			System.out.println(dataIterator.next());
 		}
+		System.out.println();
+
 		datas.forEach(System.out::println);
 
+
+		System.out.println("=========== Java 8 ==========================");
+		System.out.println("MAP");
 		System.out.println(datas.stream().mapToInt(s -> s.length()).sum());
+		System.out.println("========= Filtered Map =================");
 		System.out.println(datas.stream().filter(s -> s.length() > 6).mapToInt(s -> s.length()).sum());
+
+		System.out.println();
 		datas.stream().map(s -> s.toUpperCase()).collect(Collectors.toList()).forEach(System.out::println);
+
+		System.out.println();
 		datas.stream().map(String::toLowerCase).collect(Collectors.toList()).forEach(System.out::println);
+
+		System.out.println();
 		System.out.println(datas.stream().collect(Collectors.groupingBy(s-> s)));
 
 	}

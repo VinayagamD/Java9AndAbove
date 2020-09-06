@@ -5,7 +5,7 @@ public class InnerClassExample {
     private String namePrivate = "namePrivate";
     String nameDefault = "nameDefault";
     private static String nameStaticPrivate = "nameStaticPrivate";
-     static String nameStaticDefault = "nameStaticDefault";
+    static String nameStaticDefault = "nameStaticDefault";
 
     public static void main(String[] args) {
         NonStaticInnerClass nonStaticInnerClass = new InnerClassExample().new NonStaticInnerClass();
@@ -14,6 +14,7 @@ public class InnerClassExample {
         staticInnerClass.callStaticInnerClassMethod();
         MethodLocalRunner localRunner = new MethodLocalRunner();
         localRunner.callMethodLocalRunner();
+        methodAnon(() -> System.out.println("Test Method"));
 
     }
 
@@ -35,8 +36,6 @@ public class InnerClassExample {
     }
 
     private static class StaticInnerClass {
-
-
 
         private String namePrivateLocalStatic = "namePrivateLocalStatic";
         String nameDefaultStatic = "nameDefaultStatic";
@@ -70,6 +69,14 @@ public class InnerClassExample {
             InnerLocalMethod  localMethod = new InnerLocalMethod();
             localMethod.callInnerLocalMethod();
         }
+    }
+
+    public interface CallbackAnon {
+        void callAnon();
+    }
+
+    public static void methodAnon(CallbackAnon callbackAnon){
+        callbackAnon.callAnon();
     }
 
 

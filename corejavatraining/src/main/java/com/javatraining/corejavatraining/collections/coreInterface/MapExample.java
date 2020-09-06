@@ -15,10 +15,7 @@ public class MapExample {
 		maps.put("Four", null);
 		System.out.println(maps);
 		System.out.println("Entry Set =================>");
-		maps.entrySet().forEach(entry -> {
-			System.out.println(entry.getKey() + " => " +entry.getValue());
-			
-		});
+		maps.forEach((key, value) -> System.out.println(key + " => " + value));
 		maps.keySet().forEach(System.out::println);
 		maps.values().forEach(System.out::println);
 

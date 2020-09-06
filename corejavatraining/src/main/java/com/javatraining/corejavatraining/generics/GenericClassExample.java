@@ -9,11 +9,12 @@ public class GenericClassExample {
 		 String test =  genericClass.getT();
 		 System.out.println(test);
 		 System.out.println(test);
-		 ArrayList<String> genralList = new ArrayList<>();
-		 genralList.add("Hello");
-//		 genralList.add(10);
-		 System.out.println((String)genralList.get(0));
-//		 System.out.println((String)genralList.get(1));
+		 ArrayList<String> generalList = new ArrayList<>();
+
+		 generalList.add("Hello");
+//		 generalList.add(10);
+		 System.out.println((String)generalList.get(0));
+//		 System.out.println((String)genrallist.get(1));
 	}
 
 }
