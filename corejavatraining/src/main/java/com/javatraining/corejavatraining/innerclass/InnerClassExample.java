@@ -71,6 +71,7 @@ public class InnerClassExample {
         }
     }
 
+    @FunctionalInterface
     public interface CallbackAnon {
         void callAnon();
     }
