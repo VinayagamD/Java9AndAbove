@@ -1,0 +1,2 @@
+1) Practise different levels of import
+2) Try to override all the explained method of objects and observer for each

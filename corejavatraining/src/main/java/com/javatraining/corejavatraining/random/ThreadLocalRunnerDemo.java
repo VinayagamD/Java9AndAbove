@@ -1,0 +1,16 @@
+package com.javatraining.corejavatraining.random;
+
+import java.util.concurrent.ThreadLocalRandom;
+
+public class ThreadLocalRunnerDemo {
+
+    public static void main(String[] args) {
+        System.out.println(ThreadLocalRandom
+                .current()
+                .ints(1, 10000)
+                .findAny()
+                .orElse(1));
+        System.out.println(ThreadLocalRandom.current().nextInt());
+        System.out.println(ThreadLocalRandom.current().nextInt(1000));
+    }
+}
