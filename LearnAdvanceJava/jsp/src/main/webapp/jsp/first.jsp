@@ -1,11 +1,12 @@
-<%@ page import="java.io.PrintWriter, java.util.Date,com.vinaylogics.learnadvancejava.jsp.dto.Person  " %><%--
+<%@ page import="java.io.PrintWriter, java.util.Date,com.vinaylogics.learnadvancejava.jsp.dto.Person  " %>
+<%--
   Created by IntelliJ IDEA.
   User: vinay
   Date: 07/09/2020
   Time: 10:44
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" isELIgnored="false" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" isELIgnored="false"  %>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="mytag" uri="/WEB-INF/mytag.tld" %>
 <%@ taglib prefix="tagfile" tagdir="/WEB-INF/tags/" %>
@@ -39,21 +40,29 @@ Page Count <% out.println(++count);%>
         throw  new Exception("Purpose full Exception");
     }
 %>
+<%--<% try { %>--%>
 <%
     out.println(getMessage()+"<br/>");
     out.println(person.getFirstName()+"<br/>");
     out.println(person.getLastName()+"<br/>");
-//    getException();
+// getException();
 %>
+<p>Here Exception Handling</p>
+<%--<%
+} catch (Exception e){
+    e.printStackTrace();
+}
+%>--%>
 <ul>
 
 <%
     for (int i = 0; i < 10; i++) {
 %>
    <li>
-       <%
+      <%-- <%
            out.println(i);
-       %>
+       %>--%>
+       <%=i%>
    </li>
 <%
     }
@@ -91,6 +100,7 @@ Page Count <% out.println(++count);%>
 
 <p>${cookie}</p>
 <p>${2 * 2}</p>
+<p>${personBean}</p>
 <%--<jsp:forward page="/forward"/>--%>
 <mytag:count_matches inputString="test1" lookupString="test1"/>
 <mytag:count_matches inputString="test1" lookupString="test123"/>

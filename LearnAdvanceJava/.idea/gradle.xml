@@ -10,6 +10,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/AdvancedMultiThreading" />
             <option value="$PROJECT_DIR$/ConcurrentCollections" />
             <option value="$PROJECT_DIR$/javamaildemo" />
             <option value="$PROJECT_DIR$/jdbc" />
@@ -18,7 +19,6 @@
             <option value="$PROJECT_DIR$/servlets" />
           </set>
         </option>
-        <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
     </option>
   </component>
