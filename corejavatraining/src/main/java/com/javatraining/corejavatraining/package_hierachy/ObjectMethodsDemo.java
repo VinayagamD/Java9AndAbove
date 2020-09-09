@@ -4,7 +4,6 @@ public class ObjectMethodsDemo {
 
 	@Override
 	public int hashCode() {
-		
 		return 64;
 	}
 
@@ -17,8 +16,7 @@ public class ObjectMethodsDemo {
 	public String toString() {
 		return String.valueOf(hashCode());
 	}
-	
-	
+
 	public static void main(String[] args) {
 		ObjectMethodsDemo omd = new ObjectMethodsDemo();
 		ObjectMethodsDemo omd1 = new ObjectMethodsDemo();
@@ -30,8 +28,6 @@ public class ObjectMethodsDemo {
 		System.out.println(omd.getClass().getCanonicalName());
 		System.out.println(omd.getClass().getName());
 		System.out.println(omd.getClass().getAnnotatedSuperclass());
-		
 	}
-	
 
 }
