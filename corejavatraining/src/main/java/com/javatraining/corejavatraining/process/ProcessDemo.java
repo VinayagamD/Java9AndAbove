@@ -12,7 +12,7 @@ public class ProcessDemo {
         list.add("abc.txt");
           
         // create the process 
-//        ProcessBuilder build = new ProcessBuilder(list); 
+        // ProcessBuilder build = new ProcessBuilder(list);
         ProcessBuilder build = new ProcessBuilder("notepad.exe", "abc.txt"); 
           
         // checking the command i list 

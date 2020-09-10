@@ -14,7 +14,6 @@ public class EnumDemo {
 			break;
 		case YELLOW:
 			System.out.println("Choose Yellow");
-
 			break;
 		default:
 			System.out.println("Choose Pink");
@@ -29,6 +28,9 @@ public class EnumDemo {
 		Arrays.stream(Color.values()).forEach(System.out::println);
 		Arrays.stream(Color.values()).forEach(color -> {
 			System.out.println(color.ordinal());
+		});
+		Arrays.stream(Color.values()).forEach(color -> {
+			System.out.println(color.name());
 		});
 		System.out.println(Color.valueOf("RED"));
 

@@ -18,10 +18,10 @@ public class ProcesExecuteCommand {
         // creating the process 
         ProcessBuilder pb = new ProcessBuilder(commands); 
           
-        // startinf the process 
+        // starting the process
         Process process = pb.start(); 
           
-        // for reading the ouput from stream 
+        // for reading the output from stream
         BufferedReader stdInput = new BufferedReader(new
          InputStreamReader(process.getInputStream())); 
         String s = null; 
