@@ -5,6 +5,7 @@ public class ThreadsExtendsThread {
     public static void main(String[] args) {
         MyThread myThread = new MyThread();
         myThread.start();
+//        myThread.run();
     }
 
     public static class MyThread extends Thread {
@@ -13,6 +14,7 @@ public class ThreadsExtendsThread {
         public void run() {
             super.run();
             System.out.println("Inside RunMethod Of My Thread");
+            System.out.println(Thread.currentThread().getName());
         }
     }
 }

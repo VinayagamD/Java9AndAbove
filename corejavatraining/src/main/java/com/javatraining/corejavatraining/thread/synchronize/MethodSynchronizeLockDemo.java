@@ -17,7 +17,7 @@ public class MethodSynchronizeLockDemo {
         train2.start();
     }
 
-    public static class Line {
+    public  static class Line {
 
         // if multiple threads(trains) will try to
         // access this unsynchronized method,

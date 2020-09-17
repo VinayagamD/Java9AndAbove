@@ -19,9 +19,9 @@ public class NeedForSynchronizeWithOutLockThreadDemo {
     }
 
     public static class  MultiThread {
-        private AtomicInteger i = new AtomicInteger(0);
+        private final AtomicInteger i = new AtomicInteger(0);
 
-        public  void increment(){
+        public  synchronized void increment(){
             i.incrementAndGet();
         }
 
@@ -39,10 +39,8 @@ public class NeedForSynchronizeWithOutLockThreadDemo {
 
         @Override
         public void run() {
-
-                multiThread.increment();
-                System.out.println(multiThread.getValue());
-
+            multiThread.increment();
+            System.out.println(multiThread.getValue());
         }
     }
 }

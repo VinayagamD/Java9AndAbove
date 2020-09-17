@@ -11,20 +11,33 @@ import java.net.URLConnection;
 
 public class InputStreamHttpMethod {
 
-    public static void main(String[] args) throws MalformedURLException {
+    public static void main(String[] args) throws IOException {
 //        getUsingHttpUrlConnection();
         getDataFromOkHttpBuilder();
     }
 
-    private static void getDataFromOkHttpBuilder() {
+    private static void getDataFromOkHttpBuilder() throws IOException {
         OkHttpClient client = new OkHttpClient().newBuilder()
                 .build();
         Request request = new Request.Builder()
                 .url("https://jsonplaceholder.typicode.com/posts")
                 .method("GET", null)
                 .build();
+         Call call    =client.newCall(request);
+         Response response = call.execute();
+        if(response.isSuccessful()){
+            File file = new File("data.json");
+            if(!file.exists())
+                file.createNewFile();
+            try(FileOutputStream fos = new FileOutputStream("data.json");) {
+                fos.write(response.body().bytes());
+            }catch (Exception e){
+                e.printStackTrace();
+            }
 
-            client.newCall(request).enqueue(new Callback() {
+
+        }
+            /*client.newCall(request).enqueue(new Callback() {
                 @Override
                 public void onFailure(@NotNull Call call, @NotNull IOException e) {
 
@@ -33,14 +46,21 @@ public class InputStreamHttpMethod {
                 @Override
                 public void onResponse(@NotNull Call call, @NotNull Response response) throws IOException {
                     if(response.isSuccessful()){
-                        FileOutputStream fos = new FileOutputStream("data.json");
-                        fos.write(response.body().bytes());
-                        fos.close();
+                        File file = new File("data.json");
+                        if(!file.exists())
+                            file.createNewFile();
+                        try(FileOutputStream fos = new FileOutputStream("data.json");) {
+                            fos.write(response.body().bytes());
+                        }catch (Exception e){
+                            e.printStackTrace();
+                        }
+
+
                     }
 
                 }
             });
-
+*/
     }
 
     private static void getUsingHttpUrlConnection() throws MalformedURLException {
