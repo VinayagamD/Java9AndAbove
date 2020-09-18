@@ -17,7 +17,7 @@ public class AbstractClassDemo {
     }
 
     public static abstract class MyAbstractClass {
-
+        // 50% abstract
         public abstract void abstractMethodCall();
 
         public void concreteMethodCall(){
@@ -41,6 +41,7 @@ public class AbstractClassDemo {
 
         // java 8
         MyInterface myInterface1 = () -> {};
+        Runnable runnable = () -> {};
 
         MyAbstractClass myAbstractClass2 = new SubAbstractClass();
 
@@ -58,6 +59,10 @@ public class AbstractClassDemo {
         public void callMethod() {
             System.out.println("Object created interface method call");
         }
+    }
+
+    public interface MyMarker{
+        // Identifying for some implementation
     }
 
     @FunctionalInterface
