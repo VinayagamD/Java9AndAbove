@@ -13,7 +13,7 @@ public class ExceptionExamples {
 	 * @param args
 	 * @throws Exception 
 	 */
-	public static void main(String[] args)  {
+	public static void main(String[] args) throws Throwable {
 		// TODO Auto-generated method stub
 		try {
 			if(true)

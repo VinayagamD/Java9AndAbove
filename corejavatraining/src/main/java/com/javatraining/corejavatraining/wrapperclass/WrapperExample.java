@@ -14,8 +14,8 @@ public class WrapperExample {
 		System.out.println(int1);
 		System.out.println(int2);
 //		Compilation Error This case not possible
-//		Integer errorInt = 10;
-		
+//		Integer errorInt = 10L;
+//		Long longData = 10;
 	}
 
 }
