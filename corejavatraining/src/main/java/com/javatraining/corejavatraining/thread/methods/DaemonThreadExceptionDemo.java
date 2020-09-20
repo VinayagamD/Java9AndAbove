@@ -14,7 +14,7 @@ public class DaemonThreadExceptionDemo extends Thread{
         t1.start();
 
         // Exception as the thread is already started
-        t1.setDaemon(true);
+        // t1.setDaemon(true);
 
         t2.start();
     }
