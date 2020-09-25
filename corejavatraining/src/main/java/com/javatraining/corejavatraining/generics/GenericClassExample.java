@@ -1,6 +1,7 @@
 package com.javatraining.corejavatraining.generics;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class GenericClassExample {
 	
@@ -14,7 +15,7 @@ public class GenericClassExample {
 		 generalList.add("Hello");
 //		 generalList.add(10);
 		 System.out.println((String)generalList.get(0));
-//		 System.out.println((String)genrallist.get(1));
+//		 System.out.println((Integer) generalList.get(0));
 	}
 
 }

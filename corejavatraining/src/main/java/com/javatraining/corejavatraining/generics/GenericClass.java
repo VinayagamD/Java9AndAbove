@@ -4,6 +4,9 @@ public class GenericClass<T> {
 	
 	private T t;
 
+	public GenericClass() {
+	}
+
 	public GenericClass(T t) {
 		this.t = t;
 	}

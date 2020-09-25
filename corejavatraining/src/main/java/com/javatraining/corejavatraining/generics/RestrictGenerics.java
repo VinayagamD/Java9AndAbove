@@ -10,5 +10,6 @@ public class RestrictGenerics<T extends Number> {
 
     public static void main(String[] args) {
         RestrictGenerics<?> restrictGenerics = new RestrictGenerics<>(new SampleNumber());
+//        RestrictGenerics<?> restrictGenerics2 = new RestrictGenerics<Test>(new Test());
     }
 }
