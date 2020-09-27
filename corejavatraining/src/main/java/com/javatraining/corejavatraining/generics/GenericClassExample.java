@@ -10,6 +10,7 @@ public class GenericClassExample {
 		 String test =  genericClass.getT();
 		 System.out.println(test);
 		 System.out.println(test);
+//		 ArrayList generalList = new ArrayList();
 		 ArrayList<String> generalList = new ArrayList<>();
 
 		 generalList.add("Hello");

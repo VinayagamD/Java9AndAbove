@@ -11,8 +11,8 @@ public class TreeMapExample {
 		maps.put("One", 2);
 		maps.put("two", 1);
 		maps.put("Three", 2);
-		maps.put(null, 2);
-		maps.put(null, null);
+//		maps.put(null, 2);
+//		maps.put(null, null);
 		maps.put("Four", null);
 		System.out.println(maps);
 		System.out.println("Entry Set =================>");
@@ -23,7 +23,7 @@ public class TreeMapExample {
 		maps.keySet().forEach(System.out::println);
 		maps.values().forEach(System.out::println);
 
-		System.out.println(maps.containsKey(null));
+//		System.out.println(maps.containsKey(null));
 		System.out.println(maps.containsKey("NoKey"));
 		System.out.println(maps.keySet());
 		System.out.println(maps.values());

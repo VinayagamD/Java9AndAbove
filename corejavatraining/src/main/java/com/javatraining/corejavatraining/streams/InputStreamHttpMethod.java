@@ -1,19 +1,18 @@
 package com.javatraining.corejavatraining.streams;
 
 import okhttp3.*;
-import org.jetbrains.annotations.NotNull;
 
 import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.net.URLConnection;
 
 public class InputStreamHttpMethod {
 
     public static void main(String[] args) throws IOException {
+        getUsingHttpUrlConnectionForHtml();
 //        getUsingHttpUrlConnection();
-        getDataFromOkHttpBuilder();
+//        getDataFromOkHttpBuilder();
     }
 
     private static void getDataFromOkHttpBuilder() throws IOException {
@@ -65,6 +64,15 @@ public class InputStreamHttpMethod {
 
     private static void getUsingHttpUrlConnection() throws MalformedURLException {
         URL url = new URL("https://jsonplaceholder.typicode.com/posts");
+        processRequest(url);
+    }
+
+    private static void getUsingHttpUrlConnectionForHtml() throws MalformedURLException {
+        URL url = new URL("https://jsonplaceholder.typicode.com/");
+        processRequest(url);
+    }
+
+    private static void processRequest(URL url) {
         HttpURLConnection connection = null;
         try{
              connection = (HttpURLConnection) url.openConnection();
