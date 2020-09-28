@@ -21,5 +21,13 @@ public class LiteralsDemo {
         System.out.println(e);
         System.out.println(f);
         System.out.println(message);
+
+        int hex = 0xFFEE;
+        int octa = 0170;
+        int bin = 0b10101010;
+        System.out.println(hex);
+        System.out.println(octa);
+        System.out.println(bin);
+
     }
 }
