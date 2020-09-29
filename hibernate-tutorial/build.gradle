@@ -1,0 +1,40 @@
+group 'org.vinaylogics'
+version '1.0-SNAPSHOT'
+
+allprojects {
+
+    apply  plugin: 'java'
+
+    repositories {
+        mavenCentral()
+        jcenter()
+        google()
+    }
+
+}
+
+subprojects {
+
+    repositories {
+        mavenCentral()
+        jcenter()
+        google()
+    }
+    dependencies {
+        // https://mvnrepository.com/artifact/org.hibernate/hibernate-core
+        implementation group: 'org.hibernate', name: 'hibernate-core', version: '5.4.21.Final'
+        // https://mvnrepository.com/artifact/mysql/mysql-connector-java
+        implementation group: 'mysql', name: 'mysql-connector-java', version: '8.0.20'
+        // https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api
+        testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: '5.7.0'
+        // https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine
+        testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter-engine', version: '5.7.0'
+        // https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-params
+        testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter-params', version: '5.7.0'
+
+    }
+
+    test {
+        useJUnitPlatform()
+    }
+}
