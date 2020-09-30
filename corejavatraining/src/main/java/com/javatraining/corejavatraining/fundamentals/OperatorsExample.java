@@ -14,7 +14,7 @@ public class OperatorsExample {
         System.out.println(4%2);
         System.out.println(3%2);
 
-       System.out.println("================ Increment Example ============================");
+      System.out.println("================ Increment Example ============================");
         int sum = 2;
         int data = sum ++;
         System.out.println(data);
@@ -23,7 +23,7 @@ public class OperatorsExample {
         System.out.println(data);
         System.out.println(sum);
 
-         System.out.println("====================== Relational Operator ============================");
+       System.out.println("====================== Relational Operator ============================");
 //        Relational Operator
         System.out.println(1 == 1);
         System.out.println(1 != 1);
@@ -34,7 +34,7 @@ public class OperatorsExample {
         System.out.println(1 < 1);
         System.out.println(1 >= 1);
         System.out.println(1 >= 2);
-       System.out.println("====================== Logical Operator ============================");
+      System.out.println("====================== Logical Operator ============================");
 //        Logical Operator
        System.out.println(true && true);
        System.out.println(true && false);

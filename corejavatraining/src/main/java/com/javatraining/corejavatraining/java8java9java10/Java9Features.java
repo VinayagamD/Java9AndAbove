@@ -19,7 +19,7 @@ public class Java9Features {
         }
 
         Files.lines(new File(java9Features.getClass().getClassLoader().getResource("message.txt").getFile()).toPath())
-                .map(s -> s.trim())
+                .map(String::trim)
                 .filter(s -> !s.isEmpty())
                 .forEach(System.out::println);
     }

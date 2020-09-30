@@ -69,7 +69,10 @@ public class Java8Demo {
         }
 
        // Declarative style
-        IntStream.rangeClosed(1,10).filter(i -> i%2 != 0).forEach(System.out::println);
+        IntStream.rangeClosed(1,10).filter(i -> i%2 != 0).forEach(System.out::print);
+        System.out.println();
+        IntStream.rangeClosed(1,10).filter(i -> i%2 != 0).forEach(i -> System.out.print(i+"\t"));
+        System.out.println();
         System.out.println(IntStream.rangeClosed(1,10).map(i -> i*2).sum());
         System.out.println(IntStream.rangeClosed(1,10).filter(i -> i == 5).findAny().orElse(0));
         System.out.println(IntStream.rangeClosed(1,4).filter(i -> i == 5).findAny().orElse(0));
