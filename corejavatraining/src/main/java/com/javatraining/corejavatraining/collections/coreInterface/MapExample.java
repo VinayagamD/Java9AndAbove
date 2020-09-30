@@ -24,7 +24,6 @@ public class MapExample {
 		System.out.println(maps.get(null));
 		System.out.println(maps.keySet());
 		System.out.println(maps.values());
-		
 	}
 
 }

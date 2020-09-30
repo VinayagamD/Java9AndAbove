@@ -18,20 +18,19 @@ public class SimpleList implements Iterable<DemoData> {
 
 	@Override
 	public Iterator<DemoData> iterator() {
-		Iterator<DemoData> demoIt = new Iterator<DemoData>() {
+		Iterator<DemoData> demoIt = new Iterator<>() {
 			private int currentIndex = 0;
 
 			@Override
 			public boolean hasNext() {
 				return currentIndex < currentSize && arrayList[currentIndex] != null;
-
 			}
 
 			@Override
 			public DemoData next() {
 				return arrayList[currentIndex++];
 			}
-			
+
 		};
 		
 		return demoIt;

@@ -34,19 +34,19 @@ public class OperatorsExample {
         System.out.println(1 < 1);
         System.out.println(1 >= 1);
         System.out.println(1 >= 2);
-        System.out.println("====================== Logical Operator ============================");
+       System.out.println("====================== Logical Operator ============================");
 //        Logical Operator
        System.out.println(true && true);
-        System.out.println(true && false);
-        System.out.println(false && true);
-        System.out.println(false && false);
-        System.out.println(true || true);
-        System.out.println(true || false);
-        System.out.println(false || true);
-        System.out.println(false || false);
-        System.out.println(!true);
-        System.out.println(!false);
-        System.out.println("====================== Bitwise Operator ============================");
+       System.out.println(true && false);
+       System.out.println(false && true);
+       System.out.println(false && false);
+       System.out.println(true || true);
+       System.out.println(true || false);
+       System.out.println(false || true);
+       System.out.println(false || false);
+       System.out.println(!true);
+       System.out.println(!false);
+       System.out.println("====================== Bitwise Operator ============================");
 //        Bitwise Operator
         System.out.println(2&6);
         System.out.println(2|4);

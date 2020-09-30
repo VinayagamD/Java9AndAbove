@@ -17,6 +17,8 @@ public class DecisionMaking {
                 break;
             case "Tue":
                 System.out.println("Tue");
+            case  "Tuesday":
+                System.out.println("Tuesday");
                 break;
             case "Wed":
                 System.out.println("Wednesday");
@@ -42,6 +44,8 @@ public class DecisionMaking {
         int a = 10;
         if (a < 5) {
             System.out.println("A is less than 5");
+        }else if(a == 5){
+            System.out.println("a is equal to 5");
         } else if (a > 5 && a < 10) {
             System.out.println("A is greater than 5 and less than 10");
         } else if(a==10) {
@@ -67,5 +71,10 @@ public class DecisionMaking {
         if (false) {
             System.out.println("Never executed block");
         }
+
+        if (true) /*{*/
+            System.out.println("Single Statement");
+           /* System.out.println("This statement will execute since it is not under control structure");
+        }*/
     }
 }

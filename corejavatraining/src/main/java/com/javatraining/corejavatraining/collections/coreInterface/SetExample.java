@@ -12,5 +12,7 @@ public class SetExample {
 		Set<String> setData = new HashSet<>(listData);
 		System.out.println(listData);
 		System.out.println(setData);
+		setData.remove("Two");
+		System.out.println(setData);
 	}
 }

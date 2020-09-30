@@ -43,9 +43,5 @@ public class DataTypeExample {
 
         // Array
         int[] intArray = new int[10];
-
-
-
     }
-
 }

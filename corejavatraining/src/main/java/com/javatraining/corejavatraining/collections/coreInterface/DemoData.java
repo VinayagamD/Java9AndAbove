@@ -7,14 +7,11 @@ public class DemoData implements Serializable{
 	private static final long serialVersionUID = 6555261605080120203L;
 	
 	private String name;
-	
-	
 
 	public DemoData(String name) {
 		super();
 		this.name = name;
 	}
-
 
 	/**
 	 * @return the name
@@ -29,8 +26,5 @@ public class DemoData implements Serializable{
 	public void setName(String name) {
 		this.name = name;
 	}
-	
-	
-	
 
 }

@@ -5,6 +5,7 @@ package com.javatraining.corejavatraining.collections.coreInterface;
 
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.Iterator;
 import java.util.List;
 
 /**
@@ -18,6 +19,11 @@ public class DemoCustomIterator {
 		DemoData[] demoArrays = demos.toArray(new DemoData[demos.size()]);
 		SimpleList simpleList = new SimpleList(demoArrays);
 		for(DemoData demoData: simpleList) {
+			System.out.println(demoData.getName());
+		}
+
+		for (Iterator<DemoData> simpleList1 = simpleList.iterator(); simpleList1.hasNext();){
+			DemoData demoData = simpleList1.next();
 			System.out.println(demoData.getName());
 		}
 	}

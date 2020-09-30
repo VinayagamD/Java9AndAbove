@@ -22,7 +22,5 @@ public class ComparatorDemo {
         System.out.println("list of books after sorting: " + listOfBooks);
         listOfBooks.sort(byPrice);
         System.out.println("list of books after sorting: " + listOfBooks);
-
-
     }
 }

@@ -33,7 +33,7 @@ public class ListExample {
         System.out.println(datas.remove("Five"));
         System.out.println(datas.remove("Five"));
         System.out.println(datas.indexOf("Five"));
-       /* datas = datas.subList(1,2);
+        /*datas = datas.subList(1,2);
         System.out.println(datas);*/
         Collections.sort(datas, Collections.reverseOrder());
         System.out.println(datas);

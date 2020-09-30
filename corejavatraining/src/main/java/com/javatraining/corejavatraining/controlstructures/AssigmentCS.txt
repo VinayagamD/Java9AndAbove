@@ -1,7 +1,7 @@
 Decision making
 
 1) Check Given Number is even or odd
-2) Check String is palindrome
+2) Check String is palindrome. Eg "MALAYALAM" , "MOM", "DAD" , "TELUGU", "TAMIL", "SUBJECT"
 3) Check whether year is leap year or not
 5) Check given number is armstrong number or not
 6) Print message based on input days
@@ -34,13 +34,13 @@ Iterating
   4 3 2 1 2 3 4
 5 4 3 2 1 2 3 4 5
 
-            *
-          * * *
-        * * * * *
-      * * * * * * *
-        * * * * *
-          * * *
-            *
+       *
+     * * *
+   * * * * *
+ * * * * * * *
+   * * * * *
+     * * *
+       *
 *
   *
     *
