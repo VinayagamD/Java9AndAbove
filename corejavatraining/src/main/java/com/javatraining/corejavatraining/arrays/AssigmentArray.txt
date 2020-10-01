@@ -3,3 +3,8 @@
 2. From tsv file shown in multidimensional example generate the tsv and read the value from the tsv file to
 multidimensional array and print the values
 
+3. Implement Matrix Multiplication
+
+4. Implement Matrix Addition and Subtraction
+
+5. Implement Transpose Matrix

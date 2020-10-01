@@ -29,7 +29,7 @@ public class StringArrayExample {
 		}
 		System.out.println("================= Clone End ===================");
 		System.out.println("Copied "+arrays2.length);
-
+// 		arrays2 = new String[arrays2.length*2];
 		arrays2 = Arrays.copyOf(arrays2, arrays2.length *2);
 		System.out.println("Copied Increased length"+arrays2.length);
 
@@ -39,15 +39,16 @@ public class StringArrayExample {
 		}
 		System.out.println("================= Clone End ===================");
 
+		System.out.println("Java 8");
 		Arrays.asList(arrays).forEach(System.out::println);
 
 		varargs(  1,2, 3,4,5,6,7,8,9, 10);
+		varargs();
 		Scanner scanner = new Scanner(System.in);
-		while(scanner.hasNext()) {
+		while(scanner.hasNextLine()) {
 			if(scanner.nextLine().equals("q")) {
 				break;
 			}
-			
 		}
 		
 	}
@@ -57,6 +58,7 @@ public class StringArrayExample {
 			System.out.println(variant[i]);
 		}
 	}
+//	public static void varargsCondition(String a,int... variant){}
 
 
 	/*public static  void varargs(int i1, int i2, int i3) {
