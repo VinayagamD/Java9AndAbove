@@ -30,27 +30,6 @@ public class MultiDimensionArrayExample {
             }
             System.out.println();
         }
-       /* Arrays.asList(image).forEach(rows -> {
-            Collections.singletonList(rows).forEach(row->{
-                Collections.singletonList(row).forEach(cols->{
-                    Collections.singletonList(cols).forEach(col->{
-                        try {
-                            System.out.println(col);
-                            writer.append(String.valueOf(col)).append("\t");
-                        } catch (IOException e) {
-                            e.printStackTrace();
-                        }
-                    });
-                    try {
-                        writer.append("\n");
-                    } catch (IOException e) {
-                        e.printStackTrace();
-                    }
-                });
-
-            });
-
-        });*/
 
         for (int row = 0; row <255; row++) {
             System.out.println("Row : "+row+" ====================");
