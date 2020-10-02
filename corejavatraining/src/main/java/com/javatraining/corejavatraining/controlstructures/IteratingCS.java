@@ -5,36 +5,36 @@ public class IteratingCS {
     public static void main(String[] args) {
         System.out.println("======================== For Loop ===========================");
         checkForLoop();
-       System.out.println("====================While Loop=====================");
+        System.out.println("====================While Loop=====================");
         checkForWhileLoop();
-      System.out.println("====================do While Loop=====================");
+        System.out.println("====================do While Loop=====================");
         checkDoWhileLoop();
     }
 
     private static void checkDoWhileLoop() {
         boolean queueAvailable = true;
         int i = 0;
-        do{
+        do {
             System.out.println(i);
-            if( ++i > 10){
+            if (++i > 10) {
                 queueAvailable = false;
             }
-        }while (queueAvailable);
+        } while (queueAvailable);
     }
 
     private static void checkForWhileLoop() {
         boolean queueAvailable = true;
         int i = 0;
-        while (queueAvailable){
+        while (queueAvailable) {
             System.out.println(i);
-            if( ++i > 10){
+            if (++i > 10) {
                 queueAvailable = false;
             }
         }
     }
 
     private static void checkForLoop() {
-        for (int i = 1; i <= 10;i++){
+        for (int i = 1; i <= 10; i++) {
             System.out.println(i);
         }
     }
