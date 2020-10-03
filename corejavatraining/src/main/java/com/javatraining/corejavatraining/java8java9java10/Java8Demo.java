@@ -76,7 +76,5 @@ public class Java8Demo {
         System.out.println(IntStream.rangeClosed(1,10).map(i -> i*2).sum());
         System.out.println(IntStream.rangeClosed(1,10).filter(i -> i == 5).findAny().orElse(0));
         System.out.println(IntStream.rangeClosed(1,4).filter(i -> i == 5).findAny().orElse(0));
-
-
     }
 }

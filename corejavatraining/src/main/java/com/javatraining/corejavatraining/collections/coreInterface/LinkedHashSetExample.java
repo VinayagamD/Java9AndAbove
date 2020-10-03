@@ -9,7 +9,7 @@ public class LinkedHashSetExample {
 		LinkedHashSet<String> setData = new LinkedHashSet<>(listData);
 		System.out.println(listData);
 		System.out.println(setData);
-//		TreeSet<String> treeSet = new TreeSet<>(listData);
-//		System.out.println(treeSet);
+		/*TreeSet<String> treeSet = new TreeSet<>(listData);
+		System.out.println(treeSet);*/
 	}
 }

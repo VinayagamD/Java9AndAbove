@@ -22,6 +22,8 @@ public class LinkendListExample {
 		System.out.println(datas);
 		datas.addFirst("OneFirst");
 		datas.addLast("Added Last");
+		datas.addLast("Added Last");
+		datas.addLast("Added Last");
 		System.out.println(datas.peekFirst());
 		System.out.println(datas);
 		System.out.println(datas.pollFirst());
@@ -29,6 +31,7 @@ public class LinkendListExample {
 		System.out.println(datas.peek());
 		System.out.println(datas.poll());
 		System.out.println(datas);
+		datas.addFirst("OneFirst");
 		datas.addFirst("OneFirst");
 
 		System.out.println();
