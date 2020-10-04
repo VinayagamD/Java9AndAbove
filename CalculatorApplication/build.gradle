@@ -1,0 +1,15 @@
+group 'com.anjumonic'
+version '1.0-SNAPSHOT'
+
+
+allprojects {
+    apply plugin:'java-library'
+
+    repositories {
+        mavenCentral()
+    }
+}
+
+subprojects {
+
+}

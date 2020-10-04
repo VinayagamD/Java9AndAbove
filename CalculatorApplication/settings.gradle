@@ -1,0 +1,6 @@
+rootProject.name = 'CalculatorApplication'
+include 'CalculatorBL'
+include 'CalculatorCache'
+include 'CalculatorClient'
+include 'CalcultorModel'
+
