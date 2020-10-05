@@ -1,0 +1,2 @@
+com/vinaylogics/hibernate_tutorial/hibernate_core/annotation_configuration/models/EmployeeHibernateTest.java
+ com.vinaylogics.hibernate_tutorial.hibernate_core.annotation_configuration.models.EmployeeHibernateTest
