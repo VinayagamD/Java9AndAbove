@@ -1,7 +1,6 @@
 package com.vinaylogics.learnadvancedjava.junit.model;
 
 
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

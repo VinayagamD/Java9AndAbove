@@ -1,0 +1,5 @@
+com/vinaylogics/designpattern/creational/factory/VehicleFactoryTest.java
+ com.vinaylogics.designpattern.creational.factory.VehicleFactoryTest
+ com.vinaylogics.designpattern.creational.factory.VehicleFactoryTest$1
+com/vinaylogics/designpattern/creational/abstract_factory/AbstractionFactoryTest.java
+ com.vinaylogics.designpattern.creational.abstract_factory.AbstractionFactoryTest

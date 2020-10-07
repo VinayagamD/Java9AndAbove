@@ -6,4 +6,5 @@ include 'jsp'
 include 'ConcurrentCollections'
 include 'javamaildemo'
 include 'AdvancedMultiThreading'
+include 'DesignPattern'
 
