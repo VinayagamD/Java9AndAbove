@@ -4,4 +4,7 @@ include 'hibernate-core:xml-configuration'
 findProject(':hibernate-core:xml-configuration')?.name = 'xml-configuration'
 include 'hibernate-core:annotation-configuration'
 findProject(':hibernate-core:annotation-configuration')?.name = 'annotation-configuration'
+include 'hibernate-mapping'
+include 'hibernate-mapping:table-inheritance'
+findProject(':hibernate-mapping:table-inheritance')?.name = 'table-inheritance'
 

@@ -7,12 +7,13 @@
         <property name="hibernate.bytecode.use_reflection_optimizer">false</property>
         <property name="hibernate.hbm2ddl.auto">update</property>
         <property name="hibernate.dialect">org.hibernate.dialect.MySQL8Dialect</property>
-        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/employee_annotations</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/employee_annotations_im_st</property>
         <property name="hibernate.connection.username">vinay</property>
         <property name="hibernate.connection.password">drago</property>
         <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
         <property name="hibernate.show_sql">true</property>
-        <mapping class="com.vinaylogics.hibernate_tutorial.hibernate_core.annotation_configuration.models.Employee"/>
-
+        <mapping class="com.vinaylogics.hibernate_mapping.table_inheritance.models.single_table.Employee"/>
+        <mapping class="com.vinaylogics.hibernate_mapping.table_inheritance.models.single_table.ContractEmployee"/>
+        <mapping class="com.vinaylogics.hibernate_mapping.table_inheritance.models.single_table.PermanentEmployee"/>
     </session-factory>
 </hibernate-configuration>

@@ -13,6 +13,8 @@
             <option value="$PROJECT_DIR$/hibernate-core" />
             <option value="$PROJECT_DIR$/hibernate-core/annotation-configuration" />
             <option value="$PROJECT_DIR$/hibernate-core/xml-configuration" />
+            <option value="$PROJECT_DIR$/hibernate-mapping" />
+            <option value="$PROJECT_DIR$/hibernate-mapping/table-inheritance" />
           </set>
         </option>
       </GradleProjectSettings>

@@ -1,0 +1,2 @@
+com/vinaylogics/hibernate_mapping/table_inheritance/models/single_table/EmployeeTest.java
+ com.vinaylogics.hibernate_mapping.table_inheritance.models.single_table.EmployeeTest
