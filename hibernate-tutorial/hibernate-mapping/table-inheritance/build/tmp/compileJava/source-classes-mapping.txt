@@ -4,3 +4,21 @@ com/vinaylogics/hibernate_mapping/table_inheritance/models/single_table/Employee
  com.vinaylogics.hibernate_mapping.table_inheritance.models.single_table.Employee
 com/vinaylogics/hibernate_mapping/table_inheritance/models/single_table/PermanentEmployee.java
  com.vinaylogics.hibernate_mapping.table_inheritance.models.single_table.PermanentEmployee
+com/vinaylogics/hibernate_mapping/table_inheritance/models/table_per_class/Employee.java
+ com.vinaylogics.hibernate_mapping.table_inheritance.models.table_per_class.Employee
+com/vinaylogics/hibernate_mapping/table_inheritance/models/table_per_class/PermanentEmployee.java
+ com.vinaylogics.hibernate_mapping.table_inheritance.models.table_per_class.PermanentEmployee
+com/vinaylogics/hibernate_mapping/table_inheritance/models/table_per_class/ContractEmployee.java
+ com.vinaylogics.hibernate_mapping.table_inheritance.models.table_per_class.ContractEmployee
+com/vinaylogics/hibernate_mapping/table_inheritance/models/mapped_super_class/ContractEmployee.java
+ com.vinaylogics.hibernate_mapping.table_inheritance.models.mapped_super_class.ContractEmployee
+com/vinaylogics/hibernate_mapping/table_inheritance/models/mapped_super_class/Employee.java
+ com.vinaylogics.hibernate_mapping.table_inheritance.models.mapped_super_class.Employee
+com/vinaylogics/hibernate_mapping/table_inheritance/models/mapped_super_class/PermanentEmployee.java
+ com.vinaylogics.hibernate_mapping.table_inheritance.models.mapped_super_class.PermanentEmployee
+com/vinaylogics/hibernate_mapping/table_inheritance/models/joined_table/Employee.java
+ com.vinaylogics.hibernate_mapping.table_inheritance.models.joined_table.Employee
+com/vinaylogics/hibernate_mapping/table_inheritance/models/joined_table/ContractEmployee.java
+ com.vinaylogics.hibernate_mapping.table_inheritance.models.joined_table.ContractEmployee
+com/vinaylogics/hibernate_mapping/table_inheritance/models/joined_table/PermanentEmployee.java
+ com.vinaylogics.hibernate_mapping.table_inheritance.models.joined_table.PermanentEmployee
