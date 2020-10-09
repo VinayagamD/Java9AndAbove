@@ -7,5 +7,65 @@
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:3306/employee_annotations</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="hibernate_im_msc.cfg.xml/Hibernate" uuid="35c2e1a7-f4d6-42f1-8759-fd1cfea30383">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+F:/JavaWorkspace/hibernate-tutorial/hibernate-mapping/table-inheritance/src/main/resources/hibernate_im_msc.cfg.xml</remarks>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/employee_annotations_im_msc</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="hibernate_im_tpc.cfg.xml/Hibernate" uuid="efd4a21a-339e-4818-8948-cf1675bc443a">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+F:/JavaWorkspace/hibernate-tutorial/hibernate-mapping/table-inheritance/src/main/resources/hibernate_im_tpc.cfg.xml</remarks>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/employee_annotations_im_tpc</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="hibernate.cfg.xml/Hibernate" uuid="17d51455-d501-46bf-ac54-71a38eeb6c36">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+F:/JavaWorkspace/hibernate-tutorial/hibernate-core/annotation-configuration/src/main/resources/hibernate.cfg.xml</remarks>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/employee_annotations</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="hibernate.cfg.xml/Hibernate" uuid="c1c7233a-8a78-4f82-8c2f-e147e943379d">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+F:/JavaWorkspace/hibernate-tutorial/hibernate-core/xml-configuration/src/main/resources/hibernate.cfg.xml</remarks>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/employeexml</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="hibernate_im_jt.cfg.xml/Hibernate" uuid="3e951d93-f991-460a-bdda-6854ff7e58b1">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+F:/JavaWorkspace/hibernate-tutorial/hibernate-mapping/table-inheritance/src/main/resources/hibernate_im_jt.cfg.xml</remarks>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/employee_annotations_im_jt</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="hibernate_im_st.cfg.xml/Hibernate" uuid="99d0925d-0e7c-48ba-880b-8688b1653907">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+F:/JavaWorkspace/hibernate-tutorial/hibernate-mapping/table-inheritance/src/main/resources/hibernate_im_st.cfg.xml</remarks>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/employee_annotations_im_st</jdbc-url>
+    </data-source>
   </component>
 </project>

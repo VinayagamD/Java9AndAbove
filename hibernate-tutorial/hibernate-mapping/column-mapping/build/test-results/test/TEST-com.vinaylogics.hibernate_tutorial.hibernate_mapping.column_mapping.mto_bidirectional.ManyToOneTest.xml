@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.vinaylogics.hibernate_tutorial.hibernate_mapping.column_mapping.mto_bidirectional.ManyToOneTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-09T03:56:26" hostname="DESKTOP-3P18DGO" time="2.058">
+  <properties/>
+  <testcase name="testManyToOneUniDirectional()" classname="com.vinaylogics.hibernate_tutorial.hibernate_mapping.column_mapping.mto_bidirectional.ManyToOneTest" time="2.058"/>
+  <system-out><![CDATA[Hibernate: create table hibernate_sequence (next_val bigint) engine=InnoDB
+Hibernate: insert into hibernate_sequence values ( 1 )
+Hibernate: insert into hibernate_sequence values ( 1 )
+Hibernate: create table students (id bigint not null, first_name varchar(255), last_name varchar(255), section varchar(255), university_id bigint, primary key (id)) engine=InnoDB
+Hibernate: create table universities (id bigint not null, country varchar(255), name varchar(255), primary key (id)) engine=InnoDB
+Hibernate: alter table students add constraint FK10f2t900gaqoi2ahm3pm3nctq foreign key (university_id) references universities (id)
+Hibernate: select next_val as id_val from hibernate_sequence for update
+Hibernate: update hibernate_sequence set next_val= ? where next_val=?
+Hibernate: select next_val as id_val from hibernate_sequence for update
+Hibernate: update hibernate_sequence set next_val= ? where next_val=?
+Hibernate: select next_val as id_val from hibernate_sequence for update
+Hibernate: update hibernate_sequence set next_val= ? where next_val=?
+Hibernate: insert into students (first_name, last_name, section, university_id, id) values (?, ?, ?, ?, ?)
+Hibernate: insert into students (first_name, last_name, section, university_id, id) values (?, ?, ?, ?, ?)
+Hibernate: insert into universities (country, name, id) values (?, ?, ?)
+Hibernate: update students set first_name=?, last_name=?, section=?, university_id=? where id=?
+Hibernate: update students set first_name=?, last_name=?, section=?, university_id=? where id=?
+Save Success full
+]]></system-out>
+  <system-err><![CDATA[Oct 09, 2020 9:26:26 AM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate ORM core version 5.4.21.Final
+Oct 09, 2020 9:26:26 AM org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver resolveEntity
+WARN: HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+Oct 09, 2020 9:26:26 AM org.hibernate.annotations.common.reflection.java.JavaReflectionManager <clinit>
+INFO: HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+Oct 09, 2020 9:26:26 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+WARN: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+Oct 09, 2020 9:26:26 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/employee_annotations_cm_mto_bd]
+Oct 09, 2020 9:26:26 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001001: Connection properties: {user=vinay, password=****}
+Oct 09, 2020 9:26:26 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001003: Autocommit mode: false
+Oct 09, 2020 9:26:26 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
+INFO: HHH000115: Hibernate connection pool size: 20 (min=1)
+Oct 09, 2020 9:26:27 AM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+Oct 09, 2020 9:26:28 AM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@20f25fa5] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Oct 09, 2020 9:26:28 AM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+INFO: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Oct 09, 2020 9:26:28 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState stop
+INFO: HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/employee_annotations_cm_mto_bd]
+]]></system-err>
+</testsuite>

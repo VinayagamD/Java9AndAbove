@@ -7,4 +7,6 @@ findProject(':hibernate-core:annotation-configuration')?.name = 'annotation-conf
 include 'hibernate-mapping'
 include 'hibernate-mapping:table-inheritance'
 findProject(':hibernate-mapping:table-inheritance')?.name = 'table-inheritance'
+include 'hibernate-mapping:column-mapping'
+findProject(':hibernate-mapping:column-mapping')?.name = 'column-mapping'
 

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="hibernate_im_tpc.cfg.xml/Hibernate">
+  <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.19">
+    <root id="1">
+      <ServerVersion>8.0.21</ServerVersion>
+      <DefaultEngine>InnoDB</DefaultEngine>
+      <DefaultTmpEngine>InnoDB</DefaultTmpEngine>
+      <DefaultCasing>lower/lower</DefaultCasing>
+    </root>
+    <schema id="2" parent="1" name="bhuvana">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="3" parent="1" name="books">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="4" parent="1" name="books2">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="5" parent="1" name="categories">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="6" parent="1" name="corona">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="7" parent="1" name="courses">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="8" parent="1" name="demo_batch_java5">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="9" parent="1" name="demo_python">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="10" parent="1" name="employee_annotations">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="11" parent="1" name="employee_annotations_cm_oto_bd">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="12" parent="1" name="employee_annotations_cm_oto_ud">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="13" parent="1" name="employee_annotations_im_jt">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="14" parent="1" name="employee_annotations_im_msc">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="15" parent="1" name="employee_annotations_im_st">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="16" parent="1" name="employee_annotations_im_tpc">
+      <Current>1</Current>
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="17" parent="1" name="employees">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="18" parent="1" name="employees_data">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="19" parent="1" name="employeexml">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="20" parent="1" name="grails_demo_db">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="21" parent="1" name="information_schema">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="22" parent="1" name="issue_management">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="23" parent="1" name="mysql">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="24" parent="1" name="node-complete">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="25" parent="1" name="performance_schema">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="26" parent="1" name="products">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="27" parent="1" name="sakila">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="28" parent="1" name="schoolmanagements">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="29" parent="1" name="schoolmanagementsystem">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="30" parent="1" name="spring_employees">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="31" parent="1" name="students">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="32" parent="1" name="sys">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="33" parent="1" name="teamcity">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="34" parent="1" name="test">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="35" parent="1" name="test_data">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="36" parent="1" name="test_jdbc">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="37" parent="1" name="test_python_db">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="38" parent="1" name="todo">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="39" parent="1" name="user_security">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="40" parent="1" name="users">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="41" parent="1" name="world">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+  </database-model>
+</dataSource>

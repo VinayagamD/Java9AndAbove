@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="FacetManager">
+    <facet type="hibernate" name="Hibernate">
+      <configuration>
+        <datasource-map>
+          <unit-entry name="hibernate_im_jt.cfg.xml" value="3e951d93-f991-460a-bdda-6854ff7e58b1" />
+          <unit-entry name="hibernate_im_msc.cfg.xml" value="35c2e1a7-f4d6-42f1-8759-fd1cfea30383" />
+          <unit-entry name="hibernate_im_st.cfg.xml" value="99d0925d-0e7c-48ba-880b-8688b1653907" />
+          <unit-entry name="hibernate_im_tpc.cfg.xml" value="efd4a21a-339e-4818-8948-cf1675bc443a" />
+        </datasource-map>
+        <naming-strategy-map />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/../../../../hibernate-mapping/table-inheritance/src/main/resources/hibernate_im_jt.cfg.xml" />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/../../../../hibernate-mapping/table-inheritance/src/main/resources/hibernate_im_msc.cfg.xml" />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/../../../../hibernate-mapping/table-inheritance/src/main/resources/hibernate_im_st.cfg.xml" />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/../../../../hibernate-mapping/table-inheritance/src/main/resources/hibernate_im_tpc.cfg.xml" />
+      </configuration>
+    </facet>
+  </component>
+</module>
