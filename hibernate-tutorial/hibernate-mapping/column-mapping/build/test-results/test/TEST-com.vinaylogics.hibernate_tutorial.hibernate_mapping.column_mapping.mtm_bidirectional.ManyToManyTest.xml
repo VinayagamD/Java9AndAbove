@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.vinaylogics.hibernate_tutorial.hibernate_mapping.column_mapping.mtm_bidirectional.ManyToManyTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-13T03:34:21" hostname="DESKTOP-3P18DGO" time="61.373">
+  <properties/>
+  <testcase name="testManyToManyAssociation()" classname="com.vinaylogics.hibernate_tutorial.hibernate_mapping.column_mapping.mtm_bidirectional.ManyToManyTest" time="61.373"/>
+  <system-out><![CDATA[Hibernate: create table classes (id bigint not null auto_increment, name varchar(255), subject varchar(255), primary key (id)) engine=InnoDB
+Hibernate: create table classes_students (classes_id bigint not null, student_id bigint not null, primary key (classes_id, student_id)) engine=InnoDB
+Hibernate: create table students (id bigint not null auto_increment, first_name varchar(255), last_name varchar(255), section varchar(255), primary key (id)) engine=InnoDB
+Hibernate: alter table classes_students add constraint FK84s9lwwwl99dx2h5al1u9dneh foreign key (student_id) references students (id)
+Hibernate: alter table classes_students add constraint FKb1wohdnb6v1dkmh2xet8sdla4 foreign key (classes_id) references classes (id)
+Hibernate: insert into students (first_name, last_name, section) values (?, ?, ?)
+Hibernate: insert into students (first_name, last_name, section) values (?, ?, ?)
+Hibernate: insert into students (first_name, last_name, section) values (?, ?, ?)
+Hibernate: insert into students (first_name, last_name, section) values (?, ?, ?)
+Hibernate: insert into students (first_name, last_name, section) values (?, ?, ?)
+Hibernate: insert into students (first_name, last_name, section) values (?, ?, ?)
+Hibernate: insert into students (first_name, last_name, section) values (?, ?, ?)
+Hibernate: insert into students (first_name, last_name, section) values (?, ?, ?)
+Hibernate: insert into students (first_name, last_name, section) values (?, ?, ?)
+Hibernate: insert into students (first_name, last_name, section) values (?, ?, ?)
+Hibernate: insert into classes (name, subject) values (?, ?)
+Hibernate: insert into classes (name, subject) values (?, ?)
+Hibernate: insert into classes (name, subject) values (?, ?)
+Hibernate: insert into classes (name, subject) values (?, ?)
+Hibernate: insert into classes (name, subject) values (?, ?)
+Hibernate: insert into classes (name, subject) values (?, ?)
+Hibernate: insert into classes (name, subject) values (?, ?)
+Hibernate: insert into classes (name, subject) values (?, ?)
+Hibernate: insert into classes (name, subject) values (?, ?)
+Hibernate: insert into classes (name, subject) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Hibernate: insert into classes_students (classes_id, student_id) values (?, ?)
+Saved Successfully
+]]></system-out>
+  <system-err><![CDATA[Oct 13, 2020 9:04:21 AM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate ORM core version 5.4.21.Final
+Oct 13, 2020 9:04:22 AM org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver resolveEntity
+WARN: HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+Oct 13, 2020 9:04:23 AM org.hibernate.annotations.common.reflection.java.JavaReflectionManager <clinit>
+INFO: HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+Oct 13, 2020 9:04:23 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+WARN: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+Oct 13, 2020 9:04:23 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/employee_annotations_cm_mtm_bd]
+Oct 13, 2020 9:04:23 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001001: Connection properties: {user=vinay, password=****}
+Oct 13, 2020 9:04:23 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001003: Autocommit mode: false
+Oct 13, 2020 9:04:23 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
+INFO: HHH000115: Hibernate connection pool size: 20 (min=1)
+Oct 13, 2020 9:04:24 AM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+Oct 13, 2020 9:04:25 AM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@61e2a95c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Oct 13, 2020 9:04:30 AM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+INFO: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Oct 13, 2020 9:05:22 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState stop
+INFO: HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/employee_annotations_cm_mtm_bd]
+]]></system-err>
+</testsuite>

@@ -10,12 +10,16 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/HQL" />
+            <option value="$PROJECT_DIR$/HQL/query-demo" />
+            <option value="$PROJECT_DIR$/hibernate-cache" />
             <option value="$PROJECT_DIR$/hibernate-core" />
             <option value="$PROJECT_DIR$/hibernate-core/annotation-configuration" />
             <option value="$PROJECT_DIR$/hibernate-core/xml-configuration" />
             <option value="$PROJECT_DIR$/hibernate-mapping" />
             <option value="$PROJECT_DIR$/hibernate-mapping/column-mapping" />
             <option value="$PROJECT_DIR$/hibernate-mapping/table-inheritance" />
+            <option value="$PROJECT_DIR$/query-model" />
           </set>
         </option>
       </GradleProjectSettings>
