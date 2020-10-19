@@ -18,7 +18,7 @@ public class EmployeeHQLUpdateEmployee {
                 .buildSessionFactory();
         Session session = sessionFactory.openSession();
         session.beginTransaction();
-        String hql  = " UPDATE Employee e set e.firstName = :firstName WHERE e.id= :id";
+        String hql  = " UPDATE HqlEmployee e set e.firstName = :firstName WHERE e.id= :id";
 //        String hql  = "FROM org.vinaylogics.hibernatebasics.annotation.hql.models.Employee AS e";
         Query query = session.createQuery(hql);
         query.setParameter("firstName", "Vinay");

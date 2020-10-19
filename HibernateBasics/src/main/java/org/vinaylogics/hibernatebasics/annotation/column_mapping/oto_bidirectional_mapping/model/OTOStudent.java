@@ -5,7 +5,7 @@ import java.util.Objects;
 
 @Entity
 @Table(name = "students_oto_bm")
-public class Student {
+public class OTOStudent {
     @Id
     @GeneratedValue
     private long id;
@@ -21,9 +21,9 @@ public class Student {
 
     @OneToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "address_id")
-    private Address address;
+    private OTOBMAddress address;
 
-    public Student() {
+    public OTOStudent() {
     }
 
     public long getId() {
@@ -58,11 +58,11 @@ public class Student {
         this.section = section;
     }
 
-    public Address getAddress() {
+    public OTOBMAddress getAddress() {
         return address;
     }
 
-    public void setAddress(Address address) {
+    public void setAddress(OTOBMAddress address) {
         this.address = address;
     }
 
@@ -70,7 +70,7 @@ public class Student {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Student student = (Student) o;
+        OTOStudent student = (OTOStudent) o;
         return id == student.id &&
                 Objects.equals(firstName, student.firstName) &&
                 Objects.equals(lastName, student.lastName) &&

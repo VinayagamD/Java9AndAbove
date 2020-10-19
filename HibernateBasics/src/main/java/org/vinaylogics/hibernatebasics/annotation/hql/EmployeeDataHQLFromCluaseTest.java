@@ -2,14 +2,11 @@ package org.vinaylogics.hibernatebasics.annotation.hql;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
-import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
 import org.hibernate.query.Query;
-import org.vinaylogics.hibernatebasics.annotation.hql.models.Address;
-import org.vinaylogics.hibernatebasics.annotation.hql.models.Employee;
+import org.vinaylogics.hibernatebasics.annotation.hql.models.HqlEmployee;
 
 import java.io.File;
-import java.util.stream.IntStream;
 
 public class EmployeeDataHQLFromCluaseTest {
 
@@ -27,8 +24,8 @@ public class EmployeeDataHQLFromCluaseTest {
                 .buildSessionFactory();
         Session session = sessionFactory.openSession();
 //        String hql  = "FROM Employee";
-        String hql  = "FROM org.vinaylogics.hibernatebasics.annotation.hql.models.Employee";
-        Query<Employee> query = session.createQuery(hql);
+        String hql  = "FROM org.vinaylogics.hibernatebasics.annotation.hql.models.HqlEmployee";
+        Query<HqlEmployee> query = session.createQuery(hql);
         query.list().forEach(System.out::println);
         System.out.println("Save Successful");
         sessionFactory.close();

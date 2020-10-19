@@ -7,7 +7,7 @@ import java.util.Objects;
 
 @Entity
 @DiscriminatorValue("PERMANENT")
-public class PermanentEmployee extends Employee {
+public class PermanentEmployee extends STEmployee {
     private LocalDate startDate;
     private String costCenter;
     private String totalLeaves;

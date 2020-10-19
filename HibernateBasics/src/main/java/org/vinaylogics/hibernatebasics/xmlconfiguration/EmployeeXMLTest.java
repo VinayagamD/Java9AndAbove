@@ -4,7 +4,7 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
-import org.vinaylogics.hibernatebasics.xmlconfiguration.models.Employee;
+import org.vinaylogics.hibernatebasics.xmlconfiguration.models.XmlEmployee;
 
 import java.io.File;
 
@@ -15,12 +15,12 @@ public class EmployeeXMLTest {
                 .buildSessionFactory();
         Session session = sessionFactory.openSession();
         Transaction t = session.beginTransaction();
-        Employee employee = new Employee();
-        employee.setId(102);
-        employee.setFirstName("Saini");
-        employee.setLastName("Supreet");
+        XmlEmployee xmlEmployee = new XmlEmployee();
+        xmlEmployee.setId(102);
+        xmlEmployee.setFirstName("Saini");
+        xmlEmployee.setLastName("Supreet");
 
-        session.save(employee);
+        session.save(xmlEmployee);
         t.commit();
         System.out.println("Save Successful");
         sessionFactory.close();

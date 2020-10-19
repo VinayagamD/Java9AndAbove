@@ -4,10 +4,9 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 import org.hibernate.query.Query;
-import org.vinaylogics.hibernatebasics.annotation.hql.models.Employee;
+import org.vinaylogics.hibernatebasics.annotation.hql.models.HqlEmployee;
 
 import java.io.File;
-import java.util.Arrays;
 import java.util.List;
 
 public class EmployeeDataHQLPagination {
@@ -25,11 +24,11 @@ public class EmployeeDataHQLPagination {
         SessionFactory sessionFactory = new Configuration().configure(file)
                 .buildSessionFactory();
         Session session = sessionFactory.openSession();
-        String hql  = " FROM Employee ";
+        String hql  = " FROM HqlEmployee ";
 //        String hql  = "FROM org.vinaylogics.hibernatebasics.annotation.hql.models.Employee AS e";
-        Query<Employee> query = session.createQuery(hql);
+        Query<HqlEmployee> query = session.createQuery(hql);
         ;
-        List<Employee> rows = query.setFirstResult(10).setMaxResults(10).list();
+        List<HqlEmployee> rows = query.setFirstResult(10).setMaxResults(10).list();
         rows.forEach(System.out::println);
         System.out.println("Save Successful");
         sessionFactory.close();

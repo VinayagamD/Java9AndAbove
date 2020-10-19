@@ -5,7 +5,7 @@ import java.util.Objects;
 
 @MappedSuperclass
 @DiscriminatorColumn(name = "EMPLOYMENT_TYPE")
-public class Employee {
+public class MSCEmployee {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
@@ -40,7 +40,7 @@ public class Employee {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Employee employee = (Employee) o;
+        MSCEmployee employee = (MSCEmployee) o;
         return Objects.equals(id, employee.id) &&
                 Objects.equals(firstName, employee.firstName) &&
                 Objects.equals(lastName, employee.lastName);

@@ -4,12 +4,10 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
-import org.vinaylogics.hibernatebasics.annotation.models.Address;
-import org.vinaylogics.hibernatebasics.annotation.models.Employee;
+import org.vinaylogics.hibernatebasics.annotation.models.AnoAddress;
+import org.vinaylogics.hibernatebasics.annotation.models.AnMoEmployee;
 
 import java.io.File;
-
-import static com.oracle.jrockit.jfr.ContentType.Address;
 
 public class EmployeeComponentMappingExample {
 
@@ -19,11 +17,11 @@ public class EmployeeComponentMappingExample {
                 .buildSessionFactory();
         Session session = sessionFactory.openSession();
         Transaction t = session.beginTransaction();
-        Address address = new Address();
+        AnoAddress address = new AnoAddress();
         address.setCity("Bangalore");
         address.setCountry("India");
         address.setPincode(560084);
-        Employee employee = new Employee();
+        AnMoEmployee employee = new AnMoEmployee();
         employee.setFirstName("Vinay");
         employee.setLastName("Ganesh");
         employee.setAddress(address);

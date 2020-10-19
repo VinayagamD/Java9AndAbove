@@ -18,8 +18,10 @@
           <unit-entry name="hibernate_immsc.cfg.xml" />
           <unit-entry name="hibernate_imst.cfg.xml" />
           <unit-entry name="hibernate_imtpc.cfg.xml" />
+          <unit-entry name="hibernate_native.cfg.xml" />
         </datasource-map>
         <naming-strategy-map />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/src/main/resources/META-INF/persistence.xml" />
         <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/src/main/resources/hibernate.cfg.xml" />
         <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/src/main/resources/hibernate_assoication_mtmbm.cfg.xml" />
         <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/src/main/resources/hibernate_assoication_mtmum.cfg.xml" />
@@ -34,6 +36,7 @@
         <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/src/main/resources/hibernate_immsc.cfg.xml" />
         <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/src/main/resources/hibernate_imst.cfg.xml" />
         <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/src/main/resources/hibernate_imtpc.cfg.xml" />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/src/main/resources/hibernate_native.cfg.xml" />
       </configuration>
     </facet>
     <facet type="jpa" name="JPA">
@@ -41,8 +44,10 @@
         <setting name="validation-enabled" value="true" />
         <datasource-mapping>
           <factory-entry name="HibernateBasics" />
+          <factory-entry name="employeePU" />
         </datasource-mapping>
         <naming-strategy-map />
+        <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/src/main/resources/META-INF/persistence.xml" />
       </configuration>
     </facet>
   </component>

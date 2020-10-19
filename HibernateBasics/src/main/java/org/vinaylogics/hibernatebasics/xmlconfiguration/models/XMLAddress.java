@@ -2,7 +2,7 @@ package org.vinaylogics.hibernatebasics.xmlconfiguration.models;
 
 import java.util.Objects;
 
-public class Address {
+public class XMLAddress {
     private String city;
     private String country;
     private int pincode;
@@ -35,7 +35,7 @@ public class Address {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Address address = (Address) o;
+        XMLAddress address = (XMLAddress) o;
         return pincode == address.pincode &&
                 Objects.equals(city, address.city) &&
                 Objects.equals(country, address.country);

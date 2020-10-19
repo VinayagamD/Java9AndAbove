@@ -13,7 +13,7 @@
         <property name="hibernate.connection.password">drago</property>
         <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
         <property name="hibernate.show_sql">true</property>
-        <mapping class="org.vinaylogics.hibernatebasics.annotation.column_mapping.oto_bidirectional_mapping.model.Student"/>
-        <mapping class="org.vinaylogics.hibernatebasics.annotation.column_mapping.oto_bidirectional_mapping.model.Address"/>
+        <mapping class="org.vinaylogics.hibernatebasics.annotation.column_mapping.oto_bidirectional_mapping.model.OTOStudent"/>
+        <mapping class="org.vinaylogics.hibernatebasics.annotation.column_mapping.oto_bidirectional_mapping.model.OTOBMAddress"/>
     </session-factory>
 </hibernate-configuration>

@@ -4,7 +4,7 @@ import javax.persistence.Embeddable;
 import java.util.Objects;
 
 @Embeddable
-public class Address {
+public class EmbAddress {
     private String city;
     private String country;
     private int pincode;
@@ -37,7 +37,7 @@ public class Address {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Address address = (Address) o;
+        EmbAddress address = (EmbAddress) o;
         return pincode == address.pincode &&
                 Objects.equals(city, address.city) &&
                 Objects.equals(country, address.country);

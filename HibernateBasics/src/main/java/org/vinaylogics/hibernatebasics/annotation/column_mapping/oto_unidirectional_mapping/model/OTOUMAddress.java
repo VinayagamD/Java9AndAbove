@@ -5,7 +5,7 @@ import java.util.Objects;
 
 @Entity
 @Table(name = "addresses_otoum")
-public class Address {
+public class OTOUMAddress {
 
     @Id
     @GeneratedValue
@@ -53,7 +53,7 @@ public class Address {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Address address = (Address) o;
+        OTOUMAddress address = (OTOUMAddress) o;
         return id == address.id &&
                 Objects.equals(street, address.street) &&
                 Objects.equals(city, address.city) &&

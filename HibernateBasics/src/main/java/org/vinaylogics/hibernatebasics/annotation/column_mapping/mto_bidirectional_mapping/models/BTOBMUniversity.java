@@ -8,7 +8,7 @@ import java.util.Objects;
 
 @Entity
 @Table(name = "universities_bto_bm")
-public class University implements Serializable {
+public class BTOBMUniversity implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -56,7 +56,7 @@ public class University implements Serializable {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        University that = (University) o;
+        BTOBMUniversity that = (BTOBMUniversity) o;
         return id == that.id &&
                 Objects.equals(name, that.name) &&
                 Objects.equals(country, that.country) ;

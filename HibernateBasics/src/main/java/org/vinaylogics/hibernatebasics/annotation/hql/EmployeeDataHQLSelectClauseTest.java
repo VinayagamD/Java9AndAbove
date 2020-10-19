@@ -4,11 +4,9 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 import org.hibernate.query.Query;
-import org.vinaylogics.hibernatebasics.annotation.hql.models.Employee;
+import org.vinaylogics.hibernatebasics.annotation.hql.models.HqlEmployee;
 
 import java.io.File;
-import java.util.Arrays;
-import java.util.List;
 import java.util.stream.Collectors;
 
 public class EmployeeDataHQLSelectClauseTest {
@@ -27,11 +25,11 @@ public class EmployeeDataHQLSelectClauseTest {
                 .buildSessionFactory();
         Session session = sessionFactory.openSession();
         session.beginTransaction();
-        String hql  = "SELECT  firstName FROM MyEmployee";
+        String hql  = "SELECT  firstName FROM CMyEmployee";
 //        String hql  = "FROM org.vinaylogics.hibernatebasics.annotation.hql.models.Employee AS e";
         Query<Object> query = session.createQuery(hql);
         query.getResultStream().map(row->{
-         Employee employee = new Employee();
+         HqlEmployee employee = new HqlEmployee();
          employee.setFirstName(String.valueOf(row));
             return employee;
         }).collect(Collectors.toList()).forEach(System.out::println);

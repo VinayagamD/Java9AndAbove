@@ -4,7 +4,7 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 import org.hibernate.query.Query;
-import org.vinaylogics.hibernatebasics.annotation.hql.models.Employee;
+import org.vinaylogics.hibernatebasics.annotation.hql.models.HqlEmployee;
 
 import java.io.File;
 
@@ -24,8 +24,8 @@ public class EmployeeDataHQLASClauseTest {
                 .buildSessionFactory();
         Session session = sessionFactory.openSession();
 //        String hql  = "FROM Employee AS e";
-        String hql  = "FROM org.vinaylogics.hibernatebasics.annotation.hql.models.Employee AS e";
-        Query<Employee> query = session.createQuery(hql);
+        String hql  = "FROM org.vinaylogics.hibernatebasics.annotation.hql.models.HqlEmployee AS e";
+        Query<HqlEmployee> query = session.createQuery(hql);
         query.list().forEach(System.out::println);
         System.out.println("Save Successful");
         sessionFactory.close();

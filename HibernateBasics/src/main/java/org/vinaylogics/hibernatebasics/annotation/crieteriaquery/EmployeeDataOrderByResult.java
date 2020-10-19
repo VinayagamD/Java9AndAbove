@@ -2,14 +2,11 @@ package org.vinaylogics.hibernatebasics.annotation.crieteriaquery;
 
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
-import org.vinaylogics.hibernatebasics.annotation.crieteriaquery.model.MyEmployee;
-import org.vinaylogics.hibernatebasics.annotation.hql.models.Employee;
+import org.vinaylogics.hibernatebasics.annotation.crieteriaquery.model.NMyEmployee;
 
 import javax.persistence.EntityManager;
-import javax.persistence.TypedQuery;
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
-import javax.persistence.criteria.Order;
 import javax.persistence.criteria.Root;
 import java.io.File;
 
@@ -29,9 +26,9 @@ public class EmployeeDataOrderByResult {
                 .buildSessionFactory();
         EntityManager entityManager = sessionFactory.createEntityManager();
         CriteriaBuilder cb = entityManager.getCriteriaBuilder();
-        CriteriaQuery<MyEmployee> cq = cb.createQuery(MyEmployee.class);
-        Root<MyEmployee> root = cq.from(MyEmployee.class);
-        CriteriaQuery<MyEmployee> select = cq.select(root);
+        CriteriaQuery<NMyEmployee> cq = cb.createQuery(NMyEmployee.class);
+        Root<NMyEmployee> root = cq.from(NMyEmployee.class);
+        CriteriaQuery<NMyEmployee> select = cq.select(root);
         cq.orderBy(cb.asc(root.get("id")));
         System.out.println("Save Successful");
         sessionFactory.close();

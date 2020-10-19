@@ -4,7 +4,7 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
-import org.vinaylogics.hibernatebasics.annotation.models.Employee;
+import org.vinaylogics.hibernatebasics.annotation.models.AnMoEmployee;
 
 
 import java.io.File;
@@ -17,7 +17,7 @@ public class EmployeeAnnotationTest {
                 .buildSessionFactory();
         Session session = sessionFactory.openSession();
         Transaction t = session.beginTransaction();
-        Employee employee = new Employee();
+        AnMoEmployee employee = new AnMoEmployee();
         employee.setFirstName("Vinay");
         employee.setLastName("Ganesh");
 

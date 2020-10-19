@@ -11,7 +11,7 @@ import java.util.Objects;
 @Table(name = "contract_employees_jtc")
 @PrimaryKeyJoinColumn(name = "ID")
 @DiscriminatorValue("CONTRACT")
-public class ContractEmployee extends Employee {
+public class ContractEmployee extends InMEmployee {
     private LocalDate contractStartDate;
     private LocalDate contractEndDate;
     private String agencyName;

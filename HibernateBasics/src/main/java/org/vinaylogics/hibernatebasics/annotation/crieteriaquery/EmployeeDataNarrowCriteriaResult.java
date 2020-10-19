@@ -3,8 +3,7 @@ package org.vinaylogics.hibernatebasics.annotation.crieteriaquery;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
-import org.hibernate.query.Query;
-import org.vinaylogics.hibernatebasics.annotation.hql.models.Employee;
+import org.vinaylogics.hibernatebasics.annotation.hql.models.HqlEmployee;
 
 import javax.persistence.TypedQuery;
 import javax.persistence.criteria.CriteriaBuilder;
@@ -29,10 +28,10 @@ public class EmployeeDataNarrowCriteriaResult {
         Session session = sessionFactory.openSession();
 //        String hql  = "FROM org.vinaylogics.hibernatebasics.annotation.hql.models.Employee AS e";
         CriteriaBuilder cb = session.getCriteriaBuilder();
-        CriteriaQuery<Employee> cr = cb.createQuery(Employee.class);
-        Root<Employee> root = cr.from(Employee.class);
-        CriteriaQuery<Employee> select = cr.select(root);
-        TypedQuery<Employee> typedQuery = session.createQuery(select);
+        CriteriaQuery<HqlEmployee> cr = cb.createQuery(HqlEmployee.class);
+        Root<HqlEmployee> root = cr.from(HqlEmployee.class);
+        CriteriaQuery<HqlEmployee> select = cr.select(root);
+        TypedQuery<HqlEmployee> typedQuery = session.createQuery(select);
         typedQuery.setFirstResult(20);
         typedQuery.setMaxResults(10);
         typedQuery.getResultList().forEach(System.out::println);

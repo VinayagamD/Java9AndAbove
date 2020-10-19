@@ -7,7 +7,7 @@ import java.util.Objects;
 
 @Entity
 @DiscriminatorValue("CONTRACT")
-public class ContractEmployee extends Employee{
+public class ContractEmployee extends STEmployee {
     private LocalDate contractStartDate;
     private LocalDate contractEndDate;
     private String agencyName;

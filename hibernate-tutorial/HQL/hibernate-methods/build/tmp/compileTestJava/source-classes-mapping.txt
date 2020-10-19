@@ -1,0 +1,4 @@
+com/vinayalogics/hibernate_tutorial/hql/hibernate_methods/DataGenerateTest.java
+ com.vinayalogics.hibernate_tutorial.hql.hibernate_methods.DataGenerateTest
+com/vinayalogics/hibernate_tutorial/hql/hibernate_methods/HibernateMethodTest.java
+ com.vinayalogics.hibernate_tutorial.hql.hibernate_methods.HibernateMethodTest

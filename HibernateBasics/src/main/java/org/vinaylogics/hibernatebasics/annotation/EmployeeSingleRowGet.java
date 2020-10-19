@@ -3,7 +3,7 @@ package org.vinaylogics.hibernatebasics.annotation;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
-import org.vinaylogics.hibernatebasics.annotation.models.Employee;
+import org.vinaylogics.hibernatebasics.annotation.models.AnMoEmployee;
 
 import java.io.File;
 
@@ -19,7 +19,7 @@ public class EmployeeSingleRowGet {
         SessionFactory sessionFactory = new Configuration().configure(file)
                 .buildSessionFactory();
         Session session = sessionFactory.openSession();
-        Employee employee = session.get(Employee.class, 5);
+        AnMoEmployee employee = session.get(AnMoEmployee.class, 5);
         System.out.println(employee);
 
         System.out.println("Fetch Successful");
@@ -31,7 +31,7 @@ public class EmployeeSingleRowGet {
         SessionFactory sessionFactory = new Configuration().configure(file)
                 .buildSessionFactory();
         Session session = sessionFactory.openSession();
-        Employee employee = session.get(Employee.class, 10);
+        AnMoEmployee employee = session.get(AnMoEmployee.class, 10);
         System.out.println(employee);
 
         System.out.println("Fetch Successful");

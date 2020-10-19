@@ -4,7 +4,7 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
-import org.vinaylogics.hibernatebasics.annotation.models.Employee;
+import org.vinaylogics.hibernatebasics.annotation.models.AnMoEmployee;
 
 import java.io.File;
 import java.util.List;
@@ -17,7 +17,7 @@ public class EmployeeUpdateExample {
                 .buildSessionFactory();
         Session session = sessionFactory.openSession();
 
-        List<Employee> employees = session.createQuery("SELECT a FROM MyEmployee a", Employee.class).list();
+        List<AnMoEmployee> employees = session.createQuery("SELECT a FROM CMyEmployee a", AnMoEmployee.class).list();
         System.out.println("Fetch Successful");
         sessionFactory.close();
         session.close();
@@ -26,7 +26,7 @@ public class EmployeeUpdateExample {
                 .buildSessionFactory();
         session = sessionFactory.openSession();
         Transaction transaction = session.beginTransaction();
-        Employee employee =  employees.get(0);
+        AnMoEmployee employee =  employees.get(0);
         System.out.println(employee);
         employee.setFirstName("Updated Name");
         session.update(employee);

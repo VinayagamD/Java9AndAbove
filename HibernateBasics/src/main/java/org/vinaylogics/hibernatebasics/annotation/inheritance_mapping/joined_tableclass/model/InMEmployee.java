@@ -7,7 +7,7 @@ import java.util.Objects;
 @DiscriminatorColumn(name = "EMPLOYMENT_TYPE")
 @Table(name = "employees_jtc")
 @Inheritance(strategy = InheritanceType.JOINED)
-public class Employee {
+public class InMEmployee {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
@@ -42,7 +42,7 @@ public class Employee {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Employee employee = (Employee) o;
+        InMEmployee employee = (InMEmployee) o;
         return Objects.equals(id, employee.id) &&
                 Objects.equals(firstName, employee.firstName) &&
                 Objects.equals(lastName, employee.lastName);

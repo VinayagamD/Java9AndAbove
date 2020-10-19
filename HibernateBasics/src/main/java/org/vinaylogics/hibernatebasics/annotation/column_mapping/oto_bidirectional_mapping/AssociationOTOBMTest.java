@@ -5,8 +5,8 @@ import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
 import org.vinaylogics.hibernatebasics.annotation.EmployeeAnnotationTest;
-import org.vinaylogics.hibernatebasics.annotation.column_mapping.oto_bidirectional_mapping.model.Address;
-import org.vinaylogics.hibernatebasics.annotation.column_mapping.oto_bidirectional_mapping.model.Student;
+import org.vinaylogics.hibernatebasics.annotation.column_mapping.oto_bidirectional_mapping.model.OTOBMAddress;
+import org.vinaylogics.hibernatebasics.annotation.column_mapping.oto_bidirectional_mapping.model.OTOStudent;
 
 
 import java.io.File;
@@ -18,11 +18,11 @@ public class AssociationOTOBMTest {
                 .buildSessionFactory();
         Session session = sessionFactory.openSession();
         Transaction t = session.beginTransaction();
-        Student student = new Student();
+        OTOStudent student = new OTOStudent();
         student.setFirstName("Saini");
         student.setLastName("Supreet");
         student.setSection("JavaB1");
-        Address address = new Address();
+        OTOBMAddress address = new OTOBMAddress();
         address.setCity("Bangalore");
         address.setCountry("India");
         address.setStreet("Bangalore Street");

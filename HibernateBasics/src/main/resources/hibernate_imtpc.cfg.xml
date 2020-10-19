@@ -13,7 +13,7 @@
         <property name="hibernate.connection.password">drago</property>
         <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
         <property name="hibernate.show_sql">true</property>
-        <mapping class="org.vinaylogics.hibernatebasics.annotation.inheritance_mapping.table_per_class.model.Employee"/>
+        <mapping class="org.vinaylogics.hibernatebasics.annotation.inheritance_mapping.table_per_class.model.TPCEmployee"/>
         <mapping class="org.vinaylogics.hibernatebasics.annotation.inheritance_mapping.table_per_class.model.ContractEmployee"/>
         <mapping class="org.vinaylogics.hibernatebasics.annotation.inheritance_mapping.table_per_class.model.PermanentEmployee"/>
     </session-factory>

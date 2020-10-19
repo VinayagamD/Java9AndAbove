@@ -8,7 +8,7 @@ import java.util.Set;
 
 @Entity
 @Table(name = "students_mtm_bm")
-public class Student implements Serializable {
+public class MTMStudent implements Serializable {
 
     @Id
     @GeneratedValue
@@ -25,7 +25,7 @@ public class Student implements Serializable {
 
 
     @ManyToMany(mappedBy = "students")
-    private Set<Classes> classes = new HashSet<>();
+    private Set<MTMBMClasses> classes = new HashSet<>();
 
     public long getId() {
         return id;
@@ -59,11 +59,11 @@ public class Student implements Serializable {
         this.section = section;
     }
 
-    public Set<Classes> getClasses() {
+    public Set<MTMBMClasses> getClasses() {
         return classes;
     }
 
-    public void setClasses(Set<Classes> classes) {
+    public void setClasses(Set<MTMBMClasses> classes) {
         this.classes = classes;
     }
 
@@ -71,7 +71,7 @@ public class Student implements Serializable {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Student student = (Student) o;
+        MTMStudent student = (MTMStudent) o;
         return id == student.id &&
                 Objects.equals(firstName, student.firstName) &&
                 Objects.equals(lastName, student.lastName) &&

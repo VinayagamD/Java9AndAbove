@@ -4,14 +4,8 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
-import org.hibernate.query.Query;
-import org.vinaylogics.hibernatebasics.annotation.crieteriaquery.model.MyEmployee;
-import org.vinaylogics.hibernatebasics.annotation.hql.models.Address;
-import org.vinaylogics.hibernatebasics.annotation.hql.models.Employee;
+import org.vinaylogics.hibernatebasics.annotation.crieteriaquery.model.NMyEmployee;
 
-import javax.persistence.criteria.CriteriaBuilder;
-import javax.persistence.criteria.CriteriaQuery;
-import javax.persistence.criteria.Root;
 import java.io.File;
 import java.util.stream.IntStream;
 
@@ -33,7 +27,7 @@ public class EmployeeDataInsertCriteria {
 //        String hql  = "FROM org.vinaylogics.hibernatebasics.annotation.hql.models.Employee AS e";
         Transaction t = session.beginTransaction();
         IntStream.rangeClosed(1, 20).forEach(i -> {
-            MyEmployee employee = new MyEmployee();
+            NMyEmployee employee = new NMyEmployee();
             employee.setFirstName(FIRST+"_"+i);
             employee.setLastName(LAST+"_"+i);
             session.save(employee);

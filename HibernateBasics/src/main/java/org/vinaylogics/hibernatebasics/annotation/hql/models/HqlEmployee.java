@@ -6,7 +6,7 @@ import java.util.Objects;
 
 @Entity
 @Table(name = "employees")
-public class Employee implements Serializable {
+public class HqlEmployee implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -15,7 +15,7 @@ public class Employee implements Serializable {
     private String lastName;
 
     @Embedded
-    private Address address;
+    private EmbAddress address;
 
     public Integer getId() {
         return id;
@@ -41,11 +41,11 @@ public class Employee implements Serializable {
         this.lastName = lastName;
     }
 
-    public Address getAddress() {
+    public EmbAddress getAddress() {
         return address;
     }
 
-    public void setAddress(Address address) {
+    public void setAddress(EmbAddress address) {
         this.address = address;
     }
 
@@ -53,7 +53,7 @@ public class Employee implements Serializable {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Employee employee = (Employee) o;
+        HqlEmployee employee = (HqlEmployee) o;
         return id == employee.id &&
                 Objects.equals(firstName, employee.firstName) &&
                 Objects.equals(lastName, employee.lastName) &&

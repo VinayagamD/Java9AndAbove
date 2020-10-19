@@ -2,13 +2,11 @@ package org.vinaylogics.hibernatebasics.annotation.column_mapping.mtm_unidirecti
 
 import javax.persistence.*;
 import java.io.Serializable;
-import java.util.HashSet;
 import java.util.Objects;
-import java.util.Set;
 
 @Entity
 @Table(name = "students_mtm_um")
-public class Student implements Serializable {
+public class MTMUMStudent implements Serializable {
 
     @Id
     @GeneratedValue
@@ -67,7 +65,7 @@ public class Student implements Serializable {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Student student = (Student) o;
+        MTMUMStudent student = (MTMUMStudent) o;
         return id == student.id &&
                 Objects.equals(firstName, student.firstName) &&
                 Objects.equals(lastName, student.lastName) &&

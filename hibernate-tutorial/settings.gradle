@@ -13,5 +13,5 @@ include 'hibernate-cache'
 include 'HQL'
 include 'HQL:query-demo'
 findProject(':HQL:query-demo')?.name = 'query-demo'
-include 'query-model'
+include 'HQL:hibernate-methods'
 

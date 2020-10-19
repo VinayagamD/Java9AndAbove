@@ -7,7 +7,7 @@ import java.util.Objects;
 
 @Entity(name = "tablePerClassPermanentEmployee")
 @Table(name = "permanent_employees_tpc")
-public class PermanentEmployee extends Employee {
+public class PermanentEmployee extends TPCEmployee {
     private LocalDate startDate;
     private String costCenter;
     private String totalLeaves;

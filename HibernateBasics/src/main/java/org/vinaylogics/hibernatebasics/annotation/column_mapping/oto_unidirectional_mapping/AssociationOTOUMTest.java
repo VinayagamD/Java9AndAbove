@@ -5,8 +5,8 @@ import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
 import org.vinaylogics.hibernatebasics.annotation.EmployeeAnnotationTest;
-import org.vinaylogics.hibernatebasics.annotation.column_mapping.oto_unidirectional_mapping.model.Address;
-import org.vinaylogics.hibernatebasics.annotation.column_mapping.oto_unidirectional_mapping.model.Student;
+import org.vinaylogics.hibernatebasics.annotation.column_mapping.oto_unidirectional_mapping.model.OTOUMAddress;
+import org.vinaylogics.hibernatebasics.annotation.column_mapping.oto_unidirectional_mapping.model.OTOUMStudent;
 
 import java.io.File;
 
@@ -17,11 +17,11 @@ public class AssociationOTOUMTest {
                 .buildSessionFactory();
         Session session = sessionFactory.openSession();
         Transaction transaction = session.beginTransaction();
-        Student student = new Student();
+        OTOUMStudent student = new OTOUMStudent();
         student.setFirstName("Saini");
         student.setLastName("Supreet");
         student.setSection("JavaB1");
-        Address address = new Address();
+        OTOUMAddress address = new OTOUMAddress();
         address.setCity("Bangalore");
         address.setCountry("India");
         address.setStreet("Bangalore Street");

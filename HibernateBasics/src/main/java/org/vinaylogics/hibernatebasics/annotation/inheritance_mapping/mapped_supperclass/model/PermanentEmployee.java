@@ -11,7 +11,7 @@ import java.util.Objects;
 @Table(name = "permanent_employees_msc")
 @PrimaryKeyJoinColumn(name = "ID")
 @DiscriminatorValue("PERMANENT")
-public class PermanentEmployee extends Employee {
+public class PermanentEmployee extends MSCEmployee {
     private LocalDate startDate;
     private String costCenter;
     private String totalLeaves;

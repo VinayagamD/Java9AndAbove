@@ -5,7 +5,7 @@ import java.util.Objects;
 
 @Entity
 @Table(name = "students_mto_um")
-public class Student {
+public class MTOUMStudent {
 
     @Id
     @GeneratedValue
@@ -22,7 +22,7 @@ public class Student {
 
     @ManyToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "university_id")
-    private University university;
+    private MTOUMUniversity university;
 
     public long getId() {
         return id;
@@ -56,11 +56,11 @@ public class Student {
         this.section = section;
     }
 
-    public University getUniversity() {
+    public MTOUMUniversity getUniversity() {
         return university;
     }
 
-    public void setUniversity(University university) {
+    public void setUniversity(MTOUMUniversity university) {
         this.university = university;
     }
 
@@ -68,7 +68,7 @@ public class Student {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Student student = (Student) o;
+        MTOUMStudent student = (MTOUMStudent) o;
         return id == student.id &&
                 Objects.equals(firstName, student.firstName) &&
                 Objects.equals(lastName, student.lastName) &&

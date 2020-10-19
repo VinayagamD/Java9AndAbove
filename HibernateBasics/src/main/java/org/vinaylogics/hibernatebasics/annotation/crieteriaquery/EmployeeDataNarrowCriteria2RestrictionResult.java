@@ -3,7 +3,7 @@ package org.vinaylogics.hibernatebasics.annotation.crieteriaquery;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
-import org.vinaylogics.hibernatebasics.annotation.hql.models.Employee;
+import org.vinaylogics.hibernatebasics.annotation.hql.models.HqlEmployee;
 
 import javax.persistence.TypedQuery;
 import javax.persistence.criteria.*;
@@ -26,14 +26,14 @@ public class EmployeeDataNarrowCriteria2RestrictionResult {
         Session session = sessionFactory.openSession();
 //        String hql  = "FROM org.vinaylogics.hibernatebasics.annotation.hql.models.Employee AS e";
         CriteriaBuilder cb = session.getCriteriaBuilder();
-        CriteriaQuery<Employee> cr = cb.createQuery(Employee.class);
-        Root<Employee> root = cr.from(Employee.class);
+        CriteriaQuery<HqlEmployee> cr = cb.createQuery(HqlEmployee.class);
+        Root<HqlEmployee> root = cr.from(HqlEmployee.class);
         ParameterExpression<Integer> p = cb.parameter(Integer.class);
         ParameterExpression<Integer> q = cb.parameter(Integer.class);
         Predicate predicateLessThan = cb.ge(root.get("id"),40 );
         Predicate predicateForRedColor = cb.le(root.get("id"), 50);
-        CriteriaQuery<Employee> select = cr.select(root).where(cb.and(predicateLessThan, predicateForRedColor));
-        TypedQuery<Employee> typedQuery = session.createQuery(select);
+        CriteriaQuery<HqlEmployee> select = cr.select(root).where(cb.and(predicateLessThan, predicateForRedColor));
+        TypedQuery<HqlEmployee> typedQuery = session.createQuery(select);
         typedQuery.getResultList().forEach(System.out::println);
         System.out.println("Save Successful");
         sessionFactory.close();

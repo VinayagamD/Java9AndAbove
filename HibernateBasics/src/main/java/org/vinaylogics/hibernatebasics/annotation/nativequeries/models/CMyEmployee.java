@@ -4,9 +4,18 @@ import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Objects;
 
-@Entity
-@Table(name = "myemployee")
-public class MyEmployee implements Serializable {
+@Entity(name="EmployeeEntity")
+@Table(name = "employee")
+@SqlResultSetMapping(name="getresult", columns = {
+        @ColumnResult(name = "id"),
+        @ColumnResult(name = "firstName"),
+        @ColumnResult(name = "lastName")
+})
+@NamedNativeQueries({
+        @NamedNativeQuery(name = "Employee.findall", query = "SELECT * FROM employee",
+        resultSetMapping = "getresult")
+})
+public class CMyEmployee implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -34,7 +43,7 @@ public class MyEmployee implements Serializable {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        MyEmployee that = (MyEmployee) o;
+        CMyEmployee that = (CMyEmployee) o;
         return Objects.equals(id, that.id) &&
                 Objects.equals(firstName, that.firstName) &&
                 Objects.equals(lastName, that.lastName);

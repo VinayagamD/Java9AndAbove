@@ -5,7 +5,7 @@ import java.util.Objects;
 
 @Entity
 @Table(name = "students_otm_um")
-public class Student {
+public class OTMUMStudent {
 
     @Id
     @GeneratedValue
@@ -56,7 +56,7 @@ public class Student {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Student student = (Student) o;
+        OTMUMStudent student = (OTMUMStudent) o;
         return id == student.id &&
                 Objects.equals(firstName, student.firstName) &&
                 Objects.equals(lastName, student.lastName) &&

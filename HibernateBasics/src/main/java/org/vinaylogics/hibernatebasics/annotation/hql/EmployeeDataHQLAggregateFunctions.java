@@ -4,7 +4,6 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 import org.hibernate.query.Query;
-import org.vinaylogics.hibernatebasics.annotation.hql.models.Employee;
 
 import java.io.File;
 import java.util.Arrays;
@@ -25,7 +24,7 @@ public class EmployeeDataHQLAggregateFunctions {
         SessionFactory sessionFactory = new Configuration().configure(file)
                 .buildSessionFactory();
         Session session = sessionFactory.openSession();
-        String hql  = " SELECT AVG(e.id), COUNT(e.firstName), sum(e.id), MAX(e.id), MIN(e.id) FROM Employee AS e ";
+        String hql  = " SELECT AVG(e.id), COUNT(e.firstName), sum(e.id), MAX(e.id), MIN(e.id) FROM HqlEmployee AS e ";
 //        String hql  = "FROM org.vinaylogics.hibernatebasics.annotation.hql.models.Employee AS e";
         Query<Object[]> query = session.createQuery(hql);
         List<Object[]> rows = query.list();

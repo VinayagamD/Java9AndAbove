@@ -5,7 +5,7 @@ import java.util.Objects;
 
 @Entity(name = "tablePerClassEmployee")
 @Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)
-public class Employee {
+public class TPCEmployee {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
@@ -40,7 +40,7 @@ public class Employee {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Employee employee = (Employee) o;
+        TPCEmployee employee = (TPCEmployee) o;
         return Objects.equals(id, employee.id) &&
                 Objects.equals(firstName, employee.firstName) &&
                 Objects.equals(lastName, employee.lastName);

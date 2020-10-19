@@ -8,7 +8,7 @@ import java.util.Set;
 
 @Entity
 @Table(name = "classes_mtm_bm")
-public class Classes implements Serializable {
+public class MTMBMClasses implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
@@ -59,7 +59,7 @@ public class Classes implements Serializable {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Classes classes = (Classes) o;
+        MTMBMClasses classes = (MTMBMClasses) o;
         return id == classes.id &&
                 Objects.equals(name, classes.name) &&
                 Objects.equals(subject, classes.subject) ;

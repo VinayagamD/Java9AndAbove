@@ -6,7 +6,7 @@ import java.util.Objects;
 
 @Entity
 @Table(name = "employee")
-public class MyEmployee implements Serializable {
+public class NMyEmployee implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -34,7 +34,7 @@ public class MyEmployee implements Serializable {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        MyEmployee that = (MyEmployee) o;
+        NMyEmployee that = (NMyEmployee) o;
         return Objects.equals(id, that.id) &&
                 Objects.equals(firstName, that.firstName) &&
                 Objects.equals(lastName, that.lastName);

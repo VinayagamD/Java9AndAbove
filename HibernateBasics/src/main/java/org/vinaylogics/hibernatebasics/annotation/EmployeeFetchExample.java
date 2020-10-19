@@ -3,7 +3,7 @@ package org.vinaylogics.hibernatebasics.annotation;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
-import org.vinaylogics.hibernatebasics.annotation.models.Employee;
+import org.vinaylogics.hibernatebasics.annotation.models.AnMoEmployee;
 
 import java.io.File;
 
@@ -15,7 +15,7 @@ public class EmployeeFetchExample {
                 .buildSessionFactory();
         Session session = sessionFactory.openSession();
 
-        session.createQuery("SELECT a FROM MyEmployee a", Employee.class).list().forEach(System.out::println);
+        session.createQuery("SELECT a FROM CMyEmployee a", AnMoEmployee.class).list().forEach(System.out::println);
         System.out.println("Fetch Successful");
         sessionFactory.close();
         session.close();

@@ -1,16 +1,15 @@
 package org.vinaylogics.hibernatebasics.xmlconfiguration.models;
 
-import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Objects;
 
 
-public class Employee  implements Serializable {
+public class XmlEmployee implements Serializable {
 
     private int id;
     private String firstName;
     private String lastName;
-    private Address address;
+    private XMLAddress address;
 
     public int getId() {
         return id;
@@ -36,11 +35,11 @@ public class Employee  implements Serializable {
         this.lastName = lastName;
     }
 
-    public Address getAddress() {
+    public XMLAddress getAddress() {
         return address;
     }
 
-    public void setAddress(Address address) {
+    public void setAddress(XMLAddress address) {
         this.address = address;
     }
 
@@ -72,11 +71,11 @@ public class Employee  implements Serializable {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Employee employee = (Employee) o;
-        return id == employee.id &&
-                Objects.equals(firstName, employee.firstName) &&
-                Objects.equals(lastName, employee.lastName) &&
-                Objects.equals(address, employee.address);
+        XmlEmployee xmlEmployee = (XmlEmployee) o;
+        return id == xmlEmployee.id &&
+                Objects.equals(firstName, xmlEmployee.firstName) &&
+                Objects.equals(lastName, xmlEmployee.lastName) &&
+                Objects.equals(address, xmlEmployee.address);
     }
 
     @Override

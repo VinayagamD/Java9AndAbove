@@ -4,8 +4,8 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
-import org.vinaylogics.hibernatebasics.annotation.hql.models.Address;
-import org.vinaylogics.hibernatebasics.annotation.hql.models.Employee;
+import org.vinaylogics.hibernatebasics.annotation.hql.models.EmbAddress;
+import org.vinaylogics.hibernatebasics.annotation.hql.models.HqlEmployee;
 
 
 import java.io.File;
@@ -28,14 +28,14 @@ public class EmployeeDataHQLTest {
         Session session = sessionFactory.openSession();
         Transaction t = session.beginTransaction();
         IntStream.rangeClosed(1, 20).forEach(i -> {
-            Employee employee = new Employee();
+            HqlEmployee employee = new HqlEmployee();
             employee.setFirstName(FIRST+"_"+i);
             employee.setLastName(LAST+"_"+i);
-            Address address = new Address();
+            EmbAddress address = new EmbAddress();
             address.setCity(CITY);
             address.setCountry(COUNTRY);
             address.setPincode(Integer.parseInt(PIN_CODE+i));
-     /*       employee.setAddress(address);*/
+            /*       employee.setAddress(address);*/
             session.save(employee);
         });
         t.commit();

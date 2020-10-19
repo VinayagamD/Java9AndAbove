@@ -16,7 +16,7 @@ public class EmployeeHQLDeleteEmployee {
                 .buildSessionFactory();
         Session session = sessionFactory.openSession();
         session.beginTransaction();
-        String hql  = " DELETE Employee e WHERE e.id= :id";
+        String hql  = " DELETE HqlEmployee e WHERE e.id= :id";
 //        String hql  = "FROM org.vinaylogics.hibernatebasics.annotation.hql.models.Employee AS e";
         Query query = session.createQuery(hql);
         query.setParameter("id", 61);
