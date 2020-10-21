@@ -1,0 +1,2 @@
+com/vinaylogics/hibernate_tutorial/core_test_module/base_test_class/BaseTestClass.java
+ com.vinaylogics.hibernate_tutorial.core_test_module.base_test_class.BaseTestClass

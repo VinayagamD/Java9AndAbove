@@ -1,0 +1,19 @@
+plugins {
+    id 'java-library'
+}
+
+group 'org.vinaylogics'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api
+    implementation group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: '5.7.0'
+    // https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine
+    implementation group: 'org.junit.jupiter', name: 'junit-jupiter-engine', version: '5.7.0'
+    // https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-params
+    implementation group: 'org.junit.jupiter', name: 'junit-jupiter-params', version: '5.7.0'
+}

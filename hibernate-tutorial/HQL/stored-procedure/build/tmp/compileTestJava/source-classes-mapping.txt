@@ -1,0 +1,4 @@
+com/vinaylogics/hibernate_tutorial/hql/stored_procedure/DataGeneratorTest.java
+ com.vinaylogics.hibernate_tutorial.hql.stored_procedure.DataGeneratorTest
+com/vinaylogics/hibernate_tutorial/hql/stored_procedure/StoredProcedureTest.java
+ com.vinaylogics.hibernate_tutorial.hql.stored_procedure.StoredProcedureTest

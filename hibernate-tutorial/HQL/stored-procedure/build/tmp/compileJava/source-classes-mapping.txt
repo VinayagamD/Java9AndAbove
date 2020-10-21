@@ -1,0 +1,2 @@
+com/vinaylogics/hibernate_tutorial/hql/stored_procedure/models/Employee.java
+ com.vinaylogics.hibernate_tutorial.hql.stored_procedure.models.Employee

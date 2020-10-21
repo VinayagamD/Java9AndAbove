@@ -1,4 +1,0 @@
-com/vinaylogics/hibernate_tutorial/hql/hibernate_methods/model/Address.java
- com.vinaylogics.hibernate_tutorial.hql.hibernate_methods.model.Address
-com/vinaylogics/hibernate_tutorial/hql/hibernate_methods/model/Employee.java
- com.vinaylogics.hibernate_tutorial.hql.hibernate_methods.model.Employee

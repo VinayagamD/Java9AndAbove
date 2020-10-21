@@ -1,14 +1,11 @@
-plugins {
-    id 'java'
-}
-
 group 'org.vinaylogics'
 version '1.0-SNAPSHOT'
 
-repositories {
 
-}
 
-dependencies {
+subprojects {
 
+    dependencies {
+        implementation project(':core_test_module')
+    }
 }

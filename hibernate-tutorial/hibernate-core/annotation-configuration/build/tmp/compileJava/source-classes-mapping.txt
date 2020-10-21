@@ -1,4 +1,4 @@
-com/vinaylogics/hibernate_tutorial/hibernate_core/annotation_configuration/models/Address.java
- com.vinaylogics.hibernate_tutorial.hibernate_core.annotation_configuration.models.Address
 com/vinaylogics/hibernate_tutorial/hibernate_core/annotation_configuration/models/Employee.java
  com.vinaylogics.hibernate_tutorial.hibernate_core.annotation_configuration.models.Employee
+com/vinaylogics/hibernate_tutorial/hibernate_core/annotation_configuration/models/Address.java
+ com.vinaylogics.hibernate_tutorial.hibernate_core.annotation_configuration.models.Address
