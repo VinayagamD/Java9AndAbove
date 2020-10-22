@@ -11,7 +11,9 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/core_test_module" />
+            <option value="$PROJECT_DIR$/hibernate-batch-transaction" />
             <option value="$PROJECT_DIR$/hibernate-cache" />
+            <option value="$PROJECT_DIR$/hibernate-cache/hibernate-ehcache" />
             <option value="$PROJECT_DIR$/hibernate-core" />
             <option value="$PROJECT_DIR$/hibernate-core/annotation-configuration" />
             <option value="$PROJECT_DIR$/hibernate-core/xml-configuration" />

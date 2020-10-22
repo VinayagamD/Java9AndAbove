@@ -26,4 +26,7 @@ findProject(':hql:named-native-query')?.name = 'named-native-query'
 include 'hql:stored-procedure'
 findProject(':hql:stored-procedure')?.name = 'stored-procedure'
 include 'core_test_module'
+include 'hibernate-cache:hibernate-ehcache'
+findProject(':hibernate-cache:hibernate-ehcache')?.name = 'hibernate-ehcache'
+include 'hibernate-batch-transaction'
 

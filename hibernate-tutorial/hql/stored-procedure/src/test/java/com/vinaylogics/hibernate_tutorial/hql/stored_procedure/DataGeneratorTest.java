@@ -22,11 +22,6 @@ class DataGeneratorTest extends BaseTestClass {
     public static final String EMPLOYEE = "Employee";
     public static final String FIRST = EMPLOYEE + "_First";
     public static final String LAST = EMPLOYEE + "_Last";
-    public static final String ADDRESS = EMPLOYEE + "_Address";
-    public static final String CITY = "Bangalore";
-    public static final String COUNTRY = "India";
-    public static final String PIN_CODE = "56000";
-
 
     @Override
     protected File getFile() {

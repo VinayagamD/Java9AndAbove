@@ -1,0 +1,2 @@
+com/vinaylogics/hibernate_tutorial/hibernate_batch_transaction/models/Employee.java
+ com.vinaylogics.hibernate_tutorial.hibernate_batch_transaction.models.Employee

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.vinaylogics.hibernate_tutorial.hibernate_batch_transaction.models.BatchInsertTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-22T14:01:07" hostname="DESKTOP-3P18DGO" time="1.954">
+  <properties/>
+  <testcase name="testBatchInsertData()" classname="com.vinaylogics.hibernate_tutorial.hibernate_batch_transaction.models.BatchInsertTest" time="1.954"/>
+  <system-out><![CDATA[Hibernate: create table employees (id bigint not null auto_increment, first_name varchar(255), last_name varchar(255), primary key (id)) engine=InnoDB
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Hibernate: insert into employees (first_name, last_name) values (?, ?)
+Data Generation Successful
+]]></system-out>
+  <system-err><![CDATA[Oct 22, 2020 7:31:07 PM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate ORM core version 5.4.21.Final
+Oct 22, 2020 7:31:07 PM org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver resolveEntity
+WARN: HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+Oct 22, 2020 7:31:07 PM org.hibernate.annotations.common.reflection.java.JavaReflectionManager <clinit>
+INFO: HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+Oct 22, 2020 7:31:07 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+WARN: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+Oct 22, 2020 7:31:07 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/batch_processing]
+Oct 22, 2020 7:31:07 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001001: Connection properties: {user=vinay, password=****}
+Oct 22, 2020 7:31:07 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001003: Autocommit mode: false
+Oct 22, 2020 7:31:07 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
+INFO: HHH000115: Hibernate connection pool size: 20 (min=1)
+Oct 22, 2020 7:31:08 PM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+Oct 22, 2020 7:31:09 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@ab96588] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Oct 22, 2020 7:31:09 PM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+INFO: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Oct 22, 2020 7:31:09 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState stop
+INFO: HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/batch_processing]
+]]></system-err>
+</testsuite>

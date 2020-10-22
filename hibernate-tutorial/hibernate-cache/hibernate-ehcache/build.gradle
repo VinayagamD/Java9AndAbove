@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+}
+
+group 'org.vinaylogics'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // https://mvnrepository.com/artifact/org.ehcache/ehcache
+    implementation group: 'org.ehcache', name: 'ehcache', version: '3.9.0'
+    // https://mvnrepository.com/artifact/org.hibernate/hibernate-ehcache
+    implementation group: 'org.hibernate', name: 'hibernate-ehcache', version: '5.4.22.Final'
+
+}

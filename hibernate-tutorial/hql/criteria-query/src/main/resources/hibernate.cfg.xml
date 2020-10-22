@@ -12,7 +12,7 @@
         <property name="hibernate.connection.password">drago</property>
         <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
         <property name="hibernate.show_sql">true</property>
-        <mapping class="com.vinaylogics.hibernate_tutroial.hql.criteria_query.models.Employee"/>
+        <mapping class="com.vinaylogics.hibernate_tutorial.hql.criteria_query.models.Employee"/>
 
     </session-factory>
 </hibernate-configuration>

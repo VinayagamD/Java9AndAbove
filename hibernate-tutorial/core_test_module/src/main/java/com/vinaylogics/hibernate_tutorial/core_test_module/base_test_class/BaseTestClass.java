@@ -10,22 +10,20 @@ import java.io.File;
 
 public abstract class BaseTestClass {
 
-
-
     protected abstract File getFile();
 
     protected SessionFactory sessionFactory;
     protected Session session;
 
     @BeforeEach
-    void setUp() {
+    public void setUp() {
         sessionFactory = new Configuration().configure(getFile())
                 .buildSessionFactory();
         session = sessionFactory.openSession();
     }
 
     @AfterEach
-    void tearDown() {
+    public void tearDown() {
         session.close();
         sessionFactory.close();
     }

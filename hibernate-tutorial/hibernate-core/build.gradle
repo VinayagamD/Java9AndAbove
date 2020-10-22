@@ -6,6 +6,6 @@ version '1.0-SNAPSHOT'
 subprojects {
 
     dependencies {
-        implementation project(':core_test_module')
+        testImplementation project(':core_test_module')
     }
 }
