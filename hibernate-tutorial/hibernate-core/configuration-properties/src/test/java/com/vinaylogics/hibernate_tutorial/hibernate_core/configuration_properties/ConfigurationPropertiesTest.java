@@ -4,13 +4,10 @@ import com.vinaylogics.hibernate_tutorial.core_test_module.base_test_class.BaseT
 import com.vinaylogics.hibernate_tutorial.hibernate_core.configuration_properties.models.Address;
 import com.vinaylogics.hibernate_tutorial.hibernate_core.configuration_properties.models.Employee;
 import org.hibernate.Transaction;
-import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.io.File;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class ConfigurationPropertiesTest extends BaseTestClass {
 
@@ -26,7 +23,7 @@ class ConfigurationPropertiesTest extends BaseTestClass {
 
     @BeforeEach
     public void setUp() {
-        loadProperties(ConfigurationPropertiesTest.class.getClassLoader().getResourceAsStream("databaseconfig.properties"));
+        loadProperties(ConfigurationPropertiesTest.class.getClassLoader().getResourceAsStream("config.properties"));
         super.setUp();
     }
 
