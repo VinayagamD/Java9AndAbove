@@ -1,0 +1,4 @@
+com/vinaylogics/hibernate_tutorial/hibernate_core/configuration_properties/models/Employee.java
+ com.vinaylogics.hibernate_tutorial.hibernate_core.configuration_properties.models.Employee
+com/vinaylogics/hibernate_tutorial/hibernate_core/configuration_properties/models/Address.java
+ com.vinaylogics.hibernate_tutorial.hibernate_core.configuration_properties.models.Address

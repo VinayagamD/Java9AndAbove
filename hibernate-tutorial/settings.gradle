@@ -29,4 +29,6 @@ include 'core_test_module'
 include 'hibernate-cache:hibernate-ehcache'
 findProject(':hibernate-cache:hibernate-ehcache')?.name = 'hibernate-ehcache'
 include 'hibernate-batch-transaction'
+include 'hibernate-core:configuration-properties'
+findProject(':hibernate-core:configuration-properties')?.name = 'configuration-properties'
 

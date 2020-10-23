@@ -16,6 +16,7 @@
             <option value="$PROJECT_DIR$/hibernate-cache/hibernate-ehcache" />
             <option value="$PROJECT_DIR$/hibernate-core" />
             <option value="$PROJECT_DIR$/hibernate-core/annotation-configuration" />
+            <option value="$PROJECT_DIR$/hibernate-core/configuration-properties" />
             <option value="$PROJECT_DIR$/hibernate-core/xml-configuration" />
             <option value="$PROJECT_DIR$/hibernate-mapping" />
             <option value="$PROJECT_DIR$/hibernate-mapping/column-mapping" />

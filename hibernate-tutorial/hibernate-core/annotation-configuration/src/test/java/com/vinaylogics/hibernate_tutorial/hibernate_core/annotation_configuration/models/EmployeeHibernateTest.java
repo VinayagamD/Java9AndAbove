@@ -1,6 +1,7 @@
 package com.vinaylogics.hibernate_tutorial.hibernate_core.annotation_configuration.models;
 
 import com.mysql.cj.xdevapi.AddResult;
+import com.vinaylogics.hibernate_tutorial.core_test_module.base_test_class.BaseTestClass;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
@@ -13,18 +14,13 @@ import java.io.File;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class EmployeeHibernateTest {
+class EmployeeHibernateTest extends BaseTestClass {
 
-    File file;
-    SessionFactory sessionFactory;
-    Session session;
-    @BeforeEach
-    void setUp() {
-        file = new File(EmployeeHibernateTest.class.getClassLoader().getResource("hibernate.cfg.xml").getFile());
-        sessionFactory = new Configuration().configure(file)
-                .buildSessionFactory();
-        session = sessionFactory.openSession();
+    @Override
+    protected File getFile() {
+        return new File(EmployeeHibernateTest.class.getClassLoader().getResource("hibernate.cfg.xml").getFile());
     }
+
 
     @Test
     public void testHibernateAnnotation_Save(){
@@ -40,11 +36,5 @@ class EmployeeHibernateTest {
         session.save(employee);
         t.commit();
         System.out.println("Save Successful");
-    }
-
-    @AfterEach
-    void tearDown() {
-        session.close();
-        sessionFactory.close();
     }
 }

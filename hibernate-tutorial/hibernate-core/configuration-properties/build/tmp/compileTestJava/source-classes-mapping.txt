@@ -1,0 +1,2 @@
+com/vinaylogics/hibernate_tutorial/hibernate_core/configuration_properties/ConfigurationPropertiesTest.java
+ com.vinaylogics.hibernate_tutorial.hibernate_core.configuration_properties.ConfigurationPropertiesTest
