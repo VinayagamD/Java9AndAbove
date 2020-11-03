@@ -1,0 +1,4 @@
+com/vinaylogics/springbasics/core/annotations/configurations/SimpleConfiguration.java
+ com.vinaylogics.springbasics.core.annotations.configurations.SimpleConfiguration
+com/vinaylogics/springbasics/core/annotations/SimpleBean.java
+ com.vinaylogics.springbasics.core.annotations.SimpleBean

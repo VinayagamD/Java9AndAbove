@@ -1,0 +1,6 @@
+com/vinaylogics/springbasics/core/xml/SimpleBean.java
+ com.vinaylogics.springbasics.core.xml.SimpleBean
+com/vinaylogics/springbasics/core/xml/LifeCycleBean.java
+ com.vinaylogics.springbasics.core.xml.LifeCycleBean
+com/vinaylogics/springbasics/core/xml/SimpleBeanLifeCycle.java
+ com.vinaylogics.springbasics.core.xml.SimpleBeanLifeCycle

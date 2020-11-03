@@ -1,0 +1,6 @@
+com/vinaylogics/springbasics/core/xml/SimpleBeanLifeCycleTest.java
+ com.vinaylogics.springbasics.core.xml.SimpleBeanLifeCycleTest
+com/vinaylogics/springbasics/core/xml/SimpleBeanTest.java
+ com.vinaylogics.springbasics.core.xml.SimpleBeanTest
+com/vinaylogics/springbasics/core/xml/BaseTestClass.java
+ com.vinaylogics.springbasics.core.xml.BaseTestClass

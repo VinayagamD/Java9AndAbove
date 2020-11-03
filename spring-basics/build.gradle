@@ -1,0 +1,27 @@
+group 'org.vinaylogics'
+version '1.0-SNAPSHOT'
+
+subprojects {
+
+    apply plugin: 'java-library'
+
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        def junit_version = "5.7.0"
+        def spring_version = "5.3.0"
+
+        dependencies{
+            implementation "org.springframework:spring-webmvc:$spring_version"
+            testImplementation "org.junit.jupiter:junit-jupiter-api:$junit_version"
+            testImplementation "org.junit.jupiter:junit-jupiter-engine:$junit_version"
+            testImplementation "org.junit.jupiter:junit-jupiter-params:$junit_version"
+        }
+
+        test {
+            useJUnitPlatform()
+        }
+    }
+}

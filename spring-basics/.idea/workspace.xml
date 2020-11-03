@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="759170e8-6a47-48bd-acab-2b7caeb7784e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../hibernate-tutorial/.idea/modules/HQL/query-demo/hibernate-tutorial.hql.query-demo.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.3/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.3/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.5/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.5/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.7/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.7/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/configuration-cache/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/build/classes/java/main/com/vinaylogics/springbasics/basics/di/MultiPlexStore.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/build/classes/java/main/com/vinaylogics/springbasics/basics/di/MultiProduct.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/build/classes/java/main/com/vinaylogics/springbasics/basics/di/Product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/build/classes/java/main/com/vinaylogics/springbasics/basics/di/ProductA.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/build/classes/java/main/com/vinaylogics/springbasics/basics/di/ProductB.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/build/classes/java/main/com/vinaylogics/springbasics/basics/di/ProductNotMulti.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/build/classes/java/main/com/vinaylogics/springbasics/basics/di/StoreWithDI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/build/classes/java/main/com/vinaylogics/springbasics/basics/di/StoreWithoutDI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/build/classes/java/test/com/vinaylogics/springbasics/basics/di/MultiPlexStoreTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/build/classes/java/test/com/vinaylogics/springbasics/basics/di/StoreWithDITest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/build/classes/java/test/com/vinaylogics/springbasics/basics/di/StoreWithoutDITest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/build/reports/tests/test/classes/com.vinaylogics.springbasics.basics.di.MultiPlexStoreTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/build/reports/tests/test/css/base-style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/build/reports/tests/test/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/build/reports/tests/test/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/build/reports/tests/test/js/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/build/reports/tests/test/packages/com.vinaylogics.springbasics.basics.di.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/build/test-results/test/TEST-com.vinaylogics.springbasics.basics.di.MultiPlexStoreTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/build/tmp/compileTestJava/source-classes-mapping.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/src/main/java/com/vinaylogics/springbasics/basics/di/MultiPlexStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/src/main/java/com/vinaylogics/springbasics/basics/di/MultiProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/src/main/java/com/vinaylogics/springbasics/basics/di/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/src/main/java/com/vinaylogics/springbasics/basics/di/ProductA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/src/main/java/com/vinaylogics/springbasics/basics/di/ProductB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/src/main/java/com/vinaylogics/springbasics/basics/di/ProductNotMulti.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/src/main/java/com/vinaylogics/springbasics/basics/di/StoreWithDI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/src/main/java/com/vinaylogics/springbasics/basics/di/StoreWithoutDI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/src/test/java/com/vinaylogics/springbasics/basics/di/MultiPlexStoreTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/src/test/java/com/vinaylogics/springbasics/basics/di/StoreWithDITest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/src/test/java/com/vinaylogics/springbasics/basics/di/StoreWithoutDITest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core/annotations/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core/annotations/build/classes/java/main/com/vinaylogics/springbasics/core/annotations/SimpleBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core/annotations/build/classes/java/main/com/vinaylogics/springbasics/core/annotations/configurations/SimpleConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core/annotations/build/classes/java/test/com/vinaylogics/springbasics/core/annotations/configurations/BaseTestClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core/annotations/build/classes/java/test/com/vinaylogics/springbasics/core/annotations/configurations/SimpleConfigurationTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core/annotations/build/reports/tests/test/classes/com.vinaylogics.springbasics.core.annotations.configurations.SimpleConfigurationTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core/annotations/build/reports/tests/test/css/base-style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core/annotations/build/reports/tests/test/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core/annotations/build/reports/tests/test/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core/annotations/build/reports/tests/test/js/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core/annotations/build/reports/tests/test/packages/com.vinaylogics.springbasics.core.annotations.configurations.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core/annotations/build/resources/main/spring-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core/annotations/build/test-results/test/TEST-com.vinaylogics.springbasics.core.annotations.configurations.SimpleConfigurationTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core/annotations/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core/annotations/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core/annotations/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core/annotations/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core/annotations/build/tmp/compileTestJava/source-classes-mapping.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core/annotations/src/main/java/com/vinaylogics/springbasics/core/annotations/SimpleBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core/annotations/src/main/java/com/vinaylogics/springbasics/core/annotations/configurations/SimpleConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core/annotations/src/main/resources/spring-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core/annotations/src/test/java/com/vinaylogics/springbasics/core/annotations/configurations/BaseTestClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core/annotations/src/test/java/com/vinaylogics/springbasics/core/annotations/configurations/SimpleConfigurationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core/xml/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core/xml/build/classes/java/main/com/vinaylogics/springbasics/core/xml/LifeCycleBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core/xml/build/classes/java/main/com/vinaylogics/springbasics/core/xml/SimpleBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core/xml/build/classes/java/main/com/vinaylogics/springbasics/core/xml/SimpleBeanLifeCycle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core/xml/build/classes/java/test/com/vinaylogics/springbasics/core/xml/BaseTestClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core/xml/build/classes/java/test/com/vinaylogics/springbasics/core/xml/SimpleBeanLifeCycleTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core/xml/build/classes/java/test/com/vinaylogics/springbasics/core/xml/SimpleBeanTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core/xml/build/reports/tests/test/classes/com.vinaylogics.springbasics.core.xml.SimpleBeanLifeCycleTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core/xml/build/reports/tests/test/css/base-style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core/xml/build/reports/tests/test/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core/xml/build/reports/tests/test/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core/xml/build/reports/tests/test/js/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core/xml/build/reports/tests/test/packages/com.vinaylogics.springbasics.core.xml.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core/xml/build/resources/main/spring-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core/xml/build/test-results/test/TEST-com.vinaylogics.springbasics.core.xml.SimpleBeanLifeCycleTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core/xml/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core/xml/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core/xml/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core/xml/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core/xml/build/tmp/compileTestJava/source-classes-mapping.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core/xml/src/main/java/com/vinaylogics/springbasics/core/xml/LifeCycleBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core/xml/src/main/java/com/vinaylogics/springbasics/core/xml/SimpleBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core/xml/src/main/java/com/vinaylogics/springbasics/core/xml/SimpleBeanLifeCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core/xml/src/main/resources/spring-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core/xml/src/test/java/com/vinaylogics/springbasics/core/xml/BaseTestClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core/xml/src/test/java/com/vinaylogics/springbasics/core/xml/SimpleBeanLifeCycleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core/xml/src/test/java/com/vinaylogics/springbasics/core/xml/SimpleBeanTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.log" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.mylyn/repositories.xml.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.mylyn/repositories.xml.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.buildship.core/project-preferences/AdvanceJavaGradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.buildship.ui/dialog_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.buildship.ui/dialog_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/advancejava/.indexes/properties.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/advancejava/.markers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/corejavatraining/.indexes/properties.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/corejavatraining/.markers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.launching.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.launching.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.sse.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.sse.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/DeserializableExample.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/DeserializableExample.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/ExceptionExamples.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/ExceptionExamples.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/ExceptionResource.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/ExceptionResource.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/InstanceByNew.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/InstanceByNew.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/InstanceByReflections.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/InstanceByReflections.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/InstnaceByNewInstance.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/InstnaceByNewInstance.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/NewInstanceByClone.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/NewInstanceByClone.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/StringDemo.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/StringDemo.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1049380384.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1268240816.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1531067524.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/2026878357.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/2420485488.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/3463425493.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/3887009844.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/410181436.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/411658089.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/764459017.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/908681164.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.launching/.install.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.launching/.install.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jst.jsp.core/taglibindex/1531067524.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core.ui/dialog_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core.ui/dialog_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/advancejava.lifecyclemapping" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/corejavatraining.lifecyclemapping" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/05b0fe8524860bd73cbb07ef30fb34cc/segments.gen" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/05b0fe8524860bd73cbb07ef30fb34cc/segments.gen" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/40b40a5413f5d0ab1516f393dd907ebf/segments.gen" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/40b40a5413f5d0ab1516f393dd907ebf/segments.gen" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/segments.gen" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/segments.gen" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/workspaceState.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/workspaceState.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/workspacestate.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/workspacestate.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.jdt/advancejava.container" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.jdt/corejavatraining.container" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.jsdt.core/externalLibsTimeStamps" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.jsdt.core/externalLibsTimeStamps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.jsdt.core/variablesAndContainers.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.jsdt.core/variablesAndContainers.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.xml.core/system_catalog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.xml.core/system_catalog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/version.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/version.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculatorApplication/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CalculatorApplication/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloWorld.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloWorld.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateBasics/src/main/java/org/vinaylogics/hibernatebasics/annotation/crieteriaquery/EmployeeDataNarrowCriteria2RestrictionResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HibernateBasics/src/main/java/org/vinaylogics/hibernatebasics/annotation/crieteriaquery/EmployeeDataNarrowCriteria2RestrictionResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaNIOTutorial/src/main/java/com/vinaylogics/javaniotutorial/SingleThreadedBlockServerExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaNIOTutorial/src/main/java/com/vinaylogics/javaniotutorial/SingleThreadedBlockServerExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/.gradle/6.5/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/.gradle/6.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/.gradle/6.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/.gradle/6.5/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/.gradle/6.5/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/.gradle/6.5/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/.gradle/6.5/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/.gradle/6.5/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/.gradle/6.5/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/.gradle/6.5/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/.gradle/6.5/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/DesignPattern/build/classes/java/main/com/vinaylogics/designpattern/creational/factory/VehicleFactory$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/DesignPattern/build/classes/java/main/com/vinaylogics/designpattern/creational/factory/VehicleFactory$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/DesignPattern/build/classes/java/main/com/vinaylogics/designpattern/creational/factory/VehicleFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/DesignPattern/build/classes/java/main/com/vinaylogics/designpattern/creational/factory/VehicleFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/DesignPattern/build/classes/java/test/com/vinaylogics/designpattern/creational/abstract_factory/AbstractionFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/DesignPattern/build/classes/java/test/com/vinaylogics/designpattern/creational/abstract_factory/AbstractionFactoryTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/DesignPattern/build/classes/java/test/com/vinaylogics/designpattern/creational/factory/VehicleFactoryTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/DesignPattern/build/classes/java/test/com/vinaylogics/designpattern/creational/factory/VehicleFactoryTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/DesignPattern/build/classes/java/test/com/vinaylogics/designpattern/creational/factory/VehicleFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/DesignPattern/build/classes/java/test/com/vinaylogics/designpattern/creational/factory/VehicleFactoryTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/DesignPattern/build/reports/tests/test/classes/com.vinaylogics.designpattern.creational.abstract_factory.AbstractionFactoryTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/DesignPattern/build/reports/tests/test/classes/com.vinaylogics.designpattern.creational.abstract_factory.AbstractionFactoryTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/DesignPattern/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/DesignPattern/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/DesignPattern/build/reports/tests/test/packages/com.vinaylogics.designpattern.creational.abstract_factory.html" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/DesignPattern/build/reports/tests/test/packages/com.vinaylogics.designpattern.creational.abstract_factory.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/DesignPattern/build/test-results/test/TEST-com.vinaylogics.designpattern.creational.abstract_factory.AbstractionFactoryTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/DesignPattern/build/test-results/test/TEST-com.vinaylogics.designpattern.creational.abstract_factory.AbstractionFactoryTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/DesignPattern/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/DesignPattern/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/DesignPattern/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/DesignPattern/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/DesignPattern/src/main/java/com/vinaylogics/designpattern/creational/factory/VehicleFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/DesignPattern/src/main/java/com/vinaylogics/designpattern/creational/factory/VehicleFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/DesignPattern/src/test/java/com/vinaylogics/designpattern/creational/abstract_factory/AbstractionFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/DesignPattern/src/test/java/com/vinaylogics/designpattern/creational/abstract_factory/AbstractionFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/DesignPattern/src/test/java/com/vinaylogics/designpattern/creational/factory/VehicleFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/DesignPattern/src/test/java/com/vinaylogics/designpattern/creational/factory/VehicleFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/javamaildemo/build/classes/java/main/com/vinaylogics/learnadvancejava/javamaildemo/JavaMailExample$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/javamaildemo/build/classes/java/main/com/vinaylogics/learnadvancejava/javamaildemo/JavaMailExample$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/javamaildemo/build/classes/java/main/com/vinaylogics/learnadvancejava/javamaildemo/JavaMailExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/javamaildemo/build/classes/java/main/com/vinaylogics/learnadvancejava/javamaildemo/JavaMailExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/javamaildemo/src/main/java/com/vinaylogics/learnadvancejava/javamaildemo/JavaMailExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/javamaildemo/src/main/java/com/vinaylogics/learnadvancejava/javamaildemo/JavaMailExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/jdbc/build/classes/java/main/com/vinaylogics/learnadvancejava/jdbc/util/PreparedStatementConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/jdbc/build/classes/java/main/com/vinaylogics/learnadvancejava/jdbc/util/PreparedStatementConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/jdbc/build/reports/tests/test/classes/com.vinaylogics.learnadvancejava.jdbc.util.CallableConnectionTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/jdbc/build/reports/tests/test/classes/com.vinaylogics.learnadvancejava.jdbc.util.CallableConnectionTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/jdbc/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/jdbc/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/jdbc/build/reports/tests/test/packages/com.vinaylogics.learnadvancejava.jdbc.util.html" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/jdbc/build/reports/tests/test/packages/com.vinaylogics.learnadvancejava.jdbc.util.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/jdbc/build/test-results/test/TEST-com.vinaylogics.learnadvancejava.jdbc.util.CallableConnectionTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/jdbc/build/test-results/test/TEST-com.vinaylogics.learnadvancejava.jdbc.util.CallableConnectionTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/jdbc/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/jdbc/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/jdbc/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/jdbc/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/jdbc/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/jdbc/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/jdbc/src/main/java/com/vinaylogics/learnadvancejava/jdbc/util/PreparedStatementConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/jdbc/src/main/java/com/vinaylogics/learnadvancejava/jdbc/util/PreparedStatementConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/jsp/build/classes/java/main/com/vinaylogics/learnadvancejava/jsp/customtags/CustomTag.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/jsp/build/classes/java/main/com/vinaylogics/learnadvancejava/jsp/customtags/CustomTag.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/jsp/build/libs/jsp-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/jsp/build/libs/jsp-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/jsp/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/jsp/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/jsp/src/main/java/com/vinaylogics/learnadvancejava/jsp/customtags/CustomTag.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/jsp/src/main/java/com/vinaylogics/learnadvancejava/jsp/customtags/CustomTag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/jsp/src/main/webapp/jsp/first.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/jsp/src/main/webapp/jsp/first.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/jsp/src/main/webapp/jsp/welcome.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/jsp/src/main/webapp/jsp/welcome.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/junit/build/classes/java/test/com/vinaylogics/learnadvancedjava/junit/model/CalculatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/junit/build/classes/java/test/com/vinaylogics/learnadvancedjava/junit/model/CalculatorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/junit/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/junit/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/junit/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/junit/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/servlets/build/libs/servlets-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/servlets/build/libs/servlets-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/servlets/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/servlets/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/servlets/src/main/java/com/vinaylogics/learnadvancejava/servlets/SendRedirectServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/servlets/src/main/java/com/vinaylogics/learnadvancejava/servlets/SendRedirectServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SchoolManagementApp/src/main/webapp/resources/js/services/common-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/../SchoolManagementApp/src/main/webapp/resources/js/services/common-service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBasics/.gradle/6.5.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBasics/.gradle/6.5.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBasics/.gradle/6.5.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBasics/.gradle/6.5.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBasics/.gradle/6.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBasics/.gradle/6.5.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBasics/.gradle/6.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBasics/.gradle/6.5.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBasics/.gradle/6.5.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBasics/.gradle/6.5.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBasics/.gradle/6.5.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBasics/.gradle/6.5.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBasics/.gradle/6.5.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBasics/.gradle/6.5.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBasics/.gradle/6.5.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBasics/.gradle/6.5.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBasics/.gradle/6.5.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBasics/.gradle/6.5.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBasics/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBasics/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBasics/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBasics/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBasics/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBasics/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBasics/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBasics/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBasics/.idea/SpringBasics.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBasics/.idea/SpringBasics.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBasics/spring-core-xml/build/classes/java/test/com/vinaylogics/springbaiscs/springcorexml/model/HelloIndiaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBasics/spring-core-xml/build/classes/java/test/com/vinaylogics/springbaiscs/springcorexml/model/HelloIndiaTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBasics/spring-core-xml/build/classes/java/test/com/vinaylogics/springbaiscs/springcorexml/model/StoreTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBasics/spring-core-xml/build/classes/java/test/com/vinaylogics/springbaiscs/springcorexml/model/StoreTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBasics/spring-core-xml/build/tmp/compileTestJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBasics/spring-core-xml/build/tmp/compileTestJava/source-classes-mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBasics/spring-core-xml/src/test/java/com/vinaylogics/springbaiscs/springcorexml/model/HelloIndiaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBasics/spring-core-xml/src/test/java/com/vinaylogics/springbaiscs/springcorexml/model/HelloIndiaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBasics/spring-core-xml/src/test/java/com/vinaylogics/springbaiscs/springcorexml/model/StoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBasics/spring-core-xml/src/test/java/com/vinaylogics/springbaiscs/springcorexml/model/StoreTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBasics/spring-jdbc-annotations/build/classes/java/main/com/vinaylogics/springbasics/springjdbcannotations/dao/EmployeeDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBasics/spring-jdbc-annotations/build/classes/java/main/com/vinaylogics/springbasics/springjdbcannotations/dao/EmployeeDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBasics/spring-jdbc-annotations/build/classes/java/test/com/vinaylogics/springbasics/springjdbcannotations/dao/EmployeeDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBasics/spring-jdbc-annotations/build/classes/java/test/com/vinaylogics/springbasics/springjdbcannotations/dao/EmployeeDaoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBasics/spring-jdbc-annotations/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBasics/spring-jdbc-annotations/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBasics/spring-jdbc-annotations/src/main/java/com/vinaylogics/springbasics/springjdbcannotations/dao/EmployeeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBasics/spring-jdbc-annotations/src/main/java/com/vinaylogics/springbasics/springjdbcannotations/dao/EmployeeDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBasics/spring-jdbc-annotations/src/test/java/com/vinaylogics/springbasics/springjdbcannotations/dao/EmployeeDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBasics/spring-jdbc-annotations/src/test/java/com/vinaylogics/springbasics/springjdbcannotations/dao/EmployeeDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBasics/spring-jdbc-xml/build/classes/java/main/com/vinaylogics/springbasics/springjdbcxml/dao/EmployeeDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBasics/spring-jdbc-xml/build/classes/java/main/com/vinaylogics/springbasics/springjdbcxml/dao/EmployeeDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBasics/spring-jdbc-xml/build/classes/java/test/com/vinaylogics/springbasics/springjdbcxml/dao/EmployeeDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBasics/spring-jdbc-xml/build/classes/java/test/com/vinaylogics/springbasics/springjdbcxml/dao/EmployeeDaoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBasics/spring-jdbc-xml/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBasics/spring-jdbc-xml/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBasics/spring-jdbc-xml/src/main/java/com/vinaylogics/springbasics/springjdbcxml/dao/EmployeeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBasics/spring-jdbc-xml/src/main/java/com/vinaylogics/springbasics/springjdbcxml/dao/EmployeeDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBasics/spring-jdbc-xml/src/test/java/com/vinaylogics/springbasics/springjdbcxml/dao/EmployeeDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBasics/spring-jdbc-xml/src/test/java/com/vinaylogics/springbasics/springjdbcxml/dao/EmployeeDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-training/hibernate-caching/hibernate-caching.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-training/hibernate-caching/hibernate-caching.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-training/hibernate-crieteriaquery/hibernate-crieteriaquery.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-training/hibernate-crieteriaquery/hibernate-crieteriaquery.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-training/hibernate-nativequery/hibernate-nativequery.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-training/hibernate-nativequery/hibernate-nativequery.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-training/hibernate-storedprocedure/hibernate-storedprocedure.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-training/hibernate-storedprocedure/hibernate-storedprocedure.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-tutorial/.gradle/6.6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-tutorial/.gradle/6.6.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-tutorial/.gradle/6.6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-tutorial/.gradle/6.6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-tutorial/.gradle/6.6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-tutorial/.gradle/6.6.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-tutorial/.gradle/6.6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-tutorial/.gradle/6.6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-tutorial/.gradle/6.6.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-tutorial/.gradle/6.6.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-tutorial/.gradle/6.6.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-tutorial/.gradle/6.6.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-tutorial/.gradle/6.6.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-tutorial/.gradle/6.6.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-tutorial/.gradle/6.6.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-tutorial/.gradle/6.6.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-tutorial/.gradle/6.6.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-tutorial/.gradle/6.6.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-tutorial/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-tutorial/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-tutorial/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-tutorial/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-tutorial/.idea/dataSources/0cbb3989-0373-4962-ac10-8dc270307ee7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-tutorial/.idea/dataSources/0cbb3989-0373-4962-ac10-8dc270307ee7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-tutorial/.idea/modules/hibernate-core/configuration-properties/hibernate-tutorial.hibernate-core.configuration-properties.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-tutorial/.idea/modules/hibernate-core/configuration-properties/hibernate-tutorial.hibernate-core.configuration-properties.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-tutorial/HQL/criteria-query/src/test/java/com/vinaylogics/hibernate_tutorial/hql/criteria_query/CriteriaQueryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-tutorial/HQL/criteria-query/src/test/java/com/vinaylogics/hibernate_tutorial/hql/criteria_query/CriteriaQueryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-tutorial/HQL/criteria-query/src/test/java/com/vinaylogics/hibernate_tutorial/hql/criteria_query/DataGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-tutorial/HQL/criteria-query/src/test/java/com/vinaylogics/hibernate_tutorial/hql/criteria_query/DataGeneratorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-tutorial/HQL/stored-procedure/build/classes/java/test/com/vinaylogics/hibernate_tutorial/hql/stored_procedure/DataGeneratorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-tutorial/HQL/stored-procedure/build/classes/java/test/com/vinaylogics/hibernate_tutorial/hql/stored_procedure/DataGeneratorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-tutorial/HQL/stored-procedure/build/reports/tests/test/classes/com.vinaylogics.hibernate_tutorial.hql.stored_procedure.StoredProcedureTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-tutorial/HQL/stored-procedure/build/reports/tests/test/classes/com.vinaylogics.hibernate_tutorial.hql.stored_procedure.StoredProcedureTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-tutorial/HQL/stored-procedure/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-tutorial/HQL/stored-procedure/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-tutorial/HQL/stored-procedure/build/reports/tests/test/packages/com.vinaylogics.hibernate_tutorial.hql.stored_procedure.html" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-tutorial/HQL/stored-procedure/build/reports/tests/test/packages/com.vinaylogics.hibernate_tutorial.hql.stored_procedure.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-tutorial/HQL/stored-procedure/build/test-results/test/TEST-com.vinaylogics.hibernate_tutorial.hql.stored_procedure.StoredProcedureTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-tutorial/HQL/stored-procedure/build/test-results/test/TEST-com.vinaylogics.hibernate_tutorial.hql.stored_procedure.StoredProcedureTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-tutorial/HQL/stored-procedure/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-tutorial/HQL/stored-procedure/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-tutorial/HQL/stored-procedure/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-tutorial/HQL/stored-procedure/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-tutorial/HQL/stored-procedure/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-tutorial/HQL/stored-procedure/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-tutorial/hibernate-mapping/column-mapping/src/main/java/com/vinaylogics/hibernate_tutorial/hibernate_mapping/column_mapping/models/mto_bidirectional/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-tutorial/hibernate-mapping/column-mapping/src/main/java/com/vinaylogics/hibernate_tutorial/hibernate_mapping/column_mapping/models/mto_bidirectional/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-tutorial/hibernate-mapping/column-mapping/src/main/java/com/vinaylogics/hibernate_tutorial/hibernate_mapping/column_mapping/models/mto_bidirectional/University.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-tutorial/hibernate-mapping/column-mapping/src/main/java/com/vinaylogics/hibernate_tutorial/hibernate_mapping/column_mapping/models/mto_bidirectional/University.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-tutorial/hibernate-mapping/column-mapping/src/main/java/com/vinaylogics/hibernate_tutorial/hibernate_mapping/column_mapping/models/mto_unidirectional/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-tutorial/hibernate-mapping/column-mapping/src/main/java/com/vinaylogics/hibernate_tutorial/hibernate_mapping/column_mapping/models/mto_unidirectional/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-tutorial/hibernate-mapping/column-mapping/src/main/java/com/vinaylogics/hibernate_tutorial/hibernate_mapping/column_mapping/models/mto_unidirectional/University.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-tutorial/hibernate-mapping/column-mapping/src/main/java/com/vinaylogics/hibernate_tutorial/hibernate_mapping/column_mapping/models/mto_unidirectional/University.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-tutorial/hibernate-mapping/column-mapping/src/main/java/com/vinaylogics/hibernate_tutorial/hibernate_mapping/column_mapping/models/otm_unidirectional/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-tutorial/hibernate-mapping/column-mapping/src/main/java/com/vinaylogics/hibernate_tutorial/hibernate_mapping/column_mapping/models/otm_unidirectional/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-tutorial/hibernate-mapping/column-mapping/src/main/java/com/vinaylogics/hibernate_tutorial/hibernate_mapping/column_mapping/models/otm_unidirectional/University.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-tutorial/hibernate-mapping/column-mapping/src/main/java/com/vinaylogics/hibernate_tutorial/hibernate_mapping/column_mapping/models/otm_unidirectional/University.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-tutorial/hibernate-mapping/column-mapping/src/test/java/com/vinaylogics/hibernate_tutorial/hibernate_mapping/column_mapping/mtm_bidirectional/ManyToManyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-tutorial/hibernate-mapping/column-mapping/src/test/java/com/vinaylogics/hibernate_tutorial/hibernate_mapping/column_mapping/mtm_bidirectional/ManyToManyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-tutorial/hibernate-mapping/column-mapping/src/test/java/com/vinaylogics/hibernate_tutorial/hibernate_mapping/column_mapping/mtm_unidirectional/ManyToManyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-tutorial/hibernate-mapping/column-mapping/src/test/java/com/vinaylogics/hibernate_tutorial/hibernate_mapping/column_mapping/mtm_unidirectional/ManyToManyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-tutorial/hibernate-mapping/column-mapping/src/test/java/com/vinaylogics/hibernate_tutorial/hibernate_mapping/column_mapping/mto_bidirectional/ManyToOneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-tutorial/hibernate-mapping/column-mapping/src/test/java/com/vinaylogics/hibernate_tutorial/hibernate_mapping/column_mapping/mto_bidirectional/ManyToOneTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-tutorial/hibernate-mapping/column-mapping/src/test/java/com/vinaylogics/hibernate_tutorial/hibernate_mapping/column_mapping/mto_unidirectional/ManyToOneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-tutorial/hibernate-mapping/column-mapping/src/test/java/com/vinaylogics/hibernate_tutorial/hibernate_mapping/column_mapping/mto_unidirectional/ManyToOneTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-tutorial/hibernate-mapping/column-mapping/src/test/java/com/vinaylogics/hibernate_tutorial/hibernate_mapping/column_mapping/otm_unidirectional_mapping/OneToManyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-tutorial/hibernate-mapping/column-mapping/src/test/java/com/vinaylogics/hibernate_tutorial/hibernate_mapping/column_mapping/otm_unidirectional_mapping/OneToManyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-tutorial/hibernate-mapping/column-mapping/src/test/java/com/vinaylogics/hibernate_tutorial/hibernate_mapping/column_mapping/oto_bi_directional_mapping/OneToOneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-tutorial/hibernate-mapping/column-mapping/src/test/java/com/vinaylogics/hibernate_tutorial/hibernate_mapping/column_mapping/oto_bi_directional_mapping/OneToOneTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-tutorial/hibernate-mapping/column-mapping/src/test/java/com/vinaylogics/hibernate_tutorial/hibernate_mapping/column_mapping/oto_uni_directional_mapping/OneToOneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-tutorial/hibernate-mapping/column-mapping/src/test/java/com/vinaylogics/hibernate_tutorial/hibernate_mapping/column_mapping/oto_uni_directional_mapping/OneToOneTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-tutorial/hibernate-mapping/table-inheritance/src/main/java/com/vinaylogics/hibernate_mapping/table_inheritance/models/joined_table/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-tutorial/hibernate-mapping/table-inheritance/src/main/java/com/vinaylogics/hibernate_mapping/table_inheritance/models/joined_table/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-tutorial/hibernate-mapping/table-inheritance/src/main/java/com/vinaylogics/hibernate_mapping/table_inheritance/models/mapped_super_class/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-tutorial/hibernate-mapping/table-inheritance/src/main/java/com/vinaylogics/hibernate_mapping/table_inheritance/models/mapped_super_class/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-tutorial/hibernate-mapping/table-inheritance/src/main/java/com/vinaylogics/hibernate_mapping/table_inheritance/models/single_table/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-tutorial/hibernate-mapping/table-inheritance/src/main/java/com/vinaylogics/hibernate_mapping/table_inheritance/models/single_table/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-tutorial/hibernate-mapping/table-inheritance/src/test/java/com/vinaylogics/hibernate_mapping/table_inheritance/models/joined_table/EmployeeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-tutorial/hibernate-mapping/table-inheritance/src/test/java/com/vinaylogics/hibernate_mapping/table_inheritance/models/joined_table/EmployeeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-tutorial/hibernate-mapping/table-inheritance/src/test/java/com/vinaylogics/hibernate_mapping/table_inheritance/models/mapped_super_class/EmployeeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-tutorial/hibernate-mapping/table-inheritance/src/test/java/com/vinaylogics/hibernate_mapping/table_inheritance/models/mapped_super_class/EmployeeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-tutorial/hibernate-mapping/table-inheritance/src/test/java/com/vinaylogics/hibernate_mapping/table_inheritance/models/single_table/EmployeeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-tutorial/hibernate-mapping/table-inheritance/src/test/java/com/vinaylogics/hibernate_mapping/table_inheritance/models/single_table/EmployeeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-tutorial/hibernate-mapping/table-inheritance/src/test/java/com/vinaylogics/hibernate_mapping/table_inheritance/models/table_per_class/EmployeeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-tutorial/hibernate-mapping/table-inheritance/src/test/java/com/vinaylogics/hibernate_mapping/table_inheritance/models/table_per_class/EmployeeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-tutorial/hql/hibernate-methods/src/test/java/com/vinayalogics/hibernate_tutorial/hql/hibernate_methods/DataGenerateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-tutorial/hql/hibernate-methods/src/test/java/com/vinayalogics/hibernate_tutorial/hql/hibernate_methods/DataGenerateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-tutorial/hql/hibernate-methods/src/test/java/com/vinayalogics/hibernate_tutorial/hql/hibernate_methods/HibernateMethodTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-tutorial/hql/hibernate-methods/src/test/java/com/vinayalogics/hibernate_tutorial/hql/hibernate_methods/HibernateMethodTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-tutorial/hql/named-native-query/src/test/java/com/vinaylogics/hibernate_tutorial/named_native_query/DataGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-tutorial/hql/named-native-query/src/test/java/com/vinaylogics/hibernate_tutorial/named_native_query/DataGeneratorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-tutorial/hql/named-native-query/src/test/java/com/vinaylogics/hibernate_tutorial/named_native_query/NamedNativeQueryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-tutorial/hql/named-native-query/src/test/java/com/vinaylogics/hibernate_tutorial/named_native_query/NamedNativeQueryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-tutorial/hql/named-query/src/test/java/com/vinaylogics/hibernate_tutorial/hql/named_query/DataGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-tutorial/hql/named-query/src/test/java/com/vinaylogics/hibernate_tutorial/hql/named_query/DataGeneratorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-tutorial/hql/named-query/src/test/java/com/vinaylogics/hibernate_tutorial/hql/named_query/NamedQueryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-tutorial/hql/named-query/src/test/java/com/vinaylogics/hibernate_tutorial/hql/named_query/NamedQueryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-tutorial/hql/native-query/src/test/java/com/vinaylogics/hibernate_tutorial/hql/native_query/DataGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-tutorial/hql/native-query/src/test/java/com/vinaylogics/hibernate_tutorial/hql/native_query/DataGeneratorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-tutorial/hql/native-query/src/test/java/com/vinaylogics/hibernate_tutorial/hql/native_query/NativeQueryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-tutorial/hql/native-query/src/test/java/com/vinaylogics/hibernate_tutorial/hql/native_query/NativeQueryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-tutorial/hql/query-demo/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-tutorial/hql/query-demo/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-tutorial/hql/query-demo/src/test/java/com/vinaylogics/hibernate_tutorial/hql/query_demo/model/DataGenerateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-tutorial/hql/query-demo/src/test/java/com/vinaylogics/hibernate_tutorial/hql/query_demo/model/DataGenerateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-tutorial/hql/query-demo/src/test/java/com/vinaylogics/hibernate_tutorial/hql/query_demo/model/QueryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-tutorial/hql/query-demo/src/test/java/com/vinaylogics/hibernate_tutorial/hql/query_demo/model/QueryTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spring-basics" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="spring-beans.schema" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="KotlinMultiplatform">
+    <executables />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2019.2.4\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1jXq2JJ6STRwhLet0512p26tk29" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="com.vinaylogics.springbasics.core.annotations.BaseTestClass" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-core/annotations" />
+    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.vinaylogics.springbasics.core.annotations.configurations" />
+      <recent name="com.vinaylogics.springbasics.core.xml" />
+      <recent name="com.vinaylogics.springbasics.basics.di" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="com.vinaylogics.springbasics.core.annotations.BaseTestClass" />
+      <recent name="com.vinaylogics.springbasics.core.xml.BaseTestClass" />
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.vinaylogics.springbasics.core.annotations" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.MultiPlexStoreTest.testMultiProduct_WithRequiredTypeProduct">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultiPlexStoreTest.testMultiProduct_WithRequiredTypeProduct" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.vinaylogics.springbasics.basics.di.MultiPlexStoreTest.testMultiProduct_WithRequiredTypeProduct&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":basics:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SimpleBeanLifeCycleTest.testLifeCycleMethod" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.vinaylogics.springbasics.core.xml.SimpleBeanLifeCycleTest.testLifeCycleMethod&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":spring-core:xml:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SimpleConfigurationTest.simpleBean" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.vinaylogics.springbasics.core.annotations.configurations.SimpleConfigurationTest.simpleBean&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":spring-core:annotations:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="StoreWithDITest.testDI" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.vinaylogics.springbasics.basics.di.StoreWithDITest.testDI&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":basics:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="StoreWithoutDITest.testStoreWithoutDI" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.vinaylogics.springbasics.basics.di.StoreWithoutDITest.testStoreWithoutDI&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":basics:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.MultiPlexStoreTest.testMultiProduct_WithRequiredTypeProduct" />
+        <item itemvalue="Gradle.StoreWithDITest.testDI" />
+        <item itemvalue="Gradle.StoreWithoutDITest.testStoreWithoutDI" />
+        <item itemvalue="Gradle.SimpleConfigurationTest.simpleBean" />
+        <item itemvalue="Gradle.SimpleBeanLifeCycleTest.testLifeCycleMethod" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="759170e8-6a47-48bd-acab-2b7caeb7784e" name="Default Changelist" comment="" />
+      <created>1603960577322</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603960577322</updated>
+      <workItem from="1603960579373" duration="1119000" />
+      <workItem from="1603979370461" duration="3066000" />
+      <workItem from="1604189758240" duration="116000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1155" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1603982158728">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1155" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1603982158728" />
+    <state x="-1263" y="329" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1603981391477">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1263" y="329" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.2560.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1603981391477" />
+    <state x="-1126" y="274" key="FileChooserDialogImpl" timestamp="1603981753568">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1126" y="274" key="FileChooserDialogImpl/0.0.2560.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1603981753568" />
+    <state x="1059" y="274" key="FileChooserDialogImpl/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1603960783662" />
+    <state x="525" y="241" key="FileDocumentManager.FileCacheConflict" timestamp="1603960805455">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="525" y="241" key="FileDocumentManager.FileCacheConflict/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1603960805455" />
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom" timestamp="1603982466563">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.2560.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1603982466563" />
+    <state width="1877" height="274" key="GridCell.Tab.0.center" timestamp="1603982466563">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.2560.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1603982466563" />
+    <state width="1877" height="274" key="GridCell.Tab.0.left" timestamp="1603982466563">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.2560.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1603982466563" />
+    <state width="1877" height="274" key="GridCell.Tab.0.right" timestamp="1603982466563">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.2560.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1603982466563" />
+    <state x="-1480" y="94" key="SettingsEditor" timestamp="1603980649524">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1480" y="94" key="SettingsEditor/0.0.2560.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1603980649524" />
+    <state x="-1206" y="349" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1603982037091">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1206" y="349" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.2560.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1603982037091" />
+    <state x="-1232" y="130" key="new project wizard" timestamp="1603981754753">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1232" y="130" key="new project wizard/0.0.2560.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1603981754753" />
+    <state x="917" y="130" key="new project wizard/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1603960795051" />
+    <state x="-1280" y="203" key="spring file set editor" timestamp="1603981978965">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1280" y="203" key="spring file set editor/0.0.2560.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1603981978965" />
+  </component>
+</project>

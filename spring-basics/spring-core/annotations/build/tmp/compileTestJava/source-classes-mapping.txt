@@ -1,0 +1,4 @@
+com/vinaylogics/springbasics/core/annotations/configurations/BaseTestClass.java
+ com.vinaylogics.springbasics.core.annotations.configurations.BaseTestClass
+com/vinaylogics/springbasics/core/annotations/configurations/SimpleConfigurationTest.java
+ com.vinaylogics.springbasics.core.annotations.configurations.SimpleConfigurationTest
