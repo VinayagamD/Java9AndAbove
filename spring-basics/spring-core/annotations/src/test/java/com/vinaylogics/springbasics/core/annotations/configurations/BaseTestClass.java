@@ -8,10 +8,12 @@ public abstract class BaseTestClass {
     public AnnotationConfigApplicationContext context;
 
 
+    public abstract Class<?> getConfigClass();
+
     @BeforeEach
     public void setUp(){
         context = new AnnotationConfigApplicationContext();
-        context.register(SimpleConfiguration.class);
+        context.register(getConfigClass());
         context.refresh();
     }
 

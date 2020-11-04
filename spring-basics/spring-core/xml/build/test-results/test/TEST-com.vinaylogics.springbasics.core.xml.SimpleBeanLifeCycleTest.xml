@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.vinaylogics.springbasics.core.xml.SimpleBeanLifeCycleTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-29T14:27:41" hostname="DESKTOP-3P18DGO" time="0.211">
-  <properties/>
-  <testcase name="testLifeCycleMethod()" classname="com.vinaylogics.springbasics.core.xml.SimpleBeanLifeCycleTest" time="0.211"/>
-  <system-out><![CDATA[Bean Initialized
-Bean Destroyed
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

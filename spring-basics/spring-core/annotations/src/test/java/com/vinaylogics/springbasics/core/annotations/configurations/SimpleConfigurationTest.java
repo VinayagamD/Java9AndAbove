@@ -12,4 +12,8 @@ class SimpleConfigurationTest extends BaseTestClass {
         assertNotNull(simpleBean);
     }
 
+    @Override
+    public Class<?> getConfigClass() {
+        return SimpleConfiguration.class;
+    }
 }
