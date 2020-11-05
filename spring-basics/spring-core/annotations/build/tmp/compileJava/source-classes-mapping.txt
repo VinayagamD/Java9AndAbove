@@ -2,3 +2,23 @@ com/vinaylogics/springbasics/core/annotations/configurations/SimpleConfiguration
  com.vinaylogics.springbasics.core.annotations.configurations.SimpleConfiguration
 com/vinaylogics/springbasics/core/annotations/SimpleBean.java
  com.vinaylogics.springbasics.core.annotations.SimpleBean
+com/vinaylogics/springbasics/core/annotations/models/Address.java
+ com.vinaylogics.springbasics.core.annotations.models.Address
+com/vinaylogics/springbasics/core/annotations/configurations/PropertyConfiguration.java
+ com.vinaylogics.springbasics.core.annotations.configurations.PropertyConfiguration
+com/vinaylogics/springbasics/core/annotations/configurations/StoreConfiguration.java
+ com.vinaylogics.springbasics.core.annotations.configurations.StoreConfiguration
+com/vinaylogics/springbasics/core/annotations/models/Store.java
+ com.vinaylogics.springbasics.core.annotations.models.Store
+com/vinaylogics/springbasics/core/annotations/models/Item.java
+ com.vinaylogics.springbasics.core.annotations.models.Item
+com/vinaylogics/springbasics/core/annotations/configurations/LifeCycleBeanConfiguration.java
+ com.vinaylogics.springbasics.core.annotations.configurations.LifeCycleBeanConfiguration
+com/vinaylogics/springbasics/core/annotations/LifeCycleBean.java
+ com.vinaylogics.springbasics.core.annotations.LifeCycleBean
+com/vinaylogics/springbasics/core/annotations/models/NamingDataCollection.java
+ com.vinaylogics.springbasics.core.annotations.models.NamingDataCollection
+com/vinaylogics/springbasics/core/annotations/models/NamingData.java
+ com.vinaylogics.springbasics.core.annotations.models.NamingData
+com/vinaylogics/springbasics/core/annotations/configurations/NamingDataCollectionConfig.java
+ com.vinaylogics.springbasics.core.annotations.configurations.NamingDataCollectionConfig
