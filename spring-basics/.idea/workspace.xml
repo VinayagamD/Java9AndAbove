@@ -5,20 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="759170e8-6a47-48bd-acab-2b7caeb7784e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-core/annotations/src/main/java/com/vinaylogics/springbasics/core/annotations/LifeCycleBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-core/annotations/src/main/java/com/vinaylogics/springbasics/core/annotations/configurations/LifeCycleBeanConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-core/annotations/src/main/java/com/vinaylogics/springbasics/core/annotations/configurations/NamingDataCollectionConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-core/annotations/src/main/java/com/vinaylogics/springbasics/core/annotations/configurations/PropertyConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-core/annotations/src/main/java/com/vinaylogics/springbasics/core/annotations/configurations/StoreConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-core/annotations/src/main/java/com/vinaylogics/springbasics/core/annotations/models/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-core/annotations/src/main/java/com/vinaylogics/springbasics/core/annotations/models/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-core/annotations/src/main/java/com/vinaylogics/springbasics/core/annotations/models/NamingData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-core/annotations/src/main/java/com/vinaylogics/springbasics/core/annotations/models/NamingDataCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-core/annotations/src/main/java/com/vinaylogics/springbasics/core/annotations/models/Store.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-core/annotations/src/test/java/com/vinaylogics/springbasics/core/annotations/configurations/LifeCycleBeanConfigurationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-core/annotations/src/test/java/com/vinaylogics/springbasics/core/annotations/configurations/NamingDataCollectionConfigTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-core/annotations/src/test/java/com/vinaylogics/springbasics/core/annotations/configurations/PropertyConfigurationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-core/annotations/src/test/java/com/vinaylogics/springbasics/core/annotations/configurations/StoreConfigurationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-data/spring-jdbc/jdbc-xml/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-data/spring-jdbc/src/main/java/com/vinaylogics/springdata/jdbc/xml/doas/EmployeeDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-data/spring-jdbc/src/main/java/com/vinaylogics/springdata/jdbc/xml/doas/impl/EmployeeDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-data/spring-jdbc/src/main/java/com/vinaylogics/springdata/jdbc/xml/models/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-data/spring-jdbc/src/main/java/com/vinaylogics/springdata/jdbc/xml/utils/QueryConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-data/spring-jdbc/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-data/spring-jdbc/src/test/java/com/vinaylogics/springdata/jdbc/xml/doas/EmployeeDaoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.log" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.mylyn/repositories.xml.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.mylyn/repositories.xml.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.buildship.core/project-preferences/AdvanceJavaGradle" beforeDir="false" />
@@ -281,16 +274,6 @@
       <change beforePath="$PROJECT_DIR$/../hibernate-tutorial/hql/query-demo/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-tutorial/hql/query-demo/src/main/resources/hibernate.cfg.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hibernate-tutorial/hql/query-demo/src/test/java/com/vinaylogics/hibernate_tutorial/hql/query_demo/model/DataGenerateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-tutorial/hql/query-demo/src/test/java/com/vinaylogics/hibernate_tutorial/hql/query_demo/model/DataGenerateTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hibernate-tutorial/hql/query-demo/src/test/java/com/vinaylogics/hibernate_tutorial/hql/query_demo/model/QueryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-tutorial/hql/query-demo/src/test/java/com/vinaylogics/hibernate_tutorial/hql/query_demo/model/QueryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/gc.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.bin" afterDir="false" />
@@ -301,20 +284,14 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.7/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-core/annotations/build/classes/java/test/com/vinaylogics/springbasics/core/annotations/configurations/BaseTestClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/annotations/build/classes/java/test/com/vinaylogics/springbasics/core/annotations/configurations/BaseTestClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-core/annotations/build/reports/tests/test/classes/com.vinaylogics.springbasics.core.annotations.configurations.SimpleConfigurationTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-core/annotations/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/annotations/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-core/annotations/build/reports/tests/test/packages/com.vinaylogics.springbasics.core.annotations.configurations.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/annotations/build/reports/tests/test/packages/com.vinaylogics.springbasics.core.annotations.configurations.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-core/annotations/build/resources/main/spring-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/annotations/build/resources/main/spring-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-core/annotations/build/test-results/test/TEST-com.vinaylogics.springbasics.core.annotations.configurations.SimpleConfigurationTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-core/annotations/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/annotations/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-core/annotations/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/annotations/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-core/annotations/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/annotations/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-core/annotations/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/annotations/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-core/annotations/build/tmp/compileTestJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/annotations/build/tmp/compileTestJava/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-core/annotations/src/main/resources/spring-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/annotations/src/main/resources/spring-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-core/annotations/src/test/java/com/vinaylogics/springbasics/core/annotations/configurations/BaseTestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/annotations/src/test/java/com/vinaylogics/springbasics/core/annotations/configurations/BaseTestClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -352,8 +329,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="spring-beans.schema" />
+        <option value="Interface" />
         <option value="Class" />
         <option value="JUnit5 Test Class" />
       </list>
@@ -384,13 +361,15 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="com.vinaylogics.springbasics.core.xml.BaseTestClass" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-core/annotations" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-data/spring-jdbc/jdbc-xml" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.0" />
@@ -399,14 +378,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.vinaylogics.springdata.jdbc.xml.doas" />
       <recent name="com.vinaylogics.springbasics.core.annotations.configurations" />
       <recent name="com.vinaylogics.springbasics.core.xml" />
       <recent name="com.vinaylogics.springbasics.basics.di" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
       <recent name="com.vinaylogics.springbasics.core.xml.BaseTestClass" />
       <recent name="com.vinaylogics.springbasics.core.annotations.BaseTestClass" />
-      <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.vinaylogics.springbasics.core.xml" />
@@ -415,7 +395,7 @@
       <recent name="com.vinaylogics.springbasics.core.annotations" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.NamingDataCollectionConfigTest.testNamingCollectionOrder">
+  <component name="RunManager" selected="Gradle.EmployeeDaoTest.findAll">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -426,6 +406,44 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="EmployeeDaoTest.findAll" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.vinaylogics.springdata.jdbc.xml.doas.EmployeeDaoTest.findAll&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":spring-data:spring-jdbc:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="EmployeeDaoTest.saveEmployee" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.vinaylogics.springdata.jdbc.xml.doas.EmployeeDaoTest.saveEmployee&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":spring-data:spring-jdbc:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="LifeCycleBeanConfigurationTest.testBeanLifeCycle" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -465,44 +483,6 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="PropertyConfigurationTest.testPropertyInitializer" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.vinaylogics.springbasics.core.annotations.configurations.PropertyConfigurationTest.testPropertyInitializer&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":spring-core:annotations:test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="SimpleConfigurationTest.simpleBean" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.vinaylogics.springbasics.core.annotations.configurations.SimpleConfigurationTest.simpleBean&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":spring-core:annotations:test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="StoreConfigurationTest.testDI" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -524,11 +504,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.EmployeeDaoTest.findAll" />
+        <item itemvalue="Gradle.EmployeeDaoTest.saveEmployee" />
         <item itemvalue="Gradle.NamingDataCollectionConfigTest.testNamingCollectionOrder" />
         <item itemvalue="Gradle.LifeCycleBeanConfigurationTest.testBeanLifeCycle" />
         <item itemvalue="Gradle.StoreConfigurationTest.testDI" />
-        <item itemvalue="Gradle.PropertyConfigurationTest.testPropertyInitializer" />
-        <item itemvalue="Gradle.SimpleConfigurationTest.simpleBean" />
       </list>
     </recent_temporary>
   </component>
@@ -545,7 +525,7 @@
       <workItem from="1604189758240" duration="116000" />
       <workItem from="1604411212897" duration="876000" />
       <workItem from="1604495934727" duration="3805000" />
-      <workItem from="1604582743054" duration="2352000" />
+      <workItem from="1604582743054" duration="3750000" />
     </task>
     <servers />
   </component>
@@ -553,47 +533,52 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1604584990512">
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604586524985">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1604584990512" />
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1604586524985" />
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1604586294443">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1604586294443" />
     <state x="-1155" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1604498455508" />
     <state x="-1155" y="245" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1604499633947" />
     <state x="-1263" y="329" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1603981391477">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1263" y="329" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.2560.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1603981391477" />
-    <state x="-1126" y="274" key="FileChooserDialogImpl" timestamp="1603981753568">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state x="794" y="274" key="FileChooserDialogImpl" timestamp="1604585833386">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="794" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1604585833386" />
     <state x="-1126" y="274" key="FileChooserDialogImpl/0.0.2560.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1603981753568" />
     <state x="1059" y="274" key="FileChooserDialogImpl/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1603960783662" />
     <state x="525" y="241" key="FileDocumentManager.FileCacheConflict" timestamp="1603960805455">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="525" y="241" key="FileDocumentManager.FileCacheConflict/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1603960805455" />
-    <state width="1877" height="249" key="GridCell.Tab.0.bottom" timestamp="1604585073202">
+    <state width="1877" height="249" key="GridCell.Tab.0.bottom" timestamp="1604586487126">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="249" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1604585073202" />
+    <state width="1877" height="249" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1604586487126" />
     <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.2560.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1604498741620" />
     <state width="1877" height="261" key="GridCell.Tab.0.bottom/0.0.2560.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1604499770892" />
-    <state width="1877" height="249" key="GridCell.Tab.0.center" timestamp="1604585073202">
+    <state width="1877" height="249" key="GridCell.Tab.0.center" timestamp="1604586487126">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="249" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1604585073202" />
+    <state width="1877" height="249" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1604586487126" />
     <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.2560.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1604498741620" />
     <state width="1877" height="261" key="GridCell.Tab.0.center/0.0.2560.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1604499770891" />
-    <state width="1877" height="249" key="GridCell.Tab.0.left" timestamp="1604585073202">
+    <state width="1877" height="249" key="GridCell.Tab.0.left" timestamp="1604586487126">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="249" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1604585073202" />
+    <state width="1877" height="249" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1604586487126" />
     <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.2560.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1604498741620" />
     <state width="1877" height="261" key="GridCell.Tab.0.left/0.0.2560.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1604499770891" />
-    <state width="1877" height="249" key="GridCell.Tab.0.right" timestamp="1604585073202">
+    <state width="1877" height="249" key="GridCell.Tab.0.right" timestamp="1604586487126">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="249" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1604585073202" />
+    <state width="1877" height="249" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1604586487126" />
     <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.2560.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1604498741620" />
     <state width="1877" height="261" key="GridCell.Tab.0.right/0.0.2560.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1604499770891" />
     <state width="1877" height="338" key="GridCell.Tab.1.bottom" timestamp="1604412096267">
@@ -617,20 +602,22 @@
     </state>
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1604582829568" />
     <state x="-1480" y="94" key="SettingsEditor/0.0.2560.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1603980649524" />
-    <state x="714" y="349" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1604584985929">
+    <state x="714" y="349" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1604586437875">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="714" y="349" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1604584985929" />
+    <state x="714" y="349" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1604586437875" />
     <state x="-1206" y="349" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.2560.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1604498451857" />
     <state x="-1206" y="362" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.2560.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1604499074768" />
-    <state x="-1232" y="130" key="new project wizard" timestamp="1603981754753">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state x="688" y="130" key="new project wizard" timestamp="1604585834427">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="688" y="130" key="new project wizard/0.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1604585834427" />
     <state x="-1232" y="130" key="new project wizard/0.0.2560.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1603981754753" />
     <state x="917" y="130" key="new project wizard/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1603960795051" />
-    <state x="-1280" y="203" key="spring file set editor" timestamp="1603981978965">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state x="640" y="203" key="spring file set editor" timestamp="1604585935330">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="640" y="203" key="spring file set editor/0.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1604585935330" />
     <state x="-1280" y="203" key="spring file set editor/0.0.2560.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1603981978965" />
   </component>
 </project>
