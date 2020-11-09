@@ -1,0 +1,2 @@
+com/vinaylogics/springbasics/data/jpa/xml/daos/EmployeeDaoTest.java
+ com.vinaylogics.springbasics.data.jpa.xml.daos.EmployeeDaoTest
