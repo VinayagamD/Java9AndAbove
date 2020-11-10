@@ -26,8 +26,8 @@ class EmployeeHibernateTest extends BaseTestClass {
     public void testHibernateAnnotation_Save(){
         Transaction t = session.beginTransaction();
         Employee employee = new Employee();
-        employee.setFirstName("Meiyappan");
-        employee.setLastName("Franco");
+        employee.setFirstName("Veilu");
+        employee.setLastName("Kantha");
         Address address = new Address();
         address.setCity("Bangalore");
         address.setCountry("India");

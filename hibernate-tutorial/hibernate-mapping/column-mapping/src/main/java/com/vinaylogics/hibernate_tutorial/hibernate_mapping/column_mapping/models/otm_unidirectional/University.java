@@ -13,7 +13,7 @@ public class University implements Serializable {
     private static final long serialVersionUID = 3181260467645432281L;
 
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     private String name;

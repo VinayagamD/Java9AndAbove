@@ -1,4 +1,4 @@
-com/vinaylogics/hibernate_tutorial/hibernate_cache/hibernate_ehcache/DataGeneratorTest.java
- com.vinaylogics.hibernate_tutorial.hibernate_cache.hibernate_ehcache.DataGeneratorTest
 com/vinaylogics/hibernate_tutorial/hibernate_cache/hibernate_ehcache/HibernateCacheTest.java
  com.vinaylogics.hibernate_tutorial.hibernate_cache.hibernate_ehcache.HibernateCacheTest
+com/vinaylogics/hibernate_tutorial/hibernate_cache/hibernate_ehcache/DataGeneratorTest.java
+ com.vinaylogics.hibernate_tutorial.hibernate_cache.hibernate_ehcache.DataGeneratorTest

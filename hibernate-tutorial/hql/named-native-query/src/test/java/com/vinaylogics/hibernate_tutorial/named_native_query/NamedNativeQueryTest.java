@@ -1,5 +1,6 @@
 package com.vinaylogics.hibernate_tutorial.named_native_query;
 
+import com.vinaylogics.hibernate_tutorial.core_test_module.base_test_class.BaseTestClass;
 import com.vinaylogics.hibernate_tutorial.named_native_query.models.Employee;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -17,19 +18,13 @@ import java.io.File;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class NamedNativeQueryTest {
+class NamedNativeQueryTest extends BaseTestClass {
 
-    File file;
-    SessionFactory sessionFactory;
-    Session session;
-
-    @BeforeEach
-    void setUp() {
-        file = new File(DataGeneratorTest.class.getClassLoader().getResource("hibernate.cfg.xml").getFile());
-        sessionFactory = new Configuration().configure(file)
-                .buildSessionFactory();
-        session = sessionFactory.openSession();
+    @Override
+    protected File getFile() {
+        return new File(DataGeneratorTest.class.getClassLoader().getResource("hibernate.cfg.xml").getFile());
     }
+
     @Test
     @DisplayName("To Test Name Query Find All")
     public void testNamedQueryFindAll(){
@@ -45,9 +40,4 @@ class NamedNativeQueryTest {
         System.out.println(query.getSingleResult());
     }
 
-    @AfterEach
-    void tearDown() {
-        session.close();
-        sessionFactory.close();
-    }
 }

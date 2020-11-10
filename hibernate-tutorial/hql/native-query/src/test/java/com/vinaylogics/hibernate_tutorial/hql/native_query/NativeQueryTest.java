@@ -1,5 +1,6 @@
 package com.vinaylogics.hibernate_tutorial.hql.native_query;
 
+import com.vinaylogics.hibernate_tutorial.core_test_module.base_test_class.BaseTestClass;
 import com.vinaylogics.hibernate_tutorial.hql.native_query.models.Employee;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -19,19 +20,14 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class NativeQueryTest {
+class NativeQueryTest extends BaseTestClass {
 
-    File file;
-    SessionFactory sessionFactory;
-    Session session;
 
-    @BeforeEach
-    void setUp() {
-        file = new File(DataGeneratorTest.class.getClassLoader().getResource("hibernate.cfg.xml").getFile());
-        sessionFactory = new Configuration().configure(file)
-                .buildSessionFactory();
-        session = sessionFactory.openSession();
+    @Override
+    protected File getFile() {
+        return new File(DataGeneratorTest.class.getClassLoader().getResource("hibernate.cfg.xml").getFile());
     }
+
 
     @Test
     @DisplayName("Test Native Query To Select All")
@@ -62,9 +58,4 @@ class NativeQueryTest {
         employeeNativeQuery.list().forEach(System.out::println);
     }
 
-    @AfterEach
-    void tearDown() {
-        session.close();
-        sessionFactory.close();
-    }
 }

@@ -2,6 +2,7 @@ package com.vinaylogics.hibernate_tutorial.hibernate_mapping.column_mapping.mto_
 
 
 
+import com.vinaylogics.hibernate_tutorial.core_test_module.base_test_class.BaseTestClass;
 import com.vinaylogics.hibernate_tutorial.hibernate_mapping.column_mapping.models.mto_bidirectional.University;
 import com.vinaylogics.hibernate_tutorial.hibernate_mapping.column_mapping.models.mto_bidirectional.Student;
 import org.hibernate.Session;
@@ -17,21 +18,16 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ManyToOneTest {
+public class ManyToOneTest extends BaseTestClass {
 
-    File file;
-    SessionFactory sessionFactory;
-    Session session;
-    @BeforeEach
-    void setUp() {
-        file = new File(OneToMany.class.getClassLoader().getResource("hibernate_cm_mto_bd.cfg.xml").getFile());
-        sessionFactory = new Configuration().configure(file)
-                .buildSessionFactory();
-        session = sessionFactory.openSession();
+    @Override
+    protected File getFile() {
+        return new File(OneToMany.class.getClassLoader().getResource("hibernate_cm_mto_bd.cfg.xml").getFile());
     }
 
+
     @Test
-    public void testManyToOneUniDirectional(){
+    public void testManyToOneBiDirectional(){
         Transaction t = session.beginTransaction();
         List<Student> students = new ArrayList<>();
         Student student = new Student();
@@ -59,9 +55,4 @@ public class ManyToOneTest {
         System.out.println("Save Success full");
     }
 
-    @AfterEach
-    void tearDown() {
-        session.close();
-        sessionFactory.close();
-    }
 }

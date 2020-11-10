@@ -10,7 +10,7 @@ public class Employee implements Serializable {
 
     private static final long serialVersionUID = -7771217239148989559L;
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.TABLE)
     private Long id;
     private String firstName;
     private String lastName;

@@ -1,0 +1,4 @@
+com/vinaylogics/hibernate_tutorial/hql/named_query/models/Employee.java
+ com.vinaylogics.hibernate_tutorial.hql.named_query.models.Employee
+com/vinaylogics/hibernate_tutorial/hql/named_query/models/Address.java
+ com.vinaylogics.hibernate_tutorial.hql.named_query.models.Address

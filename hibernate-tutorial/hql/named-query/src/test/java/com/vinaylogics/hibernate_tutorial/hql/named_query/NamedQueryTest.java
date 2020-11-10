@@ -1,5 +1,6 @@
 package com.vinaylogics.hibernate_tutorial.hql.named_query;
 
+import com.vinaylogics.hibernate_tutorial.core_test_module.base_test_class.BaseTestClass;
 import com.vinaylogics.hibernate_tutorial.hql.named_query.models.Employee;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -17,24 +18,18 @@ import java.io.File;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class NamedQueryTest {
+class NamedQueryTest extends BaseTestClass {
 
-    File file;
-    SessionFactory sessionFactory;
-    Session session;
-
-    @BeforeEach
-    void setUp() {
-        file = new File(DataGeneratorTest.class.getClassLoader().getResource("hibernate.cfg.xml").getFile());
-        sessionFactory = new Configuration().configure(file)
-                .buildSessionFactory();
-        session = sessionFactory.openSession();
+    @Override
+    protected File getFile() {
+        return new File(DataGeneratorTest.class.getClassLoader().getResource("hibernate.cfg.xml").getFile());
     }
+
 
     @Test
     @DisplayName("To Test Name Query Find All")
     public void testNamedQueryFindAll(){
-      Query<Employee> query = session.createNamedQuery("Employee.findAll");
+      TypedQuery<Employee> query = session.createNamedQuery("Employee.findAll", Employee.class);
       query.getResultList().forEach(System.out::println);
     }
 
@@ -42,13 +37,8 @@ class NamedQueryTest {
     @DisplayName("To Test Name Query Find All")
     @ValueSource(longs = {1,2,3,4,5})
     public void testNamedQueryFindById(Long id){
-      Query<Employee> query = session.createNamedQuery("Employee.findById").setParameter("id", id);
+      TypedQuery<Employee> query = session.createNamedQuery("Employee.findById", Employee.class).setParameter("id", id);
         System.out.println(query.getSingleResult());
     }
 
-    @AfterEach
-    void tearDown() {
-        session.close();
-        sessionFactory.close();
-    }
 }

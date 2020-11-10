@@ -1,34 +1,30 @@
 package com.vinaylogics.hibernate_tutorial.hql.criteria_query;
 
-import com.vinaylogics.hibernate_tutorial.hql.criteria_query.models.Employee;
+import com.vinaylogics.hibernate_tutorial.core_test_module.base_test_class.BaseTestClass;
+import com.vinaylogics.hibernate_tutorial.hql.criteria_query.models.*;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
 import org.hibernate.query.Query;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import javax.persistence.TypedQuery;
-import javax.persistence.criteria.CriteriaBuilder;
-import javax.persistence.criteria.CriteriaQuery;
-import javax.persistence.criteria.Predicate;
-import javax.persistence.criteria.Root;
+import javax.persistence.criteria.*;
 import java.io.File;
+import java.util.List;
 
-class CriteriaQueryTest {
+class CriteriaQueryTest extends BaseTestClass {
 
-    File file;
-    SessionFactory sessionFactory;
-    Session session;
 
-    @BeforeEach
-    void setUp() {
-        file = new File(DataGeneratorTest.class.getClassLoader().getResource("hibernate.cfg.xml").getFile());
-        sessionFactory = new Configuration().configure(file)
-                .buildSessionFactory();
-        session = sessionFactory.openSession();
+    @Override
+    protected File getFile() {
+        return new File(DataGeneratorTest.class.getClassLoader().getResource("hibernate.cfg.xml").getFile());
     }
+
 
     @Test
     public void testCreateCriteriaQuery(){
@@ -81,9 +77,31 @@ class CriteriaQueryTest {
         System.out.println("Criteria Successful");
     }
 
-    @AfterEach
-    void tearDown() {
-        session.close();
-        sessionFactory.close();
+    @Test
+    @DisplayName("Test Demo Subqueries")
+    public void testSubQueryDemo(){
+        Transaction transaction = session.beginTransaction();
+        CriteriaBuilder cb = session.getCriteriaBuilder();
+        CriteriaQuery cq = cb.createQuery(Author.class);
+        Root<Author> root = cq.from(Author.class);
+
+        // count books written by an author
+        Subquery sub = cq.subquery(Long.class);
+        Root<Book> subRoot = sub.from(Book.class);
+        SetJoin<Book, Author> subAuthors = subRoot.joinSet(Book_.AUTHORS);
+        sub.select(cb.count(subRoot.get(Book_.ID)));
+        sub.where(cb.equal(root.get(Author_.ID), subAuthors.get(Book_.ID)));
+        // check the result of the subquery
+        cq.where(cb.greaterThanOrEqualTo(sub, 3L));
+
+        TypedQuery query = session.createQuery(cq);
+        query.getResultList().forEach(author ->{
+            if(author instanceof Author){
+
+                System.out.println(author);
+            }
+        });
+
+        transaction.commit();
     }
 }

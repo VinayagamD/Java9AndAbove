@@ -1,0 +1,8 @@
+com/vinaylogics/hibernate_mapping/table_inheritance/models/single_table/EmployeeTest.java
+ com.vinaylogics.hibernate_mapping.table_inheritance.models.single_table.EmployeeTest
+com/vinaylogics/hibernate_mapping/table_inheritance/models/mapped_super_class/EmployeeTest.java
+ com.vinaylogics.hibernate_mapping.table_inheritance.models.mapped_super_class.EmployeeTest
+com/vinaylogics/hibernate_mapping/table_inheritance/models/table_per_class/EmployeeTest.java
+ com.vinaylogics.hibernate_mapping.table_inheritance.models.table_per_class.EmployeeTest
+com/vinaylogics/hibernate_mapping/table_inheritance/models/joined_table/EmployeeTest.java
+ com.vinaylogics.hibernate_mapping.table_inheritance.models.joined_table.EmployeeTest

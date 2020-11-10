@@ -1,5 +1,6 @@
 package com.vinayalogics.hibernate_tutorial.hql.hibernate_methods;
 
+import com.vinaylogics.hibernate_tutorial.core_test_module.base_test_class.BaseTestClass;
 import com.vinaylogics.hibernate_tutorial.hql.hibernate_methods.model.Employee;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -16,23 +17,18 @@ import java.io.File;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class HibernateMethodTest {
-    File file;
-    SessionFactory sessionFactory;
-    Session session;
+class HibernateMethodTest extends BaseTestClass {
 
-    @BeforeEach
-    void setUp() {
-        file = new File(DataGenerateTest.class.getClassLoader().getResource("hibernate.cfg.xml").getFile());
-        sessionFactory = new Configuration().configure(file)
-                .buildSessionFactory();
-        session = sessionFactory.openSession();
+    @Override
+    protected File getFile() {
+        return new File(DataGenerateTest.class.getClassLoader().getResource("hibernate.cfg.xml").getFile());
     }
+
 
     @Test
     @DisplayName("Test Get All Records")
     public void testGetAllRecords(){
-        session.createQuery("SELECT e FROM Employee e", Employee.class)
+        session.createQuery("FROM Employee e", Employee.class)
                 .list().forEach(System.out::println);
     }
 
@@ -99,9 +95,4 @@ class HibernateMethodTest {
         transaction.commit();
     }
 
-    @AfterEach
-    void tearDown() {
-        session.close();
-        sessionFactory.close();
-    }
 }

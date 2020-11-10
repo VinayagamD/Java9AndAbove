@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.vinaylogics.hibernate_tutorial.hql.query_demo.model.QueryTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-11-06T15:56:43" hostname="DESKTOP-3P18DGO" time="1.999">
+  <properties/>
+  <testcase name="Test Pagination for start position 0" classname="com.vinaylogics.hibernate_tutorial.hql.query_demo.model.QueryTest" time="1.927"/>
+  <testcase name="Test Pagination for start position 10" classname="com.vinaylogics.hibernate_tutorial.hql.query_demo.model.QueryTest" time="0.069"/>
+  <system-out><![CDATA[Hibernate: 
+    select
+        employee0_.id as id1_0_,
+        employee0_.city as city2_0_,
+        employee0_.country as country3_0_,
+        employee0_.pin_code as pin_code4_0_,
+        employee0_.first_name as first_na5_0_,
+        employee0_.last_name as last_nam6_0_ 
+    from
+        employee employee0_ limit ?
+Employee{id=1, firstName='Employee_First_1', lastName='Employee_Last_1', address=Address{city='Bangalore', country='India', pinCode=560081}}
+Employee{id=2, firstName='Employee_First_2', lastName='Employee_Last_2', address=Address{city='Bangalore', country='India', pinCode=560082}}
+Employee{id=3, firstName='Employee_First_3', lastName='Employee_Last_3', address=Address{city='Bangalore', country='India', pinCode=560083}}
+Employee{id=4, firstName='Employee_First_4', lastName='Employee_Last_4', address=Address{city='Bangalore', country='India', pinCode=560084}}
+Employee{id=5, firstName='Employee_First_5', lastName='Employee_Last_5', address=Address{city='Bangalore', country='India', pinCode=560085}}
+Employee{id=6, firstName='Employee_First_6', lastName='Employee_Last_6', address=Address{city='Bangalore', country='India', pinCode=560086}}
+Employee{id=7, firstName='Employee_First_7', lastName='Employee_Last_7', address=Address{city='Bangalore', country='India', pinCode=560087}}
+Employee{id=8, firstName='Employee_First_8', lastName='Employee_Last_8', address=Address{city='Bangalore', country='India', pinCode=560088}}
+Employee{id=9, firstName='Employee_First_9', lastName='Employee_Last_9', address=Address{city='Bangalore', country='India', pinCode=560089}}
+Employee{id=10, firstName='Employee_First_10', lastName='Employee_Last_10', address=Address{city='Bangalore', country='India', pinCode=5600810}}
+Data Pagination Successful
+Hibernate: 
+    select
+        employee0_.id as id1_0_,
+        employee0_.city as city2_0_,
+        employee0_.country as country3_0_,
+        employee0_.pin_code as pin_code4_0_,
+        employee0_.first_name as first_na5_0_,
+        employee0_.last_name as last_nam6_0_ 
+    from
+        employee employee0_ limit ?,
+        ?
+Employee{id=11, firstName='Employee_First_11', lastName='Employee_Last_11', address=Address{city='Bangalore', country='India', pinCode=5600811}}
+Employee{id=12, firstName='Employee_First_12', lastName='Employee_Last_12', address=Address{city='Bangalore', country='India', pinCode=5600812}}
+Employee{id=13, firstName='Employee_First_13', lastName='Employee_Last_13', address=Address{city='Bangalore', country='India', pinCode=5600813}}
+Employee{id=14, firstName='Employee_First_14', lastName='Employee_Last_14', address=Address{city='Bangalore', country='India', pinCode=5600814}}
+Employee{id=15, firstName='Employee_First_15', lastName='Employee_Last_15', address=Address{city='Bangalore', country='India', pinCode=5600815}}
+Employee{id=16, firstName='Employee_First_16', lastName='Employee_Last_16', address=Address{city='Bangalore', country='India', pinCode=5600816}}
+Employee{id=17, firstName='Employee_First_17', lastName='Employee_Last_17', address=Address{city='Bangalore', country='India', pinCode=5600817}}
+Employee{id=18, firstName='Employee_First_18', lastName='Employee_Last_18', address=Address{city='Bangalore', country='India', pinCode=5600818}}
+Data Pagination Successful
+]]></system-out>
+  <system-err><![CDATA[Nov 06, 2020 9:26:43 PM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate ORM core version 5.4.23.Final
+Nov 06, 2020 9:26:43 PM org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver resolveEntity
+WARN: HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+Nov 06, 2020 9:26:43 PM org.hibernate.annotations.common.reflection.java.JavaReflectionManager <clinit>
+INFO: HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+Nov 06, 2020 9:26:43 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+WARN: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+Nov 06, 2020 9:26:43 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/query_db]
+Nov 06, 2020 9:26:43 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001001: Connection properties: {user=vinay, password=****}
+Nov 06, 2020 9:26:43 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001003: Autocommit mode: false
+Nov 06, 2020 9:26:43 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
+INFO: HHH000115: Hibernate connection pool size: 20 (min=1)
+Nov 06, 2020 9:26:44 PM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+Nov 06, 2020 9:26:44 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@42e689b9] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Nov 06, 2020 9:26:44 PM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+INFO: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Nov 06, 2020 9:26:45 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState stop
+INFO: HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/query_db]
+Nov 06, 2020 9:26:45 PM org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver resolveEntity
+WARN: HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+Nov 06, 2020 9:26:45 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+WARN: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+Nov 06, 2020 9:26:45 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/query_db]
+Nov 06, 2020 9:26:45 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001001: Connection properties: {user=vinay, password=****}
+Nov 06, 2020 9:26:45 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001003: Autocommit mode: false
+Nov 06, 2020 9:26:45 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
+INFO: HHH000115: Hibernate connection pool size: 20 (min=1)
+Nov 06, 2020 9:26:45 PM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+Nov 06, 2020 9:26:45 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3ba8ffec] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Nov 06, 2020 9:26:45 PM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+INFO: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Nov 06, 2020 9:26:45 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState stop
+INFO: HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/query_db]
+]]></system-err>
+</testsuite>

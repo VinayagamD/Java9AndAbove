@@ -1,0 +1,16 @@
+com/vinaylogics/hibernate_tutorial/hql/criteria_query/models/Book_.java
+ com.vinaylogics.hibernate_tutorial.hql.criteria_query.models.Book_
+com/vinaylogics/hibernate_tutorial/hql/criteria_query/models/Book.java
+ com.vinaylogics.hibernate_tutorial.hql.criteria_query.models.Book
+com/vinaylogics/hibernate_tutorial/hql/criteria_query/models/Address_.java
+ com.vinaylogics.hibernate_tutorial.hql.criteria_query.models.Address_
+com/vinaylogics/hibernate_tutorial/hql/criteria_query/models/Employee.java
+ com.vinaylogics.hibernate_tutorial.hql.criteria_query.models.Employee
+com/vinaylogics/hibernate_tutorial/hql/criteria_query/models/Address.java
+ com.vinaylogics.hibernate_tutorial.hql.criteria_query.models.Address
+com/vinaylogics/hibernate_tutorial/hql/criteria_query/models/Author_.java
+ com.vinaylogics.hibernate_tutorial.hql.criteria_query.models.Author_
+com/vinaylogics/hibernate_tutorial/hql/criteria_query/models/Employee_.java
+ com.vinaylogics.hibernate_tutorial.hql.criteria_query.models.Employee_
+com/vinaylogics/hibernate_tutorial/hql/criteria_query/models/Author.java
+ com.vinaylogics.hibernate_tutorial.hql.criteria_query.models.Author

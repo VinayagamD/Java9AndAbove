@@ -1,0 +1,4 @@
+com/vinaylogics/hibernate_tutorial/hql/query_demo/model/DataGenerateTest.java
+ com.vinaylogics.hibernate_tutorial.hql.query_demo.model.DataGenerateTest
+com/vinaylogics/hibernate_tutorial/hql/query_demo/model/QueryTest.java
+ com.vinaylogics.hibernate_tutorial.hql.query_demo.model.QueryTest

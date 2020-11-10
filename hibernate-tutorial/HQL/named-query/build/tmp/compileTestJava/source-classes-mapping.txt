@@ -1,0 +1,4 @@
+com/vinaylogics/hibernate_tutorial/hql/named_query/NamedQueryTest.java
+ com.vinaylogics.hibernate_tutorial.hql.named_query.NamedQueryTest
+com/vinaylogics/hibernate_tutorial/hql/named_query/DataGeneratorTest.java
+ com.vinaylogics.hibernate_tutorial.hql.named_query.DataGeneratorTest

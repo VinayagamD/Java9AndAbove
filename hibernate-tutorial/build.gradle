@@ -22,7 +22,7 @@ subprojects {
     }
     dependencies {
         // https://mvnrepository.com/artifact/org.hibernate/hibernate-core
-        implementation group: 'org.hibernate', name: 'hibernate-core', version: '5.4.22.Final'
+        implementation group: 'org.hibernate', name: 'hibernate-core', version: '5.4.23.Final'
         // https://mvnrepository.com/artifact/mysql/mysql-connector-java
         implementation group: 'mysql', name: 'mysql-connector-java', version: '8.0.20'
         // https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api

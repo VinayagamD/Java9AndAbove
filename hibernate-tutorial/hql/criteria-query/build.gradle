@@ -9,5 +9,20 @@ repositories {
     mavenCentral()
 }
 
+
+configurations {
+    providedRuntime
+    jpametamodel
+}
+
 dependencies {
+    annotationProcessor("org.hibernate:hibernate-jpamodelgen:5.4.23.Final")
+    // https://mvnrepository.com/artifact/org.hibernate/hibernate-jpamodelgen
+    implementation group: 'org.hibernate', name: 'hibernate-jpamodelgen', version: '5.4.23.Final'
+}
+
+sourceSets.main.java.srcDirs += "${buildDir}/generated"
+
+compileJava {
+    options.annotationProcessorGeneratedSourcesDirectory = file("${buildDir}/generated")
 }

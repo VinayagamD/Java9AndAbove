@@ -1,5 +1,6 @@
 package com.vinaylogics.hibernate_tutorial.hql.query_demo.model;
 
+import com.vinaylogics.hibernate_tutorial.core_test_module.base_test_class.BaseTestClass;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
@@ -13,7 +14,7 @@ import java.util.stream.IntStream;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class DataGenerateTest {
+class DataGenerateTest extends BaseTestClass {
     public static final String EMPLOYEE = "Employee";
     public static final String FIRST = EMPLOYEE + "_First";
     public static final String LAST = EMPLOYEE + "_Last";
@@ -21,17 +22,12 @@ class DataGenerateTest {
     public static final String CITY = "Bangalore";
     public static final String COUNTRY = "India";
     public static final String PIN_CODE = "56008";
-    File file;
-    SessionFactory sessionFactory;
-    Session session;
 
-    @BeforeEach
-    void setUp() {
-        file = new File(DataGenerateTest.class.getClassLoader().getResource("hibernate.cfg.xml").getFile());
-        sessionFactory = new Configuration().configure(file)
-                .buildSessionFactory();
-        session = sessionFactory.openSession();
+    @Override
+    protected File getFile() {
+        return new File(DataGenerateTest.class.getClassLoader().getResource("hibernate.cfg.xml").getFile());
     }
+
     @Test
     public void testGenerateData(){
         Transaction t = session.beginTransaction();
@@ -50,9 +46,4 @@ class DataGenerateTest {
         System.out.println("Data Generation Successful");
     }
 
-    @AfterEach
-    void tearDown() {
-        session.close();
-        sessionFactory.close();
-    }
 }

@@ -1,5 +1,6 @@
 package com.vinaylogics.hibernate_mapping.table_inheritance.models.joined_table;
 
+import com.vinaylogics.hibernate_tutorial.core_test_module.base_test_class.BaseTestClass;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
@@ -14,16 +15,11 @@ import java.util.UUID;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class EmployeeTest {
-    File file;
-    SessionFactory sessionFactory;
-    Session session;
-    @BeforeEach
-    void setUp() {
-        file = new File(EmployeeTest.class.getClassLoader().getResource("hibernate_im_jt.cfg.xml").getFile());
-        sessionFactory = new Configuration().configure(file)
-                .buildSessionFactory();
-        session = sessionFactory.openSession();
+class EmployeeTest extends BaseTestClass {
+
+    @Override
+    protected File getFile() {
+        return new File(EmployeeTest.class.getClassLoader().getResource("hibernate_im_jt.cfg.xml").getFile());
     }
 
     @Test
@@ -54,11 +50,6 @@ class EmployeeTest {
         session.save(contractEmployee);
         t.commit();
         System.out.println("Save Successful");
-    }
-    @AfterEach
-    void tearDown() {
-        session.close();
-        sessionFactory.close();
     }
 
 }

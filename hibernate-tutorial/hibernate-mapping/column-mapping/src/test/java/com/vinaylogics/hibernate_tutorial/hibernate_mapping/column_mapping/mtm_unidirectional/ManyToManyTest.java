@@ -1,5 +1,6 @@
 package com.vinaylogics.hibernate_tutorial.hibernate_mapping.column_mapping.mtm_unidirectional;
 
+import com.vinaylogics.hibernate_tutorial.core_test_module.base_test_class.BaseTestClass;
 import com.vinaylogics.hibernate_tutorial.hibernate_mapping.column_mapping.models.mtm_unidirectional.Classes;
 import com.vinaylogics.hibernate_tutorial.hibernate_mapping.column_mapping.models.mtm_unidirectional.Student;
 import org.hibernate.Session;
@@ -18,18 +19,13 @@ import java.util.stream.IntStream;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class ManyToManyTest {
-    File file;
-    SessionFactory sessionFactory;
-    Session session;
+class ManyToManyTest extends BaseTestClass {
 
-    @BeforeEach
-    void setUp() {
-        file = new File(OneToMany.class.getClassLoader().getResource("hibernate_cm_mtm_ud.cfg.xml").getFile());
-        sessionFactory = new Configuration().configure(file)
-                .buildSessionFactory();
-        session = sessionFactory.openSession();
+    @Override
+    protected File getFile() {
+        return new File(OneToMany.class.getClassLoader().getResource("hibernate_cm_mtm_ud.cfg.xml").getFile());
     }
+    
 
     @Test
     public void testManyToManyAssociation(){
@@ -53,9 +49,4 @@ class ManyToManyTest {
         System.out.println("Saved Successfully");
     }
 
-    @AfterEach
-    void tearDown() {
-        session.close();
-        sessionFactory.close();
-    }
 }

@@ -1,5 +1,6 @@
 package com.vinaylogics.hibernate_tutorial.hql.query_demo.model;
 
+import com.vinaylogics.hibernate_tutorial.core_test_module.base_test_class.BaseTestClass;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
@@ -12,35 +13,26 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 
+import javax.persistence.TypedQuery;
 import java.io.File;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-class QueryTest {
+class QueryTest extends BaseTestClass {
 
-    File file;
-    SessionFactory sessionFactory;
-    Session session;
-
-    @BeforeEach
-    void setUp() {
-        file = new File(QueryTest.class.getClassLoader().getResource("hibernate.cfg.xml").getFile());
-        sessionFactory = new Configuration().configure(file)
-                .buildSessionFactory();
-        session = sessionFactory.openSession();
+    @Override
+    protected File getFile() {
+        return new File(QueryTest.class.getClassLoader().getResource("hibernate.cfg.xml").getFile());
     }
+
     @Test
     @DisplayName("To Demo FROM Clause")
     public void testFromClauseData(){
-        Transaction t = session.beginTransaction();
         String hql = "FROM com.vinaylogics.hibernate_tutorial.hql.query_demo.model.Employee AS e";
-        Query<Employee> query = session.createQuery(hql);
-
+        TypedQuery<Employee> query = session.createQuery(hql,Employee.class);
         List<Employee> employees = query.getResultList();
         employees.forEach(System.out::println);
-
-        t.commit();
         System.out.println("Data Selection Successful");
     }
 
@@ -49,10 +41,27 @@ class QueryTest {
     public void testSelectClause(){
         Transaction t = session.beginTransaction();
         String hql = "SELECT e.firstName FROM com.vinaylogics.hibernate_tutorial.hql.query_demo.model.Employee AS e";
-        Query<String> query = session.createQuery(hql);
+        Query<String> query = session.createQuery(hql, String.class);
         query.getResultList().stream().map(row->{
            Employee employee = new Employee();
            employee.setFirstName(row);
+           return employee;
+        }).collect(Collectors.toList()).forEach(System.out::println);
+
+        t.commit();
+        System.out.println("Data Selection Successful");
+    }
+
+    @Test
+    @DisplayName("To demo SELECT Clause For More Than 1 column")
+    public void testSelectClause_ForMOreThan1Column(){
+        Transaction t = session.beginTransaction();
+        String hql = "SELECT e.firstName, e.lastName FROM com.vinaylogics.hibernate_tutorial.hql.query_demo.model.Employee AS e";
+        TypedQuery<Object[]> query = session.createQuery(hql);
+        query.getResultList().stream().map(row->{
+           Employee employee = new Employee();
+           employee.setFirstName((String) row[0]);
+           employee.setLastName((String) row[1]);
            return employee;
         }).collect(Collectors.toList()).forEach(System.out::println);
 
@@ -75,7 +84,7 @@ class QueryTest {
         System.out.println("Data Selection Successful");
     }
 
-    @ParameterizedTest(name=" ORDER By Field id")
+    @ParameterizedTest(name=" ORDER By Field {0}")
     @DisplayName("Order By Field test")
     @ValueSource(strings = {"id", "firstName", "lastName"})
     public void testOrderByClause_ASC(String field){
@@ -96,7 +105,7 @@ class QueryTest {
     public void testOrderByClause_DESC(String field){
         Transaction t = session.beginTransaction();
         String hql = "FROM com.vinaylogics.hibernate_tutorial.hql.query_demo.model.Employee AS e ORDER BY e."+field+" DESC";
-        Query<Employee> query = session.createQuery(hql);
+        Query<Employee> query = session.createQuery(hql, Employee.class);
 
         List<Employee> employees = query.getResultList();
         employees.forEach(System.out::println);
@@ -111,9 +120,9 @@ class QueryTest {
     public void testNamedParameter(Long id){
         Transaction t = session.beginTransaction();
         String hql = "FROM Employee AS e WHERE e.id = :id";
-        Query<Employee> query = session.createQuery(hql);
+        TypedQuery<Employee> query = session.createQuery(hql, Employee.class);
         query.setParameter("id", id);
-        List<Employee> employees = query.list();
+        List<Employee> employees = query.getResultList();
         employees.forEach(System.out::println);
 
         t.commit();
@@ -123,15 +132,12 @@ class QueryTest {
     @Test
     @DisplayName("Group By Clause demo")
     public void testGroupBy(){
-        Transaction t = session.beginTransaction();
         String hql = "SELECT COUNT(e), e.firstName FROM Employee AS e GROUP BY e.firstName";
         Query<Object[]> query = session.createQuery(hql);
         List<Object[]> employees = query.list();
         employees.forEach(row->{
             Arrays.asList(row).forEach(System.out::println);
         });
-
-        t.commit();
         System.out.println("Data Selection Successful");
     }
 
@@ -194,10 +200,4 @@ class QueryTest {
     }
 
 
-
-    @AfterEach
-    void tearDown() {
-        session.close();
-        sessionFactory.close();
-    }
 }
