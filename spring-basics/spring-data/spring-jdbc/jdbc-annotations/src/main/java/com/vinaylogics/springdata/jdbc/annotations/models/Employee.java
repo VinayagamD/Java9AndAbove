@@ -1,4 +1,4 @@
-package com.vinaylogics.springdata.jdbc.xml.models;
+package com.vinaylogics.springdata.jdbc.annotations.models;
 
 import java.io.Serializable;
 import java.util.Objects;

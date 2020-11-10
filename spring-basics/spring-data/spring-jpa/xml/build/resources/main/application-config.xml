@@ -10,29 +10,25 @@
 
     </bean>
 
-    <bean id="entityManager" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
-        <property name="dataSource" ref="datasource"/>
-        <property name="packagesToScan" value="com.vinaylogics.springbasics.data.jpa.xml.models"/>
-        <property name="jpaVendorAdapter">
-            <bean class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter">
-                <property name="generateDdl" value="true"/>
-                <property name="database" value="HSQL"/>
-                <property name="showSql" value="true"/>
-            </bean>
+    <bean id="sessionFactory" class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
+        <property name="dataSource" ref="datasource" />
+        <property name="annotatedClasses">
+            <list>
+                <value>com.vinaylogics.springbasics.data.jpa.xml.models.Employee</value>
+            </list>
         </property>
-        <property name="jpaProperties">
+        <property name="hibernateProperties">
             <props>
-                <prop key="hibernate.temp.use_jdbc_metadata_defaults">false</prop>
-                <prop key="hibernate.dialect">org.hibernate.dialect.MySQL57Dialect</prop>
+                <prop key="hibernate.dialect">org.hibernate.dialect.MySQL8Dialect</prop>
+                <prop key="hibernate.current_session_context_class">thread</prop>
+                <prop key="hibernate.show_sql">true</prop>
+                <prop key="hibernate.format_sql">true</prop>
                 <prop key="hibernate.hbm2ddl.auto">update</prop>
-
             </props>
         </property>
     </bean>
-    <bean id="txManager" class="org.springframework.orm.jpa.JpaTransactionManager">
-        <property name="entityManagerFactory" ref="entityManager"/>
+    <bean id="edao" class="com.vinaylogics.springbasics.data.jpa.xml.daos.impl.EmployeeDaoImpl">
+        <constructor-arg name="sessionFactory" ref="sessionFactory"/>
     </bean>
-    <tx:annotation-driven proxy-target-class="true" transaction-manager="txManager"/>
-    <bean id="edao" class="com.vinaylogics.springbasics.data.jpa.xml.daos.impl.EmployeeDaoImpl"/>
 </beans>
 

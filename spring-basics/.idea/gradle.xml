@@ -11,12 +11,20 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/basics" />
+            <option value="$PROJECT_DIR$/spring-aop" />
             <option value="$PROJECT_DIR$/spring-core" />
             <option value="$PROJECT_DIR$/spring-core/annotations" />
             <option value="$PROJECT_DIR$/spring-core/xml" />
             <option value="$PROJECT_DIR$/spring-data" />
             <option value="$PROJECT_DIR$/spring-data/spring-jdbc" />
+            <option value="$PROJECT_DIR$/spring-data/spring-jdbc/jdbc-annotations" />
             <option value="$PROJECT_DIR$/spring-data/spring-jdbc/jdbc-xml" />
+            <option value="$PROJECT_DIR$/spring-data/spring-jpa" />
+            <option value="$PROJECT_DIR$/spring-data/spring-jpa/annotation" />
+            <option value="$PROJECT_DIR$/spring-data/spring-jpa/xml" />
+            <option value="$PROJECT_DIR$/spring-mvc" />
+            <option value="$PROJECT_DIR$/spring-mvc/jdbc" />
+            <option value="$PROJECT_DIR$/spring-mvc/jpa" />
           </set>
         </option>
       </GradleProjectSettings>

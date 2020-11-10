@@ -1,4 +1,4 @@
-package com.vinaylogics.springdata.jdbc.xml.utils;
+package com.vinaylogics.springdata.jdbc.annotations.utils;
 
 public interface QueryConstant {
 

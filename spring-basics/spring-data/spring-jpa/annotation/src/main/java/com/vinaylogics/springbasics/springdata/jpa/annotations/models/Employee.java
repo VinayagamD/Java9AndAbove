@@ -1,4 +1,4 @@
-package com.vinaylogics.springbasics.data.jpa.xml.models;
+package com.vinaylogics.springbasics.springdata.jpa.annotations.models;
 
 import javax.persistence.*;
 import java.io.Serializable;

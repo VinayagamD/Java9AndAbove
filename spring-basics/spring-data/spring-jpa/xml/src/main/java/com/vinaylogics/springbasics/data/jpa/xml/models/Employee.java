@@ -1,12 +1,17 @@
-package com.vinaylogics.springdata.jdbc.annotations.models;
+package com.vinaylogics.springbasics.data.jpa.xml.models;
 
+import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Objects;
 
+@Entity
+@Table(name = "employees")
 public class Employee implements Serializable {
 
     private static final long serialVersionUID = 5598270683570417813L;
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
     private Float salary;

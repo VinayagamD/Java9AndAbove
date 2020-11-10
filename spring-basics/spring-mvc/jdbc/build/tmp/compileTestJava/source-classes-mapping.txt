@@ -1,0 +1,2 @@
+com/vinaylogics/springbasics/mvc/jdbc/repositories/EmployeeRepositoryTest.java
+ com.vinaylogics.springbasics.mvc.jdbc.repositories.EmployeeRepositoryTest

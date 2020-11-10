@@ -1,6 +1,6 @@
 com/vinaylogics/springbasics/basics/di/StoreWithoutDITest.java
  com.vinaylogics.springbasics.basics.di.StoreWithoutDITest
-com/vinaylogics/springbasics/basics/di/StoreWithDITest.java
- com.vinaylogics.springbasics.basics.di.StoreWithDITest
 com/vinaylogics/springbasics/basics/di/MultiPlexStoreTest.java
  com.vinaylogics.springbasics.basics.di.MultiPlexStoreTest
+com/vinaylogics/springbasics/basics/di/StoreWithDITest.java
+ com.vinaylogics.springbasics.basics.di.StoreWithDITest

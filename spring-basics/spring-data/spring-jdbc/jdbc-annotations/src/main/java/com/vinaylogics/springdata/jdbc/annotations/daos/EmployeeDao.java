@@ -1,7 +1,8 @@
-package com.vinaylogics.springdata.jdbc.xml.doas;
+package com.vinaylogics.springdata.jdbc.annotations.daos;
 
-import com.vinaylogics.springdata.jdbc.xml.models.Employee;
-import com.vinaylogics.springdata.jdbc.xml.utils.QueryConstant;
+
+import com.vinaylogics.springdata.jdbc.annotations.models.Employee;
+import com.vinaylogics.springdata.jdbc.annotations.utils.QueryConstant;
 
 import java.util.List;
 

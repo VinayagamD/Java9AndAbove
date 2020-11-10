@@ -1,12 +1,12 @@
-package com.vinaylogics.springdata.jdbc.xml.doas;
+package com.vinaylogics.springbasics.data.jpa.xml.daos;
 
-import com.vinaylogics.springdata.jdbc.xml.models.Employee;
-import com.vinaylogics.springdata.jdbc.xml.utils.QueryConstant;
+
+import com.vinaylogics.springbasics.data.jpa.xml.models.Employee;
 
 import java.util.List;
 
-public interface EmployeeDao extends QueryConstant.EmployeeTable {
-    int saveEmployee(Employee employee);
+public interface EmployeeDao{
+    Employee saveEmployee(Employee employee);
 
     List<Employee> findAll();
 }

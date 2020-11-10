@@ -1,3 +1,5 @@
+com/vinaylogics/springbasics/core/annotations/configurations/NamingDataCollectionConfigTest.java
+ com.vinaylogics.springbasics.core.annotations.configurations.NamingDataCollectionConfigTest
 com/vinaylogics/springbasics/core/annotations/configurations/PropertyConfigurationTest.java
  com.vinaylogics.springbasics.core.annotations.configurations.PropertyConfigurationTest
 com/vinaylogics/springbasics/core/annotations/configurations/LifeCycleBeanConfigurationTest.java
@@ -8,5 +10,3 @@ com/vinaylogics/springbasics/core/annotations/configurations/SimpleConfiguration
  com.vinaylogics.springbasics.core.annotations.configurations.SimpleConfigurationTest
 com/vinaylogics/springbasics/core/annotations/configurations/StoreConfigurationTest.java
  com.vinaylogics.springbasics.core.annotations.configurations.StoreConfigurationTest
-com/vinaylogics/springbasics/core/annotations/configurations/NamingDataCollectionConfigTest.java
- com.vinaylogics.springbasics.core.annotations.configurations.NamingDataCollectionConfigTest

@@ -1,30 +1,37 @@
-package com.vinaylogics.springdata.jdbc.xml.doas.impl;
+package com.vinaylogics.springbasics.springdata.jpa.annotations.daos.impl;
 
-import com.vinaylogics.springdata.jdbc.xml.doas.EmployeeDao;
-import com.vinaylogics.springdata.jdbc.xml.models.Employee;
-import org.springframework.jdbc.core.JdbcTemplate;
 
+import com.vinaylogics.springbasics.springdata.jpa.annotations.daos.EmployeeDao;
+import com.vinaylogics.springbasics.springdata.jpa.annotations.models.Employee;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+
+import javax.persistence.TypedQuery;
 import java.util.List;
 
 public class EmployeeDaoImpl implements EmployeeDao {
-    private JdbcTemplate jdbcTemplate;
-    public void setJdbcTemplate(JdbcTemplate jdbcTemplate) {
-        this.jdbcTemplate = jdbcTemplate;
+
+    private final SessionFactory sessionFactory;
+
+    public EmployeeDaoImpl(SessionFactory sessionFactory) {
+        this.sessionFactory = sessionFactory;
     }
 
     @Override
-    public int saveEmployee(Employee employee) {
-        return jdbcTemplate.update(Q_SAVE, employee.getName(), employee.getSalary());
+    public Employee saveEmployee(Employee employee) {
+        Session session = sessionFactory.openSession();
+        Transaction transaction = session.beginTransaction();
+        session.save(employee);
+        transaction.commit();
+        session.close();
+        return employee;
     }
 
     @Override
     public List<Employee> findAll() {
-        return jdbcTemplate.query(Q_FIND_ALL, (rs, rowNum) -> {
-            Employee employee = new Employee();
-            employee.setId(rs.getLong(C_ID));
-            employee.setName(rs.getString(C_NAME));
-            employee.setSalary(rs.getFloat(C_SALARY));
-            return employee;
-        });
+        Session session = sessionFactory.openSession();
+        TypedQuery<Employee> query = session.createQuery("FROM Employee", Employee.class);
+        return query.getResultList();
     }
 }

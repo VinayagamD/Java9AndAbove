@@ -1,0 +1,18 @@
+group 'org.vinaylogics'
+version '1.0-SNAPSHOT'
+
+subprojects {
+
+    dependencies {
+        // https://mvnrepository.com/artifact/javax.servlet.jsp.jstl/jstl-api
+        implementation group: 'jstl', name: 'jstl', version: '1.2'
+        // https://mvnrepository.com/artifact/javax.servlet.jsp/javax.servlet.jsp-api
+        implementation group: 'javax.servlet.jsp', name: 'javax.servlet.jsp-api', version: '2.3.3'
+        // https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api
+        implementation group: 'javax.servlet', name: 'javax.servlet-api', version: '4.0.1'
+        // https://mvnrepository.com/artifact/org.apache.commons/commons-dbcp2
+        implementation group: 'org.apache.commons', name: 'commons-dbcp2', version: '2.7.0'
+        // https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind
+        implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.11.1'
+    }
+}

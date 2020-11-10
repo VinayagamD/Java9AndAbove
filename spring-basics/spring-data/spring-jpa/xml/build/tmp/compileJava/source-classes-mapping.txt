@@ -1,6 +1,6 @@
 com/vinaylogics/springbasics/data/jpa/xml/models/Employee.java
  com.vinaylogics.springbasics.data.jpa.xml.models.Employee
-com/vinaylogics/springbasics/data/jpa/xml/daos/impl/EmployeeDaoImpl.java
- com.vinaylogics.springbasics.data.jpa.xml.daos.impl.EmployeeDaoImpl
 com/vinaylogics/springbasics/data/jpa/xml/daos/EmployeeDao.java
  com.vinaylogics.springbasics.data.jpa.xml.daos.EmployeeDao
+com/vinaylogics/springbasics/data/jpa/xml/daos/impl/EmployeeDaoImpl.java
+ com.vinaylogics.springbasics.data.jpa.xml.daos.impl.EmployeeDaoImpl

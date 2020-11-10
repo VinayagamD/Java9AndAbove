@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+    id 'war'
+}
+
+group 'org.vinaylogics'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+// https://mvnrepository.com/artifact/org.hibernate/hibernate-core
+    implementation group: 'org.hibernate', name: 'hibernate-core', version: '5.4.23.Final'
+}
