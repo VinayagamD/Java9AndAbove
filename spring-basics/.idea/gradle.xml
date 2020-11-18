@@ -25,6 +25,7 @@
             <option value="$PROJECT_DIR$/spring-mvc" />
             <option value="$PROJECT_DIR$/spring-mvc/jdbc" />
             <option value="$PROJECT_DIR$/spring-mvc/jpa" />
+            <option value="$PROJECT_DIR$/spring-security" />
           </set>
         </option>
       </GradleProjectSettings>

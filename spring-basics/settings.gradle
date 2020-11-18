@@ -24,4 +24,5 @@ findProject(':spring-mvc:jdbc')?.name = 'jdbc'
 include 'spring-mvc:jpa'
 findProject(':spring-mvc:jpa')?.name = 'jpa'
 include 'spring-aop'
+include 'spring-security'
 
