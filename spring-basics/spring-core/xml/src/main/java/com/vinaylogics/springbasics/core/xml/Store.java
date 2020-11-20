@@ -4,7 +4,7 @@ import java.util.Objects;
 
 public class Store {
 
-    private Item item;
+    Item item;
 
     public Store() {
         System.out.println("Non Injection Constructor");

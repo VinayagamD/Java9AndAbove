@@ -1,14 +1,14 @@
-com/vinaylogics/springbasics/core/xml/StoreTest.java
- com.vinaylogics.springbasics.core.xml.StoreTest
-com/vinaylogics/springbasics/core/xml/SimpleBeanLifeCycleTest.java
- com.vinaylogics.springbasics.core.xml.SimpleBeanLifeCycleTest
 com/vinaylogics/springbasics/core/xml/SimpleBeanTest.java
  com.vinaylogics.springbasics.core.xml.SimpleBeanTest
+com/vinaylogics/springbasics/core/xml/SimpleBeanLifeCycleTest.java
+ com.vinaylogics.springbasics.core.xml.SimpleBeanLifeCycleTest
+com/vinaylogics/springbasics/core/xml/BeanInheritanceTest.java
+ com.vinaylogics.springbasics.core.xml.BeanInheritanceTest
 com/vinaylogics/springbasics/core/xml/ScopeTest.java
  com.vinaylogics.springbasics.core.xml.ScopeTest
 com/vinaylogics/springbasics/core/xml/BaseTestClass.java
  com.vinaylogics.springbasics.core.xml.BaseTestClass
 com/vinaylogics/springbasics/core/xml/AddressTest.java
  com.vinaylogics.springbasics.core.xml.AddressTest
-com/vinaylogics/springbasics/core/xml/BeanInheritanceTest.java
- com.vinaylogics.springbasics.core.xml.BeanInheritanceTest
+com/vinaylogics/springbasics/core/xml/StoreTest.java
+ com.vinaylogics.springbasics.core.xml.StoreTest

@@ -7,7 +7,6 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class SimpleConfiguration {
 
-
     @Bean
     public SimpleBean simpleBean(){
         return new SimpleBean();

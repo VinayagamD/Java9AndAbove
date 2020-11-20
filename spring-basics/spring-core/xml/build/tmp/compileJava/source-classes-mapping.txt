@@ -1,20 +1,20 @@
-com/vinaylogics/springbasics/core/xml/Store.java
- com.vinaylogics.springbasics.core.xml.Store
+com/vinaylogics/springbasics/core/xml/SimpleBeanLifeCycle.java
+ com.vinaylogics.springbasics.core.xml.SimpleBeanLifeCycle
 com/vinaylogics/springbasics/core/xml/Address.java
  com.vinaylogics.springbasics.core.xml.Address
 com/vinaylogics/springbasics/core/xml/HelloIndia.java
  com.vinaylogics.springbasics.core.xml.HelloIndia
 com/vinaylogics/springbasics/core/xml/Item.java
  com.vinaylogics.springbasics.core.xml.Item
-com/vinaylogics/springbasics/core/xml/LifeCycleBean.java
- com.vinaylogics.springbasics.core.xml.LifeCycleBean
+com/vinaylogics/springbasics/core/xml/Customer.java
+ com.vinaylogics.springbasics.core.xml.Customer
 com/vinaylogics/springbasics/core/xml/Person.java
  com.vinaylogics.springbasics.core.xml.Person
 com/vinaylogics/springbasics/core/xml/HelloWorld.java
  com.vinaylogics.springbasics.core.xml.HelloWorld
 com/vinaylogics/springbasics/core/xml/SimpleBean.java
  com.vinaylogics.springbasics.core.xml.SimpleBean
-com/vinaylogics/springbasics/core/xml/SimpleBeanLifeCycle.java
- com.vinaylogics.springbasics.core.xml.SimpleBeanLifeCycle
-com/vinaylogics/springbasics/core/xml/Customer.java
- com.vinaylogics.springbasics.core.xml.Customer
+com/vinaylogics/springbasics/core/xml/LifeCycleBean.java
+ com.vinaylogics.springbasics.core.xml.LifeCycleBean
+com/vinaylogics/springbasics/core/xml/Store.java
+ com.vinaylogics.springbasics.core.xml.Store

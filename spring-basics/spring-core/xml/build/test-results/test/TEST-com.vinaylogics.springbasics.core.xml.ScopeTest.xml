@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.vinaylogics.springbasics.core.xml.ScopeTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-11-04T14:18:05" hostname="DESKTOP-3P18DGO" time="0.258">
+<testsuite name="com.vinaylogics.springbasics.core.xml.ScopeTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-11-20T15:31:55" hostname="DESKTOP-3P18DGO" time="0.251">
   <properties/>
-  <testcase name="Scope Singleton Alias Test" classname="com.vinaylogics.springbasics.core.xml.ScopeTest" time="0.258"/>
+  <testcase name="Scope Singleton Alias Test" classname="com.vinaylogics.springbasics.core.xml.ScopeTest" time="0.251"/>
   <system-out><![CDATA[Bean Initialized
 Injection Constructor
 Non Injection Constructor

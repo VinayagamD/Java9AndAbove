@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class LifeCycleBeanConfiguration {
 
-    @Bean
+    @Bean(initMethod = "postConstruct", destroyMethod = "preDestroy")
     public LifeCycleBean lifeCycleBean(){
         return new LifeCycleBean();
     }

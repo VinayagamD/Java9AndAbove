@@ -20,7 +20,8 @@ class SimpleBeanTest extends BaseTestClass{
     @DisplayName("To Create Simple Bean")
     public void testCreateSimpleBean(){
        assertNotNull(context);
-       SimpleBean simpleBean  = (SimpleBean) context.getBean("simpleBean");
+//       SimpleBean simpleBean  = (SimpleBean) context.getBean("simpleBean");
+       SimpleBean simpleBean  = context.getBean("simpleBean", SimpleBean.class);
        assertNotNull(simpleBean);
        assertNull(simpleBean.getName());
        System.out.println(simpleBean);

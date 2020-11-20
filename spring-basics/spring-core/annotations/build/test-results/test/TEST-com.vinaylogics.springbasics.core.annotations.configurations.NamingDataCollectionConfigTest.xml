@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.vinaylogics.springbasics.core.annotations.configurations.NamingDataCollectionConfigTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-11-05T14:04:34" hostname="DESKTOP-3P18DGO" time="0.249">
+<testsuite name="com.vinaylogics.springbasics.core.annotations.configurations.NamingDataCollectionConfigTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-11-20T15:48:55" hostname="DESKTOP-3P18DGO" time="0.245">
   <properties/>
-  <testcase name="Order Bean Test" classname="com.vinaylogics.springbasics.core.annotations.configurations.NamingDataCollectionConfigTest" time="0.249"/>
+  <testcase name="Order Bean Test" classname="com.vinaylogics.springbasics.core.annotations.configurations.NamingDataCollectionConfigTest" time="0.245"/>
   <system-out><![CDATA[Get Naming Data List [NamingData{name='name2'}, NamingData{name='name3'}, NamingData{name='name1'}]
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
