@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.vinaylogics.springdata.jdbc.xml.doas.EmployeeDaoTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-11-23T14:51:50" hostname="DESKTOP-3P18DGO" time="0.554">
+  <properties/>
+  <testcase name="findAll()" classname="com.vinaylogics.springdata.jdbc.xml.doas.EmployeeDaoTest" time="0.554"/>
+  <system-out><![CDATA[Employee{id=1, name='Saini', salary=50000.0}
+Employee{id=2, name='Vinay', salary=60000.0}
+Employee{id=3, name='Subash', salary=100000.0}
+Employee{id=4, name='Aravind', salary=20000.0}
+Employee{id=5, name='Astro', salary=12000.0}
+Employee{id=6, name='Astro', salary=12000.0}
+Employee{id=7, name='Astro', salary=12000.0}
+Employee{id=8, name='Astro', salary=12000.0}
+Employee{id=9, name='Vinay', salary=100000.0}
+Employee{id=10, name='Saini', salary=80000.0}
+Employee{id=11, name='Saini', salary=80000.0}
+Employee{id=12, name='Astro', salary=12000.0}
+Employee{id=13, name='Astro', salary=12000.0}
+Employee{id=14, name='Meiyappan', salary=1000000.0}
+Employee{id=15, name='Vinay', salary=100000.0}
+Employee{id=16, name='Meiyappan', salary=100000.0}
+Employee{id=17, name='Bhuvana', salary=1000000.0}
+Employee{id=18, name='Bhuvana', salary=1000000.0}
+Employee{id=19, name='Bhuvana', salary=1000000.0}
+Employee{id=20, name='Astro', salary=12000.0}
+Employee{id=21, name='Bhuvana', salary=100000.0}
+Employee{id=22, name='Bhuvana', salary=1000000.0}
+Employee{id=23, name='Veilu', salary=1000000.0}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

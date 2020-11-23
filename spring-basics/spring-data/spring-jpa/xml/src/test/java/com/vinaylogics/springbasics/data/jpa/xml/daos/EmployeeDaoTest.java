@@ -20,7 +20,7 @@ class EmployeeDaoTest {
     void saveEmployee() {
         EmployeeDao employeeDao = context.getBean("edao", EmployeeDao.class);
         Employee employee = new Employee();
-        employee.setName("Bhuvana");
+        employee.setName("Veilu");
         employee.setSalary(1000000.00f);
         employeeDao.saveEmployee(employee);
     }

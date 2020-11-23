@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.vinaylogics.springbasics.data.jpa.xml.daos.EmployeeDaoTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-11-06T14:26:02" hostname="DESKTOP-3P18DGO" time="1.473">
+<testsuite name="com.vinaylogics.springbasics.data.jpa.xml.daos.EmployeeDaoTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-11-23T14:55:33" hostname="DESKTOP-3P18DGO" time="1.451">
   <properties/>
-  <testcase name="findAll()" classname="com.vinaylogics.springbasics.data.jpa.xml.daos.EmployeeDaoTest" time="1.473"/>
+  <testcase name="findAll()" classname="com.vinaylogics.springbasics.data.jpa.xml.daos.EmployeeDaoTest" time="1.451"/>
   <system-out><![CDATA[Hibernate: 
     select
         employee0_.id as id1_0_,
@@ -10,12 +10,14 @@
     from
         employees employee0_
 Employee{id=1, name='Bhuvana', salary=1000000.0}
+Employee{id=2, name='Bhuvana', salary=1000000.0}
+Employee{id=3, name='Veilu', salary=1000000.0}
 ]]></system-out>
-  <system-err><![CDATA[Nov 06, 2020 7:56:02 PM org.hibernate.Version logVersion
+  <system-err><![CDATA[Nov 23, 2020 8:25:34 PM org.hibernate.Version logVersion
 INFO: HHH000412: Hibernate ORM core version 5.4.23.Final
-Nov 06, 2020 7:56:03 PM org.hibernate.annotations.common.reflection.java.JavaReflectionManager <clinit>
+Nov 23, 2020 8:25:34 PM org.hibernate.annotations.common.reflection.java.JavaReflectionManager <clinit>
 INFO: HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-Nov 06, 2020 7:56:03 PM org.hibernate.dialect.Dialect <init>
+Nov 23, 2020 8:25:34 PM org.hibernate.dialect.Dialect <init>
 INFO: HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
 ]]></system-err>
 </testsuite>

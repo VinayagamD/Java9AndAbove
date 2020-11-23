@@ -2,7 +2,7 @@ com/vinaylogics/springbasics/springdata/jpa/annotations/models/Employee.java
  com.vinaylogics.springbasics.springdata.jpa.annotations.models.Employee
 com/vinaylogics/springbasics/springdata/jpa/annotations/daos/impl/EmployeeDaoImpl.java
  com.vinaylogics.springbasics.springdata.jpa.annotations.daos.impl.EmployeeDaoImpl
-com/vinaylogics/springbasics/springdata/jpa/annotations/daos/EmployeeDao.java
- com.vinaylogics.springbasics.springdata.jpa.annotations.daos.EmployeeDao
 com/vinaylogics/springbasics/springdata/jpa/annotations/configs/EmployeeConfig.java
  com.vinaylogics.springbasics.springdata.jpa.annotations.configs.EmployeeConfig
+com/vinaylogics/springbasics/springdata/jpa/annotations/daos/EmployeeDao.java
+ com.vinaylogics.springbasics.springdata.jpa.annotations.daos.EmployeeDao
