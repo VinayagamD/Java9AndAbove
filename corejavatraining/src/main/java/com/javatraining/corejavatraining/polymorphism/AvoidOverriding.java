@@ -29,10 +29,8 @@ public class AvoidOverriding {
 
     }
 
-    /*
-     // Final class cannot be extended
+   /*  // Final class cannot be extended
     public static class MyFinalSubClass extends MyFinalClass{
 
-    }
-    */
+    }*/
 }

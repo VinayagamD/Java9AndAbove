@@ -19,8 +19,15 @@ public class DerivedClass  extends BaseRoot{
 
 
 
+
+
     @Override
     protected void classRootMethod() {
         super.classRootMethod();
+    }
+
+    @Override
+    public String toString() {
+        return "DerivedClass{}";
     }
 }

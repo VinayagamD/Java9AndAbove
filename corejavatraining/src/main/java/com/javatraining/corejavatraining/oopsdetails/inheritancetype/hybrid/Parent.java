@@ -1,2 +1,4 @@
-package com.javatraining.corejavatraining.oopsdetails.inheritancetype.hybrid;public interface Parent {
+package com.javatraining.corejavatraining.oopsdetails.inheritancetype.hybrid;
+
+public interface Parent {
 }

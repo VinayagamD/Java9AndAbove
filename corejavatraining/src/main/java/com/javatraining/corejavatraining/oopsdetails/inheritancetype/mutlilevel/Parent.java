@@ -1,2 +1,4 @@
-package com.javatraining.corejavatraining.oopsdetails.inheritancetype.mutlilevel;public class Parent {
+package com.javatraining.corejavatraining.oopsdetails.inheritancetype.mutlilevel;
+
+public class Parent {
 }

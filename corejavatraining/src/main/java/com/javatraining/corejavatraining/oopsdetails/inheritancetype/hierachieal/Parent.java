@@ -1,2 +1,4 @@
-package com.javatraining.corejavatraining.oopsdetails.inheritancetype.hierachieal;public class Parent {
+package com.javatraining.corejavatraining.oopsdetails.inheritancetype.hierachieal;
+
+public class Parent {
 }

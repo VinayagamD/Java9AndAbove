@@ -9,7 +9,7 @@ import java.util.stream.IntStream;
 public class ListExample {
 
     public static void main(String[] args) {
-       List<String> datas = new ArrayList<>();
+        List<String> datas = new ArrayList<>();
 //       {"One", "Two", "Three");
         datas.add("One");
         datas.add("One");
@@ -33,11 +33,11 @@ public class ListExample {
         System.out.println(datas.remove("Five"));
         System.out.println(datas.remove("Five"));
         System.out.println(datas.indexOf("Five"));
-        /*datas = datas.subList(1,2);
-        System.out.println(datas);*/
-        Collections.sort(datas, Collections.reverseOrder());
-        System.out.println(datas);
+//        Collections.sort(datas, Collections.reverseOrder());
+//        System.out.println(datas);
         Collections.reverse(datas);
+        System.out.println(datas);
+        datas = datas.subList(1, 2);
         System.out.println(datas);
 
     }

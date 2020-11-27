@@ -22,8 +22,6 @@ public class GCExample {
 		 gcExample = new GCExample();
 		 getRuntime().gc();
 		 runFinalization();
-		
-
 	}
 
 	@Override

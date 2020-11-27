@@ -10,9 +10,9 @@ import java.net.URL;
 public class InputStreamHttpMethod {
 
     public static void main(String[] args) throws IOException {
-        getUsingHttpUrlConnectionForHtml();
+//        getUsingHttpUrlConnectionForHtml();
 //        getUsingHttpUrlConnection();
-//        getDataFromOkHttpBuilder();
+        getDataFromOkHttpBuilder();
     }
 
     private static void getDataFromOkHttpBuilder() throws IOException {

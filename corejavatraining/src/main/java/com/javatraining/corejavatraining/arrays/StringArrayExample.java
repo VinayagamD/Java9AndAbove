@@ -59,6 +59,7 @@ public class StringArrayExample {
 		}
 	}
 //	public static void varargsCondition(String a,int... variant){}
+//	public static void varargsCondition(int... variant, String a){}
 
 
 }

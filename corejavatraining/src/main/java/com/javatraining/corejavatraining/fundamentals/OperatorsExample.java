@@ -14,7 +14,7 @@ public class OperatorsExample {
         System.out.println(4 % 2);
         System.out.println(3 % 2);
 
-        System.out.println("================ Increment Example ============================");
+       System.out.println("================ Increment Example ============================");
         int sum = 2;
         int data = sum++;
         System.out.println(data);
@@ -34,7 +34,7 @@ public class OperatorsExample {
         System.out.println(1 < 1);
         System.out.println(1 >= 1);
         System.out.println(1 >= 2);
-        System.out.println("====================== Logical Operator ============================");
+       System.out.println("====================== Logical Operator ============================");
 //        Logical Operator
         System.out.println(true && true);
         System.out.println(true && false);
@@ -46,7 +46,7 @@ public class OperatorsExample {
         System.out.println(false || false);
         System.out.println(!true);
         System.out.println(!false);
-        System.out.println("====================== Bitwise Operator ============================");
+       System.out.println("====================== Bitwise Operator ============================");
 //        Bitwise Operator
         System.out.println(2 & 6);
         System.out.println(2 | 4);

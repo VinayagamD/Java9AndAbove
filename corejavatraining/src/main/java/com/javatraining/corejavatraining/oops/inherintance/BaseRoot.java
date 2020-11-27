@@ -28,4 +28,8 @@ public class BaseRoot {
     public final void rootMethod3(){
         System.out.println("This is final method cannot be overridden");
     }
+
+    private void privateMethod(){
+        System.out.println("This is private");
+    }
 }

@@ -14,5 +14,9 @@ public class SetExample {
 		System.out.println(setData);
 		setData.remove("Two");
 		System.out.println(setData);
+		setData.add("Two");
+		setData.add("Two");
+		System.out.println(setData);
+		setData.forEach(System.out::println);
 	}
 }

@@ -20,7 +20,7 @@ public class LinkendListExample {
 		datas.add("Three");
 		
 		System.out.println(datas);
-		datas.addFirst("OneFirst");
+		datas.addFirst("OneFirst");// pn dn nn
 		datas.addLast("Added Last");
 		datas.addLast("Added Last");
 		datas.addLast("Added Last");
@@ -28,8 +28,8 @@ public class LinkendListExample {
 		System.out.println(datas);
 		System.out.println(datas.pollFirst());
 		System.out.println(datas);
-		System.out.println(datas.peek());
-		System.out.println(datas.poll());
+		System.out.println(datas.peekLast());
+		System.out.println(datas.pollLast());
 		System.out.println(datas);
 		datas.addFirst("OneFirst");
 		datas.addFirst("OneFirst");
@@ -52,6 +52,7 @@ public class LinkendListExample {
 		System.out.println();
 
 		datas.forEach(System.out::println);
+		datas.forEach(d -> System.out.println(d));
 
 
 		System.out.println("=========== Java 8 ==========================");

@@ -21,6 +21,24 @@ public class InterfaceClassDemo {
             }
         });
 
+        MyInterface myInterface = new MyInterface(){
+            @Override
+            public void testM1() {
+                System.out.println("Interface Java 7");
+            }
+        };
+        myInterface.testM1();
+
+        // () -> {}
+        MyInterface myInterface1 = ()-> {
+            System.out.println("Interface Demo");
+        };
+
+        MyInterface myInterface2 = () -> System.out.println("Hello");
+        myInterface2.testM1();
+
+        myInterface1.testM1();
+
         // ()->{}
 
         myInnerClass.testCallback(()->{

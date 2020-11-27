@@ -37,6 +37,7 @@ public class AbstractionClassDemo {
     }
 
 
+
     public static abstract class AbstractClass2{
         void methodM1(){
 

@@ -17,8 +17,8 @@ public class DecisionMaking {
                 break;
             case "Tue":
                 System.out.println("Tue");
-            /*case  "Tuesday":
-                System.out.println("Tuesday");*/
+            case  "Tuesday":
+                System.out.println("Tuesday");
                 break;
             case "Wed":
                 System.out.println("Wednesday");

@@ -2,6 +2,7 @@ package com.javatraining.corejavatraining.fundamentals;
 
 public class DataTypeExample {
 
+
     public static class ExampleInnerClass {
 
     }
