@@ -1,0 +1,6 @@
+com/vinaylogics/springboot/springmvc/controllers/ApiController.java
+ com.vinaylogics.springboot.springmvc.controllers.ApiController
+com/vinaylogics/springboot/springmvc/models/HelloModel.java
+ com.vinaylogics.springboot.springmvc.models.HelloModel
+com/vinaylogics/springboot/springmvc/controllers/HelloController.java
+ com.vinaylogics.springboot.springmvc.controllers.HelloController

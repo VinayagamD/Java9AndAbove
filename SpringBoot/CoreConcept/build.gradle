@@ -1,0 +1,7 @@
+plugins {
+    id 'java'
+}
+
+group 'com.vinaylogics'
+version '1.0-SNAPSHOT'
+
