@@ -60,4 +60,13 @@ public class HelloController {
                 .build());
     }
 
+    @DeleteMapping("/{id}")
+    public ResponseEntity<ResponseDataDTO<?>> deleteMessage(@PathVariable Long id){
+        greetingService.deleteById(id);
+        return ResponseEntity.ok(new ResponseDataDTO.Builder<String>()
+                .success(true)
+                .message("Message with id="+id+" removed successful")
+                .build());
+    }
+
 }

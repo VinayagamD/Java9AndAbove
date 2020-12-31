@@ -67,4 +67,16 @@ public class MessageProvider {
         return Long.parseLong(String.valueOf(messages.size()));
     }
 
+    public boolean deleteMessage(Long id){
+        Message ref = messages.stream().filter(m-> m.getId().equals(id)).findAny().orElseThrow(() -> new NotFoundException("Message with id="+id+" Not Found"));
+        messages.remove(ref);
+        return true;
+    }
+
+    public boolean deleteMessage(Message message){
+        Message ref = messages.stream().filter(m-> m.getId().equals(message.getId())).findAny().orElseThrow(() -> new NotFoundException("Message with id="+message.getId()+" Not Found"));
+        messages.remove(ref);
+        return true;
+    }
+
 }

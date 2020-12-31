@@ -58,11 +58,11 @@ public class EnglishGreetingService implements GreetingService {
 
     @Override
     public void delete(Message message) {
-
+        provider.deleteMessage(message);
     }
 
     @Override
     public void deleteById(Long id) {
-
+        provider.deleteMessage(id);
     }
 }
