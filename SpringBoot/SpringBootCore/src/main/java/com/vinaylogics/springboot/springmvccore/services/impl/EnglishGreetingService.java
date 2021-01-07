@@ -4,6 +4,7 @@ import com.vinaylogics.springboot.springmvccore.dtos.PagingMessageDTO;
 import com.vinaylogics.springboot.springmvccore.exceptions.NotFoundException;
 import com.vinaylogics.springboot.springmvccore.models.Message;
 import com.vinaylogics.springboot.springmvccore.provider.MessageProvider;
+import com.vinaylogics.springboot.springmvccore.repositories.MessageRepository;
 import com.vinaylogics.springboot.springmvccore.services.GreetingService;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Primary;
@@ -18,12 +19,14 @@ import java.util.List;
 public class EnglishGreetingService implements GreetingService {
 
     private final MessageProvider provider;
+    private final MessageRepository repository;
 
     @Value("${message}")
     private String message;
 
-    public EnglishGreetingService(MessageProvider provider) {
+    public EnglishGreetingService(MessageProvider provider, MessageRepository repository) {
         this.provider = provider;
+        this.repository = repository;
     }
 
     @Override
@@ -38,17 +41,17 @@ public class EnglishGreetingService implements GreetingService {
 
     @Override
     public List<Message> findAll() {
-        return provider.findAll();
+        return repository.findAll();
     }
 
     @Override
     public Message findById(Long id) {
-        return provider.findById(id).orElseThrow(()-> new NotFoundException("Message With Id="+id+" not found"));
+        return repository.findById(id).orElseThrow(()-> new NotFoundException("Message With Id="+id+" not found"));
     }
 
     @Override
     public Message save(Message message) {
-        return provider.save(message);
+        return repository.save(message);
     }
 
     @Override

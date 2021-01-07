@@ -1,14 +1,19 @@
 package com.vinaylogics.springboot.springmvccore.services;
 
+import com.vinaylogics.springboot.springmvccore.configs.DefaultRegistryConfig;
 import com.vinaylogics.springboot.springmvccore.models.Message;
 import com.vinaylogics.springboot.springmvccore.provider.MessageProvider;
+import com.vinaylogics.springboot.springmvccore.repositories.MessageRepository;
 import com.vinaylogics.springboot.springmvccore.util.DataProvider;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.autoconfigure.jdbc.JdbcTest;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
+import org.springframework.context.annotation.Import;
+import org.springframework.jdbc.core.JdbcTemplate;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,7 +27,7 @@ class GreetingServiceTest {
     private GreetingService service;
 
     @MockBean
-    private MessageProvider messageProvider;
+    private MessageRepository messageProvider;
 
     @Autowired
     private DataProvider dataProvider;

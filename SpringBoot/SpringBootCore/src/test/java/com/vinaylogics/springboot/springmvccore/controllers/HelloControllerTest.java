@@ -3,7 +3,9 @@ package com.vinaylogics.springboot.springmvccore.controllers;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.vinaylogics.springboot.springmvccore.models.Message;
+import com.vinaylogics.springboot.springmvccore.repositories.MessageRepository;
 import com.vinaylogics.springboot.springmvccore.services.GreetingService;
+import com.vinaylogics.springboot.springmvccore.services.impl.EnglishGreetingService;
 import com.vinaylogics.springboot.springmvccore.util.DataProvider;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -13,6 +15,7 @@ import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.TestPropertySource;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.ResultActions;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
@@ -27,7 +30,8 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @WebMvcTest(HelloController.class)
 @AutoConfigureMockMvc
 @ComponentScan(basePackages = "com.vinaylogics.springboot.springmvccore")
-@ContextConfiguration(classes = {DataProvider.class})
+@ContextConfiguration(classes = {DataProvider.class,MessageRepository.class})
+@TestPropertySource("classpath:application.properties")
 class HelloControllerTest {
 
     @Autowired
