@@ -9,7 +9,11 @@ public class DemoConstructor {
     }*/
 
     public static void main(String[] args) {
-        new DemoConstructor();
+        DemoConstructor demoConstructor = new DemoConstructor();
+        System.out.println(demoConstructor.name);
+        System.out.println(demoConstructor.data);
+        int a=0;
+        System.out.println(a);
         Child child = new Child();
     }
 }

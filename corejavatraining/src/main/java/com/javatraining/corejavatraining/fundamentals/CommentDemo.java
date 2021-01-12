@@ -4,6 +4,11 @@ package com.javatraining.corejavatraining.fundamentals;
 // imports
 /**
  * This comment class for showing demo on comment
+ * <p>This is styling comment</p>
+ * @see java.lang.Object
+ * @see java.lang.System
+ * @author vinay
+ * @since Dec-11-2020
  */
 public class CommentDemo{
 
@@ -25,6 +30,7 @@ public class CommentDemo{
          * then easy comment multiline 
          */
 
+//        System.out.println("Hello to java");
         System.out.println("Hello to java");
 
          /**

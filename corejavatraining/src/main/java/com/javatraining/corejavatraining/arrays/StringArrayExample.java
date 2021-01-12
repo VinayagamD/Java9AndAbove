@@ -9,6 +9,7 @@ public class StringArrayExample {
 		String[] arrays = new String[10];
 		arrays[9] = "Hello";
 //		System.out.println(arrays[-1]);
+//		System.out.println(arrays[10]);
 		for (int i = 0; i < arrays.length; i++) {
 			System.out.println(arrays[i]);
 		}
@@ -44,12 +45,13 @@ public class StringArrayExample {
 
 		varargs(  1,2, 3,4,5,6,7,8,9, 10);
 		varargs();
-		Scanner scanner = new Scanner(System.in);
+		varargs2(new int[]{});
+		/*Scanner scanner = new Scanner(System.in);
 		while(scanner.hasNextLine()) {
 			if(scanner.nextLine().equals("q")) {
 				break;
 			}
-		}
+		}*/
 		
 	}
 	
@@ -58,8 +60,14 @@ public class StringArrayExample {
 			System.out.println(variant[i]);
 		}
 	}
+	public static  void varargs2(int [] variant ) {
+		for (int i = 0; i < variant.length; i++) {
+			System.out.println(variant[i]);
+		}
+	}
 //	public static void varargsCondition(String a,int... variant){}
 //	public static void varargsCondition(int... variant, String a){}
+//	public static void varargsCondition(int... variant, String... a){}
 
 
 }
