@@ -3,4 +3,6 @@ include 'CoreConcept'
 include 'SpringMVC'
 include 'SpringBootCore'
 include 'SpringDataJpa'
+include 'SpringDataMongo'
+include 'SpringDataValidation'
 

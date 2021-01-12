@@ -1,4 +1,4 @@
-package com.vinaylogics.springboot.springdatajpa.models;
+package com.vinaylogics.springboot.springdatavalidation.models;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;
@@ -11,7 +11,7 @@ import java.util.Objects;
   name = "findById",
          query = "FROM Message m WHERE id=:id"
  )})
-public class Message extends BaseModel{
+public class Message extends BaseModel {
 
     private String name;
     private String message;

@@ -1,4 +1,4 @@
-package com.vinaylogics.springboot.springdatajpa.models;
+package com.vinaylogics.springboot.springdatavalidation.models;
 
 
 import org.hibernate.annotations.CreationTimestamp;
