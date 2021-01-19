@@ -51,7 +51,7 @@ public class StatementConnectionDMLTest {
 
     @DisplayName("Test for insertion")
     @ParameterizedTest(name = "For name {0} insertion is tested.")
-    @ValueSource(strings = {"suresh", "mahesh", "choudary", "deepti"})
+    @ValueSource(strings = {"suresh", "mahesh", "choudary", "deepti", "Santhosh"})
     void testForInsertion(String name){
         String sql = "INSERT INTO test_data(name) VALUES ( '"+ name+"');";
         connection.executeUpdate(sql,(result -> {
@@ -69,15 +69,15 @@ public class StatementConnectionDMLTest {
         }));
     }
 
-  /*  @DisplayName("Test for insertion")
+ @DisplayName("Test for insertion")
     @ParameterizedTest(name = "For name {0} insertion is tested.")
-    @ValueSource(ints = {6,7,8,9,10})
+    @ValueSource(ints = {56,57,58,59,60})
     void testForDelete(int id){
         String sql = "DELETE FROM  test_data WHERE id = "+id+" ;";
-        connectionManager.executeUpdate(sql,(result -> {
+     connection.executeUpdate(sql,(result -> {
             assertTrue(result > 0);
         }));
-    }*/
+    }
 
 
 

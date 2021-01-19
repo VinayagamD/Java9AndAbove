@@ -11,10 +11,8 @@ import static org.junit.jupiter.api.Assertions.*;
 @DisplayName("Test Creation for database connection factory")
 class ConnectionFactoryTest {
 
-
-
     @DisplayName("Should pass non-null enum values as method parameters")
-    @ParameterizedTest(name = "{index} => pet=''{0}''")
+    @ParameterizedTest(name = "{index} => For Statement=''{0}''")
     @EnumSource(ConnectionFactory.Type.class)
     void testCreateConnection(ConnectionFactory.Type type) {
         try {

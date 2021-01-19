@@ -37,8 +37,8 @@ public class ManyToOneTest extends BaseTestClass {
         session.save(student);
         students.add(student);
         student = new Student();
-        student.setFirstName("Meiyappan");
-        student.setLastName("Student");
+        student.setFirstName("Sonaal");
+        student.setLastName("Sarkar");
         student.setSection("Java Training");
         session.save(student);
         students.add(student);

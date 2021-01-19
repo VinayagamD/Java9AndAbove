@@ -1,10 +1,10 @@
-com/vinaylogics/learnadvancejava/jdbc/util/ConnectionFactoryTest.java
- com.vinaylogics.learnadvancejava.jdbc.util.ConnectionFactoryTest
+com/vinaylogics/learnadvancejava/jdbc/util/PreparedStatementConnectionTest.java
+ com.vinaylogics.learnadvancejava.jdbc.util.PreparedStatementConnectionTest
 com/vinaylogics/learnadvancejava/jdbc/util/CallableConnectionTest.java
  com.vinaylogics.learnadvancejava.jdbc.util.CallableConnectionTest
 com/vinaylogics/learnadvancejava/jdbc/util/StatementConnectionDDLTest.java
  com.vinaylogics.learnadvancejava.jdbc.util.StatementConnectionDDLTest
 com/vinaylogics/learnadvancejava/jdbc/util/StatementConnectionDMLTest.java
  com.vinaylogics.learnadvancejava.jdbc.util.StatementConnectionDMLTest
-com/vinaylogics/learnadvancejava/jdbc/util/PreparedStatementConnectionTest.java
- com.vinaylogics.learnadvancejava.jdbc.util.PreparedStatementConnectionTest
+com/vinaylogics/learnadvancejava/jdbc/util/ConnectionFactoryTest.java
+ com.vinaylogics.learnadvancejava.jdbc.util.ConnectionFactoryTest

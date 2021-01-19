@@ -16,7 +16,7 @@
     <c:if test="${not empty error}"><div>${error}</div></c:if>
     <c:if test="${not empty message}"><div>${message}</div></c:if>
 
-    <form name='login' action="<c:url value='j_spring_security_check' />" method='POST'>
+    <form name='login' action="<c:url value='/login' />" method='POST'>
         <table>
             <tr>
                 <td>UserName:</td>

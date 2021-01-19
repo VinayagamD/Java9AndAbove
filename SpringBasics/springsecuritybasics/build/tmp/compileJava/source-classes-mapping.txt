@@ -1,7 +1,7 @@
 com/vinaylogics/springbasics/springsecurity/services/UserService.java
  com.vinaylogics.springbasics.springsecurity.services.UserService
-com/vinaylogics/springbasics/springsecurity/security/UserDemoSecurityConfig.java
- com.vinaylogics.springbasics.springsecurity.security.UserDemoSecurityConfig
+com/vinaylogics/springbasics/springsecurity/controllers/LoginController.java
+ com.vinaylogics.springbasics.springsecurity.controllers.LoginController
 com/vinaylogics/springbasics/springsecurity/repository/RoleRepository.java
  com.vinaylogics.springbasics.springsecurity.repository.RoleRepository
 com/vinaylogics/springbasics/springsecurity/services/impl/UserServiceImpl.java
@@ -30,5 +30,5 @@ com/vinaylogics/springbasics/springsecurity/services/impl/UserDetailServiceImpl.
  com.vinaylogics.springbasics.springsecurity.services.impl.UserDetailServiceImpl
 com/vinaylogics/springbasics/springsecurity/repository/impl/RoleRepositoryImpl.java
  com.vinaylogics.springbasics.springsecurity.repository.impl.RoleRepositoryImpl
-com/vinaylogics/springbasics/springsecurity/controllers/LoginController.java
- com.vinaylogics.springbasics.springsecurity.controllers.LoginController
+com/vinaylogics/springbasics/springsecurity/security/UserDemoSecurityConfig.java
+ com.vinaylogics.springbasics.springsecurity.security.UserDemoSecurityConfig

@@ -5,4 +5,8 @@ include 'SpringBootCore'
 include 'SpringDataJpa'
 include 'SpringDataMongo'
 include 'SpringDataValidation'
+include 'SpringWeb'
+include 'SpringAOP'
+include 'SpringSecurity'
+include 'SpringEmail'
 

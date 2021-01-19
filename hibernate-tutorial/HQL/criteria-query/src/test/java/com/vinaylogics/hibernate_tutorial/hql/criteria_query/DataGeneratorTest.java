@@ -35,23 +35,24 @@ class DataGeneratorTest extends BaseTestClass {
 
     @Test
     public void testGenerateData(){
+
         generateEmployee();
         generateBooks();
+
     }
 
     private void generateBooks() {
         Transaction t = session.beginTransaction();
         IntStream.rangeClosed(1, 20).forEach(i->{
-            int random = ThreadLocalRandom.current().nextInt(1,3);
-            if(random == 1){
-                generateOneBook();
-            }else if(random == 2){
-                generateTwoBook();
-            }else {
-                generateThreeBook();
+            int data = i % 3;
+            switch (data) {
+                case 0 -> generateOneBook();
+                case 1 -> generateTwoBook();
+                default -> generateThreeBook();
             }
         });
         t.commit();
+
     }
 
     private void generateThreeBook() {
@@ -76,6 +77,7 @@ class DataGeneratorTest extends BaseTestClass {
         author.addBook(book1);
         author.addBook(book2);
         author.addBook(book3);
+        session.save(author);
         book1.addAuthor(author);
         book2.addAuthor(author);
         book3.addAuthor(author);
@@ -99,6 +101,7 @@ class DataGeneratorTest extends BaseTestClass {
         author.setVersion(getInteger());
         author.addBook(book1);
         author.addBook(book2);
+        session.save(author);
         book1.addAuthor(author);
         book2.addAuthor(author);
         session.update(book1);
@@ -116,6 +119,7 @@ class DataGeneratorTest extends BaseTestClass {
         author.setVersion(getInteger());
         author.addBook(book1);
         session.save(book1);
+        session.save(author);
         book1.addAuthor(author);
         session.update(book1);
     }

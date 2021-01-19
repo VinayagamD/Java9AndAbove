@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">1.840s</div>
+<div class="counter">1.317s</div>
 <p>duration</p>
 </div>
 </td>
@@ -82,9 +82,9 @@
 </tr>
 </thead>
 <tr>
-<td class="success">Named Store Procedure Find Employee Count</td>
-<td class="success">testNamedGetEmployeeCount()</td>
-<td class="success">1.840s</td>
+<td class="success">Store Procedure Find Employee Count</td>
+<td class="success">testGetEmployeeCount()</td>
+<td class="success">1.317s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -100,29 +100,29 @@
 <div id="tab2" class="tab">
 <h2>Standard error</h2>
 <span class="code">
-<pre>Nov 06, 2020 9:46:21 PM org.hibernate.Version logVersion
-INFO: HHH000412: Hibernate ORM core version 5.4.23.Final
-Nov 06, 2020 9:46:21 PM org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver resolveEntity
+<pre>Jan 17, 2021 1:15:50 PM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate ORM core version 5.4.27.Final
+Jan 17, 2021 1:15:50 PM org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver resolveEntity
 WARN: HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
-Nov 06, 2020 9:46:21 PM org.hibernate.annotations.common.reflection.java.JavaReflectionManager &lt;clinit&gt;
+Jan 17, 2021 1:15:50 PM org.hibernate.annotations.common.reflection.java.JavaReflectionManager &lt;clinit&gt;
 INFO: HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-Nov 06, 2020 9:46:21 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+Jan 17, 2021 1:15:50 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
 WARN: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
-Nov 06, 2020 9:46:21 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+Jan 17, 2021 1:15:50 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
 INFO: HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/stored_procedure]
-Nov 06, 2020 9:46:21 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
-INFO: HHH10001001: Connection properties: {user=vinay, password=****}
-Nov 06, 2020 9:46:21 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+Jan 17, 2021 1:15:50 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001001: Connection properties: {password=****, user=vinay}
+Jan 17, 2021 1:15:50 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
 INFO: HHH10001003: Autocommit mode: false
-Nov 06, 2020 9:46:21 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections &lt;init&gt;
+Jan 17, 2021 1:15:50 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections &lt;init&gt;
 INFO: HHH000115: Hibernate connection pool size: 20 (min=1)
-Nov 06, 2020 9:46:22 PM org.hibernate.dialect.Dialect &lt;init&gt;
+Jan 17, 2021 1:15:50 PM org.hibernate.dialect.Dialect &lt;init&gt;
 INFO: HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-Nov 06, 2020 9:46:23 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
-INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@29b07e46] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
-Nov 06, 2020 9:46:23 PM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+Jan 17, 2021 1:15:51 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6ea829de] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Jan 17, 2021 1:15:51 PM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
 INFO: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-Nov 06, 2020 9:46:23 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState stop
+Jan 17, 2021 1:15:51 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState stop
 INFO: HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/stored_procedure]
 </pre>
 </span>
@@ -135,7 +135,7 @@ INFO: HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/stor
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 6.6.1</a> at Nov 6, 2020 9:46:23 PM</p>
+<a href="http://www.gradle.org">Gradle 6.6.1</a> at Jan 17, 2021, 1:15:51 PM</p>
 </div>
 </div>
 </body>

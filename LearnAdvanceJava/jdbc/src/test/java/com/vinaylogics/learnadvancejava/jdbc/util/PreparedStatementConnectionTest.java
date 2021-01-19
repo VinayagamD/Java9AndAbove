@@ -50,7 +50,7 @@ class PreparedStatementConnectionTest {
 
     @DisplayName("Test for insertion")
     @ParameterizedTest(name = "For name {0} insertion is tested.")
-    @ValueSource(strings = {"suresh", "mahesh", "choudary", "deepti"})
+    @ValueSource(strings = {"suresh", "mahesh", "choudary", "deepti","Santhu"})
     void testForInsertion(String name){
         String sql = "INSERT INTO test_data(name) VALUES ( ?);";
         connection.executeUpdate(sql,(result -> {

@@ -9,7 +9,8 @@ import javax.persistence.TypedQuery;
 import javax.persistence.criteria.*;
 import java.io.File;
 
-public class EmployeeDataNarrowCriteria2RestrictionResult {
+public class
+EmployeeDataNarrowCriteria2RestrictionResult {
 
     public static final String EMPLOYEE = "Employee";
     public static final String FIRST = EMPLOYEE + "_First";

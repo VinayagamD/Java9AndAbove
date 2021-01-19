@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="F:\Java Training Course\Batch\maven-webapp"/>
 			<item value="F:\JavaWorkspace\advancejava\pom.xml"/>
 			<item value="F:\JavaWorkspace\J2eeDB"/>
 		</list>
@@ -27,10 +28,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.vinaylogics.first_servlet"/>
 		</list>
 		<list key="groupId">
+			<item value="com.vinaylogics"/>
 		</list>
 		<list key="artifactId">
+			<item value="first-servlet"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -74,5 +78,19 @@
 		</list>
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.wizards.CustomArchetypeDialog">
+		<list key="archetypeGroupId">
+			<item value="org.apache.maven.archetypes"/>
+		</list>
+		<list key="archetypeArtifactId">
+			<item value="maven-archetype-webapp"/>
+		</list>
+		<list key="archetypeVersion">
+			<item value="RELEASES"/>
+		</list>
+		<list key="repositoryUrl">
+			<item value=""/>
+		</list>
 	</section>
 </section>

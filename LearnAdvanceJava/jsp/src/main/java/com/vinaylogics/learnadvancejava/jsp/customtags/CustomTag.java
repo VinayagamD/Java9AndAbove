@@ -42,7 +42,7 @@ public class CustomTag extends TagSupport {
         try {
             JspWriter out = pageContext.getOut();
             out.println("<p>");
-            out.println(StringUtils.countMatches(inputString, lookupString));
+            out.println(StringUtils.countMatches(inputString, lookupString) == 1);
             out.println("</p>");
         }
         catch (IOException e) {

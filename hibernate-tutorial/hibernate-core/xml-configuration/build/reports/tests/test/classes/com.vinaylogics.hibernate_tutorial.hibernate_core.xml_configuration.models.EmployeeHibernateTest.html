@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">2.097s</div>
+<div class="counter">3.737s</div>
 <p>duration</p>
 </div>
 </td>
@@ -82,7 +82,7 @@
 </thead>
 <tr>
 <td class="success">testLoadConfigurationAndCreateTable()</td>
-<td class="success">2.097s</td>
+<td class="success">3.737s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -90,38 +90,57 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>Save Successful
+<pre>Hibernate: 
+    
+    create table Employee (
+       id integer not null,
+        firstName varchar(255),
+        lastName varchar(255),
+        country varchar(255),
+        city varchar(255),
+        pinCode integer,
+        primary key (id)
+    ) engine=InnoDB
+Hibernate: 
+    select
+        max(id) 
+    from
+        Employee
+Hibernate: 
+    insert 
+    into
+        Employee
+        (firstName, lastName, country, city, pinCode, id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+Save Successful
 </pre>
 </span>
 </div>
 <div id="tab2" class="tab">
 <h2>Standard error</h2>
 <span class="code">
-<pre>Nov 04, 2020 9:51:59 PM org.hibernate.Version logVersion
-INFO: HHH000412: Hibernate ORM core version 5.4.23.Final
-Nov 04, 2020 9:51:59 PM org.hibernate.annotations.common.reflection.java.JavaReflectionManager &lt;clinit&gt;
+<pre>Jan 10, 2021 11:35:27 AM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate ORM core version 5.4.27.Final
+Jan 10, 2021 11:35:27 AM org.hibernate.annotations.common.reflection.java.JavaReflectionManager &lt;clinit&gt;
 INFO: HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-Nov 04, 2020 9:51:59 PM org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver resolveEntity
-WARN: HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
-Nov 04, 2020 9:51:59 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+Jan 10, 2021 11:35:30 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
 WARN: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
-Nov 04, 2020 9:51:59 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+Jan 10, 2021 11:35:30 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
 INFO: HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/employeexml]
-Nov 04, 2020 9:51:59 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
-INFO: HHH10001001: Connection properties: {user=vinay, password=****}
-Nov 04, 2020 9:51:59 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+Jan 10, 2021 11:35:30 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001001: Connection properties: {password=****, user=vinay}
+Jan 10, 2021 11:35:30 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
 INFO: HHH10001003: Autocommit mode: false
-Nov 04, 2020 9:51:59 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections &lt;init&gt;
+Jan 10, 2021 11:35:30 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections &lt;init&gt;
 INFO: HHH000115: Hibernate connection pool size: 20 (min=1)
-Nov 04, 2020 9:52:00 PM org.hibernate.dialect.Dialect &lt;init&gt;
+Jan 10, 2021 11:35:30 AM org.hibernate.dialect.Dialect &lt;init&gt;
 INFO: HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-Nov 04, 2020 9:52:01 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
-INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@75a62b1f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
-Nov 04, 2020 9:52:01 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
-INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1f2f1a93] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
-Nov 04, 2020 9:52:01 PM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+Jan 10, 2021 11:35:30 AM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5f505365] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Jan 10, 2021 11:35:31 AM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
 INFO: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-Nov 04, 2020 9:52:01 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState stop
+Jan 10, 2021 11:35:31 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState stop
 INFO: HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/employeexml]
 </pre>
 </span>
@@ -134,7 +153,7 @@ INFO: HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/empl
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 6.6.1</a> at Nov 4, 2020 9:52:01 PM</p>
+<a href="http://www.gradle.org">Gradle 6.6.1</a> at Jan 10, 2021, 11:35:31 AM</p>
 </div>
 </div>
 </body>

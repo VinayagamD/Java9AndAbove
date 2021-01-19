@@ -12,6 +12,9 @@ public final class VehicleFactory {
     }
 
     public static Vehicle produceVehicle(Type type) throws FactoryException {
+        if(type == null){
+            throw new FactoryException("Null Vehicle type Not acceptable");
+        }
         Vehicle vehicle;
         switch (type){
             case TWO:

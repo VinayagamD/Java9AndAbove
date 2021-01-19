@@ -59,7 +59,7 @@ class HelloIndiaTest {
     void testCreateSingletonScope(){
         Customer customer = context.getBean("customerSingle", Customer.class);
         Customer customer2 = context.getBean("customerSingle", Customer.class);
-        assertTrue(customer == customer2);
+        assertSame(customer, customer2);
     }
 
     @DisplayName("Test Create Bean Scopes Prototype")
@@ -67,7 +67,7 @@ class HelloIndiaTest {
     void testCreatePrototypeScope(){
         Customer customer = context.getBean("customerProto", Customer.class);
         Customer customer2 = context.getBean("customerProto", Customer.class);
-        assertFalse(customer == customer2);
+        assertNotSame(customer, customer2);
     }
 
     @AfterEach

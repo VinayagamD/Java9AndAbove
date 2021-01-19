@@ -4,11 +4,11 @@
     <facet type="hibernate" name="Hibernate">
       <configuration>
         <datasource-map>
-          <unit-entry name="hibernate_cm_mtm_bd.cfg.xml" />
-          <unit-entry name="hibernate_cm_mtm_ud.cfg.xml" />
-          <unit-entry name="hibernate_cm_mto_bd.cfg.xml" />
-          <unit-entry name="hibernate_cm_mto_ud.cfg.xml" />
-          <unit-entry name="hibernate_cm_otm_ud.cfg.xml" />
+          <unit-entry name="hibernate_cm_mtm_bd.cfg.xml" value="a07f1765-3293-47a6-bbe6-f85e3aa8ddb9" />
+          <unit-entry name="hibernate_cm_mtm_ud.cfg.xml" value="d2dc975e-eb0e-4f29-b4ea-96e1aa9170c4" />
+          <unit-entry name="hibernate_cm_mto_bd.cfg.xml" value="2af0177b-8cac-48c3-ab65-f7c736c1221b" />
+          <unit-entry name="hibernate_cm_mto_ud.cfg.xml" value="845e52ed-587f-4e0f-8f02-821a8bfb130e" />
+          <unit-entry name="hibernate_cm_otm_ud.cfg.xml" value="924fb4f4-9873-4709-ad02-6136d27a4a17" />
           <unit-entry name="hibernate_cm_oto_bd.cfg.xml" value="0cbb3989-0373-4962-ac10-8dc270307ee7" />
           <unit-entry name="hibernate_cm_oto_ud.cfg.xml" value="0cbb3989-0373-4962-ac10-8dc270307ee7" />
         </datasource-map>

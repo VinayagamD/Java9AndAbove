@@ -8,5 +8,4 @@ public abstract class MyAbstract {
 
     public abstract void testMethod2();
     public abstract void testMethod3();
-
 }

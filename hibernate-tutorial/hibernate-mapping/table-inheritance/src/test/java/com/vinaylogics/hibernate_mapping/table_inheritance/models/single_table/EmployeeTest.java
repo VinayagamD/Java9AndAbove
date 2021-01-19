@@ -41,7 +41,7 @@ class EmployeeTest extends BaseTestClass {
         ContractEmployee contractEmployee = new ContractEmployee();
         contractEmployee.setFirstName("Meiyappan");
         contractEmployee.setLastName("Student");
-        contractEmployee.setContractEndDate(LocalDate.now());
+        contractEmployee.setContractStartDate(LocalDate.now());
         contractEmployee.setContractEndDate(LocalDate.now());
         contractEmployee.setAgencyName("Besant");
         session.save(contractEmployee);

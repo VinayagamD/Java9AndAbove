@@ -82,11 +82,11 @@ class CriteriaQueryTest extends BaseTestClass {
     public void testSubQueryDemo(){
         Transaction transaction = session.beginTransaction();
         CriteriaBuilder cb = session.getCriteriaBuilder();
-        CriteriaQuery cq = cb.createQuery(Author.class);
+        CriteriaQuery<Author> cq = cb.createQuery(Author.class);
         Root<Author> root = cq.from(Author.class);
 
         // count books written by an author
-        Subquery sub = cq.subquery(Long.class);
+        Subquery<Long> sub = cq.subquery(Long.class);
         Root<Book> subRoot = sub.from(Book.class);
         SetJoin<Book, Author> subAuthors = subRoot.joinSet(Book_.AUTHORS);
         sub.select(cb.count(subRoot.get(Book_.ID)));
@@ -94,13 +94,8 @@ class CriteriaQueryTest extends BaseTestClass {
         // check the result of the subquery
         cq.where(cb.greaterThanOrEqualTo(sub, 3L));
 
-        TypedQuery query = session.createQuery(cq);
-        query.getResultList().forEach(author ->{
-            if(author instanceof Author){
-
-                System.out.println(author);
-            }
-        });
+        TypedQuery<Author> query = session.createQuery(cq);
+        query.getResultList().forEach(System.out::println);
 
         transaction.commit();
     }

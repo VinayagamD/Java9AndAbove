@@ -1,11 +1,11 @@
 com/vinaylogics/springbasics/security/models/BaseModel.java
  com.vinaylogics.springbasics.security.models.BaseModel
-com/vinaylogics/springbasics/security/services/UserService.java
- com.vinaylogics.springbasics.security.services.UserService
+com/vinaylogics/springbasics/security/models/MyUserDetail.java
+ com.vinaylogics.springbasics.security.models.MyUserDetail
 com/vinaylogics/springbasics/security/repositories/impl/UserRepositoryImpl.java
  com.vinaylogics.springbasics.security.repositories.impl.UserRepositoryImpl
-com/vinaylogics/springbasics/security/models/Role.java
- com.vinaylogics.springbasics.security.models.Role
+com/vinaylogics/springbasics/security/services/impl/UserServiceImpl.java
+ com.vinaylogics.springbasics.security.services.impl.UserServiceImpl
 com/vinaylogics/springbasics/security/repositories/BaseRepository.java
  com.vinaylogics.springbasics.security.repositories.BaseRepository
 com/vinaylogics/springbasics/security/repositories/RoleRepository.java
@@ -16,17 +16,17 @@ com/vinaylogics/springbasics/security/services/impl/SecurityServiceImpl.java
  com.vinaylogics.springbasics.security.services.impl.SecurityServiceImpl
 com/vinaylogics/springbasics/security/models/User.java
  com.vinaylogics.springbasics.security.models.User
-com/vinaylogics/springbasics/security/services/SecurityService.java
- com.vinaylogics.springbasics.security.services.SecurityService
+com/vinaylogics/springbasics/security/models/Role.java
+ com.vinaylogics.springbasics.security.models.Role
 com/vinaylogics/springbasics/security/controllers/LoginController.java
  com.vinaylogics.springbasics.security.controllers.LoginController
-com/vinaylogics/springbasics/security/services/impl/UserDetailServiceImpl.java
- com.vinaylogics.springbasics.security.services.impl.UserDetailServiceImpl
-com/vinaylogics/springbasics/security/repositories/UserRepository.java
- com.vinaylogics.springbasics.security.repositories.UserRepository
-com/vinaylogics/springbasics/security/models/MyUserDetail.java
- com.vinaylogics.springbasics.security.models.MyUserDetail
 com/vinaylogics/springbasics/security/repositories/impl/RoleRepositoryImpl.java
  com.vinaylogics.springbasics.security.repositories.impl.RoleRepositoryImpl
-com/vinaylogics/springbasics/security/services/impl/UserServiceImpl.java
- com.vinaylogics.springbasics.security.services.impl.UserServiceImpl
+com/vinaylogics/springbasics/security/repositories/UserRepository.java
+ com.vinaylogics.springbasics.security.repositories.UserRepository
+com/vinaylogics/springbasics/security/services/SecurityService.java
+ com.vinaylogics.springbasics.security.services.SecurityService
+com/vinaylogics/springbasics/security/services/impl/UserDetailServiceImpl.java
+ com.vinaylogics.springbasics.security.services.impl.UserDetailServiceImpl
+com/vinaylogics/springbasics/security/services/UserService.java
+ com.vinaylogics.springbasics.security.services.UserService

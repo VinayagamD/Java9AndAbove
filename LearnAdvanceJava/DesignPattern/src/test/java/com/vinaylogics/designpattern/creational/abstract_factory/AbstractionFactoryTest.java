@@ -1,6 +1,5 @@
 package com.vinaylogics.designpattern.creational.abstract_factory;
 
-import com.vinaylogics.designpattern.creational.factory.VehicleFactory;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.EnumSource;
 

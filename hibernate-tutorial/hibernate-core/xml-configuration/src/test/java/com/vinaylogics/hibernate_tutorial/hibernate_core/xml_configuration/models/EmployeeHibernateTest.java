@@ -24,9 +24,8 @@ class EmployeeHibernateTest extends BaseTestClass {
     public void testLoadConfigurationAndCreateTable(){
         Transaction t = session.beginTransaction();
         Employee employee = new Employee();
-        employee.setId(121);
-        employee.setFirstName("Veilu");
-        employee.setLastName("Kantha");
+        employee.setFirstName("Sonal");
+        employee.setLastName("Sarkaar");
         session.save(employee);
         t.commit();
         System.out.println("Save Successful");

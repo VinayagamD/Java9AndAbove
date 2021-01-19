@@ -1,9 +1,9 @@
-com/vinaylogics/springbasics/springjdbcannotations/configs/JDBCConfigs.java
- com.vinaylogics.springbasics.springjdbcannotations.configs.JDBCConfigs
+com/vinaylogics/springbasics/springjdbcannotations/models/Employee.java
+ com.vinaylogics.springbasics.springjdbcannotations.models.Employee
 com/vinaylogics/springbasics/springjdbcannotations/utils/QueryConstant.java
  com.vinaylogics.springbasics.springjdbcannotations.utils.QueryConstant
  com.vinaylogics.springbasics.springjdbcannotations.utils.QueryConstant$TableEmployees
+com/vinaylogics/springbasics/springjdbcannotations/configs/JDBCConfigs.java
+ com.vinaylogics.springbasics.springjdbcannotations.configs.JDBCConfigs
 com/vinaylogics/springbasics/springjdbcannotations/dao/EmployeeDao.java
  com.vinaylogics.springbasics.springjdbcannotations.dao.EmployeeDao
-com/vinaylogics/springbasics/springjdbcannotations/models/Employee.java
- com.vinaylogics.springbasics.springjdbcannotations.models.Employee

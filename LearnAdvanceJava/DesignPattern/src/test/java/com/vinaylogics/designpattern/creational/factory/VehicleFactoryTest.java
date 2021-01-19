@@ -1,5 +1,6 @@
 package com.vinaylogics.designpattern.creational.factory;
 
+import com.vinaylogics.designpattern.exception.FactoryException;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -24,6 +25,19 @@ class VehicleFactoryTest {
             case FOUR:
                 assertTrue(vehicle instanceof FourWheeler);
                 break;
+        }
+    }
+
+    @Test
+    @DisplayName("Invalid test case for factory creation")
+    void  testProductVehicle_InvalidTypesNull(){
+        try {
+            VehicleFactory.produceVehicle(null);
+            fail("Expecting Factory Exception Success");
+        }catch (FactoryException e){
+            assertNotNull(e);
+            assertEquals( "Null Vehicle type Not acceptable",e.getMessage());
+
         }
     }
 }

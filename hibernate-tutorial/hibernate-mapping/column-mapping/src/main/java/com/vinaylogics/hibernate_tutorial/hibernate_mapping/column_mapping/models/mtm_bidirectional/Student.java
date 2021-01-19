@@ -24,7 +24,7 @@ public class Student implements Serializable {
     @Column(name = "section")
     private String section;
 
-    @ManyToMany(cascade = CascadeType.ALL, mappedBy = "students")
+    @ManyToMany(mappedBy = "students")
     private Set<Classes> classes = new HashSet<>();
 
     public long getId() {

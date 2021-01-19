@@ -5,24 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="759170e8-6a47-48bd-acab-2b7caeb7784e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../LearnAdvanceJava/DesignPattern/src/test/java/com/vinaylogics/designpattern/creational/singleton/SingletonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/oops/Derive3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/oopsdetails/inheritancetype/hierachieal/Child1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/oopsdetails/inheritancetype/hierachieal/Child2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/oopsdetails/inheritancetype/hierachieal/Child3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/oopsdetails/inheritancetype/hierachieal/Parent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/oopsdetails/inheritancetype/hybrid/Child.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/oopsdetails/inheritancetype/hybrid/Parent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/oopsdetails/inheritancetype/hybrid/ParentA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/oopsdetails/inheritancetype/hybrid/ParentB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/oopsdetails/inheritancetype/multiple/Child.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/oopsdetails/inheritancetype/multiple/ParentA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/oopsdetails/inheritancetype/multiple/ParentB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/oopsdetails/inheritancetype/mutlilevel/Child.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/oopsdetails/inheritancetype/mutlilevel/Parent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/oopsdetails/inheritancetype/mutlilevel/SubChild.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/oopsdetails/inheritancetype/singlelevel/Child.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/oopsdetails/inheritancetype/singlelevel/Parent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.log" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.mylyn/repositories.xml.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.mylyn/repositories.xml.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.buildship.core/project-preferences/AdvanceJavaGradle" beforeDir="false" />
@@ -33,9 +15,11 @@
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/corejavatraining/.markers" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.epp.mpc.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.epp.mpc.ui.prefs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.launching.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.launching.prefs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.sse.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.sse.ui.prefs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/DeserializableExample.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/DeserializableExample.launch" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/ExceptionExamples.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/ExceptionExamples.launch" afterDir="false" />
@@ -49,15 +33,20 @@
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1049380384.index" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1268240816.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1526028123.index" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1531067524.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1671692264.index" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/2026878357.index" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/2420485488.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/3275114051.index" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/3463425493.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/3868878423.index" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/3887009844.index" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/410181436.index" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/411658089.index" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/764459017.index" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/908681164.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" afterDir="false" />
@@ -115,6 +104,7 @@
       <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/DesignPattern/src/main/java/com/vinaylogics/designpattern/creational/factory/VehicleFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/DesignPattern/src/main/java/com/vinaylogics/designpattern/creational/factory/VehicleFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/DesignPattern/src/test/java/com/vinaylogics/designpattern/creational/abstract_factory/AbstractionFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/DesignPattern/src/test/java/com/vinaylogics/designpattern/creational/abstract_factory/AbstractionFactoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/DesignPattern/src/test/java/com/vinaylogics/designpattern/creational/factory/VehicleFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/DesignPattern/src/test/java/com/vinaylogics/designpattern/creational/factory/VehicleFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/DesignPattern/src/test/java/com/vinaylogics/designpattern/creational/singleton/SingletonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/DesignPattern/src/test/java/com/vinaylogics/designpattern/creational/singleton/SingletonTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/javamaildemo/build/classes/java/main/com/vinaylogics/learnadvancejava/javamaildemo/JavaMailExample$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/javamaildemo/build/classes/java/main/com/vinaylogics/learnadvancejava/javamaildemo/JavaMailExample$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/javamaildemo/build/classes/java/main/com/vinaylogics/learnadvancejava/javamaildemo/JavaMailExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/javamaildemo/build/classes/java/main/com/vinaylogics/learnadvancejava/javamaildemo/JavaMailExample.class" afterDir="false" />
@@ -182,6 +172,7 @@
       <change beforePath="$PROJECT_DIR$/../SpringBasics/springsecuritybasics/src/main/java/com/vinaylogics/springbasics/springsecurity/security/UserDemoSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBasics/springsecuritybasics/src/main/java/com/vinaylogics/springbasics/springsecurity/security/UserDemoSecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SpringBasics/springsecuritybasics/src/main/webapp/WEB-INF/views/loginPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBasics/springsecuritybasics/src/main/webapp/WEB-INF/views/loginPage.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SpringBasics/springsecuritybasics/src/main/webapp/WEB-INF/views/registration.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBasics/springsecuritybasics/src/main/webapp/WEB-INF/views/registration.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corejavatraining/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../corejavatraining/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../corejavatraining/image.tsv" beforeDir="false" afterPath="$PROJECT_DIR$/../corejavatraining/image.tsv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/abtsraction/AbstractionClassDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/abtsraction/AbstractionClassDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/abtsraction/InterfaceClassDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/abtsraction/InterfaceClassDemo.java" afterDir="false" />
@@ -193,23 +184,60 @@
       <change beforePath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/grabage_collector/GCExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/grabage_collector/GCExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/instancedemo/InstanceByNew.java" beforeDir="false" afterPath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/instancedemo/InstanceByNew.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/instancedemo/InstanceByNewInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/instancedemo/InstanceByNewInstance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/oops/Derive3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/oops/Derive3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/oops/Derived2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/oops/Derived2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/oops/inherintance/BaseRoot.java" beforeDir="false" afterPath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/oops/inherintance/BaseRoot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/oops/inherintance/DerivedClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/oops/inherintance/DerivedClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/oopsdetails/inheritancetype/hierachieal/Child1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/oopsdetails/inheritancetype/hierachieal/Child1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/oopsdetails/inheritancetype/hierachieal/Child2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/oopsdetails/inheritancetype/hierachieal/Child2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/oopsdetails/inheritancetype/hierachieal/Child3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/oopsdetails/inheritancetype/hierachieal/Child3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/oopsdetails/inheritancetype/hierachieal/Parent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/oopsdetails/inheritancetype/hierachieal/Parent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/oopsdetails/inheritancetype/hybrid/Child.java" beforeDir="false" afterPath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/oopsdetails/inheritancetype/hybrid/Child.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/oopsdetails/inheritancetype/hybrid/Parent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/oopsdetails/inheritancetype/hybrid/Parent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/oopsdetails/inheritancetype/hybrid/ParentA.java" beforeDir="false" afterPath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/oopsdetails/inheritancetype/hybrid/ParentA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/oopsdetails/inheritancetype/hybrid/ParentB.java" beforeDir="false" afterPath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/oopsdetails/inheritancetype/hybrid/ParentB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/oopsdetails/inheritancetype/multiple/Child.java" beforeDir="false" afterPath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/oopsdetails/inheritancetype/multiple/Child.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/oopsdetails/inheritancetype/multiple/ParentA.java" beforeDir="false" afterPath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/oopsdetails/inheritancetype/multiple/ParentA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/oopsdetails/inheritancetype/multiple/ParentB.java" beforeDir="false" afterPath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/oopsdetails/inheritancetype/multiple/ParentB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/oopsdetails/inheritancetype/mutlilevel/Child.java" beforeDir="false" afterPath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/oopsdetails/inheritancetype/mutlilevel/Child.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/oopsdetails/inheritancetype/mutlilevel/Parent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/oopsdetails/inheritancetype/mutlilevel/Parent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/oopsdetails/inheritancetype/mutlilevel/SubChild.java" beforeDir="false" afterPath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/oopsdetails/inheritancetype/mutlilevel/SubChild.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/oopsdetails/inheritancetype/singlelevel/Child.java" beforeDir="false" afterPath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/oopsdetails/inheritancetype/singlelevel/Child.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/oopsdetails/inheritancetype/singlelevel/Parent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/oopsdetails/inheritancetype/singlelevel/Parent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/polymorphism/AvoidOverriding.java" beforeDir="false" afterPath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/polymorphism/AvoidOverriding.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/polymorphism/OperatorOverloadingDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/polymorphism/OperatorOverloadingDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/stativvsinstance/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/stativvsinstance/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/streams/InputStreamHttpMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/streams/InputStreamHttpMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/thread/synchronize/NeedForSynchronizeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/thread/synchronize/NeedForSynchronizeDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/userinput/UserInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/userinput/UserInput.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hibernate-training/hibernate-caching/hibernate-caching.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-training/hibernate-caching/hibernate-caching.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hibernate-training/hibernate-crieteriaquery/hibernate-crieteriaquery.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-training/hibernate-crieteriaquery/hibernate-crieteriaquery.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hibernate-training/hibernate-nativequery/hibernate-nativequery.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-training/hibernate-nativequery/hibernate-nativequery.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hibernate-training/hibernate-storedprocedure/hibernate-storedprocedure.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-training/hibernate-storedprocedure/hibernate-storedprocedure.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hibernate-tutorial/hibernate-core/xml-configuration/src/main/java/com/vinaylogics/hibernate_tutorial/hibernate_core/xml_configuration/models/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-tutorial/hibernate-core/xml-configuration/src/main/java/com/vinaylogics/hibernate_tutorial/hibernate_core/xml_configuration/models/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-data/spring-jdbc/jdbc-xml/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-data/spring-jdbc/jdbc-xml/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-data/spring-jdbc/jdbc-xml/src/test/java/com/vinaylogics/springdata/jdbc/xml/doas/EmployeeDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-data/spring-jdbc/jdbc-xml/src/test/java/com/vinaylogics/springdata/jdbc/xml/doas/EmployeeDaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-data/spring-jpa/annotation/src/test/java/com/vinaylogics/springbasics/springdata/jpa/annotations/daos/EmployeeDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-data/spring-jpa/annotation/src/test/java/com/vinaylogics/springbasics/springdata/jpa/annotations/daos/EmployeeDaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-data/spring-jpa/xml/src/test/java/com/vinaylogics/springbasics/data/jpa/xml/daos/EmployeeDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-data/spring-jpa/xml/src/test/java/com/vinaylogics/springbasics/data/jpa/xml/daos/EmployeeDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-aop/build/libs/spring-aop-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop/build/libs/spring-aop-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc/jdbc/build/libs/jdbc-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc/jdbc/build/libs/jdbc-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc/jdbc/build/reports/tests/test/classes/com.vinaylogics.springbasics.mvc.jdbc.repositories.EmployeeRepositoryTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc/jdbc/build/reports/tests/test/classes/com.vinaylogics.springbasics.mvc.jdbc.repositories.EmployeeRepositoryTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc/jdbc/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc/jdbc/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc/jdbc/build/reports/tests/test/packages/com.vinaylogics.springbasics.mvc.jdbc.repositories.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc/jdbc/build/reports/tests/test/packages/com.vinaylogics.springbasics.mvc.jdbc.repositories.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc/jdbc/build/test-results/test/TEST-com.vinaylogics.springbasics.mvc.jdbc.repositories.EmployeeRepositoryTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc/jdbc/build/test-results/test/TEST-com.vinaylogics.springbasics.mvc.jdbc.repositories.EmployeeRepositoryTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc/jdbc/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc/jdbc/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc/jdbc/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc/jdbc/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc/jdbc/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc/jdbc/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc/jpa/build/libs/jpa-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc/jpa/build/libs/jpa-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security/build/libs/spring-security-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security/build/libs/spring-security-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -258,7 +286,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="KotlinMultiplatform">
-    <executables />
+    <allAvailableExecutables />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -342,7 +370,7 @@
       <recent name="F:\JavaWorkspace\spring-basics\spring-data\spring-jdbc\jdbc-xml\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.EmployeeDaoTest.findAll">
+  <component name="RunManager" selected="Tomcat Server.SecurityDemo">
     <configuration name="EmployeeDaoTest.findAll" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -381,18 +409,18 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="NamingDataCollectionConfigTest.testNamingCollectionOrder" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="EmployeeRepositoryTest.findAll" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.vinaylogics.springbasics.core.annotations.configurations.NamingDataCollectionConfigTest.testNamingCollectionOrder&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.vinaylogics.springbasics.mvc.jdbc.repositories.EmployeeRepositoryTest.findAll&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":spring-core:annotations:test" />
+            <option value=":spring-mvc:jdbc:test" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -400,37 +428,37 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="PropertyConfigurationTest.testPropertyInitializer" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="EmployeeRepositoryTest.findById" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.vinaylogics.springbasics.core.annotations.configurations.PropertyConfigurationTest.testPropertyInitializer&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.vinaylogics.springbasics.mvc.jdbc.repositories.EmployeeRepositoryTest.findById&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":spring-core:annotations:test" />
+            <option value=":spring-mvc:jdbc:test" />
           </list>
         </option>
-        <option name="vmOptions" />
+        <option name="vmOptions" value="" />
       </ExternalSystemSettings>
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="StoreConfigurationTest.testDI" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="EmployeeRepositoryTest.saveEmployee" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.vinaylogics.springbasics.core.annotations.configurations.StoreConfigurationTest.testDI&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.vinaylogics.springbasics.mvc.jdbc.repositories.EmployeeRepositoryTest.saveEmployee&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":spring-core:annotations:test" />
+            <option value=":spring-mvc:jdbc:test" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -508,6 +536,78 @@
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="Gradle : org.vinaylogics : spring-security-1.0-SNAPSHOT.war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="Spring JDBC" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.39" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Gradle : org.vinaylogics : jdbc-1.0-SNAPSHOT.war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/springmvcjdbc" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_spring-basics_4" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="64453" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Gradle : org.vinaylogics : jdbc-1.0-SNAPSHOT.war" />
         </option>
       </method>
     </configuration>
@@ -657,22 +757,23 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Gradle.StoreConfigurationTest.testDI" />
-      <item itemvalue="Gradle.PropertyConfigurationTest.testPropertyInitializer" />
-      <item itemvalue="Gradle.NamingDataCollectionConfigTest.testNamingCollectionOrder" />
       <item itemvalue="Gradle.EmployeeDaoTest.saveEmployee" />
       <item itemvalue="Gradle.EmployeeDaoTest.findAll" />
+      <item itemvalue="Gradle.EmployeeRepositoryTest.saveEmployee" />
+      <item itemvalue="Gradle.EmployeeRepositoryTest.findAll" />
+      <item itemvalue="Gradle.EmployeeRepositoryTest.findById" />
+      <item itemvalue="Tomcat Server.Spring JDBC" />
       <item itemvalue="Tomcat Server.jpa_api" />
       <item itemvalue="Tomcat Server.spring-aop" />
       <item itemvalue="Tomcat Server.SecurityDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.EmployeeRepositoryTest.findById" />
+        <item itemvalue="Gradle.EmployeeRepositoryTest.findAll" />
+        <item itemvalue="Gradle.EmployeeRepositoryTest.saveEmployee" />
         <item itemvalue="Gradle.EmployeeDaoTest.findAll" />
         <item itemvalue="Gradle.EmployeeDaoTest.saveEmployee" />
-        <item itemvalue="Gradle.EmployeeDaoTest.findAll" />
-        <item itemvalue="Gradle.EmployeeDaoTest.saveEmployee" />
-        <item itemvalue="Gradle.EmployeeDaoTest.findAll" />
       </list>
     </recent_temporary>
   </component>
@@ -699,6 +800,11 @@
       <workItem from="1605884866752" duration="3333000" />
       <workItem from="1605938092565" duration="69000" />
       <workItem from="1606142833895" duration="1479000" />
+      <workItem from="1606145229317" duration="1282000" />
+      <workItem from="1606231282521" duration="1136000" />
+      <workItem from="1606246851930" duration="19000" />
+      <workItem from="1606404533100" duration="1725000" />
+      <workItem from="1606444859497" duration="14000" />
     </task>
     <servers />
   </component>
@@ -710,11 +816,11 @@
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
     <state x="-1365" y="96" key="#Project_Structure/-1920.0.1920.1080/0.0.2560.1080@-1920.0.1920.1080" timestamp="1605020059855" />
-    <state x="-1368" y="178" width="1092" height="804" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605707541702">
+    <state x="-1368" y="178" width="1092" height="948" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606404643859">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1368" y="178" width="1092" height="804" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1920.1040/0.0.2560.1040@-1920.0.1920.1040" timestamp="1605707541702" />
-    <state x="-1391" y="67" width="1092" height="910" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1920.1080/0.0.2560.1080@-1920.0.1920.1080" timestamp="1605020089801" />
+    <state x="-1368" y="178" width="1092" height="804" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1920.1040/0.0.2560.1040@-1920.0.1920.1040" timestamp="1606404643859" />
+    <state x="-1391" y="67" width="1092" height="948" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1920.1080/0.0.2560.1080@-1920.0.1920.1080" timestamp="1606231723940" />
     <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1604586524985" />
     <state x="-1155" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1605886728756">
       <screen x="-1920" y="0" width="1920" height="1040" />
@@ -756,82 +862,86 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="525" y="241" key="FileDocumentManager.FileCacheConflict/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1603960805455" />
-    <state width="1877" height="248" key="GridCell.Tab.0.bottom" timestamp="1606144324290">
-      <screen x="-1920" y="0" width="1920" height="1080" />
+    <state width="1293" height="269" key="GridCell.Tab.0.bottom" timestamp="1606418291952">
+      <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="248" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.2560.1040@-1920.0.1920.1040" timestamp="1606143502868" />
-    <state width="1877" height="248" key="GridCell.Tab.0.bottom/-1920.0.1920.1080/0.0.2560.1080@-1920.0.1920.1080" timestamp="1606144324290" />
+    <state width="1293" height="269" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.2560.1040@-1920.0.1920.1040" timestamp="1606418291952" />
+    <state width="1293" height="282" key="GridCell.Tab.0.bottom/-1920.0.1920.1080/0.0.2560.1080@-1920.0.1920.1080" timestamp="1606232427967" />
     <state width="1877" height="249" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1604675587963" />
     <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.2560.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1604498741620" />
     <state width="1877" height="261" key="GridCell.Tab.0.bottom/0.0.2560.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1604499770892" />
-    <state width="1877" height="248" key="GridCell.Tab.0.center" timestamp="1606144324290">
-      <screen x="-1920" y="0" width="1920" height="1080" />
+    <state width="1293" height="269" key="GridCell.Tab.0.center" timestamp="1606418291951">
+      <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="248" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.2560.1040@-1920.0.1920.1040" timestamp="1606143502868" />
-    <state width="1877" height="248" key="GridCell.Tab.0.center/-1920.0.1920.1080/0.0.2560.1080@-1920.0.1920.1080" timestamp="1606144324290" />
+    <state width="1293" height="269" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.2560.1040@-1920.0.1920.1040" timestamp="1606418291951" />
+    <state width="1293" height="282" key="GridCell.Tab.0.center/-1920.0.1920.1080/0.0.2560.1080@-1920.0.1920.1080" timestamp="1606232427966" />
     <state width="1877" height="249" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1604675587963" />
     <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.2560.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1604498741620" />
     <state width="1877" height="261" key="GridCell.Tab.0.center/0.0.2560.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1604499770891" />
-    <state width="1877" height="248" key="GridCell.Tab.0.left" timestamp="1606144324289">
-      <screen x="-1920" y="0" width="1920" height="1080" />
+    <state width="1293" height="269" key="GridCell.Tab.0.left" timestamp="1606418291951">
+      <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="248" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.2560.1040@-1920.0.1920.1040" timestamp="1606143502868" />
-    <state width="1877" height="248" key="GridCell.Tab.0.left/-1920.0.1920.1080/0.0.2560.1080@-1920.0.1920.1080" timestamp="1606144324289" />
+    <state width="1293" height="269" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.2560.1040@-1920.0.1920.1040" timestamp="1606418291951" />
+    <state width="1293" height="282" key="GridCell.Tab.0.left/-1920.0.1920.1080/0.0.2560.1080@-1920.0.1920.1080" timestamp="1606232427966" />
     <state width="1877" height="249" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1604675587963" />
     <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.2560.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1604498741620" />
     <state width="1877" height="261" key="GridCell.Tab.0.left/0.0.2560.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1604499770891" />
-    <state width="1877" height="248" key="GridCell.Tab.0.right" timestamp="1606144324290">
-      <screen x="-1920" y="0" width="1920" height="1080" />
+    <state width="1293" height="269" key="GridCell.Tab.0.right" timestamp="1606418291952">
+      <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="248" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.2560.1040@-1920.0.1920.1040" timestamp="1606143502868" />
-    <state width="1877" height="248" key="GridCell.Tab.0.right/-1920.0.1920.1080/0.0.2560.1080@-1920.0.1920.1080" timestamp="1606144324290" />
+    <state width="1293" height="269" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.2560.1040@-1920.0.1920.1040" timestamp="1606418291952" />
+    <state width="1293" height="282" key="GridCell.Tab.0.right/-1920.0.1920.1080/0.0.2560.1080@-1920.0.1920.1080" timestamp="1606232427967" />
     <state width="1877" height="249" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1604675587963" />
     <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.2560.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1604498741620" />
     <state width="1877" height="261" key="GridCell.Tab.0.right/0.0.2560.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1604499770891" />
-    <state width="1293" height="270" key="GridCell.Tab.1.bottom" timestamp="1605752416247">
-      <screen x="-1920" y="0" width="1920" height="1080" />
+    <state width="1293" height="269" key="GridCell.Tab.1.bottom" timestamp="1606418291954">
+      <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="270" key="GridCell.Tab.1.bottom/-1920.0.1920.1040/0.0.2560.1040@-1920.0.1920.1040" timestamp="1605707603436" />
-    <state width="1293" height="270" key="GridCell.Tab.1.bottom/-1920.0.1920.1080/0.0.2560.1080@-1920.0.1920.1080" timestamp="1605752416247" />
+    <state width="1293" height="269" key="GridCell.Tab.1.bottom/-1920.0.1920.1040/0.0.2560.1040@-1920.0.1920.1040" timestamp="1606418291954" />
+    <state width="1293" height="282" key="GridCell.Tab.1.bottom/-1920.0.1920.1080/0.0.2560.1080@-1920.0.1920.1080" timestamp="1606232427969" />
     <state width="1877" height="338" key="GridCell.Tab.1.bottom/0.0.2560.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1604412096267" />
-    <state width="1293" height="270" key="GridCell.Tab.1.center" timestamp="1605752416247">
-      <screen x="-1920" y="0" width="1920" height="1080" />
+    <state width="1293" height="269" key="GridCell.Tab.1.center" timestamp="1606418291953">
+      <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="270" key="GridCell.Tab.1.center/-1920.0.1920.1040/0.0.2560.1040@-1920.0.1920.1040" timestamp="1605707603436" />
-    <state width="1293" height="270" key="GridCell.Tab.1.center/-1920.0.1920.1080/0.0.2560.1080@-1920.0.1920.1080" timestamp="1605752416247" />
+    <state width="1293" height="269" key="GridCell.Tab.1.center/-1920.0.1920.1040/0.0.2560.1040@-1920.0.1920.1040" timestamp="1606418291953" />
+    <state width="1293" height="282" key="GridCell.Tab.1.center/-1920.0.1920.1080/0.0.2560.1080@-1920.0.1920.1080" timestamp="1606232427968" />
     <state width="1877" height="338" key="GridCell.Tab.1.center/0.0.2560.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1604412096267" />
-    <state width="1293" height="270" key="GridCell.Tab.1.left" timestamp="1605752416247">
-      <screen x="-1920" y="0" width="1920" height="1080" />
+    <state width="1293" height="269" key="GridCell.Tab.1.left" timestamp="1606418291952">
+      <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="270" key="GridCell.Tab.1.left/-1920.0.1920.1040/0.0.2560.1040@-1920.0.1920.1040" timestamp="1605707603436" />
-    <state width="1293" height="270" key="GridCell.Tab.1.left/-1920.0.1920.1080/0.0.2560.1080@-1920.0.1920.1080" timestamp="1605752416247" />
+    <state width="1293" height="269" key="GridCell.Tab.1.left/-1920.0.1920.1040/0.0.2560.1040@-1920.0.1920.1040" timestamp="1606418291952" />
+    <state width="1293" height="282" key="GridCell.Tab.1.left/-1920.0.1920.1080/0.0.2560.1080@-1920.0.1920.1080" timestamp="1606232427968" />
     <state width="1877" height="338" key="GridCell.Tab.1.left/0.0.2560.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1604412096267" />
-    <state width="1293" height="270" key="GridCell.Tab.1.right" timestamp="1605752416247">
-      <screen x="-1920" y="0" width="1920" height="1080" />
+    <state width="1293" height="269" key="GridCell.Tab.1.right" timestamp="1606418291953">
+      <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="270" key="GridCell.Tab.1.right/-1920.0.1920.1040/0.0.2560.1040@-1920.0.1920.1040" timestamp="1605707603436" />
-    <state width="1293" height="270" key="GridCell.Tab.1.right/-1920.0.1920.1080/0.0.2560.1080@-1920.0.1920.1080" timestamp="1605752416247" />
+    <state width="1293" height="269" key="GridCell.Tab.1.right/-1920.0.1920.1040/0.0.2560.1040@-1920.0.1920.1040" timestamp="1606418291953" />
+    <state width="1293" height="282" key="GridCell.Tab.1.right/-1920.0.1920.1080/0.0.2560.1080@-1920.0.1920.1080" timestamp="1606232427969" />
     <state width="1877" height="338" key="GridCell.Tab.1.right/0.0.2560.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1604412096267" />
-    <state width="1293" height="270" key="GridCell.Tab.2.bottom" timestamp="1605752416247">
-      <screen x="-1920" y="0" width="1920" height="1080" />
+    <state width="1293" height="269" key="GridCell.Tab.2.bottom" timestamp="1606418291955">
+      <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="270" key="GridCell.Tab.2.bottom/-1920.0.1920.1040/0.0.2560.1040@-1920.0.1920.1040" timestamp="1605707603437" />
-    <state width="1293" height="270" key="GridCell.Tab.2.bottom/-1920.0.1920.1080/0.0.2560.1080@-1920.0.1920.1080" timestamp="1605752416247" />
-    <state width="1293" height="270" key="GridCell.Tab.2.center" timestamp="1605752416247">
-      <screen x="-1920" y="0" width="1920" height="1080" />
+    <state width="1293" height="269" key="GridCell.Tab.2.bottom/-1920.0.1920.1040/0.0.2560.1040@-1920.0.1920.1040" timestamp="1606418291955" />
+    <state width="1293" height="282" key="GridCell.Tab.2.bottom/-1920.0.1920.1080/0.0.2560.1080@-1920.0.1920.1080" timestamp="1606232427971" />
+    <state width="1293" height="269" key="GridCell.Tab.2.center" timestamp="1606418291954">
+      <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="270" key="GridCell.Tab.2.center/-1920.0.1920.1040/0.0.2560.1040@-1920.0.1920.1040" timestamp="1605707603436" />
-    <state width="1293" height="270" key="GridCell.Tab.2.center/-1920.0.1920.1080/0.0.2560.1080@-1920.0.1920.1080" timestamp="1605752416247" />
-    <state width="1293" height="270" key="GridCell.Tab.2.left" timestamp="1605752416247">
-      <screen x="-1920" y="0" width="1920" height="1080" />
+    <state width="1293" height="269" key="GridCell.Tab.2.center/-1920.0.1920.1040/0.0.2560.1040@-1920.0.1920.1040" timestamp="1606418291954" />
+    <state width="1293" height="282" key="GridCell.Tab.2.center/-1920.0.1920.1080/0.0.2560.1080@-1920.0.1920.1080" timestamp="1606232427970" />
+    <state width="1293" height="269" key="GridCell.Tab.2.left" timestamp="1606418291954">
+      <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="270" key="GridCell.Tab.2.left/-1920.0.1920.1040/0.0.2560.1040@-1920.0.1920.1040" timestamp="1605707603436" />
-    <state width="1293" height="270" key="GridCell.Tab.2.left/-1920.0.1920.1080/0.0.2560.1080@-1920.0.1920.1080" timestamp="1605752416247" />
-    <state width="1293" height="270" key="GridCell.Tab.2.right" timestamp="1605752416247">
-      <screen x="-1920" y="0" width="1920" height="1080" />
+    <state width="1293" height="269" key="GridCell.Tab.2.left/-1920.0.1920.1040/0.0.2560.1040@-1920.0.1920.1040" timestamp="1606418291954" />
+    <state width="1293" height="282" key="GridCell.Tab.2.left/-1920.0.1920.1080/0.0.2560.1080@-1920.0.1920.1080" timestamp="1606232427970" />
+    <state width="1293" height="269" key="GridCell.Tab.2.right" timestamp="1606418291954">
+      <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="270" key="GridCell.Tab.2.right/-1920.0.1920.1040/0.0.2560.1040@-1920.0.1920.1040" timestamp="1605707603437" />
-    <state width="1293" height="270" key="GridCell.Tab.2.right/-1920.0.1920.1080/0.0.2560.1080@-1920.0.1920.1080" timestamp="1605752416247" />
+    <state width="1293" height="269" key="GridCell.Tab.2.right/-1920.0.1920.1040/0.0.2560.1040@-1920.0.1920.1040" timestamp="1606418291954" />
+    <state width="1293" height="282" key="GridCell.Tab.2.right/-1920.0.1920.1080/0.0.2560.1080@-1920.0.1920.1080" timestamp="1606232427971" />
+    <state x="-1380" y="263" key="IDE.errors.dialog" timestamp="1606405066199">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1380" y="263" key="IDE.errors.dialog/-1920.0.1920.1040/0.0.2560.1040@-1920.0.1920.1040" timestamp="1606405066199" />
     <state x="-1480" y="94" key="SettingsEditor" timestamp="1606142844436">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
@@ -857,10 +967,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="755" y="267" key="refactoring.ChangeSignatureDialog/0.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1604669905872" />
-    <state x="-1304" y="240" key="run.anything.popup" timestamp="1604932199669">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state x="-1304" y="249" key="run.anything.popup" timestamp="1606231634662">
+      <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
     <state x="-1304" y="240" key="run.anything.popup/-1920.0.1920.1040/0.0.2560.1040@-1920.0.1920.1040" timestamp="1604932199669" />
+    <state x="-1304" y="249" key="run.anything.popup/-1920.0.1920.1080/0.0.2560.1080@-1920.0.1920.1080" timestamp="1606231634661" />
     <state x="-1280" y="203" key="spring file set editor" timestamp="1605707147742">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>

@@ -25,13 +25,13 @@ class OneToOneTest extends BaseTestClass {
     public void testOneToOneUniDirectional(){
         Transaction t = session.beginTransaction();
         Student student = new Student();
-        student.setFirstName("Meiyappan");
-        student.setLastName("Student");
+        student.setFirstName("Sonaal");
+        student.setLastName("Sarkaar");
         student.setSection("Java Training");
         Address address = new Address();
         address.setAddress("Test Address");
         address.setStreet("Test Street");
-        address.setCity("Bangalore");
+        address.setCity("Chhattisgarh");
         student.setAddress(address);
         session.save(student);
         t.commit();

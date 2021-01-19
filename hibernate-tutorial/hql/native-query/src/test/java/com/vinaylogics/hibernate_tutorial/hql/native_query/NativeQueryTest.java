@@ -51,6 +51,13 @@ class NativeQueryTest extends BaseTestClass {
         });
     }
 
+    @ParameterizedTest(name = "Select Employee Based On id ={0}")
+    @ValueSource(longs = {1,2,3,4,5})
+    public void testNativeQueryToSelectBasedOnIdForSingleColumn(Long id){
+        Query<String> nativeQuery= session.createSQLQuery("SELECT first_name FROM employee WHERE id=:id").setParameter("id", id);
+        System.out.println(nativeQuery.getSingleResult());
+    }
+
     @Test
     @DisplayName("Test Native Query Specific to class")
     public void testNativeQuerySpecificToClass(){

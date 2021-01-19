@@ -1,8 +1,10 @@
 package com.vinaylogics.learnadvancejava.servlets;
 
 import java.io.IOException;
+import java.io.InputStream;
 import java.net.*;
 import java.util.List;
+import java.util.Scanner;
 
 public class DemoCookieExample {
 
@@ -17,8 +19,12 @@ public class DemoCookieExample {
         // Open a connection for the given URL
         URL url = new URL(urlString);
         URLConnection urlConnection = url.openConnection();
-        urlConnection.getContent();
-
+        Object content = urlConnection.getContent();
+        Scanner scanner = new Scanner((InputStream) content);
+        String data;
+        while(scanner.hasNextLine()){
+            System.out.println(scanner.nextLine());
+        }
         // Get CookieStore which is the default internal in-memory
         CookieStore cookieStore = cookieManager.getCookieStore();
 

@@ -35,7 +35,7 @@ public class Employee implements Serializable {
         this.lastName = lastName;
     }
 
-    public Address getAddress() {
+    public Address  getAddress() {
         return address;
     }
 

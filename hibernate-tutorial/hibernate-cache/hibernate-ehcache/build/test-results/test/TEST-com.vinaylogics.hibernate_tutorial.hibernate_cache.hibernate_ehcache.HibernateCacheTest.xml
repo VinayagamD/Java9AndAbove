@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.vinaylogics.hibernate_tutorial.hibernate_cache.hibernate_ehcache.HibernateCacheTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-11-10T16:31:11" hostname="DESKTOP-3P18DGO" time="2.131">
+<testsuite name="com.vinaylogics.hibernate_tutorial.hibernate_cache.hibernate_ehcache.HibernateCacheTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-01-17T08:11:01" hostname="DESKTOP-3P18DGO" time="1.487">
   <properties/>
-  <testcase name="testCaching()" classname="com.vinaylogics.hibernate_tutorial.hibernate_cache.hibernate_ehcache.HibernateCacheTest" time="2.131"/>
+  <testcase name="testCaching()" classname="com.vinaylogics.hibernate_tutorial.hibernate_cache.hibernate_ehcache.HibernateCacheTest" time="1.487"/>
   <system-out><![CDATA[Stats enabled=false
 Stats enabled=true
 ***** 0 *****
@@ -36,38 +36,38 @@ Second Level Hit Count=2
 Second Level Miss Count=2
 Second Level Put Count=2
 ]]></system-out>
-  <system-err><![CDATA[Nov 10, 2020 10:01:11 PM org.hibernate.Version logVersion
-INFO: HHH000412: Hibernate ORM core version 5.4.23.Final
-Nov 10, 2020 10:01:11 PM org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver resolveEntity
+  <system-err><![CDATA[Jan 17, 2021 1:41:01 PM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate ORM core version 5.4.27.Final
+Jan 17, 2021 1:41:01 PM org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver resolveEntity
 WARN: HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
-Nov 10, 2020 10:01:12 PM org.hibernate.cache.ehcache.internal.EhcacheRegionFactory <init>
+Jan 17, 2021 1:41:01 PM org.hibernate.cache.ehcache.internal.EhcacheRegionFactory <init>
 WARN: HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
-Nov 10, 2020 10:01:12 PM org.hibernate.annotations.common.reflection.java.JavaReflectionManager <clinit>
+Jan 17, 2021 1:41:01 PM org.hibernate.annotations.common.reflection.java.JavaReflectionManager <clinit>
 INFO: HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-Nov 10, 2020 10:01:12 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+Jan 17, 2021 1:41:01 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
 WARN: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
-Nov 10, 2020 10:01:12 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+Jan 17, 2021 1:41:01 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
 INFO: HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/h_ehcache]
-Nov 10, 2020 10:01:12 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
-INFO: HHH10001001: Connection properties: {user=vinay, password=****}
-Nov 10, 2020 10:01:12 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+Jan 17, 2021 1:41:01 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001001: Connection properties: {password=****, user=vinay}
+Jan 17, 2021 1:41:01 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
 INFO: HHH10001003: Autocommit mode: false
-Nov 10, 2020 10:01:12 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
+Jan 17, 2021 1:41:01 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
 INFO: HHH000115: Hibernate connection pool size: 20 (min=1)
-Nov 10, 2020 10:01:13 PM org.hibernate.dialect.Dialect <init>
+Jan 17, 2021 1:41:02 PM org.hibernate.dialect.Dialect <init>
 INFO: HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
 SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Nov 10, 2020 10:01:13 PM org.hibernate.cache.ehcache.internal.EhcacheRegionFactory createCache
+Jan 17, 2021 1:41:02 PM org.hibernate.cache.ehcache.internal.EhcacheRegionFactory createCache
 WARN: HHH90001006: Missing cache[employees] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
-Nov 10, 2020 10:01:13 PM org.hibernate.cache.spi.support.EntityReadOnlyAccess <init>
+Jan 17, 2021 1:41:02 PM org.hibernate.cache.spi.support.EntityReadOnlyAccess <init>
 WARN: HHH90001003: Read-only caching was requested for mutable entity [NavigableRole[com.vinaylogics.hibernate_tutorial.hibernate_cache.hibernate_ehcache.models.Employee]]
-Nov 10, 2020 10:01:13 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
-INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@616324e3] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
-Nov 10, 2020 10:01:13 PM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+Jan 17, 2021 1:41:02 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6f28daa8] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Jan 17, 2021 1:41:02 PM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
 INFO: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-Nov 10, 2020 10:01:13 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState stop
+Jan 17, 2021 1:41:02 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState stop
 INFO: HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/h_ehcache]
 ]]></system-err>
 </testsuite>

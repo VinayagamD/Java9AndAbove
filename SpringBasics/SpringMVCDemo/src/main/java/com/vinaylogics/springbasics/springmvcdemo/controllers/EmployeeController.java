@@ -1,6 +1,5 @@
 package com.vinaylogics.springbasics.springmvcdemo.controllers;
 
-import com.sun.org.apache.xpath.internal.operations.Mod;
 import com.vinaylogics.springbasics.springmvcdemo.models.Employee;
 import com.vinaylogics.springbasics.springmvcdemo.services.EmployeeService;
 import org.springframework.stereotype.Controller;

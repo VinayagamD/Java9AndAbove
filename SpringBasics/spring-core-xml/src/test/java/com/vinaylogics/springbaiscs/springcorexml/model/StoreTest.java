@@ -38,7 +38,6 @@ class StoreTest {
     @DisplayName("Testing the field injection by type")
     @Test
     public void testFieldInjection_ByType(){
-
         Store store =(Store) context.getBean("store2");
         assertNotNull(store);
         assertNotNull(store.getItem());
@@ -47,7 +46,6 @@ class StoreTest {
     @DisplayName("Testing the field injection by name")
     @Test
     public void testFieldInjection_ByName(){
-
         Store store =(Store) context.getBean("store3");
         assertNotNull(store);
         assertNotNull(store.getItem());

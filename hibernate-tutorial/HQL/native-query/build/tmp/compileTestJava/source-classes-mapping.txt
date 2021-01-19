@@ -1,4 +1,4 @@
-com/vinaylogics/hibernate_tutorial/hql/native_query/NativeQueryTest.java
- com.vinaylogics.hibernate_tutorial.hql.native_query.NativeQueryTest
 com/vinaylogics/hibernate_tutorial/hql/native_query/DataGeneratorTest.java
  com.vinaylogics.hibernate_tutorial.hql.native_query.DataGeneratorTest
+com/vinaylogics/hibernate_tutorial/hql/native_query/NativeQueryTest.java
+ com.vinaylogics.hibernate_tutorial.hql.native_query.NativeQueryTest

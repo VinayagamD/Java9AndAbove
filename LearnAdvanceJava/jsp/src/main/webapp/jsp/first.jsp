@@ -1,4 +1,4 @@
-<%@ page import="java.io.PrintWriter, java.util.Date,com.vinaylogics.learnadvancejava.jsp.dto.Person  " %>
+<%@ page import="com.vinaylogics.learnadvancejava.jsp.dto.Person" %>
 <%--
   Created by IntelliJ IDEA.
   User: vinay
@@ -6,8 +6,8 @@
   Time: 10:44
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" isELIgnored="false"  %>
-<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java"  isELIgnored="false" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="mytag" uri="/WEB-INF/mytag.tld" %>
 <%@ taglib prefix="tagfile" tagdir="/WEB-INF/tags/" %>
 <html>
@@ -17,12 +17,12 @@
 <%
     int count = 0;
     Person person = new Person();
-    person.setFirstName("Manjunath");
-    person.setLastName("Bushan");
+    person.setFirstName("Sonal");
+    person.setLastName("Sarkar");
 %>
 <body>
 <%@ include file="layout/first_include.jsp"%>
-<jsp:include page="/first_include"/>
+<%--<jsp:include page="/first_include"/>--%>
 <%--This is a comment--%>
 Page Count <% out.println(++count);%>
 <form action="/displayviews/welcome" method="post">
@@ -31,7 +31,6 @@ Page Count <% out.println(++count);%>
     <button type="submit">Send</button>
 </form>
 <%!
-
     String getMessage(){
         return  "Hello Message";
     }
@@ -40,28 +39,28 @@ Page Count <% out.println(++count);%>
         throw  new Exception("Purpose full Exception");
     }
 %>
-<%--<% try { %>--%>
+<% try { %>
 <%
     out.println(getMessage()+"<br/>");
     out.println(person.getFirstName()+"<br/>");
     out.println(person.getLastName()+"<br/>");
-// getException();
+    getException();
 %>
 <p>Here Exception Handling</p>
-<%--<%
+<%
 } catch (Exception e){
     e.printStackTrace();
 }
-%>--%>
+%>
 <ul>
 
 <%
     for (int i = 0; i < 10; i++) {
 %>
    <li>
-      <%-- <%
+       <%
            out.println(i);
-       %>--%>
+       %>
        <%=i%>
    </li>
 <%
@@ -107,7 +106,7 @@ Page Count <% out.println(++count);%>
 
 <tagfile:customtags />
 
-<%@include file="layout/second_include.jsp"%>
+<%@ include file="layout/second_include.jsp"%>
 
 </body>
 </html>

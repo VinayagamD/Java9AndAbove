@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.vinaylogics.hibernate_tutorial.hibernate_core.configuration_properties.ConfigurationPropertiesTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-11-04T16:29:53" hostname="DESKTOP-3P18DGO" time="1.798">
+<testsuite name="com.vinaylogics.hibernate_tutorial.hibernate_core.configuration_properties.ConfigurationPropertiesTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-12-30T03:18:44" hostname="DESKTOP-3P18DGO" time="1.275">
   <properties/>
-  <testcase name="testHibernateAnnotation_Save()" classname="com.vinaylogics.hibernate_tutorial.hibernate_core.configuration_properties.ConfigurationPropertiesTest" time="1.798"/>
+  <testcase name="testHibernateAnnotation_Save()" classname="com.vinaylogics.hibernate_tutorial.hibernate_core.configuration_properties.ConfigurationPropertiesTest" time="1.275"/>
   <system-out><![CDATA[Hibernate: 
     insert 
     into
@@ -11,29 +11,29 @@
         (?, ?, ?, ?, ?)
 Save Successful
 ]]></system-out>
-  <system-err><![CDATA[Nov 04, 2020 9:59:53 PM org.hibernate.Version logVersion
-INFO: HHH000412: Hibernate ORM core version 5.4.23.Final
-Nov 04, 2020 9:59:53 PM org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver resolveEntity
+  <system-err><![CDATA[Dec 30, 2020 8:48:44 AM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate ORM core version 5.4.27.Final
+Dec 30, 2020 8:48:44 AM org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver resolveEntity
 WARN: HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
-Nov 04, 2020 9:59:54 PM org.hibernate.annotations.common.reflection.java.JavaReflectionManager <clinit>
+Dec 30, 2020 8:48:44 AM org.hibernate.annotations.common.reflection.java.JavaReflectionManager <clinit>
 INFO: HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-Nov 04, 2020 9:59:54 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+Dec 30, 2020 8:48:44 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
 WARN: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
-Nov 04, 2020 9:59:54 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+Dec 30, 2020 8:48:44 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
 INFO: HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/employee_properties]
-Nov 04, 2020 9:59:54 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
-INFO: HHH10001001: Connection properties: {user=vinay, password=****}
-Nov 04, 2020 9:59:54 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+Dec 30, 2020 8:48:44 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001001: Connection properties: {password=****, user=vinay}
+Dec 30, 2020 8:48:44 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
 INFO: HHH10001003: Autocommit mode: false
-Nov 04, 2020 9:59:54 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
+Dec 30, 2020 8:48:44 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
 INFO: HHH000115: Hibernate connection pool size: 20 (min=1)
-Nov 04, 2020 9:59:54 PM org.hibernate.dialect.Dialect <init>
+Dec 30, 2020 8:48:45 AM org.hibernate.dialect.Dialect <init>
 INFO: HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-Nov 04, 2020 9:59:55 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
-INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5dad4e13] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
-Nov 04, 2020 9:59:55 PM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+Dec 30, 2020 8:48:45 AM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7e801107] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Dec 30, 2020 8:48:45 AM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
 INFO: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-Nov 04, 2020 9:59:55 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState stop
+Dec 30, 2020 8:48:45 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState stop
 INFO: HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/employee_properties]
 ]]></system-err>
 </testsuite>

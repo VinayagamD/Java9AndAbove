@@ -22,7 +22,7 @@ public class Student implements Serializable {
 
     private String section;
 
-    @ManyToOne(cascade = CascadeType.ALL)
+    @ManyToOne(cascade = CascadeType.ALL,fetch = FetchType.LAZY)
     @JoinColumn(name = "university_id")
     private University university;
 

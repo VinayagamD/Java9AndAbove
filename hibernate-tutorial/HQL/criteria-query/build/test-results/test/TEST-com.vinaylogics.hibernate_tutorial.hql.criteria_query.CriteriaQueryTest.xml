@@ -1,32 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.vinaylogics.hibernate_tutorial.hql.criteria_query.CriteriaQueryTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-11-10T16:23:46" hostname="DESKTOP-3P18DGO" time="2.15">
+<testsuite name="com.vinaylogics.hibernate_tutorial.hql.criteria_query.CriteriaQueryTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-01-17T07:32:14" hostname="DESKTOP-3P18DGO" time="1.425">
   <properties/>
-  <testcase name="Test Demo Subqueries" classname="com.vinaylogics.hibernate_tutorial.hql.criteria_query.CriteriaQueryTest" time="2.15"/>
+  <testcase name="Test Demo Subqueries" classname="com.vinaylogics.hibernate_tutorial.hql.criteria_query.CriteriaQueryTest" time="1.425"/>
   <system-out><![CDATA[Hibernate: select author0_.id as id1_1_, author0_.name as name2_1_, author0_.version as version3_1_ from authors author0_ where (select count(book1_.id) from books book1_ inner join author_books authors2_ on book1_.id=authors2_.book_id inner join authors author3_ on authors2_.author_id=author3_.id where author0_.id=author3_.id)>=3
+Author{id=2, version=6, name='33cf616e-e7e7-4e97-a0b6-b09e274bd4b4'}
+Author{id=5, version=93, name='39260590-92cc-457b-93d9-4847b709917c'}
+Author{id=8, version=20, name='a97fc2b9-1f9c-4094-93c1-ffea6841531d'}
+Author{id=11, version=45, name='339e1223-144e-4341-a9a4-7ef5e61e04cc'}
+Author{id=14, version=76, name='4ba86c8b-d367-4530-bb13-1cc61c06b0b2'}
+Author{id=17, version=29, name='cd722199-c6ed-41bb-828d-5783b85bc619'}
+Author{id=20, version=87, name='e87a0b99-dc49-4e53-9285-082a717d10eb'}
 ]]></system-out>
-  <system-err><![CDATA[Nov 10, 2020 9:53:46 PM org.hibernate.Version logVersion
-INFO: HHH000412: Hibernate ORM core version 5.4.23.Final
-Nov 10, 2020 9:53:46 PM org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver resolveEntity
+  <system-err><![CDATA[Jan 17, 2021 1:02:14 PM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate ORM core version 5.4.27.Final
+Jan 17, 2021 1:02:14 PM org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver resolveEntity
 WARN: HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
-Nov 10, 2020 9:53:46 PM org.hibernate.annotations.common.reflection.java.JavaReflectionManager <clinit>
+Jan 17, 2021 1:02:14 PM org.hibernate.annotations.common.reflection.java.JavaReflectionManager <clinit>
 INFO: HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-Nov 10, 2020 9:53:47 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+Jan 17, 2021 1:02:14 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
 WARN: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
-Nov 10, 2020 9:53:47 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+Jan 17, 2021 1:02:14 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
 INFO: HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/criteria_query]
-Nov 10, 2020 9:53:47 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
-INFO: HHH10001001: Connection properties: {user=vinay, password=****}
-Nov 10, 2020 9:53:47 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+Jan 17, 2021 1:02:14 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001001: Connection properties: {password=****, user=vinay}
+Jan 17, 2021 1:02:14 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
 INFO: HHH10001003: Autocommit mode: false
-Nov 10, 2020 9:53:47 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
+Jan 17, 2021 1:02:14 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
 INFO: HHH000115: Hibernate connection pool size: 20 (min=1)
-Nov 10, 2020 9:53:47 PM org.hibernate.dialect.Dialect <init>
+Jan 17, 2021 1:02:15 PM org.hibernate.dialect.Dialect <init>
 INFO: HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-Nov 10, 2020 9:53:48 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
-INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@317a3d47] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
-Nov 10, 2020 9:53:48 PM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+Jan 17, 2021 1:02:15 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@72910b3a] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Jan 17, 2021 1:02:15 PM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
 INFO: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-Nov 10, 2020 9:53:48 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState stop
+Jan 17, 2021 1:02:15 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState stop
 INFO: HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/criteria_query]
 ]]></system-err>
 </testsuite>

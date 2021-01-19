@@ -67,5 +67,82 @@ F:/JavaWorkspace/hibernate-tutorial/hibernate-mapping/table-inheritance/src/main
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:3306/employee_annotations_im_st</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="hibernate_cm_mto_ud.cfg.xml/Hibernate" uuid="845e52ed-587f-4e0f-8f02-821a8bfb130e">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+F:/JavaWorkspace/hibernate-tutorial/hibernate-mapping/column-mapping/src/main/resources/hibernate_cm_mto_ud.cfg.xml</remarks>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/employee_annotations_cm_mto_ud</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="hibernate_cm_oto_ud.cfg.xml/Hibernate" uuid="2aa1d3c2-2536-439f-b5b1-6d1cd15a26ab">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+F:/JavaWorkspace/hibernate-tutorial/hibernate-mapping/column-mapping/src/main/resources/hibernate_cm_oto_ud.cfg.xml</remarks>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/employee_annotations_cm_oto_ud</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="hibernate_cm_mto_bd.cfg.xml/Hibernate" uuid="2af0177b-8cac-48c3-ab65-f7c736c1221b">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+F:/JavaWorkspace/hibernate-tutorial/hibernate-mapping/column-mapping/src/main/resources/hibernate_cm_mto_bd.cfg.xml</remarks>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/employee_annotations_cm_mto_bd</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="hibernate_cm_oto_bd.cfg.xml/Hibernate" uuid="b58b1e1a-dc55-490c-ba09-70f3c3b6d24b">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+F:/JavaWorkspace/hibernate-tutorial/hibernate-mapping/column-mapping/src/main/resources/hibernate_cm_oto_bd.cfg.xml</remarks>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/employee_annotations_cm_oto_bd</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="hibernate_cm_otm_ud.cfg.xml/Hibernate" uuid="924fb4f4-9873-4709-ad02-6136d27a4a17">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+F:/JavaWorkspace/hibernate-tutorial/hibernate-mapping/column-mapping/src/main/resources/hibernate_cm_otm_ud.cfg.xml</remarks>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/employee_annotations_cm_otm_ud</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="hibernate_cm_mtm_ud.cfg.xml/Hibernate" uuid="d2dc975e-eb0e-4f29-b4ea-96e1aa9170c4">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+F:/JavaWorkspace/hibernate-tutorial/hibernate-mapping/column-mapping/src/main/resources/hibernate_cm_mtm_ud.cfg.xml</remarks>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/employee_annotations_cm_mtm_ud</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="hibernate_cm_mtm_bd.cfg.xml/Hibernate" uuid="a07f1765-3293-47a6-bbe6-f85e3aa8ddb9">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+F:/JavaWorkspace/hibernate-tutorial/hibernate-mapping/column-mapping/src/main/resources/hibernate_cm_mtm_bd.cfg.xml</remarks>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/employee_annotations_cm_mtm_bd</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>

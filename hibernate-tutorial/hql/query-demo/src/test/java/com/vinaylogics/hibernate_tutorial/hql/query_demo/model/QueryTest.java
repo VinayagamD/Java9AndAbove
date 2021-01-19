@@ -17,6 +17,7 @@ import javax.persistence.TypedQuery;
 import java.io.File;
 import java.util.Arrays;
 import java.util.List;
+import java.util.UUID;
 import java.util.stream.Collectors;
 
 class QueryTest extends BaseTestClass {
@@ -41,7 +42,7 @@ class QueryTest extends BaseTestClass {
     public void testSelectClause(){
         Transaction t = session.beginTransaction();
         String hql = "SELECT e.firstName FROM com.vinaylogics.hibernate_tutorial.hql.query_demo.model.Employee AS e";
-        Query<String> query = session.createQuery(hql, String.class);
+        TypedQuery<String> query = session.createQuery(hql, String.class);
         query.getResultList().stream().map(row->{
            Employee employee = new Employee();
            employee.setFirstName(row);
@@ -164,7 +165,7 @@ class QueryTest extends BaseTestClass {
         Transaction t = session.beginTransaction();
         String hql = "UPDATE Employee  e SET e.firstName = :name WHERE e.id=:id";
         Query query = session.createQuery(hql);
-        query.setParameter("name","vinay");
+        query.setParameter("name", UUID.randomUUID().toString().replace("-"," "));
         query.setParameter("id", id);
         int result = query.executeUpdate();
         System.out.println(result);

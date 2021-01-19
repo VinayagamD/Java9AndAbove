@@ -25,12 +25,12 @@ public class OneToManyTest extends BaseTestClass {
     }
 
     @Test
-    public void testOneToOneUniDirectional(){
+    public void testOneToManyUniDirectional(){
         Transaction t = session.beginTransaction();
         List<Student> students = new ArrayList<>();
         Student student = new Student();
-        student.setFirstName("Meiyappan");
-        student.setLastName("Student");
+        student.setFirstName("Sonaal");
+        student.setLastName("Sarkar");
         student.setSection("Java Training");
         students.add(student);
         student = new Student();

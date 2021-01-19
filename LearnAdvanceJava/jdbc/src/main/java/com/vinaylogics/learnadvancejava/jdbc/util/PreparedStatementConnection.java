@@ -20,8 +20,8 @@ public class PreparedStatementConnection extends JDBCConnection{
             }
             statement.execute();
             callback.execute(true);
-        } catch (SQLException throwables) {
-            throwables.printStackTrace();
+        } catch (SQLException throwable) {
+            throwable.printStackTrace();
             callback.execute(false);
         }
     }

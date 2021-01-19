@@ -8,7 +8,7 @@ app.factory("http_service",[
     '$rootScope',
     '$window'
     , function ($http, $q, $location, $log, $parse, $rootScope, $window) {
-    const baseUrl = "http://localhost:8080/SchoolManagementApp_war/";
+    const baseUrl = "http://localhost:8080/schoolmanagement/";
     return {
 
       postRequest: function(url, callback, data){

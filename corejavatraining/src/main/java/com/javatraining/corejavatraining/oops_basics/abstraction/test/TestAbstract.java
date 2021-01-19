@@ -29,5 +29,7 @@ public class TestAbstract {
                 System.out.println("Test");
             }
         };
+
+        myInterface = () -> System.out.println("Test");
     }
 }

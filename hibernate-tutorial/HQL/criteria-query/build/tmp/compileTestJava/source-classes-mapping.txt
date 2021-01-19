@@ -1,4 +1,4 @@
-com/vinaylogics/hibernate_tutorial/hql/criteria_query/CriteriaQueryTest.java
- com.vinaylogics.hibernate_tutorial.hql.criteria_query.CriteriaQueryTest
 com/vinaylogics/hibernate_tutorial/hql/criteria_query/DataGeneratorTest.java
  com.vinaylogics.hibernate_tutorial.hql.criteria_query.DataGeneratorTest
+com/vinaylogics/hibernate_tutorial/hql/criteria_query/CriteriaQueryTest.java
+ com.vinaylogics.hibernate_tutorial.hql.criteria_query.CriteriaQueryTest
