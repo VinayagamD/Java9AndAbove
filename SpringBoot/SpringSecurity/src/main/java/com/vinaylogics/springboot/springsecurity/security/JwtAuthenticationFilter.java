@@ -29,21 +29,15 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter implements Con
     @Override
     protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain) throws ServletException, IOException {
         String jwt = getJwtFromRequest(request);
-        if(StringUtils.hasText(jwt) && provider.validateToken(jwt)) {
+        if(StringUtils.hasText(jwt)&& StringUtils.hasLength(jwt) && provider.validateToken(jwt)) {
             String username = provider.getUsernameFromJwt(jwt);
             UserDetails userDetails = userDetailsService.loadUserByUsername(username);
             UsernamePasswordAuthenticationToken authentication = new UsernamePasswordAuthenticationToken(userDetails,
                     null, userDetails.getAuthorities());
             authentication.setDetails(new WebAuthenticationDetailsSource().buildDetails(request));
             SecurityContextHolder.getContext().setAuthentication(authentication);
-            filterChain.doFilter(request,response);
-        }else {
-            if(request.getRequestURL().toString().contains("/api/auth")){
-                filterChain.doFilter(request,response);
-            }else {
-                throw new UnauthorizedException("Jwt Token not found");
-            }
         }
+        filterChain.doFilter(request,response);
 
     }
     private String getJwtFromRequest(HttpServletRequest request) {
