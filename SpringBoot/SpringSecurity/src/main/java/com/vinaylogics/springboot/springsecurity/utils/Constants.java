@@ -4,9 +4,9 @@ public interface Constants {
 
     interface JwtConstant {
         String JKS = "JKS";
-        String JKS_FILENAME = "/springblog.jks";
-        String KEY = "springblog";
-        String PASSWORD = "secret";
+        String JKS_FILENAME = "/vinaylogics.jks";
+        String KEY = "vinaylogics";
+        String PASSWORD = "Dragos@1";
         String AUTHORIZATION = "Authorization";
         String BEARER_= "Bearer ";
     }
