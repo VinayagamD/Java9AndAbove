@@ -11,4 +11,5 @@ include 'SpringSecurity'
 include 'SpringEmail'
 include 'SpringDocumentation'
 include 'SpringBootScheduling'
+include 'SpringSecurityLDAP'
 
