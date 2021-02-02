@@ -12,5 +12,6 @@ public enum  Bike {
         Arrays.asList(Bike.values()).forEach(System.out::println);
         System.out.println(Bike.valueOf("MOTOR_CYCLE"));
         System.out.println(Bike.MOTOR_CYCLE.ordinal());
+        System.out.println(Bike.MOUNTAIN.ordinal());
     }
 }

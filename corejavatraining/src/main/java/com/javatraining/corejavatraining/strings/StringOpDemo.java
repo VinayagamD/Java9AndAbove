@@ -9,8 +9,11 @@ public class StringOpDemo {
     public static void main(String[] args) {
         String data = "DemoStringForOperation";
         String data2 = "DemoStringForOperation";
+        String data3 = new String("DemoStringForOperation");
         System.out.println(data == data2);
+        System.out.println(data == data3);
         System.out.println(data.equals(data2));
+        System.out.println(data.equals(data3));
         System.out.println(data.toLowerCase());
         System.out.println(data.toUpperCase());
         Collections.singletonList(data.toCharArray()).forEach(System.out::println);

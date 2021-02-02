@@ -20,8 +20,10 @@ public class GCExample {
 		gc();
 		runFinalization();
 		 gcExample = new GCExample();
+
 		 getRuntime().gc();
 		 runFinalization();
+//		throw new NullPointerException();
 	}
 
 	@Override

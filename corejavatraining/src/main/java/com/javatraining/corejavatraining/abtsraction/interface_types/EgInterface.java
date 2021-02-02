@@ -1,0 +1,6 @@
+package com.javatraining.corejavatraining.abtsraction.interface_types;
+
+public interface EgInterface {
+
+    void testMethod();
+}
