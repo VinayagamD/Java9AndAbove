@@ -15,7 +15,7 @@ public class GenericClassExample {
 
 		 generalList.add("Hello");
 //		 generalList.add(10);
-		 System.out.println((String)generalList.get(0));
+		 System.out.println(generalList.get(0));
 //		 System.out.println((Integer) generalList.get(0));
 	}
 

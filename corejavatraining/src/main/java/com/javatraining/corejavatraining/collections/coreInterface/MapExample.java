@@ -27,7 +27,7 @@ public class MapExample {
 		System.out.println(maps.containsKey(null));
 		System.out.println(maps.containsKey("NoKey"));
 		System.out.println(maps.get(null));
-//		System.out.println(maps.get("NoKey"));
+		System.out.println(maps.get("NoKey"));
 		System.out.println(maps.keySet());
 		System.out.println(maps.values());
 	}

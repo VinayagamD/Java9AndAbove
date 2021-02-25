@@ -16,8 +16,10 @@ public class ExceptionResource {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		try(FileInputStream inputStream =new  FileInputStream("message.txt");
-			Scanner scanner = new Scanner(inputStream);
+
+		try(
+				FileInputStream inputStream =new  FileInputStream("message.txt");
+			Scanner scanner = new Scanner(inputStream)
 //			Test test = new Test();
 		/*
 		 * BufferedInputStream bufferedInputStream = new

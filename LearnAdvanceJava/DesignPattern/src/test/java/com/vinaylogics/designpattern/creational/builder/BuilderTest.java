@@ -15,7 +15,7 @@ class BuilderTest {
         assertNotNull(person);
         assertNull(person.getDob());
         assertNull(person.getGender());
-        assertTrue( expectedName == person.getName());
+        assertSame( expectedName, person.getName());
 
     }
 

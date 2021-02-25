@@ -15,7 +15,7 @@ class SingletonTest {
         SingletonEager eager2 = SingletonEager.INSTANCE;
         assertNotNull(eager1);
         assertNotNull(eager2);
-        assertTrue(eager1 == eager2);
+        assertSame(eager1, eager2);
     }
 
     @Test
@@ -25,7 +25,7 @@ class SingletonTest {
         SingletonLazy singletonLazy2 = SingletonLazy.getInstance();
         assertNotNull(singletonLazy1);
         assertNotNull(singletonLazy2);
-        assertTrue(singletonLazy1 == singletonLazy2);
+        assertSame(singletonLazy1 , singletonLazy2);
     }
 
     @Test
@@ -35,7 +35,7 @@ class SingletonTest {
         SingletonThreadSafe1 safe2 = SingletonThreadSafe1.getInstance();
         assertNotNull(safe1);
         assertNotNull(safe2);
-        assertTrue(safe1 == safe2);
+        assertSame(safe1 , safe2);
     }
 
     @Test
@@ -45,7 +45,7 @@ class SingletonTest {
         SingletonThreadSafe2 safe2 = SingletonThreadSafe2.getInstance();
         assertNotNull(safe1);
         assertNotNull(safe2);
-        assertTrue(safe1 == safe2);
+        assertSame(safe1 , safe2);
     }
 
     @Test
@@ -55,7 +55,7 @@ class SingletonTest {
         SingletonThreadSafe3 safe2 = SingletonThreadSafe3.getInstance();
         assertNotNull(safe1);
         assertNotNull(safe2);
-        assertTrue(safe1 == safe2);
+        assertSame(safe1 , safe2);
     }
 
 

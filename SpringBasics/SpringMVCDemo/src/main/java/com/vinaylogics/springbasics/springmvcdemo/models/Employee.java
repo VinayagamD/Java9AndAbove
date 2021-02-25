@@ -7,7 +7,7 @@ public class Employee implements Serializable {
 
     private Integer id;
     private String name;
-    private Float salary;
+        private Float salary;
 
     public Integer getId() {
         return id;

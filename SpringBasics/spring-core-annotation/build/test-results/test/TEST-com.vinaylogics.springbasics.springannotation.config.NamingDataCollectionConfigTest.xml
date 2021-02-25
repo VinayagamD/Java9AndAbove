@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.vinaylogics.springbasics.springannotation.config.NamingDataCollectionConfigTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-28T16:15:03" hostname="DESKTOP-3P18DGO" time="0.294">
+  <properties/>
+  <testcase name="namingDataCollection()" classname="com.vinaylogics.springbasics.springannotation.config.NamingDataCollectionConfigTest" time="0.294"/>
+  <system-out><![CDATA[Get Naming Data List [NamingData{names='name2'}, NamingData{names='name3'}, NamingData{names='name1'}]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

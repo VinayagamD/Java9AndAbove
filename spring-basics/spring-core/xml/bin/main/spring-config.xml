@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="simpleBean" class="com.vinaylogics.springbasics.core.xml.SimpleBean">
+
+    </bean>
+
+    <bean id="simpleBean2" class="com.vinaylogics.springbasics.core.xml.SimpleBean">
+        <property name="name" value="Bhuvana"/>
+    </bean>
+
+
+
+    <bean id="lifeCycleBean" class="com.vinaylogics.springbasics.core.xml.SimpleBeanLifeCycle" init-method="init" destroy-method="destroy">
+
+    </bean>
+
+    <bean id="address" class="com.vinaylogics.springbasics.core.xml.Address">
+        <property name="addressList">
+            <list>
+                <value>INDIA</value>
+                <value>USA</value>
+                <value>USA</value>
+                <value>PARIS</value>
+            </list>
+        </property>
+        <property name="addressSet">
+            <set>
+                <value>INDIA</value>
+                <value>USA</value>
+                <value>USA</value>
+                <value>PARIS</value>
+            </set>
+        </property>
+        <property name="addressMap">
+            <map>
+                <entry key="1" value="India"/>
+                <entry key="2" value="German"/>
+                <entry key="3" value="USA"/>
+                <entry key="4" value="USA"/>
+            </map>
+        </property>
+        <property name="properties">
+            <props>
+                <prop key="one">INDIA</prop>
+                <prop key="one">INDIA</prop>
+                <prop key="two">Paris</prop>
+                <prop key="three">INDIA</prop>
+                <prop key="four">INDIA</prop>
+            </props>
+        </property>
+        <property name="name" value="Bhuvana"/>
+        <property name="nullName"><null/></property>
+    </bean>
+
+    <!--Dependency Injection-->
+
+    <bean id="item" class="com.vinaylogics.springbasics.core.xml.Item"/>
+    <!--Constructor Injection -->
+    <bean id="storeConstructor" class="com.vinaylogics.springbasics.core.xml.Store">
+        <constructor-arg ref="item" name="item"/>
+    </bean>
+
+    <!--Setter Injection -->
+    <bean id="storeSetter" class="com.vinaylogics.springbasics.core.xml.Store" >
+        <property name="item" ref="item"/>
+    </bean>
+  <!--  <bean id="storeSetter2" class="com.vinaylogics.springbasics.core.xml.Store" >
+        <property name="item">
+            <bean class="com.vinaylogics.springbasics.core.xml.Item"/>
+        </property>
+    </bean>-->
+    <!--Autowire Injection-->
+    <bean id="storeFieldByName" class="com.vinaylogics.springbasics.core.xml.Store" autowire="byName"/>
+    <bean id="storeFieldByType" class="com.vinaylogics.springbasics.core.xml.Store" autowire="byType"/>
+    <bean id="storeAutoConstructor" class="com.vinaylogics.springbasics.core.xml.Store" autowire="constructor"/>
+
+    <!--Inheritance Bean-->
+    <bean id="helloWorld" class="com.vinaylogics.springbasics.core.xml.HelloWorld">
+        <property name="message1" value="Hello World!"/>
+        <property name="message2" value="Hello Second World"/>
+    </bean>
+
+    <bean id="helloIndia" class="com.vinaylogics.springbasics.core.xml.HelloIndia" parent="helloWorld">
+        <property name="message1" value="Hello India"/>
+        <property name="message3" value="Namaste India!"/>
+    </bean>
+
+    <!--Inheritance With Template-->
+    <bean id="parentBean" abstract="true">
+        <property name="message1" value="Hello World!"/>
+        <property name="message2" value="Hello Second World"/>
+        <property name="message3" value="Namaste India!"/>
+    </bean>
+
+    <bean id="helloIndia2" class="com.vinaylogics.springbasics.core.xml.HelloIndia" parent="parentBean">
+        <property name="message1" value="Hello India"/>
+        <property name="message3" value="Namaste India!"/>
+    </bean>
+
+    <!--Bean Scopes-->
+    <bean id="customerSingleton" class="com.vinaylogics.springbasics.core.xml.Customer" scope="singleton">
+        <property name="person">
+            <bean class="com.vinaylogics.springbasics.core.xml.Person">
+                <property name="name" value="Bhuvana"/>
+                <property name="address" value="bangalore"/>
+                <property name="age" value="22"/>
+            </bean>
+        </property>
+    </bean>
+    <alias name="customerSingleton" alias="customer"/>
+    <bean id="customerProto" class="com.vinaylogics.springbasics.core.xml.Customer" scope="prototype">
+        <property name="person">
+            <bean class="com.vinaylogics.springbasics.core.xml.Person">
+                <property name="name" value="Bhuvana"/>
+                <property name="address" value="bangalore"/>
+                <property name="age" value="22"/>
+            </bean>
+        </property>
+    </bean>
+</beans>

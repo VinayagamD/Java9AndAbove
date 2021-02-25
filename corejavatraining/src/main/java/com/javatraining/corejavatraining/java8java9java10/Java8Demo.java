@@ -16,7 +16,7 @@ public class Java8Demo {
         *  -> lambda operators
         *  {} lambda body
         *
-        *  default java 8 -> interface
+        *  default,private,static java 8 -> interface
         */
         /*
             Functional Interface with only method is called functional interface

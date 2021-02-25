@@ -14,6 +14,6 @@ public class GenericMethodExample {
 		GenericMethodExample genericMethodExample = new GenericMethodExample();
 		System.out.println(genericMethodExample.isNull("Test"));
 		System.out.println(genericMethodExample.isNull(10));
-//		System.out.println(genericMethodExample.isNull(null));
+//		genericMethodExample.isNull(null);
 	}
 }

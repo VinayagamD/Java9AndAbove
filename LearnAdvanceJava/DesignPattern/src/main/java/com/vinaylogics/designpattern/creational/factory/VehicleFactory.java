@@ -15,21 +15,11 @@ public final class VehicleFactory {
         if(type == null){
             throw new FactoryException("Null Vehicle type Not acceptable");
         }
-        Vehicle vehicle;
-        switch (type){
-            case TWO:
-                vehicle = new TwoWheeler();
-                break;
-            case THREE:
-                vehicle = new ThreeWheeler();
-                break;
-            case FOUR:
-                vehicle = new FourWheeler();
-                break;
-            default:
-                throw new FactoryException("Invalid Vehicle type");
-        }
-        return vehicle;
+        return switch (type) {
+            case TWO -> new TwoWheeler();
+            case THREE -> new ThreeWheeler();
+            case FOUR -> new FourWheeler();
+        };
     }
 
 }

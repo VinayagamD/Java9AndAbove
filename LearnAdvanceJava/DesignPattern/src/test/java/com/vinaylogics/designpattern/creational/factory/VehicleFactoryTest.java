@@ -15,16 +15,10 @@ class VehicleFactoryTest {
     @EnumSource(value = VehicleFactory.Type.class, names = {"TWO", "THREE", "FOUR"})
     void testProduceVehicle_ValidTypes(VehicleFactory.Type type) {
         Vehicle vehicle = VehicleFactory.produceVehicle(type);
-        switch (type){
-            case TWO:
-                assertTrue(vehicle instanceof TwoWheeler);
-                break;
-            case THREE:
-                assertTrue(vehicle instanceof ThreeWheeler);
-                break;
-            case FOUR:
-                assertTrue(vehicle instanceof FourWheeler);
-                break;
+        switch (type) {
+            case TWO -> assertTrue(vehicle instanceof TwoWheeler);
+            case THREE -> assertTrue(vehicle instanceof ThreeWheeler);
+            case FOUR -> assertTrue(vehicle instanceof FourWheeler);
         }
     }
 

@@ -2,13 +2,11 @@ package com.vinaylogics.springbasics.springmvcdemojpa.repositories.impl;
 
 import com.vinaylogics.springbasics.springmvcdemojpa.models.Employee;
 import com.vinaylogics.springbasics.springmvcdemojpa.repositories.EmployeeRepository;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.Query;
-import javax.persistence.TypedQuery;
 import java.util.List;
 
 @Repository

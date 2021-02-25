@@ -1,8 +1,8 @@
+com/vinaylogics/designpattern/creational/singleton/SingletonTest.java
+ com.vinaylogics.designpattern.creational.singleton.SingletonTest
 com/vinaylogics/designpattern/creational/factory/VehicleFactoryTest.java
  com.vinaylogics.designpattern.creational.factory.VehicleFactoryTest
  com.vinaylogics.designpattern.creational.factory.VehicleFactoryTest$1
-com/vinaylogics/designpattern/creational/singleton/SingletonTest.java
- com.vinaylogics.designpattern.creational.singleton.SingletonTest
 com/vinaylogics/designpattern/creational/abstract_factory/AbstractionFactoryTest.java
  com.vinaylogics.designpattern.creational.abstract_factory.AbstractionFactoryTest
 com/vinaylogics/designpattern/creational/builder/BuilderTest.java
