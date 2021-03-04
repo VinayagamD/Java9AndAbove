@@ -20,7 +20,7 @@ subprojects {
         def junit_version = "5.7.1"
 
         // https://mvnrepository.com/artifact/mysql/mysql-connector-java
-        implementation "mysql:mysql-connector-java:8.0.22"
+        implementation "mysql:mysql-connector-java:8.0.23"
         testImplementation "org.junit.jupiter:junit-jupiter:$junit_version"
     }
 

@@ -7,4 +7,8 @@ include 'ConcurrentCollections'
 include 'javamaildemo'
 include 'AdvancedMultiThreading'
 include 'DesignPattern'
+include 'jdbc:jdbc-basics'
+findProject(':jdbc:jdbc-basics')?.name = 'jdbc-basics'
+include 'jdbc:jdbc-design-pattern'
+findProject(':jdbc:jdbc-design-pattern')?.name = 'jdbc-design-pattern'
 

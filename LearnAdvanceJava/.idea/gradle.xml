@@ -15,6 +15,8 @@
             <option value="$PROJECT_DIR$/DesignPattern" />
             <option value="$PROJECT_DIR$/javamaildemo" />
             <option value="$PROJECT_DIR$/jdbc" />
+            <option value="$PROJECT_DIR$/jdbc/jdbc-basics" />
+            <option value="$PROJECT_DIR$/jdbc/jdbc-design-pattern" />
             <option value="$PROJECT_DIR$/jsp" />
             <option value="$PROJECT_DIR$/junit" />
             <option value="$PROJECT_DIR$/servlets" />
