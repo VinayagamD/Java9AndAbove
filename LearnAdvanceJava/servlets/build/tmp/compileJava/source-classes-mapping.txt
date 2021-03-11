@@ -2,8 +2,8 @@ com/vinaylogics/learnadvancejava/servlets/DestinationServlet.java
  com.vinaylogics.learnadvancejava.servlets.DestinationServlet
 com/vinaylogics/learnadvancejava/servlets/MyRedirectServlet.java
  com.vinaylogics.learnadvancejava.servlets.MyRedirectServlet
-com/vinaylogics/learnadvancejava/servlets/BasicServletAnnotation.java
- com.vinaylogics.learnadvancejava.servlets.BasicServletAnnotation
+com/vinaylogics/learnadvancejava/servlets/BasicXmlServlet.java
+ com.vinaylogics.learnadvancejava.servlets.BasicXmlServlet
 com/vinaylogics/learnadvancejava/servlets/SendRedirectServlet.java
  com.vinaylogics.learnadvancejava.servlets.SendRedirectServlet
 com/vinaylogics/learnadvancejava/servlets/MyAnnotatedFilter.java
@@ -16,11 +16,11 @@ com/vinaylogics/learnadvancejava/servlets/IncludeServlet.java
  com.vinaylogics.learnadvancejava.servlets.IncludeServlet
 com/vinaylogics/learnadvancejava/servlets/MyListener.java
  com.vinaylogics.learnadvancejava.servlets.MyListener
-com/vinaylogics/learnadvancejava/servlets/BasicXmlServlet.java
- com.vinaylogics.learnadvancejava.servlets.BasicXmlServlet
+com/vinaylogics/learnadvancejava/servlets/DemoCookieExample.java
+ com.vinaylogics.learnadvancejava.servlets.DemoCookieExample
 com/vinaylogics/learnadvancejava/servlets/MyAnnotatedListener.java
  com.vinaylogics.learnadvancejava.servlets.MyAnnotatedListener
 com/vinaylogics/learnadvancejava/servlets/MyXmlFilter.java
  com.vinaylogics.learnadvancejava.servlets.MyXmlFilter
-com/vinaylogics/learnadvancejava/servlets/DemoCookieExample.java
- com.vinaylogics.learnadvancejava.servlets.DemoCookieExample
+com/vinaylogics/learnadvancejava/servlets/BasicServletAnnotation.java
+ com.vinaylogics.learnadvancejava.servlets.BasicServletAnnotation

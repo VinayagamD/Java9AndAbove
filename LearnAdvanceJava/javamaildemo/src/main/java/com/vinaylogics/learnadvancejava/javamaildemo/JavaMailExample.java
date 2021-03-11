@@ -9,8 +9,8 @@ import java.util.Properties;
 public class JavaMailExample {
 
     public static void main(String[] args) {
-        final String userName = "dmluYXlhZ2FtLm1lZXR1cEBnbWFpbC5jb20=";
-        final String password = "RHJhZ29zQDE=";
+        final String userName = "<Base64EmailId>";
+        final String password = "<Base64Password>";
         Base64.Decoder decoder  = Base64.getDecoder();
         Properties prop = new Properties();
         prop.put("mail.smtp.host", "smtp.gmail.com");
@@ -33,7 +33,7 @@ public class JavaMailExample {
             message.setFrom(new InternetAddress(new String(decoder.decode(userName))));
             message.setRecipients(
                     Message.RecipientType.TO,
-                    InternetAddress.parse("sonaalsarkar1996@gmail.com")
+                    InternetAddress.parse("karthikeyanarjunan610@gmail.com")
             );
             message.setSubject("Testing Gmail TLS");
             message.setText("Dear Mail Crawler,"

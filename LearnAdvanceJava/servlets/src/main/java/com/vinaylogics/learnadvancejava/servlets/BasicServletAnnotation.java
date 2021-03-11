@@ -12,6 +12,8 @@ import java.util.Scanner;
 
 @WebServlet(name = "servletannotation", urlPatterns = "/annotations", initParams = {@WebInitParam(name = "test", value = "testname")})
 public class BasicServletAnnotation extends HttpServlet {
+
+    @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         System.out.println("Post Method is called");
         Scanner scanner = new Scanner(request.getInputStream());
@@ -20,6 +22,7 @@ public class BasicServletAnnotation extends HttpServlet {
         doGet(request,response);
     }
 
+    @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         HttpSession session = request.getSession();
         System.out.println(session.getAttribute("Session"));
