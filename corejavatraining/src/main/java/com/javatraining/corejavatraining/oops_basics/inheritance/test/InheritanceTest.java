@@ -10,5 +10,7 @@ public class InheritanceTest {
         Derived derived = new Derived();
         derived.testMethod();
         derived.testSubMethod();
+        base = new Derived();
+        base.testMethod();
     }
 }

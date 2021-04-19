@@ -44,5 +44,7 @@ public class DataTypeExample {
 
         // Array
         int[] intArray = new int[10];
+        int[] intArray2 = {0,1,2,3,4,5,6,7,8};
+        String[] stringArray = {"a", "b","c"};
     }
 }

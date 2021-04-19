@@ -20,8 +20,9 @@ public class StringArrayExample {
 			System.out.println(arrays[i]);
 		}
 		System.out.println();
-		for (String string : arrays) {
-			System.out.println(string);
+		//Enhanced For Loop
+		for (String data : arrays) {
+			System.out.println(data);
 		}
 		String [] arrays2  = arrays.clone();
 		System.out.println("================ Clone Start ================");
@@ -31,6 +32,9 @@ public class StringArrayExample {
 		System.out.println("================= Clone End ===================");
 		System.out.println("Copied "+arrays2.length);
 // 		arrays2 = new String[arrays2.length*2];
+//		for (int i = 0; i < arrays.length; i++) {
+//			arrays2[i] = arrays[i];
+//		}
 		arrays2 = Arrays.copyOf(arrays2, arrays2.length *2);
 		System.out.println("Copied Increased length"+arrays2.length);
 
@@ -46,6 +50,7 @@ public class StringArrayExample {
 		varargs(  1,2, 3,4,5,6,7,8,9, 10);
 		varargs();
 		varargs2(new int[]{});
+//		varargs2();
 		/*Scanner scanner = new Scanner(System.in);
 		while(scanner.hasNextLine()) {
 			if(scanner.nextLine().equals("q")) {
@@ -54,13 +59,15 @@ public class StringArrayExample {
 		}*/
 		
 	}
-	
-	public static  void varargs(int ... variant ) {
+
+	public static  void varargs(int ... variant) {
+		System.out.println("================ Varargs ================");
 		for (int i = 0; i < variant.length; i++) {
 			System.out.println(variant[i]);
 		}
 	}
 	public static  void varargs2(int [] variant ) {
+		System.out.println("================ Varargs2 ================");
 		for (int i = 0; i < variant.length; i++) {
 			System.out.println(variant[i]);
 		}
@@ -68,6 +75,7 @@ public class StringArrayExample {
 //	public static void varargsCondition(String a,int... variant){}
 //	public static void varargsCondition(int... variant, String a){}
 //	public static void varargsCondition(int... variant, String... a){}
+//	public static void varargsCondition(int... variant, int... a){}
 
 
 }

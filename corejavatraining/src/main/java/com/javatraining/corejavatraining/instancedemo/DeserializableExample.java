@@ -36,16 +36,16 @@ public class DeserializableExample implements Serializable {
 	        e.printStackTrace();
 	    }
         try
-        { 
-        	DeserializableExample d; 
-            FileInputStream f = new FileInputStream("file.txt"); 
-            ObjectInputStream oos = new ObjectInputStream(f); 
-            d = (DeserializableExample)oos.readObject(); 
-            System.out.println(d.name); 
-        } 
-        catch (Exception e) 
-        { 
-            e.printStackTrace(); 
+        {
+        	DeserializableExample d;
+            FileInputStream f = new FileInputStream("file.txt");
+            ObjectInputStream oos = new ObjectInputStream(f);
+            d = (DeserializableExample)oos.readObject();
+            System.out.println(d.name);
+        }
+        catch (Exception e)
+        {
+            e.printStackTrace();
         }
 
 	}

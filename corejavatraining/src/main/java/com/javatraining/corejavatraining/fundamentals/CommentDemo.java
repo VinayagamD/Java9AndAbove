@@ -21,7 +21,6 @@ public class CommentDemo{
      * @param args: This is command line argument when running command line you can pass variable to it
      */
     public static void main(String[] args) {
-        
         // This non executable statement (Single Line Comment)
 
         /*
@@ -30,7 +29,7 @@ public class CommentDemo{
          * then easy comment multiline 
          */
 
-//        System.out.println("Hello to java");
+        // System.out.println("Hello to java");
         System.out.println("Hello to java");
 
          /**

@@ -1,0 +1,16 @@
+1) Create Encapsulation for the link https://jsonplaceholder.typicode.com/posts/1
+
+2) Inheritance + abstraction + polymorphism Use Vehicle
+
+public interface Vehicle {
+ public int noOfWheels();
+}
+
+public class TestVehicle {
+
+    psvm(){
+        Vehicle vehicle = new TwoWheeler();
+        System.out.println(vehicle.noOfWheels());
+    }
+
+}

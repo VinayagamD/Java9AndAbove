@@ -2,7 +2,6 @@ package com.javatraining.corejavatraining.fundamentals;
 
 public class MethodByReference {
 
-
     public static void main(String[] args) {
         MethodByReference methodByReference = new MethodByReference();
         methodByReference.callTheMethod(methodByReference);
