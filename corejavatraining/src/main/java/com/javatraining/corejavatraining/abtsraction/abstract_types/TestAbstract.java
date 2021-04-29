@@ -21,6 +21,7 @@ public class TestAbstract {
         };
 
         egAbstract.testMethod();
+        egAbstract.testMethod2();
 
         egAbstract = new Derived();
 
