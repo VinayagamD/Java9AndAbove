@@ -26,6 +26,5 @@ public class ProcessDemoEnvironment {
         System.out.println("================ Method Reference ===================");
         envMap.values().forEach(System.out::println);
         envMap.keySet().forEach(System.out::println);
-
 	}
 }

@@ -34,7 +34,7 @@ public class IteratingCS {
     }
 
     private static void checkForLoop() {
-        for (int i = 1; i <= 10; i++) {
+        for (int i = 1; i <= 10 ; i++) {
             System.out.println(i);
         }
     }

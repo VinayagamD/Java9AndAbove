@@ -35,8 +35,8 @@ public class DecisionMaking {
             case "Sun":
                 System.out.println("Sunday");
                 break;
-            default:
-                System.out.println(" Wrong Day chosen");
+//            default:
+//                System.out.println(" Wrong Day chosen");
         }
     }
 

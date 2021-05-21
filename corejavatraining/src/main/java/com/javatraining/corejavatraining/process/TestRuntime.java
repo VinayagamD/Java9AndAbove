@@ -14,7 +14,7 @@ public class TestRuntime {
         // for reading the output from stream
         BufferedReader stdInput = new BufferedReader(new
                 InputStreamReader(process.getInputStream()));
-        String s = null;
+        String s;
         while ((s = stdInput.readLine()) != null)
         {
             System.out.println(s);

@@ -19,7 +19,7 @@ public class ExceptionResource {
 
 		try(
 				FileInputStream inputStream =new  FileInputStream("message.txt");
-			Scanner scanner = new Scanner(inputStream)
+			Scanner scanner = new Scanner(inputStream);
 //			Test test = new Test();
 		/*
 		 * BufferedInputStream bufferedInputStream = new
@@ -33,7 +33,7 @@ public class ExceptionResource {
 			System.out.println(scanner.nextLine());
 
 			
-		} catch ( FileNotFoundException e) {
+		} catch ( FileNotFoundException  e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (IOException e) {

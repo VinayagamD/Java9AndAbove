@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ProcesExecuteCommand {
+public class ProcessExecuteCommand {
 	public static void main(String[] args) throws IOException {
 		// creating list of commands  
         List<String> commands = new ArrayList<>();

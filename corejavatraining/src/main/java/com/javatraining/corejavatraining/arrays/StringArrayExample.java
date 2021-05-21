@@ -48,15 +48,16 @@ public class StringArrayExample {
 		Arrays.asList(arrays).forEach(System.out::println);
 
 		varargs(  1,2, 3,4,5,6,7,8,9, 10);
+		varargs(  1);
 		varargs();
 		varargs2(new int[]{});
 //		varargs2();
-		/*Scanner scanner = new Scanner(System.in);
+		Scanner scanner = new Scanner(System.in);
 		while(scanner.hasNextLine()) {
 			if(scanner.nextLine().equals("q")) {
 				break;
 			}
-		}*/
+		}
 		
 	}
 
@@ -72,7 +73,8 @@ public class StringArrayExample {
 			System.out.println(variant[i]);
 		}
 	}
-//	public static void varargsCondition(String a,int... variant){}
+	public static void varargsCondition(String a,int... variant){}
+//	public static void varargsCondition(String a,int variant){}
 //	public static void varargsCondition(int... variant, String a){}
 //	public static void varargsCondition(int... variant, String... a){}
 //	public static void varargsCondition(int... variant, int... a){}
