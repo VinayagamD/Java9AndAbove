@@ -4,6 +4,7 @@ public class ThreadsExtendsThread {
 
     public static void main(String[] args) {
         MyThread myThread = new MyThread();
+        System.out.println(Thread.currentThread().getName());
         myThread.start();
 //        myThread.run();
     }

@@ -6,9 +6,9 @@ public class NumberPyramid {
 	
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("Enter any odd number");
+		System.out.println("Enter any number");
 		int n = scanner.nextInt();
-		if(n%2 == 0 || n > 9) {
+		if(n > 9) {
 			System.out.println("Even number or greater than 10 piramid pattern will not appear proper pyramid pattern there will shift ");
 		} 
 		// loop the rows

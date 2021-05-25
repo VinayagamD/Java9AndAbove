@@ -20,6 +20,5 @@ public class ThreadGroupExample implements Runnable {
 		System.out.println("Thread Group Name : "+tg1.getName());
 		tg1.list();
 		System.out.println(tg1.activeCount());
-		
 	}
 }
