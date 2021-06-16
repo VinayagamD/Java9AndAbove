@@ -29,7 +29,7 @@ class HelloIndiaTest {
         assertNotEquals(helloIndia.getMessage1(), helloWorld.getMessage1());
     }
 
-    @DisplayName("Test Create Bean Inheritance Class wiht bean template")
+    @DisplayName("Test Create Bean Inheritance Class with bean template")
     @Test()
     void testCreateBeanInheritedWithBeanTemplate(){
         HelloIndia helloIndia = context.getBean("helloIndia2", HelloIndia.class);

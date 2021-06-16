@@ -7,6 +7,5 @@ public class StatementExample {
      int a = 2;
 //   Print the statement the console
      System.out.println(a);
-
     }
 }

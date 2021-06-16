@@ -37,7 +37,7 @@ public class ListExample {
 //        System.out.println(datas);
         Collections.reverse(datas);
         System.out.println(datas);
-        datas = datas.subList(1, 2);
+        datas = datas.subList(1, 5);
         System.out.println(datas);
 
     }

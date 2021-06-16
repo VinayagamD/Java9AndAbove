@@ -19,9 +19,9 @@ public class DemoSerializable {
 	public static void main(String[] args) {
 		String filename = "file.ser";
 		DemoFilterModel demoModel = new DemoFilterModel();
-		demoModel.setName("Saini");
-		demoModel.setSurname("Supreeth");
-		demoModel.setMessage("Hello Message");
+		demoModel.setName("Natasha");
+		demoModel.setSurname("N");
+		demoModel.setMessage("Hello Message TO Natasha");
 
 
         //Saving of object in a file 
@@ -30,8 +30,6 @@ public class DemoSerializable {
 				ObjectOutputStream out = new ObjectOutputStream(file); ){
 			
 			out.writeObject(demoModel);
-			
-			demoModel.getMessage();
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

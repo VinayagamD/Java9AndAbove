@@ -14,7 +14,7 @@ import java.util.stream.Collectors;
 public class LinkendListExample {
 
 	public static void main(String[] args) {
-		LinkedList<String> datas = new LinkedList<String>();
+		LinkedList<String> datas = new LinkedList<>();
 		datas.add("One");
 		datas.add("Two");
 		datas.add("Three");
@@ -29,6 +29,7 @@ public class LinkendListExample {
 		System.out.println(datas.pollFirst());
 		System.out.println(datas);
 		System.out.println(datas.peekLast());
+		System.out.println(datas);
 		System.out.println(datas.pollLast());
 		System.out.println(datas);
 		datas.addFirst("OneFirst");
@@ -39,7 +40,6 @@ public class LinkendListExample {
 		Iterator<String> dataIterator = datas.descendingIterator();
 		while(dataIterator.hasNext()) {
 			System.out.println(dataIterator.next());
-			
 		}
 
 		System.out.println();
@@ -62,14 +62,13 @@ public class LinkendListExample {
 		System.out.println(datas.stream().filter(s -> s.length() > 6).mapToInt(s -> s.length()).sum());
 
 		System.out.println();
-		datas.stream().map(s -> s.toUpperCase()).collect(Collectors.toList()).forEach(System.out::println);
+		datas.stream().map(String::toUpperCase).collect(Collectors.toList()).forEach(System.out::println);
 
 		System.out.println();
 		datas.stream().map(String::toLowerCase).collect(Collectors.toList()).forEach(System.out::println);
 
 		System.out.println();
 		System.out.println(datas.stream().collect(Collectors.groupingBy(s-> s)));
-
 	}
 
 }

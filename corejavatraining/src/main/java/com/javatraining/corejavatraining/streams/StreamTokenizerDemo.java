@@ -5,8 +5,7 @@ import java.io.*;
 public class StreamTokenizerDemo {
 
     public static void main(String[] args) {
-        try(Reader reader = new FileReader("data.json");
-            ){
+        try(Reader reader = new FileReader("data.json")){
             StreamTokenizer streamTokenizer = new StreamTokenizer(reader);
             while(streamTokenizer.nextToken() != StreamTokenizer.TT_EOF){
 

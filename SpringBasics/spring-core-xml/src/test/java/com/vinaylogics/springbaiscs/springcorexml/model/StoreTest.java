@@ -29,7 +29,6 @@ class StoreTest {
     @DisplayName("Testing the setter injection object")
     @Test
     public void testSetterInjection(){
-
         Store store =(Store) context.getBean("store1");
         assertNotNull(store);
         assertNotNull(store.getItem());

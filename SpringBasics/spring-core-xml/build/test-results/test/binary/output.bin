@@ -1,6 +1,7 @@
 1Setter Address List [INDIA, USA, USA, Pakistan]
 +Setter Address Set [INDIA, USA, Pakistan]
 8Setter Address Map {1=India, 2=Pakistan, 3=USA, 4=USA}
-HSetter Address Prop {two=Pakistan, one=INDIA, three=INDIA, four=INDIA}
+HSetter Address Prop {four=INDIA, one=INDIA, two=Pakistan, three=INDIA}
 Setter name 
 Setter nullName null
+_HelloIndia{message1='Hello India!', message2='Hello Second World', message3='Namaste India!'}

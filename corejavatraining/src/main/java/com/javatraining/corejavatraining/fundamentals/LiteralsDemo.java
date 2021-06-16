@@ -11,8 +11,10 @@ public class LiteralsDemo {
         boolean e = true;
         char f = 'f';
 
+
         // Non Primitive Types
         String message = "Hello to java code";
+        String[] arrays = {"Savitha", "Sumathi", "Usha"};
 
         System.out.println(a);
         System.out.println(b);
@@ -21,13 +23,16 @@ public class LiteralsDemo {
         System.out.println(e);
         System.out.println(f);
         System.out.println(message);
+        System.out.println(arrays);
 
         int hex = 0xFFEE;
+        long hexL = 0xFFEEL;
         int octa = 0170;
         int bin = 0b10101010;
         System.out.println(hex);
         System.out.println(octa);
         System.out.println(bin);
+        System.out.println(hexL);
 
     }
 }

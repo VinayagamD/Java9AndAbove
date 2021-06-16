@@ -7,7 +7,7 @@
 
     </bean>
 
-    <bean id="store" class="com.vinaylogics.springbaiscs.springcorexml.model.Store">
+    <bean id="store" class="com.vinaylogics.springbaiscs.springcorexml.model.Store" >
         <constructor-arg name="item" ref="item"/>
     </bean>
     <bean id="store1" class="com.vinaylogics.springbaiscs.springcorexml.model.Store">

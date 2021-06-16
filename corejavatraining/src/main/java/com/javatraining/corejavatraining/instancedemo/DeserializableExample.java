@@ -27,6 +27,7 @@ public class DeserializableExample implements Serializable {
 	public static void main(String[] args) {
 	    try {
 	        DeserializableExample d = new DeserializableExample("GeeksForGeeks");
+            System.out.println(d);
             FileOutputStream f = new FileOutputStream("file.txt");
             ObjectOutputStream oos = new ObjectOutputStream(f);
             oos.writeObject(d);
@@ -42,6 +43,7 @@ public class DeserializableExample implements Serializable {
             ObjectInputStream oos = new ObjectInputStream(f);
             d = (DeserializableExample)oos.readObject();
             System.out.println(d.name);
+            System.out.println(d);
         }
         catch (Exception e)
         {

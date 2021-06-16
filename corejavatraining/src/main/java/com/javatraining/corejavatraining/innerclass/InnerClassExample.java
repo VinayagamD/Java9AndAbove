@@ -14,13 +14,13 @@ public class InnerClassExample {
         staticInnerClass.callStaticInnerClassMethod();
         MethodLocalRunner localRunner = new MethodLocalRunner();
         localRunner.callMethodLocalRunner();
-        methodAnon(() -> System.out.println("Test Method"));
+       /* methodAnon(() -> System.out.println("Test Method"));
         methodAnon(new InnerClassExample.CallbackAnon() {
             @Override
             public void callAnon() {
                 System.out.println("Test Method");
             }
-        });
+        });*/
     }
 
     private class NonStaticInnerClass {

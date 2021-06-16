@@ -16,7 +16,6 @@ public class TreeMapExample {
 		System.out.println("Entry Set =================>");
 		maps.entrySet().forEach(entry -> {
 			System.out.println(entry.getKey() + " => " +entry.getValue());
-			
 		});
 		maps.keySet().forEach(System.out::println);
 		maps.values().forEach(System.out::println);
@@ -25,7 +24,6 @@ public class TreeMapExample {
 		System.out.println(maps.containsKey("NoKey"));
 		System.out.println(maps.keySet());
 		System.out.println(maps.values());
-		
 	}
 
 }

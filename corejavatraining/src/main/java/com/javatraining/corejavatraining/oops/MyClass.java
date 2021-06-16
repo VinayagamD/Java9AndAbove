@@ -2,7 +2,7 @@ package com.javatraining.corejavatraining.oops;
 
 import java.io.Serializable;
 
-class MyClass implements Serializable, Cloneable {
+class MyClass implements Serializable, Cloneable{
 
     int instanceVar;
     static int staticVar;

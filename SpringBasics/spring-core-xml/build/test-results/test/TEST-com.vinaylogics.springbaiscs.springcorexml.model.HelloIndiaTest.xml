@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.vinaylogics.springbaiscs.springcorexml.model.HelloIndiaTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-28T16:06:05" hostname="DESKTOP-3P18DGO" time="0.269">
+<testsuite name="Test Bean Inheritance" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-12T07:31:50" hostname="DESKTOP-3P18DGO" time="0.247">
   <properties/>
-  <testcase name="testCreatePrototypeScope()" classname="com.vinaylogics.springbaiscs.springcorexml.model.HelloIndiaTest" time="0.269"/>
+  <testcase name="Test Create Bean Inheritance Class with bean template" classname="com.vinaylogics.springbaiscs.springcorexml.model.HelloIndiaTest" time="0.247"/>
   <system-out><![CDATA[Setter Address List [INDIA, USA, USA, Pakistan]
 Setter Address Set [INDIA, USA, Pakistan]
 Setter Address Map {1=India, 2=Pakistan, 3=USA, 4=USA}
-Setter Address Prop {two=Pakistan, one=INDIA, three=INDIA, four=INDIA}
+Setter Address Prop {four=INDIA, one=INDIA, two=Pakistan, three=INDIA}
 Setter name 
 Setter nullName null
+HelloIndia{message1='Hello India!', message2='Hello Second World', message3='Namaste India!'}
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
