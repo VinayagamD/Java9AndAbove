@@ -4,7 +4,7 @@ public class Base {
 
     private void a(){
 
-    };
+    }
 
     void b(){
 

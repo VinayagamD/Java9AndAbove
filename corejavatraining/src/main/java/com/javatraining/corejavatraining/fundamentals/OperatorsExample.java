@@ -23,7 +23,7 @@ public class OperatorsExample {
         System.out.println(data);
         System.out.println(sum);
 
-         System.out.println("====================== Relational Operator ============================");
+        System.out.println("====================== Relational Operator ============================");
 //        Relational Operator
         System.out.println(1 == 1);
         System.out.println(1 != 1);

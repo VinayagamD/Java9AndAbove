@@ -25,10 +25,11 @@ public class IteratingCS {
     private static void checkForWhileLoop() {
         boolean queueAvailable = true;
         int i = 0;
-        while (queueAvailable) {
+        while (queueAvailable/* true*/) {
             System.out.println(i);
             if (++i > 10) {
                 queueAvailable = false;
+//                break;
             }
         }
     }

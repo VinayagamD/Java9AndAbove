@@ -10,7 +10,6 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class VehicleFactoryTest {
 
-    @DisplayName("Valid test case demo")
     @ParameterizedTest(name= "Valid test type {0}")
     @EnumSource(value = VehicleFactory.Type.class, names = {"TWO", "THREE", "FOUR"})
     void testProduceVehicle_ValidTypes(VehicleFactory.Type type) {

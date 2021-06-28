@@ -52,12 +52,12 @@ public class StringArrayExample {
 		varargs();
 		varargs2(new int[]{});
 //		varargs2();
-		Scanner scanner = new Scanner(System.in);
+		/*Scanner scanner = new Scanner(System.in);
 		while(scanner.hasNextLine()) {
 			if(scanner.nextLine().equals("q")) {
 				break;
 			}
-		}
+		}*/
 		
 	}
 
@@ -78,6 +78,5 @@ public class StringArrayExample {
 //	public static void varargsCondition(int... variant, String a){}
 //	public static void varargsCondition(int... variant, String... a){}
 //	public static void varargsCondition(int... variant, int... a){}
-
 
 }

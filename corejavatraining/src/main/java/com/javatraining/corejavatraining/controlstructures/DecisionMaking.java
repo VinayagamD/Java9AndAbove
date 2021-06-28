@@ -10,8 +10,11 @@ public class DecisionMaking {
     }
 
     private static void checkSwitchCase() {
+        // == or equals()
         String day = "Tue";
         switch (day) {
+            /*default:
+                System.out.println(" Wrong Day chosen");*/
             case "Mon":
                 System.out.println("Monday");
                 break;
@@ -35,8 +38,8 @@ public class DecisionMaking {
             case "Sun":
                 System.out.println("Sunday");
                 break;
-//            default:
-//                System.out.println(" Wrong Day chosen");
+            default:
+                System.out.println(" Wrong Day chosen");
         }
     }
 
@@ -56,7 +59,7 @@ public class DecisionMaking {
     }
 
     private static void checkIfElseBlockCondition() {
-        if (true) {
+        if (false) {
             System.out.println("If else if block executed");
         } else {
             System.out.println("If else else block executed");
@@ -72,7 +75,7 @@ public class DecisionMaking {
             System.out.println("Never executed block");
         }
 
-        if (true) /*{*/
+        if (true)/* {*/
             System.out.println("Single Statement");
            /* System.out.println("This statement will execute since it is not under control structure");
         }*/
