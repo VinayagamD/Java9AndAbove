@@ -1,6 +1,6 @@
 package com.javatraining.corejavatraining.oops_basics.abstraction;
 
-public class MyImplement extends MyAbstract implements MyInterface{
+public class MyImplement extends MyAbstract implements MyInterface, MyMarker{
     @Override
     public void testMethod2() {
         System.out.println("Test Method2");

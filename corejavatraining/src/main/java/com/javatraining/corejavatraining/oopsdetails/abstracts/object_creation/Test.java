@@ -14,5 +14,34 @@ public class Test {
 
             }
         };
+
+        // Anonymous Object
+        doSurfing(new IData() {
+            @Override
+            public void iData() {
+
+            }
+        });
+
+        doSurfing(() -> {
+
+        });
+
+        doSurfing(new CData() {
+            @Override
+            public void cData() {
+
+            }
+        });
     }
+
+    public static void doSurfing(IData data){
+        data.iData();
+    }
+
+    public static void doSurfing(CData data){
+        data.cData();
+    }
+
+
 }
