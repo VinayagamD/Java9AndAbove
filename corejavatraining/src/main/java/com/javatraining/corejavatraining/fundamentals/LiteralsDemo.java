@@ -5,6 +5,8 @@ public class LiteralsDemo {
     public static void main(String[] args) {
         // Primitive types
         int a = 1;
+        short s = 1;
+        byte byt = 1;
         long b = 2L;
         float c = 1.2F;
         double d = 1.2;
@@ -17,6 +19,8 @@ public class LiteralsDemo {
         String[] arrays = {"Savitha", "Sumathi", "Usha"};
 
         System.out.println(a);
+        System.out.println(s);
+        System.out.println(byt);
         System.out.println(b);
         System.out.println(c);
         System.out.println(d);

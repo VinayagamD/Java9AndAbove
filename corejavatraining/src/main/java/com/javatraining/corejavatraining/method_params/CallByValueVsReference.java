@@ -13,6 +13,6 @@ public class CallByValueVsReference {
     public static void main(String[] args) {
         CallByValueVsReference cBVVR =  new CallByValueVsReference();
         cBVVR.callByValue(10);
-        cBVVR.callByRef(new CallByValueVsReference());
+        cBVVR.callByRef(cBVVR);
     }
 }
