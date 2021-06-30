@@ -20,6 +20,7 @@
         </endorsedDirs>
     </libraryInfo>
     <libraryInfo home="C:\Program Files\Java\jdk-13.0.2" version="13.0.2"/>
+    <libraryInfo home="I:\Program Files\Java\jdk-16.0.1" version="16.0.1"/>
     <libraryInfo home="C:\Program Files\Java\jdk1.8.0_271" version="1.8.0_271">
         <bootpath>
             <entry path="C:\Program Files\Java\jdk1.8.0_271\jre\lib\resources.jar"/>

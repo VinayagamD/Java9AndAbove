@@ -11,7 +11,7 @@ public class DecisionMaking {
 
     private static void checkSwitchCase() {
         // == or equals()
-        String day = "Tue";
+        String day = "No";
         switch (day) {
             /*default:
                 System.out.println(" Wrong Day chosen");*/
@@ -59,7 +59,7 @@ public class DecisionMaking {
     }
 
     private static void checkIfElseBlockCondition() {
-        if (false) {
+        if (true) {
             System.out.println("If else if block executed");
         } else {
             System.out.println("If else else block executed");
