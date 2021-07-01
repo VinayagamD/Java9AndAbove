@@ -6,6 +6,7 @@ import static java.lang.System.*;
 public class StringDemo {
 
     public static void main(String[] args) {
+
         String data = "Manjunath attending core java training";
         String data2 = " Manjunath attending core java training ";
         Arrays.asList(data.split(" ")).forEach(System.out::println);
