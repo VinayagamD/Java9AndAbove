@@ -34,10 +34,7 @@ public abstract class BasePattern implements Closeable {
         rows = SCANNER.nextInt();
     }
 
-    public void askPatterns(){
-        System.out.println("Enter pattern string for "+getPatternName());
-        pattern = SCANNER.next();
-    }
+
 
     /**
      * This method helps to print the thank you application

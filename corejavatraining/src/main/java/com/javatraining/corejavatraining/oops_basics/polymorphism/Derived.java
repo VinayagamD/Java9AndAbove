@@ -4,6 +4,7 @@ public class Derived extends Base {
 
     /*@Override
     public void testMethod() {
+//        super.testMethod();
         System.out.println("Test Method From Derived");
     }*/
 

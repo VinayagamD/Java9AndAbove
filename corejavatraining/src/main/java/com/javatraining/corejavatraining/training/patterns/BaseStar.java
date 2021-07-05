@@ -11,6 +11,11 @@ public abstract class BaseStar extends BasePattern implements OperationStar{
         }
     }
 
+    public void askPatterns(){
+        System.out.println("Enter pattern string for "+getPatternName());
+        setPattern(getScanner().next());
+    }
+
     @Override
     public void travelRemainingRows(int rows) {
         for (int row =rows-1; row > 0; row--) {
