@@ -20,6 +20,12 @@ public class EnumDemo {
 
 			break;
 		}
+
+		switch (r1) {
+			case RED -> System.out.println("Choose RED");
+			case YELLOW -> System.out.println("Choose Yellow");
+			default -> System.out.println("Choose Pink");
+		}
 		Color[] colors = Color.values();
 		for (Color color : colors) {
 			System.out.print(color+"\t");

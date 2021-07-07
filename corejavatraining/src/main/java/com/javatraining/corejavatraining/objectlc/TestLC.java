@@ -19,6 +19,7 @@ public class TestLC {
         dog = null; // unreachable
 //        dog.bark();
         System.gc();
+//        Runtime.getRuntime().gc();
     }
 
     @Override
