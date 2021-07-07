@@ -13,6 +13,8 @@ public class TestCheckedException {
             e.printStackTrace();
         }catch (Throwable e){
             e.printStackTrace();
+        }finally {
+            System.out.println("Always Executed");
         }
     }
 }

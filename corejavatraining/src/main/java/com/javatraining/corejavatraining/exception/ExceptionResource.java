@@ -39,6 +39,8 @@ public class ExceptionResource {
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
+		}finally {
+			System.out.println("Always executed");
 		}
 
 	}
