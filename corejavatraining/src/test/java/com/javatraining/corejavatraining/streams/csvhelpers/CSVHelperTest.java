@@ -4,6 +4,8 @@ import com.javatraining.corejavatraining.streams.csvhelpers.exceptions.CSVExcept
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import java.util.Objects;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class CSVHelperTest {
@@ -16,7 +18,7 @@ class CSVHelperTest {
 
     @Test
     public void testParseCSV() throws Exception{
-        csvHelper.setCsvFile(csvHelper.getClass().getClassLoader().getResource("titanic_data.csv").getFile());
+        csvHelper.setCsvFile(Objects.requireNonNull(csvHelper.getClass().getClassLoader().getResource("titanic_data.csv")).getFile());
         csvHelper.setIsHeaderExists(true);
         csvHelper.parseCSV();
         CSVData csvData = csvHelper.getCsvData();

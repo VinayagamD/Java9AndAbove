@@ -14,7 +14,6 @@ public class ExceptionExamples {
 	 * @throws Exception 
 	 */
 	public static void main(String[] args) throws Throwable {
-		// TODO Auto-generated method stub
 		try {
 			if(true)
 				throw new MyException(100, "My Exception");

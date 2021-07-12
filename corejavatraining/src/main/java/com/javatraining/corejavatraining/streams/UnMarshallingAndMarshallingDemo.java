@@ -18,7 +18,7 @@ public class UnMarshallingAndMarshallingDemo {
         try{
            String data = Files.readString(Paths.get("data.json"));
            JSONArray jsonArray  = new JSONArray(data);
-            List<Post> posts = new ArrayList<>();
+           List<Post> posts = new ArrayList<>();
           /* if(!jsonArray.isEmpty()){
                for (int i = 0; i < jsonArray.length(); i++) {
                     posts.add(Post.fromJSON(jsonArray.getJSONObject(i)));

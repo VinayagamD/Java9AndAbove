@@ -10,6 +10,8 @@ public class ThreadExceptionalHandlerMethod {
         thread.setUncaughtExceptionHandler((t, e) -> {
             System.out.println("A critical error happened in thread "+t.getName()
                     + " the error is " + e.getMessage());
+            System.err.println("A critical error happened in thread "+t.getName()
+                    + " the error is " + e.getMessage());
         });
 
         thread.start();

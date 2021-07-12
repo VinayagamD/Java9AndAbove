@@ -19,9 +19,9 @@ public class DemoSerializable {
 	public static void main(String[] args) {
 		String filename = "file.ser";
 		DemoFilterModel demoModel = new DemoFilterModel();
-		demoModel.setName("Natasha");
-		demoModel.setSurname("N");
-		demoModel.setMessage("Hello Message TO Natasha");
+		demoModel.setName("Usha");
+		demoModel.setSurname("V");
+		demoModel.setMessage("Hello Message TO Usha");
 
 
         //Saving of object in a file 

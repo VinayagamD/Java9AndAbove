@@ -5,7 +5,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 
-public class DemodModelFilterStaticExample {
+public class DemoModelFilterStaticExample {
 	
 	public static void main(String[] args) {
 		DemoFilterModel dDemoModel = null;
@@ -19,13 +19,7 @@ public class DemodModelFilterStaticExample {
 			System.out.println(dDemoModel.getSurname());
 			System.out.println(dDemoModel.getMessage());
 			
-		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (ClassNotFoundException e) {
+		} catch (IOException | ClassNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}

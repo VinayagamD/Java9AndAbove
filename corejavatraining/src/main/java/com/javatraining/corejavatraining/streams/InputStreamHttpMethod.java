@@ -22,7 +22,7 @@ public class InputStreamHttpMethod {
                 .url("https://jsonplaceholder.typicode.com/posts")
                 .method("GET", null)
                 .build();
-         Call call    =client.newCall(request);
+         Call call = client.newCall(request);
          Response response = call.execute();
         if(response.isSuccessful()){
             File file = new File("data.json");
