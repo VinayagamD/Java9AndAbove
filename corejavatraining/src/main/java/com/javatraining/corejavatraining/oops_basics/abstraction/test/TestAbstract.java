@@ -30,6 +30,7 @@ public class TestAbstract {
             }
         };
 
+        System.out.println("Java 8");
         myInterface = () -> System.out.println("Test");
     }
 }

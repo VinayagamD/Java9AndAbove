@@ -19,7 +19,7 @@ public class DateExample {
         System.out.println(date1);
         /*date = new Date(2020, 03, 01);
         System.out.println(date);*/
-        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd-MMMM-yyyy,HH:mm:ss.SSZ");
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd-MMM-yyyy,HH:mm:ss.SSZ");
         System.out.println(simpleDateFormat.format(date));
         Calendar calendar = Calendar.getInstance();
         System.out.println(calendar);

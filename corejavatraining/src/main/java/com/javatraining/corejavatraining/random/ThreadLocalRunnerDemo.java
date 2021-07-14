@@ -13,5 +13,6 @@ public class ThreadLocalRunnerDemo {
         System.out.println(ThreadLocalRandom.current().nextInt());
         System.out.println(ThreadLocalRandom.current().nextInt(1000));
         System.out.println("Mobile OTP = "+ ThreadLocalRandom.current().nextInt(1000,9999));
+        System.out.println("Mobile OTP = "+ ThreadLocalRandom.current().nextInt(100000,999999));
     }
 }
