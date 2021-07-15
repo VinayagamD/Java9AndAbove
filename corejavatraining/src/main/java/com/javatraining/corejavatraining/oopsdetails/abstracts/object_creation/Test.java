@@ -15,6 +15,10 @@ public class Test {
             }
         };
 
+        IData iData1 = ()->{
+
+        };
+
         // Anonymous Object
         doSurfing(new IData() {
             @Override

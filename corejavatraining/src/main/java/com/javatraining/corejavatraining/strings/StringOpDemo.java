@@ -38,5 +38,6 @@ public class StringOpDemo {
         stringBuffer.append("fjakfjalkj").append("fjshjfkh").append("\t")
                 .append("fjhskjfkj").append("\n").append("fgshkhfkjhakj");
         System.out.println(stringBuffer.toString());
+//        System.out.println(String.valueOf(null));
     }
 }

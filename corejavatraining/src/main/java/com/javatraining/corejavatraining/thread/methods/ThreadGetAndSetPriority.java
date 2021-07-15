@@ -17,8 +17,10 @@ public class ThreadGetAndSetPriority extends Thread{
         System.out.println("t3 thread priority : " +t3.getPriority()); // Default 5
 
         t1.setPriority(2);
+        t1.setPriority(1);
         t2.setPriority(5);
         t3.setPriority(8);
+        t3.setPriority(10);
 
         // t3.setPriority(21); //will throw IllegalArgumentException
         // t3.setPriority(0); //will throw IllegalArgumentException

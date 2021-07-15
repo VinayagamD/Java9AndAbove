@@ -23,7 +23,7 @@ public class MethodSynchronizeLockDemo {
         // access this unsynchronized method,
         // they all will get it. So there is chance
         // that Object's  state will be corrupted.
-        synchronized public void getLine(){
+        public synchronized void getLine(){
             for (int i = 0; i < 3; i++) {
                 System.out.println(i);
                 try {

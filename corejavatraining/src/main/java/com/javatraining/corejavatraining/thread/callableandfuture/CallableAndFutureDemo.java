@@ -13,7 +13,7 @@ public class CallableAndFutureDemo {
         FutureTask[] randomNumberTasks = new FutureTask[5];
         for (int i = 0; i < 5; i++)
         {
-            Callable callable = new MyCallable();
+            Callable<Integer> callable = new MyCallable();
 
             // Create the FutureTask with Callable
             randomNumberTasks[i] = new FutureTask(callable);
@@ -37,12 +37,12 @@ public class CallableAndFutureDemo {
 
     }
 
-    public static class MyCallable implements Callable{
+    public static class MyCallable implements Callable<Integer>{
 
         @Override
-        public Object call() throws Exception {
+        public Integer call() throws Exception {
             Random generator = new Random();
-            Integer randomNumber = generator.nextInt(5);
+            int randomNumber = generator.nextInt(5);
 
             Thread.sleep(randomNumber * 1000);
 

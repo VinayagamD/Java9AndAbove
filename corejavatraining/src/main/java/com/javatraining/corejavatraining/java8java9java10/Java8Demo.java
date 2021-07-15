@@ -68,7 +68,7 @@ public class Java8Demo {
         Function<String,Integer> stringDataFunction = String::length;
         Predicate<Integer> stringDataPredicate = (i) -> i % 2 == 0;
 
-       intDataConsumer.accept(
+        intDataConsumer.accept(
                stringDataPredicate.test(
                        stringDataFunction.apply(
                                stringDataSupplier.get()

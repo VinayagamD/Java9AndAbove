@@ -15,7 +15,7 @@ public class ThreadFetchNamingExample {
         // creating two threads
         ThreadNaming t1 = new ThreadNaming();
         ThreadNaming t2 = new ThreadNaming();
-
+        System.out.println(Thread.currentThread().getName());
         t1.start();
         t2.start();
     }
