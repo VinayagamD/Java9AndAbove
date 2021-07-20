@@ -1,8 +1,10 @@
 package com.javatraining.corejavatraining.serializable;
 
+import java.io.Serial;
 import java.io.Serializable;
 
 public class DemoFilterModel implements Serializable{
+	@Serial
 	private static final long serialVersionUID = 2230175226344447634L;
 	private static String message;
 	private String name;

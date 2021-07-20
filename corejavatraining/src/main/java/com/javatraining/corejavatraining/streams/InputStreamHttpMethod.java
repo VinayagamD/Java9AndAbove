@@ -5,13 +5,20 @@ import okhttp3.*;
 import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
+import java.net.URI;
 import java.net.URL;
+import java.net.http.HttpClient;
+import java.net.http.HttpRequest;
+import java.net.http.HttpResponse;
+import java.util.Objects;
 
 public class InputStreamHttpMethod {
 
     public static void main(String[] args) throws IOException {
 //        getUsingHttpUrlConnectionForHtml();
+//        getUsingHttpClientConnectionForHtml();
 //        getUsingHttpUrlConnection();
+//        getUsingHttpClientConnection();
         getDataFromOkHttpBuilder();
     }
 
@@ -26,10 +33,11 @@ public class InputStreamHttpMethod {
          Response response = call.execute();
         if(response.isSuccessful()){
             File file = new File("data.json");
-            if(!file.exists())
+            if(!file.exists()) {
                 file.createNewFile();
-            try(FileOutputStream fos = new FileOutputStream("data.json");) {
-                fos.write(response.body().bytes());
+            }
+            try(FileOutputStream fos = new FileOutputStream(file);) {
+                fos.write(Objects.requireNonNull(response.body()).bytes());
             }catch (Exception e){
                 e.printStackTrace();
             }
@@ -67,10 +75,20 @@ public class InputStreamHttpMethod {
         processRequest(url);
     }
 
+    private static void getUsingHttpClientConnection() throws MalformedURLException {
+        processRequest(URI.create("https://jsonplaceholder.typicode.com/posts"),"application/json");
+    }
+
     private static void getUsingHttpUrlConnectionForHtml() throws MalformedURLException {
         URL url = new URL("https://jsonplaceholder.typicode.com/");
         processRequest(url);
     }
+
+    private static void getUsingHttpClientConnectionForHtml() throws MalformedURLException {
+        processRequest(URI.create("https://jsonplaceholder.typicode.com/"),"text/html; charset=UTF-8");
+    }
+
+
 
     private static void processRequest(URL url) {
         HttpURLConnection connection = null;
@@ -83,6 +101,23 @@ public class InputStreamHttpMethod {
                  System.out.println(line);
              }
         } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    private static void processRequest(URI uri, String contentType){
+        try {
+        HttpClient httpClient = HttpClient.newBuilder()
+                .build();
+        HttpRequest request = HttpRequest.newBuilder()
+                .uri(uri)
+                .header("Content-Type", contentType)
+                .GET().build();
+
+        HttpResponse<String> response   = httpClient.send(request, HttpResponse.BodyHandlers.ofString());
+            System.out.println(response.statusCode());
+            System.out.println(response.body());
+        } catch (IOException | InterruptedException e) {
             e.printStackTrace();
         }
     }

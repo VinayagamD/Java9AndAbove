@@ -9,6 +9,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
+import java.nio.charset.StandardCharsets;
 
 /**
  * @author vinay
@@ -19,15 +20,15 @@ public class DemoSerializable {
 	public static void main(String[] args) {
 		String filename = "file.ser";
 		DemoFilterModel demoModel = new DemoFilterModel();
-		demoModel.setName("Usha");
-		demoModel.setSurname("V");
-		demoModel.setMessage("Hello Message TO Usha");
+		demoModel.setName("Barathwaj");
+		demoModel.setSurname("M");
+		demoModel.setMessage("Hello Message TO barathwaj");
 
 
         //Saving of object in a file 
       
-		try (  FileOutputStream file = new FileOutputStream(filename);
-				ObjectOutputStream out = new ObjectOutputStream(file); ){
+		try (FileOutputStream file = new FileOutputStream(filename);
+			 ObjectOutputStream out = new ObjectOutputStream(file); ){
 			
 			out.writeObject(demoModel);
 		} catch (FileNotFoundException e) {

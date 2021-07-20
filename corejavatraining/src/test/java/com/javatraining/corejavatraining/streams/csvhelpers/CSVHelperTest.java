@@ -28,7 +28,7 @@ class CSVHelperTest {
         assertEquals(csvData.getCsvHeaders().getType(), CSVColumn.Type.HEADER);
         System.out.println(csvData.getCsvHeaders());
         assertNotNull(csvData.getCsvRows());
-        csvData.getCsvRows().forEach(System.out::println);
+//        csvData.getCsvRows().forEach(System.out::println);
     }
 
     @Test
@@ -36,7 +36,7 @@ class CSVHelperTest {
         testParseCSV();
         CSVData csvData = csvHelper.getCsvData();
         assertNotNull(csvData);
-        csvData.getColumnData("Name").forEach(System.out::println);
+        csvData.getColumnData("Name").forEach(data -> System.out.println(data.replace("\"", "")));
     }
 
     @Test
