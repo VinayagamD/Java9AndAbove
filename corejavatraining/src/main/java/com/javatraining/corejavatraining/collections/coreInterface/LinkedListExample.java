@@ -11,7 +11,7 @@ import java.util.stream.Collectors;
  * @author vinay
  *
  */
-public class LinkendListExample {
+public class LinkedListExample {
 
 	public static void main(String[] args) {
 		LinkedList<String> datas = new LinkedList<>();

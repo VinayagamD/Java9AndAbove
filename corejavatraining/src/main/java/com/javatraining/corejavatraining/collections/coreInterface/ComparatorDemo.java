@@ -1,6 +1,7 @@
 package com.javatraining.corejavatraining.collections.coreInterface;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
@@ -15,12 +16,14 @@ public class ComparatorDemo {
         listOfBooks.add(new DemoBook("Core Java", "Cay S. Horstmann",32));
         Comparator<DemoBook> byAuthor = Comparator.comparing(DemoBook::getAuthor);
         listOfBooks.sort(byAuthor);
-        System.out.println("list of books after sorting: " + listOfBooks);
+        System.out.println("list of books after sorting by Author: " + listOfBooks);
         Comparator<DemoBook> byTitle = Comparator.comparing(DemoBook::getTitle);
         Comparator<DemoBook> byPrice = Comparator.comparing(DemoBook::getPrice);
         listOfBooks.sort(byTitle);
-        System.out.println("list of books after sorting: " + listOfBooks);
+        System.out.println("==============================================");
+        System.out.println("list of books after sorting by Title: " + listOfBooks);
         listOfBooks.sort(byPrice);
-        System.out.println("list of books after sorting: " + listOfBooks);
+        System.out.println("==============================================");
+        System.out.println("list of books after sorting by Price: " + listOfBooks);
     }
 }

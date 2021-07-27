@@ -28,7 +28,8 @@ public class SimpleList implements Iterable<DemoData> {
 
 			@Override
 			public DemoData next() {
-				return arrayList[currentIndex++];
+				int index = currentIndex++;
+				return arrayList[index];
 			}
 
 		};

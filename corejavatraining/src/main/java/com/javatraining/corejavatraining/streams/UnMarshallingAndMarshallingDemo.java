@@ -34,8 +34,8 @@ public class UnMarshallingAndMarshallingDemo {
           });
 
            JSONObject jsonObject = new JSONObject();
-           jsonObject.put("posts", jsonArray1.toString());
-            System.out.println(jsonObject.toString());
+           jsonObject.put("posts", jsonArray1);
+            System.out.println(jsonObject);
         }catch (IOException e) {
             e.printStackTrace();
         }
