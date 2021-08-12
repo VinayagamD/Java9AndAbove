@@ -1,23 +1,17 @@
 package com.vinaylogics.hibernate_tutorial.hibernate_core.xml_configuration.models;
 
 import com.vinaylogics.hibernate_tutorial.core_test_module.base_test_class.BaseTestClass;
-import org.hibernate.Session;
-import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
-import org.hibernate.cfg.Configuration;
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.io.File;
-
-import static org.junit.jupiter.api.Assertions.*;
+import java.util.Objects;
 
 class EmployeeHibernateTest extends BaseTestClass {
 
     @Override
     protected File getFile() {
-        return new File(EmployeeHibernateTest.class.getClassLoader().getResource("hibernate.cfg.xml").getFile());
+        return new File(Objects.requireNonNull(EmployeeHibernateTest.class.getClassLoader().getResource("hibernate.cfg.xml")).getFile());
     }
 
     @Test
