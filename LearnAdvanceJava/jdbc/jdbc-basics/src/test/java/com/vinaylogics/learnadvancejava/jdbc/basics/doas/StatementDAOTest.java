@@ -7,6 +7,8 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 
+import java.util.List;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class StatementDAOTest {
@@ -20,7 +22,10 @@ class StatementDAOTest {
     @Test
     @DisplayName("Test for getting list of data")
     void getTestDataList() {
-        statementDAO.getTestDataList().forEach(System.out::println);
+        List<TestData> dataList = statementDAO.getTestDataList();
+        assertNotNull(dataList);
+        assertTrue(dataList.size()>0);
+        dataList.forEach(System.out::println);
     }
 
     @ParameterizedTest(name = "Select Test data for valid id={0}")
@@ -60,7 +65,7 @@ class StatementDAOTest {
     }
 
     @ParameterizedTest(name = "Delete Test data for valid id={0}")
-    @ValueSource(longs = {104,105,106,107,108})
+    @ValueSource(longs = {109,110,111,112,113})
     void deleteTestData(Long id) {
         TestData fetchedData = statementDAO.getTestData(id);
         assertNotNull(fetchedData);

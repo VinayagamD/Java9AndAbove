@@ -7,8 +7,8 @@ public class JDBCConnectionSteps {
     /*
         1. Load the driver Eg. Driver
         2. Create Connections
-        3. Create Statement
-        4. Extract Result
+        3. Create Statement / PreparedStatement / CallableStatement
+        4. Extract Result / int / boolean
         5. Clean the jdbc connections
      */
 

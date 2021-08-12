@@ -30,7 +30,6 @@ class VehicleFactoryTest {
         }catch (FactoryException e){
             assertNotNull(e);
             assertEquals( "Null Vehicle type Not acceptable",e.getMessage());
-
         }
     }
 }

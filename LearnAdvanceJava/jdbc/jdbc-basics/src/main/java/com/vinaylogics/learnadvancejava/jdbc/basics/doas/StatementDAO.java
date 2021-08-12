@@ -24,7 +24,7 @@ public class StatementDAO extends BaseDao {
             Statement  statement   = connection.createStatement();
             ResultSet resultSet = statement.executeQuery(sql)){
             while (resultSet.next()){
-                testData.add(new TestData(resultSet.getLong("id"),resultSet.getString("name")));
+                testData.add(TestData.transform(resultSet));
             }
         } catch (SQLException exception) {
             exception.printStackTrace();
@@ -39,7 +39,7 @@ public class StatementDAO extends BaseDao {
             Statement  statement   = connection.createStatement();
             ResultSet resultSet = statement.executeQuery(sql)){
             while (resultSet.next()){
-                testData = new TestData(resultSet.getLong("id"),resultSet.getString("name"));
+                testData = TestData.transform(resultSet);
             }
         } catch (SQLException exception) {
             exception.printStackTrace();

@@ -1,6 +1,8 @@
 package com.vinaylogics.learnadvancejava.jdbc.basics.models;
 
 import java.io.Serializable;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.Objects;
 
 public class TestData implements Serializable {
@@ -42,6 +44,10 @@ public class TestData implements Serializable {
         if (o == null || getClass() != o.getClass()) return false;
         TestData testData = (TestData) o;
         return Objects.equals(id, testData.id) && Objects.equals(name, testData.name);
+    }
+
+    public static TestData transform(ResultSet resultSet) throws SQLException {
+        return new TestData(resultSet.getLong("id"),resultSet.getString("name"));
     }
 
     @Override

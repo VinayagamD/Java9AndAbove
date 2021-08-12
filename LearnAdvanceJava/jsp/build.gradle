@@ -12,8 +12,8 @@ repositories {
 
 dependencies {
 // https://mvnrepository.com/artifact/org.apache.commons/commons-lang3
-    compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.10'
+    implementation group: 'org.apache.commons', name: 'commons-lang3', version: '3.10'
 // https://mvnrepository.com/artifact/taglibs/standard
-    compile group: 'taglibs', name: 'standard', version: '1.1.2'
+    implementation group: 'taglibs', name: 'standard', version: '1.1.2'
 
 }
