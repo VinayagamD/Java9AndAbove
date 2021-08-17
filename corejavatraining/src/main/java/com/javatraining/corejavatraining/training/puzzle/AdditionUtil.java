@@ -1,5 +1,5 @@
 /*
-    This class requirement to add 2 numbers provide by user and print the result
+    This class requirement.txt to add 2 numbers provide by user and print the result
     1) Create a 2 variable to take input from the user num1 and num2
     2) Store addition result of num1 and num2 to result i.e., sum = num1 + num2
     3) print the result 'sum' in console

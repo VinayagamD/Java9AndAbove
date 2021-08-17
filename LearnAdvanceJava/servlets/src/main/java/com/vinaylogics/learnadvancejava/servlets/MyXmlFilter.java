@@ -1,6 +1,8 @@
 package com.vinaylogics.learnadvancejava.servlets;
 
-import javax.servlet.*;
+
+import jakarta.servlet.*;
+
 import java.io.IOException;
 
 public class MyXmlFilter implements Filter {

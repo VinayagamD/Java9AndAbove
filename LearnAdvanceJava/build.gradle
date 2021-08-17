@@ -15,7 +15,7 @@ subprojects {
         def junit_version = "5.7.2"
 
         // https://mvnrepository.com/artifact/mysql/mysql-connector-java
-        implementation "mysql:mysql-connector-java:8.0.23"
+        implementation "mysql:mysql-connector-java:8.0.26"
         testImplementation "org.junit.jupiter:junit-jupiter:$junit_version"
         // https://mvnrepository.com/artifact/com.github.javafaker/javafaker
         implementation 'com.github.javafaker:javafaker:1.0.2'
@@ -24,6 +24,11 @@ subprojects {
 
     test {
         useJUnitPlatform()
+    }
+
+    java {
+        sourceCompatibility = JavaVersion.VERSION_16
+        targetCompatibility = JavaVersion.VERSION_16
     }
 }
 
@@ -35,12 +40,17 @@ project(':servlets'){
   apply plugin: 'war'
 
   dependencies {
-      // https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api
-      providedCompile group: 'javax.servlet', name: 'javax.servlet-api', version: '4.0.1'
-      // https://mvnrepository.com/artifact/javax.servlet.jsp/javax.servlet.jsp-api
-      providedCompile group: 'javax.servlet.jsp', name: 'javax.servlet.jsp-api', version: '2.3.3'
-      // https://mvnrepository.com/artifact/jstl/jstl
-      implementation group: 'jstl', name: 'jstl', version: '1.2'
+      // https://mvnrepository.com/artifact/jakarta.platform/jakarta.jakartaee-web-api
+      implementation 'jakarta.platform:jakarta.jakartaee-web-api:9.1.0'
+      // https://mvnrepository.com/artifact/jakarta.servlet.jsp.jstl/jakarta.servlet.jsp.jstl-api
+      implementation 'jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api:2.0.0'
+
+  }
+
+
+  java {
+        sourceCompatibility = JavaVersion.VERSION_15
+        targetCompatibility = JavaVersion.VERSION_15
   }
 }
 

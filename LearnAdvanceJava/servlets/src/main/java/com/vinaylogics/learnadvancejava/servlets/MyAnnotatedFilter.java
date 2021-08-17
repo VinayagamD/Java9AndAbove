@@ -1,8 +1,9 @@
 package com.vinaylogics.learnadvancejava.servlets;
 
-import javax.servlet.*;
-import javax.servlet.annotation.WebFilter;
-import javax.servlet.http.HttpSession;
+
+import jakarta.servlet.*;
+import jakarta.servlet.annotation.WebFilter;
+
 import java.io.IOException;
 
 @WebFilter(filterName = "MyAnnotatedFilter", servletNames = {"servletannotation"})

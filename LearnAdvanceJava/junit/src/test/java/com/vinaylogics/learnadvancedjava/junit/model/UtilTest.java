@@ -19,7 +19,7 @@ class UtilTest {
     }
 
     @ParameterizedTest(name = "Test for the string data = {0}")
-    @ValueSource(strings = {"Usha","Java", "junit"})
+    @ValueSource(strings = {"Usha","Java", "junit", "Thatchayini"})
     void testToUpper_Success(String data) {
         String expected = data.toUpperCase();
         String actual = util.toUpper(data);
