@@ -65,7 +65,7 @@ class StatementDAOTest {
     }
 
     @ParameterizedTest(name = "Delete Test data for valid id={0}")
-    @ValueSource(longs = {109,110,111,112,113})
+    @ValueSource(longs = {114,115,116,117,118})
     void deleteTestData(Long id) {
         TestData fetchedData = statementDAO.getTestData(id);
         assertNotNull(fetchedData);

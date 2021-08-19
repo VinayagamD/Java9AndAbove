@@ -6,10 +6,12 @@ public class JDBCConnectionSteps {
 
     /*
         1. Load the driver Eg. Driver
-        2. Create Connections
-        3. Create Statement / PreparedStatement / CallableStatement
-        4. Extract Result / int / boolean
-        5. Clean the jdbc connections
+        2. Create Connection String and authentication values
+        3. Create Queries
+        4. Create Connections
+        5. Create Statement / PreparedStatement / CallableStatement
+        6. Extract Result / int / boolean
+        7. Clean the jdbc connections reverse direction of opened jdbc interface
      */
 
     // Load the jdbc driver

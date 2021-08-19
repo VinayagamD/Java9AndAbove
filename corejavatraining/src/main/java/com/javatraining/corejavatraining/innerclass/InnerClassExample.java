@@ -38,6 +38,7 @@ public class InnerClassExample {
         }
 
 
+
     }
 
     private static class StaticInnerClass {
