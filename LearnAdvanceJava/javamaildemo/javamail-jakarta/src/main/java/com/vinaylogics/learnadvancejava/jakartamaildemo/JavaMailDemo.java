@@ -1,12 +1,13 @@
-package com.vinaylogics.learnadvancejava.javamaildemo;
+package com.vinaylogics.learnadvancejava.jakartamaildemo;
 
-import javax.mail.*;
-import javax.mail.internet.InternetAddress;
-import javax.mail.internet.MimeMessage;
+import jakarta.mail.*;
+import jakarta.mail.internet.InternetAddress;
+import jakarta.mail.internet.MimeMessage;
+
 import java.util.Base64;
 import java.util.Properties;
 
-public class JavaMailExample {
+public class JavaMailDemo {
 
     public static void main(String[] args) {
         final String userName = "<Base64EmailId>";
@@ -18,6 +19,8 @@ public class JavaMailExample {
         prop.put("mail.smtp.port", "587");
         prop.put("mail.smtp.auth", "true");
         prop.put("mail.smtp.starttls.enable", "true"); //TLS
+        prop.put("mail.smtp.starttls.required", "true");
+        prop.put("mail.smtp.ssl.protocols", "TLSv1.2");
 
         Session session = Session.getDefaultInstance(prop,new Authenticator() {
 
@@ -27,13 +30,13 @@ public class JavaMailExample {
             }
 
         });
-
         try {
             Message message = new MimeMessage(session);
             message.setFrom(new InternetAddress(new String(decoder.decode(userName))));
             message.setRecipients(
                     Message.RecipientType.TO,
-                    InternetAddress.parse("karthikeyanarjunan610@gmail.com")
+                    InternetAddress.parse("thatchayani1805@gmail.com,velammalusha18@gmail.com")
+
             );
             message.setSubject("Testing Gmail TLS");
             message.setText("Dear Mail Crawler,"

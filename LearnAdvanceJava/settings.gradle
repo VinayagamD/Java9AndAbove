@@ -11,4 +11,8 @@ include 'jdbc:jdbc-basics'
 findProject(':jdbc:jdbc-basics')?.name = 'jdbc-basics'
 include 'jdbc:jdbc-design-pattern'
 findProject(':jdbc:jdbc-design-pattern')?.name = 'jdbc-design-pattern'
+include 'javamaildemo:javamail-legacy'
+findProject(':javamaildemo:javamail-legacy')?.name = 'javamail-legacy'
+include 'javamaildemo:javamail-jakarta'
+findProject(':javamaildemo:javamail-jakarta')?.name = 'javamail-jakarta'
 

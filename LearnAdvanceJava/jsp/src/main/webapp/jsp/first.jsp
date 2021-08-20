@@ -8,8 +8,8 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java"  isELIgnored="false"  %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%--<%@ taglib prefix="mytag" uri="/WEB-INF/mytag.tld" %>
-<%@ taglib prefix="tagfile" tagdir="/WEB-INF/tags/" %>--%>
+<%@ taglib prefix="mytag" uri="/WEB-INF/mytag.tld" %>
+<%@ taglib prefix="tagfile" tagdir="/WEB-INF/tags/" %>
 <html>
 <head>
     <title>Basic JSP page</title>
@@ -39,20 +39,20 @@ Page Count <% out.println(++count);%>
         throw  new Exception("Purpose full Exception");
     }
 %>
-<%--<% try { %>--%>
+<% try { %>
 <%
     out.println("Welcome to JSP");
     out.println(getMessage()+"<br/>");
     out.println(person.getFirstName()+"<br/>");
     out.println(person.getLastName()+"<br/>");
-//    getException();
+    getException();
 %>
 <p>Here Exception Handling</p>
-<%--<%
+<%
 } catch (Exception e){
     e.printStackTrace();
 }
-%>--%>
+%>
 <ul>
 
 <%
@@ -85,7 +85,7 @@ Page Count <% out.println(++count);%>
     <c:out value="Even Number"/>
 </c:if>
 
-<%--<c:catch var="catchException">
+<c:catch var="catchException">
     <%getException();%>
 </c:catch>
 <c:if test="${catchException != null}">
@@ -106,11 +106,11 @@ Page Count <% out.println(++count);%>
 <p>${2 * 2}</p>
 <p>${personBean}</p>
 
-&lt;%&ndash;<jsp:forward page="/forward"/>&ndash;%&gt;
+<%--<jsp:forward page="/forward"/>--%>
 
 <mytag:count_matches inputString="test1" lookupString="test1"/>
 <mytag:count_matches inputString="test1" lookupString="test123"/>
-<tagfile:customtags />--%>
+<tagfile:customtags />
 
 <%@ include file="layout/second_include.jsp"%>
 

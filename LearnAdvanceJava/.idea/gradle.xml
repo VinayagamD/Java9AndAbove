@@ -14,6 +14,8 @@
             <option value="$PROJECT_DIR$/ConcurrentCollections" />
             <option value="$PROJECT_DIR$/DesignPattern" />
             <option value="$PROJECT_DIR$/javamaildemo" />
+            <option value="$PROJECT_DIR$/javamaildemo/javamail-jakarta" />
+            <option value="$PROJECT_DIR$/javamaildemo/javamail-legacy" />
             <option value="$PROJECT_DIR$/jdbc" />
             <option value="$PROJECT_DIR$/jdbc/jdbc-basics" />
             <option value="$PROJECT_DIR$/jdbc/jdbc-design-pattern" />
