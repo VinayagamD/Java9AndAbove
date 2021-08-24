@@ -26,8 +26,15 @@ public class LiteralsDemo {
         System.out.println(d);
         System.out.println(e);
         System.out.println(f);
+        char chr = 98;
+        System.out.println(chr);
         System.out.println(message);
         System.out.println(arrays);
+        System.out.println("==================");
+        for (String array : arrays){
+            System.out.println(array);
+        }
+        System.out.println("==================");
 
         int hex = 0xFFEE;
         long hexL = 0xFFEEL;
