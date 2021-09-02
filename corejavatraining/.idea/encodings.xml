@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/exceptions/exception-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/exceptions/exception-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/exceptions/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/exceptions/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/file.txt" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/fundamentals/demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fundamentals/demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fundamentals/example-app/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fundamentals/example-app/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fundamentals/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fundamentals/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oops/oops-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oops/oops-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oops/oops-example/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oops/oops-example/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oops/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oops/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/packages/packages-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/packages/packages-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/packages/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/packages/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/practicals/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/practicals/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>

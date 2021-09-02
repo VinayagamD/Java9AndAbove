@@ -3,6 +3,17 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/corejavatraining.iml" filepath="$PROJECT_DIR$/corejavatraining.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fundamentals/demo/demo.iml" filepath="$PROJECT_DIR$/fundamentals/demo/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fundamentals/example-app/example-app.iml" filepath="$PROJECT_DIR$/fundamentals/example-app/example-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exceptions/exception-demo/exception-demo.iml" filepath="$PROJECT_DIR$/exceptions/exception-demo/exception-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exceptions/exceptions.iml" filepath="$PROJECT_DIR$/exceptions/exceptions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fundamentals/fundamentals.iml" filepath="$PROJECT_DIR$/fundamentals/fundamentals.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oops/oops.iml" filepath="$PROJECT_DIR$/oops/oops.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oops/oops-demo/oops-demo.iml" filepath="$PROJECT_DIR$/oops/oops-demo/oops-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oops/oops-example/oops-example.iml" filepath="$PROJECT_DIR$/oops/oops-example/oops-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages/packages.iml" filepath="$PROJECT_DIR$/packages/packages.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages/packages-demo/packages-demo.iml" filepath="$PROJECT_DIR$/packages/packages-demo/packages-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practicals/practicals.iml" filepath="$PROJECT_DIR$/practicals/practicals.iml" />
     </modules>
   </component>
 </project>

@@ -11,7 +11,7 @@ public class DecisionMaking {
 
     private static void checkSwitchCase() {
         // == or equals()
-        String day = "No";
+        String day = "Tue";
         switch (day) {
             /*default:
                 System.out.println(" Wrong Day chosen");*/
@@ -38,8 +38,8 @@ public class DecisionMaking {
             case "Sun":
                 System.out.println("Sunday");
                 break;
-            default:
-                System.out.println(" Wrong Day chosen");
+           /* default:
+                System.out.println(" Wrong Day chosen");*/
         }
     }
 

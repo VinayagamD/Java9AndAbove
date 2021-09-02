@@ -1,0 +1,41 @@
+// Organise your cpde
+package com.vinaylogics.corejavatraining.fundamentals.demo.basics;
+
+// imports
+/**
+ * This comment class for showing demo on comment
+ * <p>This is styling comment</p>
+ * @see Object
+ * @see System
+ * @author vinay
+ * @since Dec-11-2020
+ */
+public class CommentDemo{
+
+
+    // Variable definition : Single definition
+    // TODO : This is indication for any changes
+
+    /**
+     * This method is the starting point for the any <b>java code</b>
+     * @param args: This is command line argument when running command line you can pass variable to it
+     */
+    public static void main(String[] args) {
+        // This non executable statement (Single Line Comment)
+
+        /*
+         * This is multiline comment
+         * Any problem definition for code
+         * then easy comment multiline 
+         */
+
+        // System.out.println("Hello to java");
+        System.out.println("Hello to java");
+
+         /**
+          * This is javadoc 
+          * Class defintion and method definition
+          */
+    }
+
+}

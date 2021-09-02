@@ -6,11 +6,30 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="corejavatraining" />
+        <module name="practicals" />
+        <module name="oops-demo" />
+        <module name="oops" />
+        <module name="oops-example" />
+        <module name="packages-demo" />
+        <module name="exception-demo" />
+        <module name="demo" />
+        <module name="example-app" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="corejavatraining" target="16" />
+      <module name="demo" target="16" />
+      <module name="example-app" target="16" />
+      <module name="exception-demo" target="16" />
+      <module name="exceptions" target="16" />
+      <module name="fundamentals" target="16" />
+      <module name="fundamentals-demo" target="16" />
+      <module name="oops" target="16" />
+      <module name="oops-demo" target="16" />
+      <module name="oops-example" target="16" />
+      <module name="packages" target="16" />
+      <module name="packages-demo" target="16" />
+      <module name="practicals" target="16" />
     </bytecodeTargetLevel>
   </component>
 </project>

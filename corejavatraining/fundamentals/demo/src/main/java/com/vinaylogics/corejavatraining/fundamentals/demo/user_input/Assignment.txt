@@ -1,0 +1,24 @@
+1) Take your bio data
+
+a) Name
+b) Age
+etc
+
+Print in console from  the input information
+
+/*
+
+*/
+
+/**
+
+*/
+/**
+
+*/
+void function(){
+//
+//
+//
+//
+}

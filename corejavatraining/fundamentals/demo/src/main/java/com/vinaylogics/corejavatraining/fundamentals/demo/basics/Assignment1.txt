@@ -1,0 +1,13 @@
+1) Do Calculation for the inputs
+Take two integer values and assign to a variable do following operation
+
+1) Addition
+2) Subtraction
+3) Multiplication
+4) Division
+5) Modulus
+
+2) Find result for below expression
+
+ a) (((2+3)/4)-5)+9
+ b) ((6-3)+9*(2-1))*((8-5*(4+(3*(2-1)))))
