@@ -25,3 +25,13 @@
 
 > Table App
 
+1. Welcome Message
+2. Operation Menu
+3. Ask For Input Value
+4. Ask For Do you want to enter range
+5. Ask for range
+6. Validate your range
+7. Process Table
+8. Create function for asking another operation
+9. Thank You Message
+10. Create Common Function to run the application
