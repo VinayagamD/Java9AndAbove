@@ -1,4 +1,4 @@
-package com.vinaylogics.corejavatraining.packages.demo.hierachy;
+package com.vinaylogics.corejavatraining.packages.demo.utils;
 
 import java.util.Arrays;
 import static java.lang.System.*;

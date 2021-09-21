@@ -1,4 +1,4 @@
-package com.vinaylogics.corejavatraining.packages.demo.hierachy;
+package com.vinaylogics.corejavatraining.packages.demo.utils;
 
 public class MathDemo {
 
@@ -6,6 +6,7 @@ public class MathDemo {
         System.out.println(Math.floor(19.9));
         System.out.println(Math.ceil(19.1));
         System.out.println(Math.round(19.4));
+        System.out.println(Math.round(19.49));
         System.out.println(Math.round(19.5));
         System.out.println(Math.round(19.7));
         System.out.println(Math.pow(2,16));
