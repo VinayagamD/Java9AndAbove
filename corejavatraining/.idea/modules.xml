@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/GrabageCollector/GarbageCollector.iml" filepath="$PROJECT_DIR$/GrabageCollector/GarbageCollector.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GarbageCollector/GrabageCollector.iml" filepath="$PROJECT_DIR$/GarbageCollector/GrabageCollector.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GarbageCollector/basics/basics.iml" filepath="$PROJECT_DIR$/GarbageCollector/basics/basics.iml" />
       <module fileurl="file://$PROJECT_DIR$/corejavatraining.iml" filepath="$PROJECT_DIR$/corejavatraining.iml" />
       <module fileurl="file://$PROJECT_DIR$/fundamentals/demo/demo.iml" filepath="$PROJECT_DIR$/fundamentals/demo/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/fundamentals/example-app/example-app.iml" filepath="$PROJECT_DIR$/fundamentals/example-app/example-app.iml" />

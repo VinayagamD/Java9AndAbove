@@ -10,6 +10,7 @@
         <module>packages</module>
         <module>exceptions</module>
         <module>practicals</module>
+        <module>GarbageCollector</module>
     </modules>
     <packaging>pom</packaging>
 
