@@ -10,6 +10,7 @@
         <module name="basics" />
         <module name="oops-demo" />
         <module name="oops" />
+        <module name="thread-basics" />
         <module name="oops-example" />
         <module name="packages-demo" />
         <module name="exception-demo" />
@@ -34,6 +35,8 @@
       <module name="packages" target="16" />
       <module name="packages-demo" target="16" />
       <module name="practicals" target="16" />
+      <module name="thread-basics" target="16" />
+      <module name="threads" target="16" />
     </bytecodeTargetLevel>
   </component>
 </project>

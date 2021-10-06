@@ -11,6 +11,7 @@
         <module>exceptions</module>
         <module>practicals</module>
         <module>GarbageCollector</module>
+        <module>threads</module>
     </modules>
     <packaging>pom</packaging>
 
