@@ -12,6 +12,7 @@
         <module>practicals</module>
         <module>GarbageCollector</module>
         <module>threads</module>
+        <module>io</module>
     </modules>
     <packaging>pom</packaging>
 

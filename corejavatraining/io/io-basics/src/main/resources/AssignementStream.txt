@@ -1,0 +1,7 @@
+1) Take a music file from the url. Try do download in one file.
+Pass that music file in processbuilder for music application
+and play the music
+2) Take csv file develop library code that parse csv data
+3) Take tsv file develop library code that parse tsv data
+4) Fake JSON URL tried read comments and write to json file. Write another class to read the json data to object
+5) From the file print information about the file

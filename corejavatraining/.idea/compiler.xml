@@ -9,8 +9,8 @@
         <module name="practicals" />
         <module name="basics" />
         <module name="oops-demo" />
-        <module name="oops" />
         <module name="thread-basics" />
+        <module name="io-basics" />
         <module name="oops-example" />
         <module name="packages-demo" />
         <module name="exception-demo" />
@@ -19,7 +19,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="basics" target="1.5" />
+      <module name="basics" target="16" />
       <module name="corejavatraining" target="16" />
       <module name="demo" target="16" />
       <module name="example-app" target="16" />
@@ -29,6 +29,8 @@
       <module name="fundamentals-demo" target="16" />
       <module name="GarbageCollector" target="16" />
       <module name="GrabageCollector" target="16" />
+      <module name="io" target="16" />
+      <module name="io-basics" target="16" />
       <module name="oops" target="16" />
       <module name="oops-demo" target="16" />
       <module name="oops-example" target="16" />
