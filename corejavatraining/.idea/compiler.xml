@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="practicals" />
+        <module name="serializable-demo" />
         <module name="basics" />
         <module name="oops-demo" />
         <module name="thread-basics" />
@@ -37,6 +38,8 @@
       <module name="packages" target="16" />
       <module name="packages-demo" target="16" />
       <module name="practicals" target="16" />
+      <module name="serializable-demo" target="16" />
+      <module name="serializables" target="16" />
       <module name="thread-basics" target="16" />
       <module name="threads" target="16" />
     </bytecodeTargetLevel>

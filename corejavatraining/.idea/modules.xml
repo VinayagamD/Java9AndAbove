@@ -17,6 +17,8 @@
       <module fileurl="file://$PROJECT_DIR$/packages/packages.iml" filepath="$PROJECT_DIR$/packages/packages.iml" />
       <module fileurl="file://$PROJECT_DIR$/packages/packages-demo/packages-demo.iml" filepath="$PROJECT_DIR$/packages/packages-demo/packages-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/practicals/practicals.iml" filepath="$PROJECT_DIR$/practicals/practicals.iml" />
+      <module fileurl="file://$PROJECT_DIR$/serializables/serializable-demo/serializable-demo.iml" filepath="$PROJECT_DIR$/serializables/serializable-demo/serializable-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/serializables/serializables.iml" filepath="$PROJECT_DIR$/serializables/serializables.iml" />
       <module fileurl="file://$PROJECT_DIR$/threads/thread-basics/thread-basics.iml" filepath="$PROJECT_DIR$/threads/thread-basics/thread-basics.iml" />
       <module fileurl="file://$PROJECT_DIR$/threads/threads.iml" filepath="$PROJECT_DIR$/threads/threads.iml" />
     </modules>
