@@ -17,10 +17,13 @@
         <module name="exception-demo" />
         <module name="demo" />
         <module name="example-app" />
+        <module name="Generics" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="basics" target="16" />
+      <module name="CollectionFramework" target="1.7" />
+      <module name="CollectionFrameworks" target="16" />
       <module name="corejavatraining" target="16" />
       <module name="demo" target="16" />
       <module name="example-app" target="16" />
@@ -29,6 +32,7 @@
       <module name="fundamentals" target="16" />
       <module name="fundamentals-demo" target="16" />
       <module name="GarbageCollector" target="16" />
+      <module name="Generics" target="16" />
       <module name="GrabageCollector" target="16" />
       <module name="io" target="16" />
       <module name="io-basics" target="16" />
