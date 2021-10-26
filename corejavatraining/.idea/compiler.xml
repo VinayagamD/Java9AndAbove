@@ -10,18 +10,20 @@
         <module name="serializable-demo" />
         <module name="basics" />
         <module name="oops-demo" />
-        <module name="thread-basics" />
-        <module name="io-basics" />
         <module name="oops-example" />
         <module name="packages-demo" />
         <module name="exception-demo" />
         <module name="demo" />
+        <module name="thread-basics" />
+        <module name="CollectionBasic" />
+        <module name="io-basics" />
         <module name="example-app" />
         <module name="Generics" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="basics" target="16" />
+      <module name="CollectionBasic" target="16" />
       <module name="CollectionFramework" target="1.7" />
       <module name="CollectionFrameworks" target="16" />
       <module name="corejavatraining" target="16" />

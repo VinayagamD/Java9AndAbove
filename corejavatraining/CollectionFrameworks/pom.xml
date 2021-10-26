@@ -9,6 +9,7 @@
   <version>0.0.1-SNAPSHOT</version>
   <modules>
     <module>Generics</module>
+    <module>CollectionBasic</module>
   </modules>
 
   <name>CollectionFrameworks</name>
