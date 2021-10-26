@@ -24,6 +24,7 @@
       <module fileurl="file://$PROJECT_DIR$/serializables/serializables.iml" filepath="$PROJECT_DIR$/serializables/serializables.iml" />
       <module fileurl="file://$PROJECT_DIR$/threads/thread-basics/thread-basics.iml" filepath="$PROJECT_DIR$/threads/thread-basics/thread-basics.iml" />
       <module fileurl="file://$PROJECT_DIR$/threads/threads.iml" filepath="$PROJECT_DIR$/threads/threads.iml" />
+      <module fileurl="file://$PROJECT_DIR$/utils/utils.iml" filepath="$PROJECT_DIR$/utils/utils.iml" />
     </modules>
   </component>
 </project>

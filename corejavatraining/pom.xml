@@ -15,6 +15,7 @@
         <module>io</module>
         <module>serializables</module>
         <module>CollectionFrameworks</module>
+        <module>utils</module>
     </modules>
     <packaging>pom</packaging>
 
