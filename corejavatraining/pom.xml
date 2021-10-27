@@ -16,6 +16,8 @@
         <module>serializables</module>
         <module>CollectionFrameworks</module>
         <module>utils</module>
+        <module>DateModule</module>
+        <module>java8910</module>
     </modules>
     <packaging>pom</packaging>
 

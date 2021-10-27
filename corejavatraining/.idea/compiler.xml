@@ -10,14 +10,19 @@
         <module name="serializable-demo" />
         <module name="basics" />
         <module name="oops-demo" />
+        <module name="Legacy" />
         <module name="oops-example" />
         <module name="packages-demo" />
         <module name="exception-demo" />
         <module name="demo" />
+        <module name="java10" />
+        <module name="java9" />
+        <module name="java8" />
         <module name="utils" />
         <module name="thread-basics" />
         <module name="CollectionBasic" />
         <module name="io-basics" />
+        <module name="Latest" />
         <module name="example-app" />
         <module name="Generics" />
       </profile>
@@ -28,6 +33,7 @@
       <module name="CollectionFramework" target="1.7" />
       <module name="CollectionFrameworks" target="16" />
       <module name="corejavatraining" target="16" />
+      <module name="DateModule" target="16" />
       <module name="demo" target="16" />
       <module name="example-app" target="16" />
       <module name="exception-demo" target="16" />
@@ -39,6 +45,12 @@
       <module name="GrabageCollector" target="16" />
       <module name="io" target="16" />
       <module name="io-basics" target="16" />
+      <module name="java10" target="16" />
+      <module name="java8" target="16" />
+      <module name="java8910" target="16" />
+      <module name="java9" target="16" />
+      <module name="Latest" target="16" />
+      <module name="Legacy" target="16" />
       <module name="oops" target="16" />
       <module name="oops-demo" target="16" />
       <module name="oops-example" target="16" />
