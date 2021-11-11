@@ -7,6 +7,7 @@ public class DecisionMaking {
         checkIfElseBlockCondition();
         checkIfElseIfBlock();
         checkSwitchCase();
+        checkSwitchCaseLatest();
     }
 
     private static void checkSwitchCase() {
@@ -14,7 +15,8 @@ public class DecisionMaking {
         String day = "Tue";
         switch (day) {
             /*default:
-                System.out.println(" Wrong Day chosen");*/
+                System.out.println(" Wrong Day chosen");
+                break;*/
             case "Mon":
                 System.out.println("Monday");
                 break;
@@ -38,8 +40,25 @@ public class DecisionMaking {
             case "Sun":
                 System.out.println("Sunday");
                 break;
-           /* default:
-                System.out.println(" Wrong Day chosen");*/
+            default:
+                System.out.println(" Wrong Day chosen");
+        }
+    }
+
+    private static void checkSwitchCaseLatest(){
+        String day = "Tue";
+        switch (day) {
+            case "Mon" -> System.out.println("Monday");
+            case "Tue" , "Tuesday"-> {
+                System.out.println("Tue");
+                System.out.println("Tuesday");
+            }
+            case "Wed" -> System.out.println("Wednesday");
+            case "Thu" -> System.out.println("Thursday");
+            case "Fri" -> System.out.println("Friday");
+            case "Sat" -> System.out.println("Saturday");
+            case "Sun" -> System.out.println("Sunday");
+            default -> System.out.println(" Wrong Day chosen");
         }
     }
 
