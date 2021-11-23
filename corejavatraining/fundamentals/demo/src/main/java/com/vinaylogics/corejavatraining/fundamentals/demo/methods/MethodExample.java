@@ -9,6 +9,13 @@ public class MethodExample {
         System.out.println(getMessage());
         System.out.println(isEven(2)?"Even": "Odd");
         System.out.println(isEven(9)?"Even": "Odd");
+
+        // function overloading
+
+        test();
+        test(10);
+        test("Java");
+        test(10,20);
     }
 
     /**
@@ -45,5 +52,27 @@ public class MethodExample {
      */
     static boolean isEven(int input){
         return input%2 == 0;
+    }
+
+    // method overloading
+    static void  test(){
+        System.out.println("Test");
+    }
+
+    /*
+    static int test(){
+        return 0;
+    }
+    */
+    static void test(int a){
+        System.out.println("Int a ="+a);
+    }
+
+    static void test(String a){
+        System.out.println("String a = "+a);
+    }
+
+    static void test(int a, int b){
+        System.out.println("Int a = "+a+", Int b = "+b);
     }
 }

@@ -21,12 +21,16 @@ public class DataTypeExample {
         // Decimal
         float f = 1.3f;
         double d = 1.3;
+        float f2 = 2.5f;
 
         // char
         char a = 'c';
+        char a2  = 92;
 
         // boolean
         boolean cond = false;
+
+        /* **************************** Non Primitive *************************** */
 
         // String
         String string = "Hello";
