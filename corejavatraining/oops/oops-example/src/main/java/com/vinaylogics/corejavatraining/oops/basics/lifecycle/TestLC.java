@@ -1,4 +1,4 @@
-package com.vinaylogics.corejavatraining.oops.lifecycle;
+package com.vinaylogics.corejavatraining.oops.basics.lifecycle;
 
 public class TestLC {
 

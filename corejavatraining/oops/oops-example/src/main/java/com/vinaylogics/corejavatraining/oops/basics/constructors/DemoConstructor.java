@@ -1,14 +1,19 @@
-package com.javatraining.corejavatraining.contructordemo;
+package com.vinaylogics.corejavatraining.oops.basics.constructors;
 
 public class DemoConstructor {
     int data;
     String name;
-    /*public DemoConstructor(){
+    public DemoConstructor(){
         System.out.println("Demo Constructor Called");
-    }*/
-   /* public DemoConstructor(int data, String name) {
+    }
+    public DemoConstructor(int data, String name) {
         this.data = data;
         this.name = name;
+    }
+
+    /*public int DemoConstructor(){
+        System.out.println("Demo Constructor Called");
+        return 0;
     }*/
 
     public static void main(String[] args) {
