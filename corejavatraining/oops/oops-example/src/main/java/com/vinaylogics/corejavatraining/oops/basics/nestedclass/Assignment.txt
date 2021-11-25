@@ -1,0 +1,2 @@
+1) Create Calculator class helper inner class operation
+2) Create Callback Pattern
