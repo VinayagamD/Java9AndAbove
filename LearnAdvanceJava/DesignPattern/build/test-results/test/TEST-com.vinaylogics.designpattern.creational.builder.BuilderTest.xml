@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.vinaylogics.designpattern.creational.builder.BuilderTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-13T04:49:21" hostname="DESKTOP-FUCU0JT" time="0.017">
+  <properties/>
+  <testcase name="Test person builder with name creation" classname="com.vinaylogics.designpattern.creational.builder.BuilderTest" time="0.017"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

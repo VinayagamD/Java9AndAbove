@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test Statement Connection DDL" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-12T04:54:02" hostname="DESKTOP-FUCU0JT" time="0.399">
+  <properties/>
+  <testcase name="TEST to Alter Table" classname="com.vinaylogics.learnadvancejava.jdbc.designpattern.util.StatementConnectionDDLTest" time="0.399"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

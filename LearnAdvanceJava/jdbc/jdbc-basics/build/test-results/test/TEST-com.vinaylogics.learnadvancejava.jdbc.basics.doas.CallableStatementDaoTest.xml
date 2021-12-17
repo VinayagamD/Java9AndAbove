@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.vinaylogics.learnadvancejava.jdbc.basics.doas.CallableStatementDaoTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-19T04:28:50" hostname="DESKTOP-FUCU0JT" time="0.485">
+  <properties/>
+  <testcase name="displayMaxBookPrice()" classname="com.vinaylogics.learnadvancejava.jdbc.basics.doas.CallableStatementDaoTest" time="0.485"/>
+  <system-out><![CDATA[799.0
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
