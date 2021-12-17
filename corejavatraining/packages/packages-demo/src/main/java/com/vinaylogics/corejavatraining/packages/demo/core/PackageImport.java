@@ -12,5 +12,7 @@ public class PackageImport {
         out.println(10);
         Test test = new Test();
         Test test1 = new Test();
+        com.vinaylogics.corejavatraining.packages.demo.models.Test test2
+                = new com.vinaylogics.corejavatraining.packages.demo.models.Test();
     }
 }

@@ -11,6 +11,7 @@ public record MyImmutable(String data) {
         System.out.println(myImmutable.getData());
         myImmutable = new MyImmutable("Java");
         System.out.println(myImmutable.getData());
+        System.out.println(myImmutable.data());
 
     }
 }

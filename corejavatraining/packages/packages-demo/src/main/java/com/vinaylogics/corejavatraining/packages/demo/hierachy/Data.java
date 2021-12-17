@@ -32,6 +32,7 @@ public class Data {
         data1.data = 20;
         System.out.println(data.equals(data1));
         System.out.println(data);
+        System.out.println(data.toString());
         System.out.println(data1);
     }
 }

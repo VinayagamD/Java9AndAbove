@@ -10,13 +10,13 @@ public class CallableAndFutureDemo {
     public static void main(String[] args) throws ExecutionException, InterruptedException {
         // FutureTask is a concrete class that
         // implements both Runnable and Future
-        FutureTask[] randomNumberTasks = new FutureTask[5];
+        var randomNumberTasks = new FutureTask[5];
         for (int i = 0; i < 5; i++)
         {
             Callable<Integer> callable = new MyCallable();
 
             // Create the FutureTask with Callable
-            randomNumberTasks[i] = new FutureTask(callable);
+            randomNumberTasks[i] = new FutureTask<>(callable);
 
             // As it implements Runnable, create Thread
             // with FutureTask

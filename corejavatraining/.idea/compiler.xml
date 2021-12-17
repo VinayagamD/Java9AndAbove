@@ -21,6 +21,7 @@
         <module name="utils" />
         <module name="thread-basics" />
         <module name="CollectionBasic" />
+        <module name="modules-demo" />
         <module name="io-basics" />
         <module name="Latest" />
         <module name="example-app" />
@@ -51,6 +52,7 @@
       <module name="java9" target="16" />
       <module name="Latest" target="16" />
       <module name="Legacy" target="16" />
+      <module name="modules-demo" target="16" />
       <module name="oops" target="16" />
       <module name="oops-demo" target="16" />
       <module name="oops-example" target="16" />

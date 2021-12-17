@@ -1,6 +1,6 @@
 package com.vinaylogics.corejavatraining.packages.demo.hierachy;
 
-public class ObjectMethodsDemo {
+public class ObjectMethodsDemo  extends ObjectData{
 
 	@Override
 	public int hashCode() {
@@ -14,7 +14,7 @@ public class ObjectMethodsDemo {
 
 	@Override
 	public String toString() {
-		return String.valueOf(hashCode());
+		return ObjectMethodsDemo.class.getSimpleName() +"@"+ Integer.toHexString(hashCode());
 	}
 
 	public static void main(String[] args) {

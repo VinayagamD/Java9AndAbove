@@ -21,6 +21,7 @@
       <module fileurl="file://$PROJECT_DIR$/java8910/java8/java8.iml" filepath="$PROJECT_DIR$/java8910/java8/java8.iml" />
       <module fileurl="file://$PROJECT_DIR$/java8910/java8910.iml" filepath="$PROJECT_DIR$/java8910/java8910.iml" />
       <module fileurl="file://$PROJECT_DIR$/java8910/java9/java9.iml" filepath="$PROJECT_DIR$/java8910/java9/java9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages/modules-demo/modules-demo.iml" filepath="$PROJECT_DIR$/packages/modules-demo/modules-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/oops/oops.iml" filepath="$PROJECT_DIR$/oops/oops.iml" />
       <module fileurl="file://$PROJECT_DIR$/oops/oops-demo/oops-demo.iml" filepath="$PROJECT_DIR$/oops/oops-demo/oops-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/oops/oops-example/oops-example.iml" filepath="$PROJECT_DIR$/oops/oops-example/oops-example.iml" />

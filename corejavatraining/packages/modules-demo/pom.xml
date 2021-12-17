@@ -3,18 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>corejavatraining</artifactId>
+        <artifactId>packages</artifactId>
         <groupId>com.javatraining</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>packages</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>packages-demo</module>
-        <module>modules-demo</module>
-    </modules>
+    <artifactId>modules-demo</artifactId>
 
     <properties>
         <maven.compiler.source>16</maven.compiler.source>
