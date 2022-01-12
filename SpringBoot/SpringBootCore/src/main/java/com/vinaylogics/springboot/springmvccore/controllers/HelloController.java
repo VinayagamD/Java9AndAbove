@@ -37,17 +37,18 @@ public class HelloController {
     }
 
     @GetMapping("/page")
-    public ResponseEntity<PagingMessageDTO<List<Message>>> getPagingMessage(@RequestParam(value = "pageSize", defaultValue = "10") Integer size, @RequestParam(value = "pageNumber",defaultValue = "0") Integer pageNumber, @RequestParam(value = "pageCount", defaultValue = "100") Long pageCount){
-        return ResponseEntity.ok(greetingService.getPagingMessage(size, pageNumber, pageCount));
+    public PagingMessageDTO<List<Message>> getPagingMessage(@RequestParam(value = "pageSize", defaultValue = "10") Integer size, @RequestParam(value = "pageNumber",defaultValue = "0") Integer pageNumber, @RequestParam(value = "pageCount", defaultValue = "100") Long pageCount){
+        return greetingService.getPagingMessage(size, pageNumber, pageCount);
     }
 
     @PostMapping
-    public ResponseEntity<ResponseDataDTO<Message>> createMessage(@RequestBody Message message){
-        return ResponseEntity.status(HttpStatus.CREATED).body(new ResponseDataDTO.Builder<Message>()
+    @ResponseStatus(HttpStatus.CREATED)
+    public ResponseDataDTO<Message> createMessage(@RequestBody Message message){
+        return new ResponseDataDTO.Builder<Message>()
                 .success(true)
                 .data(greetingService.save(message))
                 .message("Message Created")
-                .build());
+                .build();
     }
 
     @PutMapping("/{id}")

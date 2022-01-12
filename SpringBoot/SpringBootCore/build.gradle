@@ -1,12 +1,12 @@
 plugins {
-    id 'org.springframework.boot' version '2.4.1'
-    id 'io.spring.dependency-management' version '1.0.10.RELEASE'
+    id 'org.springframework.boot' version '2.6.2'
+    id 'io.spring.dependency-management' version '1.0.11.RELEASE'
     id 'java'
 }
 
 group = 'com.vinaylogics'
 version = '0.0.1-SNAPSHOT'
-sourceCompatibility = '15'
+
 
 repositories {
     mavenCentral()
@@ -28,7 +28,5 @@ dependencies {
 }
 
 test {
-    useJUnitPlatform{
-        includeEngines 'junit-jupiter'
-    }
+    useJUnitPlatform()
 }

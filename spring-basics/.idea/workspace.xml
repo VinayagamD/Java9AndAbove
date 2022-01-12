@@ -5,54 +5,56 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="759170e8-6a47-48bd-acab-2b7caeb7784e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/abtsraction/abstract_types/Derived.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/abtsraction/abstract_types/EgAbstract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/abtsraction/abstract_types/TestAbstract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/abtsraction/interface_types/EgInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/abtsraction/interface_types/MyFunctionalInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/abtsraction/interface_types/MyMarker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/abtsraction/interface_types/NormalInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/abtsraction/interface_types/TestInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/polymorphism/example/Base.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/polymorphism/example/Derived.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/polymorphism/example/SubDerived.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/polymorphism/example/TestPolymorphism.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/spring-basics.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBasics/.gradle/6.5.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBasics/.gradle/6.5.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBasics/.gradle/6.5.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBasics/.gradle/6.5.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBasics/.gradle/6.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBasics/.gradle/6.5.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBasics/.gradle/6.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBasics/.gradle/6.5.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBasics/.gradle/6.5.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBasics/.gradle/6.5.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBasics/.gradle/6.5.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBasics/.gradle/6.5.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBasics/.gradle/6.5.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBasics/.gradle/6.5.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBasics/.gradle/6.5.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBasics/.gradle/6.5.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBasics/.gradle/6.5.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBasics/.gradle/6.5.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBasics/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBasics/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBasics/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBasics/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBasics/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBasics/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBasics/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBasics/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBasics/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBasics/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBasics/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBasics/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBasics/.idea/SpringBasics.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBasics/.idea/SpringBasics.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBasics/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBasics/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBasics/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBasics/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBasics/.idea/modules/aop/SpringBasics.aop.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBasics/.idea/modules/aop/SpringBasics.aop.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBasics/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBasics/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBasics/spring-understand/build/classes/java/main/com/vinaylogics/springbasics/springunderstand/model/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBasics/spring-understand/build/classes/java/main/com/vinaylogics/springbasics/springunderstand/model/Address.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBasics/spring-understand/build/classes/java/main/com/vinaylogics/springbasics/springunderstand/model/AddressPost.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBasics/spring-understand/build/classes/java/main/com/vinaylogics/springbasics/springunderstand/model/AddressPost.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBasics/spring-understand/build/classes/java/main/com/vinaylogics/springbasics/springunderstand/model/EmailPost.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBasics/spring-understand/build/classes/java/main/com/vinaylogics/springbasics/springunderstand/model/EmailPost.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBasics/spring-understand/build/classes/java/main/com/vinaylogics/springbasics/springunderstand/model/Post.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBasics/spring-understand/build/classes/java/main/com/vinaylogics/springbasics/springunderstand/model/Post.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBasics/spring-understand/build/classes/java/main/com/vinaylogics/springbasics/springunderstand/model/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBasics/spring-understand/build/classes/java/main/com/vinaylogics/springbasics/springunderstand/model/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBasics/spring-understand/build/classes/java/main/com/vinaylogics/springbasics/springunderstand/model/StudentDI.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBasics/spring-understand/build/classes/java/main/com/vinaylogics/springbasics/springunderstand/model/StudentDI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBasics/spring-understand/build/classes/java/main/com/vinaylogics/springbasics/springunderstand/model/StudentDILooseCouple.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBasics/spring-understand/build/classes/java/main/com/vinaylogics/springbasics/springunderstand/model/StudentDILooseCouple.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBasics/spring-understand/build/classes/java/test/com/vinaylogics/springbasics/springunderstand/model/StudentDILooseCoupleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBasics/spring-understand/build/classes/java/test/com/vinaylogics/springbasics/springunderstand/model/StudentDILooseCoupleTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBasics/spring-understand/build/classes/java/test/com/vinaylogics/springbasics/springunderstand/model/StudentDITest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBasics/spring-understand/build/classes/java/test/com/vinaylogics/springbasics/springunderstand/model/StudentDITest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBasics/spring-understand/build/classes/java/test/com/vinaylogics/springbasics/springunderstand/model/StudentTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBasics/spring-understand/build/classes/java/test/com/vinaylogics/springbasics/springunderstand/model/StudentTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/strings/StringOpDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../corejavatraining/src/main/java/com/javatraining/corejavatraining/strings/StringOpDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnAdvanceJava/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnAdvanceJava/DesignPattern/src/test/java/com/vinaylogics/designpattern/creational/builder/PersonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/DesignPattern/build/classes/java/main/com/vinaylogics/designpattern/creational/abstract_factory/DefaultCarFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/DesignPattern/build/classes/java/main/com/vinaylogics/designpattern/creational/abstract_factory/DefaultCarFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/DesignPattern/build/classes/java/main/com/vinaylogics/designpattern/creational/abstract_factory/IndiaCarFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/DesignPattern/build/classes/java/main/com/vinaylogics/designpattern/creational/abstract_factory/IndiaCarFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/DesignPattern/build/classes/java/main/com/vinaylogics/designpattern/creational/abstract_factory/USACarFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/DesignPattern/build/classes/java/main/com/vinaylogics/designpattern/creational/abstract_factory/USACarFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/DesignPattern/build/classes/java/main/com/vinaylogics/designpattern/creational/factory/VehicleFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/DesignPattern/build/classes/java/main/com/vinaylogics/designpattern/creational/factory/VehicleFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/DesignPattern/build/reports/tests/test/classes/com.vinaylogics.designpattern.creational.builder.BuilderTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/DesignPattern/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/DesignPattern/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/DesignPattern/build/reports/tests/test/packages/com.vinaylogics.designpattern.creational.builder.html" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/DesignPattern/build/reports/tests/test/packages/com.vinaylogics.designpattern.creational.builder.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/DesignPattern/build/test-results/test/TEST-com.vinaylogics.designpattern.creational.builder.BuilderTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/DesignPattern/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/DesignPattern/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/DesignPattern/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/DesignPattern/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/DesignPattern/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/DesignPattern/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/jdbc/jdbc-basics/build/classes/java/test/com/vinaylogics/learnadvancejava/jdbc/basics/doas/StatementDAOTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/jdbc/jdbc-basics/build/classes/java/test/com/vinaylogics/learnadvancejava/jdbc/basics/doas/StatementDAOTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/jdbc/jdbc-basics/build/reports/tests/test/classes/com.vinaylogics.learnadvancejava.jdbc.basics.doas.CallableStatementDaoTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/jdbc/jdbc-basics/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/jdbc/jdbc-basics/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/jdbc/jdbc-basics/build/reports/tests/test/packages/com.vinaylogics.learnadvancejava.jdbc.basics.doas.html" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/jdbc/jdbc-basics/build/reports/tests/test/packages/com.vinaylogics.learnadvancejava.jdbc.basics.doas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/jdbc/jdbc-basics/build/test-results/test/TEST-com.vinaylogics.learnadvancejava.jdbc.basics.doas.CallableStatementDaoTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/jdbc/jdbc-basics/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/jdbc/jdbc-basics/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/jdbc/jdbc-basics/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/jdbc/jdbc-basics/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/jdbc/jdbc-basics/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/jdbc/jdbc-basics/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/jdbc/jdbc-basics/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/jdbc/jdbc-basics/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/jdbc/jdbc-basics/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/jdbc/jdbc-basics/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/jdbc/jdbc-basics/src/test/java/com/vinaylogics/learnadvancejava/jdbc/basics/doas/StatementDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/jdbc/jdbc-basics/src/test/java/com/vinaylogics/learnadvancejava/jdbc/basics/doas/StatementDAOTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/junit/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/junit/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnAdvanceJava/junit/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnAdvanceJava/junit/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot/SpringDataJpa/src/main/java/com/vinaylogics/springboot/springdatajpa/repositories/MessageRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot/SpringDataJpa/src/main/java/com/vinaylogics/springboot/springdatajpa/repositories/MessageRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/36d0de67-9bcd-418b-9c0d-e9dd8926df61.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/36d0de67-9bcd-418b-9c0d-e9dd8926df61.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a2442fc4-4689-4fcb-8f33-5cfd50314696.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a2442fc4-4689-4fcb-8f33-5cfd50314696.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/spring-basics.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-data/spring-jdbc/jdbc-annotations/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/spring-data/spring-jdbc/jdbc-annotations/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,6 +102,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+  </component>
   <component name="KotlinMultiplatform">
     <allAvailableExecutables />
   </component>
@@ -109,6 +123,9 @@
     <option name="FILTER_INFO" value="true" />
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -131,18 +148,23 @@
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-security/src/main/webapp/WEB-INF" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SpringBoot" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -151,21 +173,6 @@
       <recent name="com.vinaylogics.springbasics.mvc.jpa.services" />
       <recent name="com.vinaylogics.springbasics.core.annotations" />
     </key>
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.vinaylogics.springbasics.mvc.jdbc.repositories" />
-      <recent name="com.vinaylogics.springbasics.springdata.jpa.annotations.daos" />
-      <recent name="com.vinaylogics.springbasics.data.jpa.xml.daos" />
-      <recent name="com.vinaylogics.springdata.jdbc.annotations.daos" />
-      <recent name="com.vinaylogics.springdata.jdbc.xml.doas" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-      <recent name="com.vinaylogics.springbasics.core.xml.BaseTestClass" />
-      <recent name="com.vinaylogics.springbasics.core.annotations.BaseTestClass" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\JavaWorkspace\spring-basics\spring-security\src\main\webapp\WEB-INF" />
       <recent name="F:\JavaWorkspace\spring-basics\spring-security\src\main\resources" />
@@ -173,16 +180,31 @@
       <recent name="F:\JavaWorkspace\spring-basics\spring-mvc\jpa\src\main\webapp\WEB-INF" />
       <recent name="F:\JavaWorkspace\spring-basics\spring-mvc\jdbc\src\main\webapp\WEB-INF\views" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+      <recent name="com.vinaylogics.springbasics.core.xml.BaseTestClass" />
+      <recent name="com.vinaylogics.springbasics.core.annotations.BaseTestClass" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\JavaWorkspace\spring-basics\spring-mvc\jpa\src\main\webapp\WEB-INF" />
+      <recent name="F:\JavaWorkspace\spring-basics\spring-data\spring-jdbc\jdbc-xml\src\main\resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.vinaylogics.springbasics.mvc.jdbc.repositories" />
+      <recent name="com.vinaylogics.springbasics.springdata.jpa.annotations.daos" />
+      <recent name="com.vinaylogics.springbasics.data.jpa.xml.daos" />
+      <recent name="com.vinaylogics.springdata.jdbc.annotations.daos" />
+      <recent name="com.vinaylogics.springdata.jdbc.xml.doas" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.vinaylogics.springbasics.aop.repositories" />
       <recent name="com.vinaylogics.springbasics.mvc.jpa.controllers" />
       <recent name="com.vinaylogics.springbasics.mvc.jpa.models" />
       <recent name="com.vinaylogics.springbasics.springdata.jpa.annotations.daos.impl" />
       <recent name="com.vinaylogics.springbasics.springdata.jpa.annotations.daos" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\JavaWorkspace\spring-basics\spring-mvc\jpa\src\main\webapp\WEB-INF" />
-      <recent name="F:\JavaWorkspace\spring-basics\spring-data\spring-jdbc\jdbc-xml\src\main\resources" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.SecurityDemo">
@@ -631,179 +653,13 @@
       <workItem from="1606404533100" duration="1725000" />
       <workItem from="1606444859497" duration="14000" />
       <workItem from="1611991126199" duration="623000" />
+      <workItem from="1641303983027" duration="458000" />
+      <workItem from="1641305597842" duration="804000" />
+      <workItem from="1641487039314" duration="14000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="-1365" y="96" key="#Project_Structure" timestamp="1605020059855">
-      <screen x="-1920" y="0" width="1920" height="1080" />
-    </state>
-    <state x="-1365" y="96" key="#Project_Structure/-1920.0.1920.1080/0.0.2560.1080@-1920.0.1920.1080" timestamp="1605020059855" />
-    <state x="-1368" y="178" width="1092" height="948" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606404643859">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-1368" y="178" width="1092" height="804" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1920.1040/0.0.2560.1040@-1920.0.1920.1040" timestamp="1606404643859" />
-    <state x="-1391" y="67" width="1092" height="948" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1920.1080/0.0.2560.1080@-1920.0.1920.1080" timestamp="1606231723940" />
-    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1604586524985" />
-    <state x="-1155" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1605886728756">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-1155" y="236" key="#com.intellij.ide.util.MemberChooser/-1920.0.1920.1040/0.0.2560.1040@-1920.0.1920.1040" timestamp="1605886728756" />
-    <state x="-1155" y="245" key="#com.intellij.ide.util.MemberChooser/-1920.0.1920.1080/0.0.2560.1080@-1920.0.1920.1080" timestamp="1605801093427" />
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1604672517098" />
-    <state x="-1155" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1604498455508" />
-    <state x="-1155" y="245" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1604499633947" />
-    <state x="-1263" y="329" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1603981391477">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-1263" y="329" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.2560.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1603981391477" />
-    <state x="521" y="444" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1604669066227">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="521" y="444" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1604669066227" />
-    <state x="605" y="385" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1604669181494">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="605" y="385" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1604669181494" />
-    <state x="605" y="401" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1604669020065">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="605" y="401" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1604669020065" />
-    <state x="-1230" y="277" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605801240574">
-      <screen x="-1920" y="0" width="1920" height="1080" />
-    </state>
-    <state x="-1230" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.0.1920.1040/0.0.2560.1040@-1920.0.1920.1040" timestamp="1604931439381" />
-    <state x="-1230" y="277" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.0.1920.1080/0.0.2560.1080@-1920.0.1920.1080" timestamp="1605801240574" />
-    <state x="-1126" y="274" key="FileChooserDialogImpl" timestamp="1604933049100">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-1126" y="274" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.2560.1040@-1920.0.1920.1040" timestamp="1604933049100" />
-    <state x="794" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1604672832624" />
-    <state x="-1126" y="274" key="FileChooserDialogImpl/0.0.2560.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1603981753568" />
-    <state x="1059" y="274" key="FileChooserDialogImpl/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1603960783662" />
-    <state x="525" y="241" key="FileDocumentManager.FileCacheConflict" timestamp="1603960805455">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state x="525" y="241" key="FileDocumentManager.FileCacheConflict/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1603960805455" />
-    <state width="1293" height="269" key="GridCell.Tab.0.bottom" timestamp="1606418291952">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1293" height="269" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.2560.1040@-1920.0.1920.1040" timestamp="1606418291952" />
-    <state width="1293" height="282" key="GridCell.Tab.0.bottom/-1920.0.1920.1080/0.0.2560.1080@-1920.0.1920.1080" timestamp="1606232427967" />
-    <state width="1877" height="249" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1604675587963" />
-    <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.2560.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1604498741620" />
-    <state width="1877" height="261" key="GridCell.Tab.0.bottom/0.0.2560.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1604499770892" />
-    <state width="1293" height="269" key="GridCell.Tab.0.center" timestamp="1606418291951">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1293" height="269" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.2560.1040@-1920.0.1920.1040" timestamp="1606418291951" />
-    <state width="1293" height="282" key="GridCell.Tab.0.center/-1920.0.1920.1080/0.0.2560.1080@-1920.0.1920.1080" timestamp="1606232427966" />
-    <state width="1877" height="249" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1604675587963" />
-    <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.2560.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1604498741620" />
-    <state width="1877" height="261" key="GridCell.Tab.0.center/0.0.2560.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1604499770891" />
-    <state width="1293" height="269" key="GridCell.Tab.0.left" timestamp="1606418291951">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1293" height="269" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.2560.1040@-1920.0.1920.1040" timestamp="1606418291951" />
-    <state width="1293" height="282" key="GridCell.Tab.0.left/-1920.0.1920.1080/0.0.2560.1080@-1920.0.1920.1080" timestamp="1606232427966" />
-    <state width="1877" height="249" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1604675587963" />
-    <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.2560.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1604498741620" />
-    <state width="1877" height="261" key="GridCell.Tab.0.left/0.0.2560.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1604499770891" />
-    <state width="1293" height="269" key="GridCell.Tab.0.right" timestamp="1606418291952">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1293" height="269" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.2560.1040@-1920.0.1920.1040" timestamp="1606418291952" />
-    <state width="1293" height="282" key="GridCell.Tab.0.right/-1920.0.1920.1080/0.0.2560.1080@-1920.0.1920.1080" timestamp="1606232427967" />
-    <state width="1877" height="249" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1604675587963" />
-    <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.2560.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1604498741620" />
-    <state width="1877" height="261" key="GridCell.Tab.0.right/0.0.2560.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1604499770891" />
-    <state width="1293" height="269" key="GridCell.Tab.1.bottom" timestamp="1606418291954">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1293" height="269" key="GridCell.Tab.1.bottom/-1920.0.1920.1040/0.0.2560.1040@-1920.0.1920.1040" timestamp="1606418291954" />
-    <state width="1293" height="282" key="GridCell.Tab.1.bottom/-1920.0.1920.1080/0.0.2560.1080@-1920.0.1920.1080" timestamp="1606232427969" />
-    <state width="1877" height="338" key="GridCell.Tab.1.bottom/0.0.2560.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1604412096267" />
-    <state width="1293" height="269" key="GridCell.Tab.1.center" timestamp="1606418291953">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1293" height="269" key="GridCell.Tab.1.center/-1920.0.1920.1040/0.0.2560.1040@-1920.0.1920.1040" timestamp="1606418291953" />
-    <state width="1293" height="282" key="GridCell.Tab.1.center/-1920.0.1920.1080/0.0.2560.1080@-1920.0.1920.1080" timestamp="1606232427968" />
-    <state width="1877" height="338" key="GridCell.Tab.1.center/0.0.2560.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1604412096267" />
-    <state width="1293" height="269" key="GridCell.Tab.1.left" timestamp="1606418291952">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1293" height="269" key="GridCell.Tab.1.left/-1920.0.1920.1040/0.0.2560.1040@-1920.0.1920.1040" timestamp="1606418291952" />
-    <state width="1293" height="282" key="GridCell.Tab.1.left/-1920.0.1920.1080/0.0.2560.1080@-1920.0.1920.1080" timestamp="1606232427968" />
-    <state width="1877" height="338" key="GridCell.Tab.1.left/0.0.2560.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1604412096267" />
-    <state width="1293" height="269" key="GridCell.Tab.1.right" timestamp="1606418291953">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1293" height="269" key="GridCell.Tab.1.right/-1920.0.1920.1040/0.0.2560.1040@-1920.0.1920.1040" timestamp="1606418291953" />
-    <state width="1293" height="282" key="GridCell.Tab.1.right/-1920.0.1920.1080/0.0.2560.1080@-1920.0.1920.1080" timestamp="1606232427969" />
-    <state width="1877" height="338" key="GridCell.Tab.1.right/0.0.2560.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1604412096267" />
-    <state width="1293" height="269" key="GridCell.Tab.2.bottom" timestamp="1606418291955">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1293" height="269" key="GridCell.Tab.2.bottom/-1920.0.1920.1040/0.0.2560.1040@-1920.0.1920.1040" timestamp="1606418291955" />
-    <state width="1293" height="282" key="GridCell.Tab.2.bottom/-1920.0.1920.1080/0.0.2560.1080@-1920.0.1920.1080" timestamp="1606232427971" />
-    <state width="1293" height="269" key="GridCell.Tab.2.center" timestamp="1606418291954">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1293" height="269" key="GridCell.Tab.2.center/-1920.0.1920.1040/0.0.2560.1040@-1920.0.1920.1040" timestamp="1606418291954" />
-    <state width="1293" height="282" key="GridCell.Tab.2.center/-1920.0.1920.1080/0.0.2560.1080@-1920.0.1920.1080" timestamp="1606232427970" />
-    <state width="1293" height="269" key="GridCell.Tab.2.left" timestamp="1606418291954">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1293" height="269" key="GridCell.Tab.2.left/-1920.0.1920.1040/0.0.2560.1040@-1920.0.1920.1040" timestamp="1606418291954" />
-    <state width="1293" height="282" key="GridCell.Tab.2.left/-1920.0.1920.1080/0.0.2560.1080@-1920.0.1920.1080" timestamp="1606232427970" />
-    <state width="1293" height="269" key="GridCell.Tab.2.right" timestamp="1606418291954">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1293" height="269" key="GridCell.Tab.2.right/-1920.0.1920.1040/0.0.2560.1040@-1920.0.1920.1040" timestamp="1606418291954" />
-    <state width="1293" height="282" key="GridCell.Tab.2.right/-1920.0.1920.1080/0.0.2560.1080@-1920.0.1920.1080" timestamp="1606232427971" />
-    <state x="-1380" y="263" key="IDE.errors.dialog" timestamp="1606405066199">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-1380" y="263" key="IDE.errors.dialog/-1920.0.1920.1040/0.0.2560.1040@-1920.0.1920.1040" timestamp="1606405066199" />
-    <state x="-1480" y="94" key="SettingsEditor" timestamp="1606142844436">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-1480" y="94" key="SettingsEditor/-1920.0.1920.1040/0.0.2560.1040@-1920.0.1920.1040" timestamp="1606142844436" />
-    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1604669402316" />
-    <state x="-1480" y="94" key="SettingsEditor/0.0.2560.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1603980649524" />
-    <state x="-1206" y="349" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1604932156308">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-1206" y="349" key="com.intellij.testIntegration.createTest.CreateTestDialog/-1920.0.1920.1040/0.0.2560.1040@-1920.0.1920.1040" timestamp="1604932156308" />
-    <state x="714" y="349" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1604674350471" />
-    <state x="-1206" y="349" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.2560.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1604498451857" />
-    <state x="-1206" y="362" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.2560.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1604499074768" />
-    <state x="-1232" y="130" key="new project wizard" timestamp="1605704985279">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-1232" y="130" key="new project wizard/-1920.0.1920.1040/0.0.2560.1040@-1920.0.1920.1040" timestamp="1605704985279" />
-    <state x="-1232" y="135" key="new project wizard/-1920.0.1920.1080/0.0.2560.1080@-1920.0.1920.1080" timestamp="1605018850026" />
-    <state x="688" y="130" key="new project wizard/0.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1604672838168" />
-    <state x="-1232" y="130" key="new project wizard/0.0.2560.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1603981754753" />
-    <state x="917" y="130" key="new project wizard/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1603960795051" />
-    <state x="755" y="267" key="refactoring.ChangeSignatureDialog" timestamp="1604669905872">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="755" y="267" key="refactoring.ChangeSignatureDialog/0.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1604669905872" />
-    <state x="-1304" y="249" key="run.anything.popup" timestamp="1606231634662">
-      <screen x="-1920" y="0" width="1920" height="1080" />
-    </state>
-    <state x="-1304" y="240" key="run.anything.popup/-1920.0.1920.1040/0.0.2560.1040@-1920.0.1920.1040" timestamp="1604932199669" />
-    <state x="-1304" y="249" key="run.anything.popup/-1920.0.1920.1080/0.0.2560.1080@-1920.0.1920.1080" timestamp="1606231634661" />
-    <state x="-1280" y="203" key="spring file set editor" timestamp="1605707147742">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-1280" y="203" key="spring file set editor/-1920.0.1920.1040/0.0.2560.1040@-1920.0.1920.1040" timestamp="1605707147742" />
-    <state x="-1280" y="211" key="spring file set editor/-1920.0.1920.1080/0.0.2560.1080@-1920.0.1920.1080" timestamp="1605019833066" />
-    <state x="640" y="203" key="spring file set editor/0.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1604672874438" />
-    <state x="-1280" y="203" key="spring file set editor/0.0.2560.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1603981978965" />
   </component>
 </project>

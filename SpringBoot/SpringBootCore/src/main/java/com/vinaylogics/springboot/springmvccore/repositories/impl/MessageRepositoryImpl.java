@@ -34,7 +34,14 @@ public class MessageRepositoryImpl implements MessageRepository {
 
     @Override
     public List<Message> findAll() {
-        return null;
+        return template.query(Q_FIND_ALL,(rs,rowNum)->{
+            Message message = new Message();
+            message.setId(rs.getLong(COL_ID));
+            message.setMessage(rs.getString(COL_MESSAGE));
+            message.setName(rs.getString(COL_NAME));
+            message.setMessageTime(rs.getTimestamp(COL_MESSAGE_TIME).toLocalDateTime());
+            return message;
+        });
     }
 
     @Override

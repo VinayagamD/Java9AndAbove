@@ -16,4 +16,5 @@ public interface MessageRepository extends JpaRepository<Message,Long> {
 
     @Query(name = "findById")
     Optional<Message> findSingleMessage(@Param("id") Long id);
+
 }

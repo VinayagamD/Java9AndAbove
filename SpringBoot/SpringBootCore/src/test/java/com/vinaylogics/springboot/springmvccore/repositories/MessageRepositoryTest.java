@@ -5,6 +5,7 @@ import com.vinaylogics.springboot.springmvccore.configs.DefaultRegistryConfig;
 import com.vinaylogics.springboot.springmvccore.models.Message;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.RepeatedTest;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -42,6 +43,19 @@ class MessageRepositoryTest {
     @Test
     @DisplayName("Test save for message")
     void testSaveMessage(){
+        Message expected = new Message();
+        expected.setMessage(faker.food().dish());
+        expected.setName(faker.funnyName().name());
+        Message actual = messageRepository.save(expected);
+        assertNotNull(actual);
+        assertEquals(expected.getMessage(),actual.getMessage());
+        assertEquals(expected.getName(),actual.getName());
+    }
+
+
+    @RepeatedTest(20)
+    @DisplayName("Test save for message")
+    void testSaveMessageRepeated(){
         Message expected = new Message();
         expected.setMessage(faker.food().dish());
         expected.setName(faker.funnyName().name());
