@@ -5,7 +5,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.vinaylogics.springboot.springmvccore.models.Message;
 import com.vinaylogics.springboot.springmvccore.repositories.MessageRepository;
 import com.vinaylogics.springboot.springmvccore.services.GreetingService;
-import com.vinaylogics.springboot.springmvccore.services.impl.EnglishGreetingService;
 import com.vinaylogics.springboot.springmvccore.util.DataProvider;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

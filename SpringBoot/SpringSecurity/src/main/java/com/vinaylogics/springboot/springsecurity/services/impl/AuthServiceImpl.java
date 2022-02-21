@@ -7,6 +7,8 @@ import com.vinaylogics.springboot.springsecurity.security.JwtProvider;
 import com.vinaylogics.springboot.springsecurity.services.AuthService;
 import com.vinaylogics.springboot.springsecurity.services.RefreshTokenService;
 import lombok.AllArgsConstructor;
+import lombok.RequiredArgsConstructor;
+import org.springframework.context.annotation.Lazy;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
@@ -19,7 +21,7 @@ import org.springframework.transaction.annotation.Transactional;
 import java.time.Instant;
 
 @Service
-@AllArgsConstructor
+@RequiredArgsConstructor
 public class AuthServiceImpl implements AuthService {
 
     private final UserRepository repository;

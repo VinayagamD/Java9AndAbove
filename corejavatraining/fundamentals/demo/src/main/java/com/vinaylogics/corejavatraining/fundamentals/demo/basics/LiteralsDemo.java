@@ -16,8 +16,8 @@ public class LiteralsDemo {
 
         // Non Primitive Types
         String message = "Hello to java code";
-        String[] arrays = {"Savitha", "Sumathi", "Usha"};
-
+        String[] arrays = {"Savitha", "Sumathi", "Usha", "Pramod"};
+        int[] intArrays = {0,1,2,3,4,5,6};
         System.out.println(a);
         System.out.println(s);
         System.out.println(byt);
@@ -30,9 +30,14 @@ public class LiteralsDemo {
         System.out.println(chr);
         System.out.println(message);
         System.out.println(arrays);
+        System.out.println(intArrays);
         System.out.println("==================");
         for (String array : arrays){
             System.out.println(array);
+        }
+        System.out.println("==================");
+        for (int intArray : intArrays){
+            System.out.println(intArray);
         }
         System.out.println("==================");
 
